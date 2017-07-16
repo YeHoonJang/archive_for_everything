@@ -1,1 +1,1 @@
-# study_code
+# code_study
