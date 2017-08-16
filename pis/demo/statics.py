@@ -1,16 +1,7 @@
 import os
 
+
 CUR_DIR = os.getcwd()
-
-import time
-import sys
-def progress_state(file_size):
-    for i in range(100):
-        a=float(file_size.split(' ')[0])/100
-        time.sleep(a)
-        sys.stdout.write("#\r%d%%" % i)
-        sys.stdout.flush()
-
 
 def make_subdir(parent_dir, sub_dir_name):
     try:

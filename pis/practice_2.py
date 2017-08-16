@@ -8,13 +8,14 @@ import threading
 import queue
 import re
 
-class patentDownload(threading.Thread):
+class PatentDownload(threading.Thread):
 
     def __init__(self, id, dataQueue, saveXml):
         threading.Thread.__init__(self)
         self.id = id
         self.dataQueue = dataQueue
         self.saveXml = saveXml
+
 
     def isYesOrNo():
         save_question = input("Do you want to save the file as xml? [y/n] : ")
@@ -42,8 +43,10 @@ class patentDownload(threading.Thread):
 
 
     def run(self):
+
         while True:
             url_data = self.dataQueue.get()
+            print("url_data", url_data)
             str_url = url_data.get('href')
             zipfile_name = str_url.split('/')[-1]
             print(str(self.id) + " : [" + str(url_data) + "]\n")
@@ -61,33 +64,26 @@ class patentDownload(threading.Thread):
                 if not os.path.exists(pat_type_path):
                     os.mkdir(pat_type_path)
             except:
-                if e.errono == 17:
-                    print("File has been created before")
-                    is_error_17 = True
-                    pass
-
-
+                pass
 
             pat_path = os.path.join(pat_type_path, zipfile_name.split('.')[0])
-            print(str(self.id) + " : " + "Your '" + zipfile_name + "' patent data is downloaded at <" + pat_path +">.\n")
+            print(str(
+                self.id) + " : " + "Your '" + zipfile_name + "' patent data is downloaded at <" + pat_path + ">.\n")
 
             if not os.path.exists(pat_path):
                 os.mkdir(pat_path)
 
             zipfile_path = os.path.join(pat_path, zipfile_name)
+            print("zipfile_path:",zipfile_path)
             urllib.request.urlretrieve(str_url, zipfile_path)
 
-
             unzipfile_name = zipfile_name.split('.')[0] + '.xml'
-
-
 
             pat_zip = zipfile.ZipFile(zipfile_path)
             pat_zip.extract(unzipfile_name, pat_path)
             pat_zip.close()
 
             pat_text = os.path.join(pat_path, unzipfile_name)
-
 
             f = open(pat_text, "r")
             pat_lines = ''
@@ -105,10 +101,7 @@ class patentDownload(threading.Thread):
             for start in range(1, len(start_index)):
                 start_list.append(pat_lines[start_index[start - 1]:start_index[start]])
 
-
-
-
-            #파일 저장 code
+            # 파일 저장 code
             if self.saveXml == True:
                 print(str(self.id) + " : " + "Start to split the whole file into individual xml files... \n")
                 for i in range(len(start_list)):
@@ -120,9 +113,10 @@ class patentDownload(threading.Thread):
                             f.close()
                 print(str(self.id) + " : " + "File splitting is complete.\n")
 
-
-
             self.dataQueue.task_done()
+
+
+
 
 
 
@@ -133,43 +127,44 @@ def main():
     html = req.text
     soup = BeautifulSoup(html, 'html.parser')
 
+
     parent_path = os.path.join(os.getcwd(), "patents")
     if not os.path.exists(parent_path):
         os.mkdir(parent_path)
 
 
     urlQueue = queue.Queue()
-    save_answer = patentDownload.isYesOrNo()
+    save_answer = PatentDownload.isYesOrNo()
 
 
 
     print("Start to Download...\n")
 
-    worker1 = patentDownload("worker1", urlQueue, save_answer)
+    worker1 = PatentDownload("worker1", urlQueue, save_answer)
     worker1.setDaemon(True)
-    worker2 = patentDownload("worker2", urlQueue, save_answer)
+    worker2 = PatentDownload("worker2", urlQueue, save_answer)
     worker2.setDaemon(True)
-    worker3 = patentDownload("worker3", urlQueue, save_answer)
+    worker3 = PatentDownload("worker3", urlQueue, save_answer)
     worker3.setDaemon(True)
-    worker4 = patentDownload("worker4", urlQueue, save_answer)
+    worker4 = PatentDownload("worker4", urlQueue, save_answer)
     worker4.setDaemon(True)
-    worker5 = patentDownload("worker5", urlQueue, save_answer)
-    worker5.setDaemon(True)
-    worker6 = patentDownload("worker6", urlQueue, save_answer)
-    worker6.setDaemon(True)
-    worker7 = patentDownload("worker7", urlQueue, save_answer)
-    worker7.setDaemon(True)
-    worker8 = patentDownload("worker8", urlQueue, save_answer)
-    worker8.setDaemon(True)
+    # worker5 = PatentDownload("worker5", urlQueue, save_answer)
+    # worker5.setDaemon(True)
+    # worker6 = PatentDownload("worker6", urlQueue, save_answer)
+    # worker6.setDaemon(True)
+    # worker7 = PatentDownload("worker7", urlQueue, save_answer)
+    # worker7.setDaemon(True)
+    # worker8 = PatentDownload("worker8", urlQueue, save_answer)
+    # worker8.setDaemon(True)
 
     worker1.start()
     worker2.start()
     worker3.start()
     worker4.start()
-    worker5.start()
-    worker6.start()
-    worker7.start()
-    worker8.start()
+    # worker5.start()
+    # worker6.start()
+    # worker7.start()
+    # worker8.start()
 
 
     href = soup.select('body > a')
@@ -194,10 +189,10 @@ def main():
     worker2.dataQueue.join()
     worker3.dataQueue.join()
     worker4.dataQueue.join()
-    worker5.dataQueue.join()
-    worker6.dataQueue.join()
-    worker7.dataQueue.join()
-    worker8.dataQueue.join()
+    # worker5.dataQueue.join()
+    # worker6.dataQueue.join()
+    # worker7.dataQueue.join()
+    # worker8.dataQueue.join()
     print("Downloading is complete.")
 
 

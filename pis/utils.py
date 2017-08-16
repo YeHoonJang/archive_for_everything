@@ -1,16 +1,7 @@
 import os
 
+
 CUR_DIR = os.getcwd()
-
-import time
-import sys
-def progress_state(file_size):
-    for i in range(100):
-        a=float(file_size.split(' ')[0])/100
-        time.sleep(a)
-        sys.stdout.write("#\r%d%%" % i)
-        sys.stdout.flush()
-
 
 def make_subdir(parent_dir, sub_dir_name):
     try:
@@ -20,6 +11,7 @@ def make_subdir(parent_dir, sub_dir_name):
         return sub_dir
     except:
         pass
+        #logging
 
 
 def is_grant_or_app(name):
@@ -33,8 +25,10 @@ def is_grant_or_app(name):
     except:
         print("ERROR")
         pass
+        #logging
 
-def bytes_2_human_readable(number_of_bytes):
+
+def byte_unit_converter(number_of_bytes):
     if number_of_bytes < 0:
         raise ValueError("!!! numberOfBytes can't be smaller than 0 !!!")
 
@@ -64,8 +58,9 @@ def bytes_2_human_readable(number_of_bytes):
 
     return str(number_of_bytes) + ' ' + unit
 
-def is_fle_download(url_file_size):
-    user_answer = input("The file's size is about " + url_file_size + ".\nContinue downloading? [y/n] : ")
+
+def is_file_download(url_file_size):
+    user_answer = input("The file's size is about " + url_file_size + ".\nContinue to download? [y/n] : ")
     flag = True
     while flag:
         if user_answer.upper() in ["Y", "YES"]:
@@ -78,4 +73,4 @@ def is_fle_download(url_file_size):
             return is_download
         else:
             print("Wrong input, Input again.")
-            user_answer = input("Continue downloading? [y/n] : ")
+            user_answer = input("Continue to download? [y/n] : ")
