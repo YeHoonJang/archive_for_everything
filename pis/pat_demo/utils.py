@@ -11,6 +11,7 @@ def make_subdir(parent_dir, sub_dir_name):
         return sub_dir
     except:
         pass
+        #logging
 
 
 def is_grant_or_app(name):
@@ -24,8 +25,10 @@ def is_grant_or_app(name):
     except:
         print("ERROR")
         pass
+        #logging
 
-def bytes_2_human_readable(number_of_bytes):
+
+def byte_unit_converter(number_of_bytes):
     if number_of_bytes < 0:
         raise ValueError("!!! numberOfBytes can't be smaller than 0 !!!")
 
@@ -55,18 +58,3 @@ def bytes_2_human_readable(number_of_bytes):
 
     return str(number_of_bytes) + ' ' + unit
 
-def is_fle_download(url_file_size):
-    user_answer = input("The file's size is about " + url_file_size + ".\nContinue downloading? [y/n] : ")
-    flag = True
-    while flag:
-        if user_answer.upper() in ["Y", "YES"]:
-            is_download = True
-            flag = False
-            return is_download
-        elif user_answer.upper() in ["N", "NO"]:
-            is_download = False
-            flag = False
-            return is_download
-        else:
-            print("Wrong input, Input again.")
-            user_answer = input("Continue downloading? [y/n] : ")
