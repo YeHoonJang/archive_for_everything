@@ -1,4 +1,8 @@
 import tensorflow as tf
+import os
+
+tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
+cur_dir = os.path.join(tb_dir, "ex")
 
 node1 = tf.constant(3.0, tf.float32, name='node1')
 tf.summary.scalar('node1', node1)
@@ -16,5 +20,5 @@ merged = tf.summary.merge_all()
 
 sess = tf.Session()
 sess.run([add, merged])
-writer = tf.summary.FileWriter("./tensorboard/ex", graph=sess.graph)
+writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
 writer.close()
