@@ -1,5 +1,9 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
+import os
+
+tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
+cur_dir = os.path.join(tb_dir, "mnist_cnn")
 
 tf.set_random_seed(777)
 
@@ -51,7 +55,7 @@ with tf.name_scope('train') as scope:
     sess = tf.Session()
     sess.run(tf.global_variables_initializer())
 
-    writer = tf.summary.FileWriter('./tb_tutorial/mnist_cnn', graph=sess.graph)
+    writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
     merged = tf.summary.merge_all()
 
     for epoch in range(training_epochs):

@@ -1,4 +1,8 @@
 import tensorflow as tf
+import os
+
+tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
+cur_dir = os.path.join(tb_dir, "power")
 
 a = tf.placeholder(tf.float32)
 b = tf.placeholder(tf.float32)
@@ -14,5 +18,5 @@ merged = tf.summary.merge_all()
 sess = tf.Session()
 sess.run([power], feed_dict={a:[1, 2, 3], b:[2, 4, 6], c:2})
 print(sess.run([power], feed_dict={a:[1, 2, 3], b:[2, 4, 6], c:2}))
-writer = tf.summary.FileWriter("./tb_tutorial", graph=sess.graph)
+writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
 writer.close()

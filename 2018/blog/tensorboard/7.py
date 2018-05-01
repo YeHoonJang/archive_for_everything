@@ -1,5 +1,9 @@
 import tensorflow as tf
 import numpy as np
+import os
+
+tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
+cur_dir = os.path.join(tb_dir, "fc_name_scope")
 
 x_data = [12.0, 28.0, 36.5, 42.0, 29.8]
 y_data = [53.6, 82.4, 97.7, 107.6, 85.64]
@@ -41,7 +45,7 @@ with tf.name_scope('train') as scope:
     sess = tf.Session()
     sess.run(tf.global_variables_initializer())
 
-    writer = tf.summary.FileWriter('./tb_tutorial/fahrenheit_converter_2', graph=sess.graph)
+    writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
     merged = tf.summary.merge_all()
 
     for step in range(30001):

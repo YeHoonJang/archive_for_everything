@@ -1,5 +1,9 @@
 import tensorflow as tf
 import numpy as np
+import os
+
+tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
+cur_dir = os.path.join(tb_dir, "fahrenheit_converter")
 
 x_data = [12.0, 28.0, 36.5, 42.0, 29.8]
 y_data = [53.6, 82.4, 97.7, 107.6, 85.64]
@@ -39,7 +43,7 @@ for step in range(30001):
     if step % 1000 == 0:
         print("Step:", step, "\tCost:", _cost, "\tW:", _W[0], "\tb:", _b)
 
-writer = tf.summary.FileWriter('./tb_tutorial/fahrenheit_converter', graph=sess.graph)
+writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
 writer.close()
 print("X: 20, Y:", sess.run(hypothesis[0], feed_dict={x:norm([20])}))
 print("X: 30, Y:", sess.run(hypothesis[0], feed_dict={x:norm([30])}))
