@@ -4,13 +4,13 @@ import os
 tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
 cur_dir = os.path.join(tb_dir, "ex")
 
-node1 = tf.constant(3.0, tf.float32, name='node1')
-tf.summary.scalar('node1', node1)
+const1 = tf.constant(3.0, tf.float32, name='const1')
+tf.summary.scalar('const1', const1)
 
-node2 = tf.constant(4.0, name='node2')
-tf.summary.scalar('node2', node2)
+const2 = tf.constant(4.0, name='const2')
+tf.summary.scalar('const2', const2)
 
-add = tf.add(node1, node2)
+add = tf.add(const1, const2)
 tf.summary.histogram('add', add)
 
 merged = tf.summary.merge_all()
