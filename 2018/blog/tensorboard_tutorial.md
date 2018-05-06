@@ -24,4 +24,6 @@ TensorFlow는 매우 견고하면서도 유연한 아키텍처를 가지고 있�
 
 ### Tensor Operation
 
-{{ "{% gist }"}}
+{% highlight python %}
+
+{% endhighlight %}
