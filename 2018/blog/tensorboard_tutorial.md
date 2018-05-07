@@ -89,7 +89,7 @@ TensorBoard는 `summary` operation을 이용하여 저장한 데이터들을 mer
 {% highlight pycon %}
 Strarting TensorBoard at http://localhost:6006
 {% endhighlight %}
-과 같은 화면이 출력 됐으면 거의 다 왔습니다. 웹 브라우저를 켜고 주소창에 localhost:6006을 입력하신 후 조금 기다리시면 아래와 같은 그래프 나올 것입니다.
+과 같은 화면이 출력 됐으면 거의 다 왔습니다. 웹 브라우저를 켜고 주소창에 localhost:6006을 입력하신 후 조금 기다리시면 아래와 같은 그래프가 나올 것입니다.
 <figure>
    <img src="{{ "/media/img/tb_tutorial/add_graph.png" | absolute_url }}" />
    <figcaption>Add Graph</figcaption>
