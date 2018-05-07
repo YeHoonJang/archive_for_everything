@@ -10,6 +10,7 @@ multiple = tf.multiply(a, b)
 tf.summary.histogram('multiple', multiple)
 
 merged = tf.summary.merge_all()
+
 sess = tf.Session()
 sess.run([multiple], feed_dict={a:[1, 2, 3], b:[2, 4, 6]})
 print(sess.run([multiple], feed_dict={a:[1, 2, 3], b:[2, 4, 6]}))
