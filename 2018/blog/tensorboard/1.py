@@ -16,7 +16,7 @@ tf.summary.histogram('add', add)
 merged = tf.summary.merge_all()
 
 sess = tf.Session()
-sess.run([add, merged])
+sess.run(add)
 
 writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
 writer.close()
