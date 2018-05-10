@@ -38,9 +38,11 @@ sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
 for step in range(30001):
-    _cost, _W, _b, _ = sess.run([cost, W, b, train], feed_dict={x:x_data, y:y_data})
+    _cost, _W, _b, _ = sess.run([cost, W, b, train],
+                                feed_dict={x:x_data, y:y_data})
     if step % 1000 == 0:
-        print("Step:", step, "\tCost:", _cost, "\tW:", _W[0], "\tb:", _b)
+        print("Step:", step, "\tCost:",
+              _cost, "\tW:", _W[0], "\tb:", _b)
 
 writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
 writer.close()
