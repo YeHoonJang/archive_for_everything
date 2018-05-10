@@ -24,10 +24,12 @@ x = tf.placeholder(tf.float32, shape=[None,1])
 y = tf.placeholder(tf.float32, shape=[None,1])
 
 W = tf.Variable(tf.random_normal([1,1]), name='weight')
+tf.summary.histogram('weight', W)
+
 b = tf.Variable(tf.random_normal([1]), name='bias')
+tf.summary.histogram('bias', b)
 
 hypothesis = tf.add(tf.matmul(x, W), b)
-tf.summary.histogram('hypothesis', hypothesis)
 
 cost = tf.reduce_mean(tf.square(y - hypothesis))
 tf.summary.histogram('cost', cost)

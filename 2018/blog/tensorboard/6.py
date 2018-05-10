@@ -31,7 +31,6 @@ with tf.name_scope('graph') as scope:
     tf.summary.histogram('bias', b)
 
     hypothesis = tf.add(tf.matmul(x, W), b)
-    tf.summary.histogram('hypothesis', hypothesis)
 
     cost = tf.reduce_mean(tf.square(y - hypothesis))
     tf.summary.histogram('cost', cost)
