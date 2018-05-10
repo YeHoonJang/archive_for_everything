@@ -13,7 +13,6 @@ def norm(data):
     x_norm = np.zeros([len(data)])
     for i in range(len(data)):
         x_norm[i] = data[i] / 100
-
     return np.reshape(x_norm, [-1, 1])
 
 x_data = norm(x_data)
@@ -33,7 +32,7 @@ cost = tf.reduce_mean(tf.square(y - hypothesis))
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)
 train = optimizer.minimize(cost)
 
-# merged = tf.summary.merge_all()
+merged = tf.summary.merge_all()
 
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())

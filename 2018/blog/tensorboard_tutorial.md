@@ -99,7 +99,7 @@ TensorBoard는 `summary` operation을 이용하여 저장한 데이터들을 mer
 {% highlight pycon %}
 Strarting TensorBoard at http://localhost:6006
 {% endhighlight %}
-과 같은 화면이 출력 됐으면 거의 다 왔습니다. 웹 브라우저를 켜고 주소창에 localhost:6006을 입력하신 후 조금 기다리시면 아래와 같은 그래프가 나올 것입니다.
+과 같은 화면이 출력 됐으면 거의 다 왔습니다. 웹 브라우저를 켜고 주소창에 `http://localhost:6006`을 입력하신 후 조금 기다리시면 아래와 같은 그래프가 나올 것입니다.
 
 <figure>
    <img src="{{ "/media/img/tb_tutorial/add_graph.png" | absolute_url }}" />
@@ -110,4 +110,110 @@ Strarting TensorBoard at http://localhost:6006
 
 > *tensorboard는 logdir 뒤 디렉터리명을 잘못 입력해도 별도의 에러 메시지가 뜨지 않습니다. 현재까지는 path 에러 발생의 유무를 http://localhost:6006 에 접속하여 결과가 표시되는지 확인하는 것 이외에는 별도의 방법이 없습니다 T_T*
 
-###
+
+#### Simple Operation
+또 다른 예시코드를 보겠습니다.
+{% highlight python %}
+import tensorflow as tf
+import os
+
+tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
+cur_dir = os.path.join(tb_dir, "power")
+
+a = tf.placeholder(tf.float32)
+b = tf.placeholder(tf.float32)
+c = tf.placeholder(tf.float32)
+
+multiple = tf.multiply(a, b)
+tf.summary.histogram('multiple', multiple)
+
+power = tf.pow(multiple, c)
+tf.summary.histogram('power', power)
+
+merged = tf.summary.merge_all()
+sess = tf.Session()
+print(sess.run([power], feed_dict={a:[1, 2, 3], b:[2, 4, 6], c:2}))
+writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
+writer.close()
+{% endhighlight %}
+
+위와 마찬가지로 요약 데이터 로그가 저장될 디렉터리를 지정해 준 뒤(`line 4~5`), `a`, `b`, `c`라는 placeholder를 생성하고 곱셈 연산 노드와 지수연산 노드를 생성해 줍니다. 노드들을 생성할 때마다 `summaary`로 연산자의 요약 데이터도 생성해 준 뒤(`line 7~15`), 연산의 마지막 단계에서 `merge_all` 함수를 호출해줍니다(`line 17`). `Session`을 생성 한 뒤 `run` 함수를 이용하여 연산을 실행합니다. 이때, `a`, `b`, `c`에 들어갈 값을 `feed_dict` 로 지정해줍니다(`line 18~19`). `FileWriter`를 이용해 코드 도입부분에서 지정해준 디렉터리에 이벤트 파일을 저장해줍니다(`line20~21`). 코드를 실행하였으면 이제 터미널창으로 돌아가서 `tensorboard --logdir='FileWriter에서_지정한_경로'` 를 입력한 후 웹 브라우저 주소창에 `http://localhost:6006` 입력하여 tensorboard에 나오는 그래프를 확인합니다.
+
+<figure>
+   <img src="{{ "/media/img/tb_tutorial/power_graph.png" | absolute_url }}" />
+   <figcaption>Power Graph</figcaption>
+</figure>
+
+
+#### Complex Operation - Linear Regression
+이번에는 연산 노드가 앞선 예제들보다 조금 더 많은 선형회귀 예제 코드를 TensorBoard로 그려보겠습니다.
+
+{% highlight python %}
+import tensorflow as tf
+import numpy as np
+import os
+
+tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
+cur_dir = os.path.join(tb_dir, "fahrenheit_converter")
+
+x_data = [12.0, 28.0, 36.5, 42.0, 29.8]
+y_data = [53.6, 82.4, 97.7, 107.6, 85.64]
+
+def norm(data):
+    data = np.array(data)
+    x_norm = np.zeros([len(data)])
+    for i in range(len(data)):
+        x_norm[i] = data[i] / 100
+    return np.reshape(x_norm, [-1, 1])
+
+x_data = norm(x_data)
+y_data = np.reshape(y_data, [-1, 1])
+
+
+x = tf.placeholder(tf.float32, shape=[None,1])
+y = tf.placeholder(tf.float32, shape=[None,1])
+
+W = tf.Variable(tf.random_normal([1,1]), name='weight')
+b = tf.Variable(tf.random_normal([1]), name='bias')
+
+hypothesis = tf.add(tf.matmul(x, W), b)
+
+cost = tf.reduce_mean(tf.square(y - hypothesis))
+
+optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.01)
+train = optimizer.minimize(cost)
+
+merged = tf.summary.merge_all()
+
+sess = tf.Session()
+sess.run(tf.global_variables_initializer())
+
+for step in range(30001):
+    _cost, _W, _b, _ = sess.run([cost, W, b, train], feed_dict={x:x_data, y:y_data})
+    if step % 1000 == 0:
+        print("Step:", step, "\tCost:", _cost, "\tW:", _W[0], "\tb:", _b)
+
+writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
+writer.close()
+
+print("X: 20, Y:", sess.run(hypothesis[0], feed_dict={x:norm([20])}))
+print("X: 30, Y:", sess.run(hypothesis[0], feed_dict={x:norm([30])}))
+print("X: 40, Y:", sess.run(hypothesis[0], feed_dict={x:norm([40])}))
+print("X: 50, Y:", sess.run(hypothesis[0], feed_dict={x:norm([50])}))
+print("X: 60, Y:", sess.run(hypothesis[0], feed_dict={x:norm([60])}))
+{% endhighlight %}
+
+> *실행결과*
+
+{%highlight pycon %}
+...
+Step: 27000 	Cost: 0.00965826 	W: [ 179.03100586] 	b: [ 32.29016876]
+Step: 28000 	Cost: 0.00663723 	W: [ 179.19673157] 	b: [ 32.24048233]
+Step: 29000 	Cost: 0.00455425 	W: [ 179.33456421] 	b: [ 32.1991806]
+Step: 30000 	Cost: 0.00312983 	W: [ 179.44841003] 	b: [ 32.16521835]
+X: 20, Y: [ 68.05490112]
+X: 30, Y: [ 85.9997406]
+X: 40, Y: [ 103.94458008]
+X: 50, Y: [ 121.88941956]
+X: 60, Y: [ 139.83427429]
+{% endhighlight %}

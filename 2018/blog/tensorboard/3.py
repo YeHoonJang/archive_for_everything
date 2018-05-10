@@ -16,7 +16,6 @@ tf.summary.histogram('power', power)
 
 merged = tf.summary.merge_all()
 sess = tf.Session()
-sess.run([power], feed_dict={a:[1, 2, 3], b:[2, 4, 6], c:2})
 print(sess.run([power], feed_dict={a:[1, 2, 3], b:[2, 4, 6], c:2}))
 writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
 writer.close()

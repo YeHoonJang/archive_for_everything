@@ -2,17 +2,21 @@ import tensorflow as tf
 import os
 
 tb_dir = os.path.join(os.getcwd(), "tb_tutorial")
-cur_dir = os.path.join(tb_dir, "multiple")
+cur_dir = os.path.join(tb_dir, "ex")
 
-a = tf.placeholder(tf.float32)
-b = tf.placeholder(tf.float32)
-multiple = tf.multiply(a, b)
-tf.summary.histogram('multiple', multiple)
+const1 = tf.constant(3.0, name='const1')
+tf.summary.scalar('const1', const1)
+
+const2 = tf.constant(4.0, name='const2')
+tf.summary.scalar('const2', const2)
+
+add = tf.add(const1, const2)
+tf.summary.histogram('add', add)
 
 merged = tf.summary.merge_all()
 
 sess = tf.Session()
-sess.run([multiple], feed_dict={a:[1, 2, 3], b:[2, 4, 6]})
-print(sess.run([multiple], feed_dict={a:[1, 2, 3], b:[2, 4, 6]}))
+sess.run(add)
+
 writer = tf.summary.FileWriter(cur_dir, graph=sess.graph)
 writer.close()
