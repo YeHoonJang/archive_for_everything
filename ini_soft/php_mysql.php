@@ -12,13 +12,15 @@ function show_list_of_video($db_connection, $author_id) {
 }
 
 
-function delete_video($db_connection, $author_id, $video_id) {
-  $affected_rows = $db_connection->prepare("DELETE FROM uploaded_video WHERE author=:author_id and video_id=:video_id");
-  $affected_rows->bindValue(':author_id', $author_id, PDO::PARAM_INT);
-  $affected_rows->bindValue(':video_id', $video_id, PDO::PARAM_INT);
-  $affected_rows->execute();
 
-  show_list_of_video($db_connection, $author_id);
+function delete_video($db_connection, $author_id, $video_id, $file_route) {
+ $affected_rows = $db_connection->prepare("DELETE FROM uploaded_video WHERE author=:author_id and video_id=:video_id");
+ $affected_rows->bindValue(':author_id', $author_id, PDO::PARAM_INT);
+ $affected_rows->bindValue(':video_id', $video_id, PDO::PARAM_INT);
+ $affected_rows->execute();
+
+ chmod($file_route, 777);
+ unlink($file_route);
 }
 
 $db_connection = new PDO("mysql:host=localhost;dbname=wordpress;charset=utf8","root","ini6223") or die("connect fail\n");
