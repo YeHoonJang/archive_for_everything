@@ -7,7 +7,6 @@ class db:
         self.user = 'root'
         self.password = 'ini6223'
         self.db = 'redis_project'
-
         self.conn = pymysql.connect(host=self.host, user=self.user, password=self.password, db=self.db, charset='utf8')
 
 
@@ -36,7 +35,21 @@ class db:
         curs.close()
 
 
-    def update_status(self, cid, content_level):
+    def update_level(self, cid, content_level):
+        self.cid = cid
+        self.content_level = content_level
+        conn = self.conn
+        curs = conn.cursor()
+
+        sql = "UPDATE contents SET content_level = '%s' WHERE cid = '%s'" % (self.content_level, self.cid)
+        curs.execute(sql)
+        conn.commit()
+
+        db.select('contents', '*')
+        curs.close()
+
+
+    def insert_history(self, cid, content_level):
         self.cid = cid
         self.content_level = content_level
         conn = self.conn
@@ -68,4 +81,4 @@ if __name__ == '__main__':
     db = db()
     # db.select("contents", "*")
     # db.select()
-    db.update_status(2, 'gold')
+    db.update_level(5, 'gold')
