@@ -41,7 +41,10 @@ class db:
         conn = self.conn
         curs = conn.cursor()
 
-        sql = "UPDATE contents SET content_level = '%s' WHERE cid = '%s'" % (self.content_level, self.cid)
+        new_date = datetime.now().strftime("""%Y-%m-%d %H:%M:%S""")
+
+        sql = "UPDATE contents SET content_level = '%s', update_time = '%s' WHERE cid = '%s'" % (self.content_level, new_date, self.cid)
+
         curs.execute(sql)
         conn.commit()
 
@@ -62,7 +65,7 @@ class db:
         if len(rows) >= 1:
             get_old_date_sql = "SELECT max(new_updated_date) FROM update_history WHERE cid = '%s'" % (self.cid)
         else:
-            get_old_date_sql = "SELECT default_time FROM contents WHERE cid='%s'" % (self.cid)
+            get_old_date_sql = "SELECT update_time FROM contents WHERE cid='%s'" % (self.cid)
 
         curs.execute(get_old_date_sql)
         old_date = curs.fetchall()[0][0]
@@ -81,4 +84,4 @@ if __name__ == '__main__':
     db = db()
     # db.select("contents", "*")
     # db.select()
-    db.update_level(5, 'gold')
+    db.update_level(12, 'silver')
