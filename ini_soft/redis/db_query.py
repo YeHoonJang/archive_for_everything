@@ -25,7 +25,7 @@ class db:
 
     # TODO: column name 보여주는 거
         conn = self.conn
-        curs = conn.cursor()
+        curs = conn.cursor(pymysql.cursors.DictCursor)
         if self.where_clause != None:
             sql = "SELECT %s FROM %s WHERE %s" % (self.column, self.table, self.where_clause)
         else:
