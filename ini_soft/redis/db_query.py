@@ -10,25 +10,25 @@ class db:
         self.conn = pymysql.connect(host=self.host, user=self.user, password=self.password, db=self.db, charset='utf8')
 
 
-    def select(self, table, column, where_clause=None):
+    def select(self, table, column, where_clause=None, order_by=None):
         self.table = table
         self.column = column
         self.where_clause = where_clause
+        self.order_by = order_by
 
         conn = self.conn
         curs = conn.cursor(pymysql.cursors.DictCursor)
-        if self.where_clause != None:
+        if self.where_clause != None and self.order_by != None:
+            sql = "SELECT %s FROM %s WHERE %s ORDER BY %s" % (self.column, self.table, self.where_clause, self.order_by)
+        elif self.where_clause != None and self.order_by == None:
             sql = "SELECT %s FROM %s WHERE %s" % (self.column, self.table, self.where_clause)
+        elif self.where_clause == None and self.order_by != None:
+            sql = "SELECT %s FROM %s ORDER BY %s" % (self.column, self.table, self.order_by)
         else:
             sql = "SELECT %s FROM %s" % (self.column, self.table)
 
         curs.execute(sql)
         rows = curs.fetchall()
-
-        print("\n------------ " + table + " table ------------")
-        for row in rows:
-            print(row)
-        print("\n")
         curs.close()
 
         return rows
