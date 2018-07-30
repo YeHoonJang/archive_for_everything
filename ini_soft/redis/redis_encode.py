@@ -5,92 +5,65 @@ import json
 import redis
 from datetime import datetime
 import requests
-import db_query as db
+import db_query
 app = Flask(__name__)
 
 def get_level_from_db(post_id):
+    db = db_query.db()
     table = "contents"
     column = "filename, content_level"
     where_clause = "cid=%s" % (post_id)
-    rows = db.select(table, column, where_clause)
+    return db.select(table, column, where_clause)[0]
 
-    # conn = pymysql.connect(host='192.168.10.37',
-    #                          user='root',
-    #                          password='ini6223',
-    #                          db='redis_project',
-    #                          charset='utf8',
-    #                          )
-    #
-    # print ("connect successful!!")
-    # try:
-    #     with conn.cursor(pymysql.cursors.DictCursor) as curs:
-    #         sql_1 = 'select filename, content_level from contents where cid = %s'
-    #         curs.execute(sql_1, (post_id))
-    #         rows_1 = curs.fetchall()
-    #         sql_2 = 'select counts from level'
-    #         curs.execute(sql_2)
-    #         rows_2 = curs.fetchall()
-    # finally:
-    #     conn.close()
-    #
-    return rows
 
 def redis_connection():
     rc = redis.Redis(host='192.168.10.37', port=6379, db=1)
     return rc
 
-def get_target(a):
-        if a>=2000:
-            level = 'gold'
-        elif a>=1000:
-            level = 'silver'
-        else:
-            level = 'bronze'
-        return level
+# db 에 저장되어있는 contents_level의 기준을 받아와서 level반환
+def get_target(count):
+    db = db_query.db()
+    a = db.select(table='level', column ='*', order_by = 'counts desc' )
+    if count >= a[0]['counts']:
+        level = a[0]['content_level']
+    elif count >= a[1]['counts']:
+        level = a[1]['content_level']
+    else:
+        level = 'bronze'
+    return level
 
+# db_query 모듈을 이용해서 remote db에 접속하여 update를 수행하는 함수 
 def update_db_level(post_id, final_level):
+    db = db_query.db()
     rowcount = db.update_level(post_id, final_level)
-    # conn = pymysql.connect(host='127.0.0.1',
-    #                        port=server.local_bind_port,
-    #                        user='root',
-    #                        passwd='ini6223',
-    #                        db='redis_project')
-    # curs = conn.cursor()
-    # new_date = datetime.now().strftime("""%Y-%m-%d %H:%M:%S""")
-    # sql_1 =  "UPDATE contents SET content_level = '%s', update_time = '%s' WHERE cid = '%s'" %(final_level, new_date, post_id)
-    # curs.execute(sql_1)
-    # conn.commit()
+    #affected row 반환
     return rowcount
 
-
-
-@app.route('/get_sentence',methods=['POST', 'GET'])
+# post 요청이 들어온 cid와 count에 대해 db를 참조하여 redis set
+@app.route('/post_sentence',methods=['POST', 'GET'])
 def set_contents_redis():
     fields = [k for k in request.form]
     values = [request.form[k] for k in request.form]
     data = dict(zip(fields, values))
-    target = get_target(int(data['count']))
-    data['target'] = target
-    filename = get_level_from_db(data['cid'])['filename']
-    db_level = get_level_from_db(data['cid'])['content_level']
-    data['db_level'] = db_level
-    data['filename'] = filename
+    data['target'] = get_target(int(data['count']))
+    data['db_level'] = get_level_from_db(data['cid'])['content_level']
+    data['filename'] = get_level_from_db(data['cid'])['filename']
     data['worker_id'] = None
     rc = redis_connection()
-    if target != db_level:
+    if data['target'] != data['db_level']:
         data['status'] = 'update'
     else:
         data['status'] = 'done'
     rc.set(data['cid'],json.dumps(data).encode('utf-8'))
     return rc.get(data['cid'])
 
+# redis status == done 이면 db contents table 의 contents level 변경 아니면 error message
 @app.route('/update_sentence', methods=['GET','POST'])
 def update_sentence():
     cid = request.form['cid']
     rc = redis_connection()
-  #  print("this is cid : ", cid)
-    if json.loads(rc.get(cid))['status']=="done":
-       update_db_level(cid,json.loads(rc.get(cid))['target'])
+    if json.loads(rc.get(cid).decode('utf8'))['status']=="done":
+       update_db_level(cid,json.loads(rc.get(cid).decode('utf8'))['target'])
        print("check done and db update success")
        return cid
     else:
@@ -98,4 +71,4 @@ def update_sentence():
        return "check your status again"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
