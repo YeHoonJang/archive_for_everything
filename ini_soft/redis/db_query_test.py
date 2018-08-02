@@ -10,6 +10,20 @@ class db:
         self.conn = pymysql.connect(host=self.host, user=self.user, password=self.password, db=self.db, charset='utf8')
 
 
+    def insert_contents(self, table, cid, file_name):
+        conn = self.conn
+        curs = conn.cursor()
+
+        #get a level of zero count
+        level = db.select('level', 'content_level', 'min_counts=0')[0]['content_level']
+
+        values = "(%s, '%s', '%s', now(), null)" % (cid, level, file_name)
+        sql = "INSERT INTO %s VALUES %s" % (table, values)
+
+        curs.execute(sql)
+        conn.commit()
+        curs.close()
+
     def select(self, table=None, column=None, where_clause=None):
         # if table == None and column == None:
         #     table = input("table : ")

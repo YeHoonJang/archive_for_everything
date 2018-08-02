@@ -9,10 +9,10 @@ class db:
         self.db = 'redis_project'
         self.conn = pymysql.connect(host=self.host, user=self.user, password=self.password, db=self.db, charset='utf8')
 
-
     def select(self, table, column, where_clause=None, order_by=None):
         conn = self.conn
         curs = conn.cursor(pymysql.cursors.DictCursor)
+
         if where_clause != None and order_by != None:
             sql = "SELECT %s FROM %s WHERE %s ORDER BY %s" % (column, table, where_clause, order_by)
         elif where_clause != None and order_by == None:
@@ -27,6 +27,24 @@ class db:
         curs.close()
 
         return rows
+
+
+    def insert_contents(self, table, cid, file_name):
+        conn = self.conn
+        curs = conn.cursor()
+
+        #get a level of zero count
+        level = db.select('level', 'content_level', 'min_counts=0')[0]['content_level']
+
+        values = "(%s, '%s', '%s', now(), null)" % (cid, level, file_name)
+        sql = "INSERT INTO %s VALUES %s" % (table, values)
+
+        curs.execute(sql)
+        conn.commit()
+        rowcount = curs.rowcount
+        curs.close()
+
+        return rowcount
 
 
     def update_level(self, cid, content_level):
@@ -44,4 +62,6 @@ class db:
 
 if __name__ =="__main__":
     db = db()
-    db.update_level(1, 'silver')
+    # db.update_level(1, 'silver')
+    # db.insert_content('contents', )
+    db.insert_contents("contents", 21, "test.mp4")
