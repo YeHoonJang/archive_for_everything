@@ -11,21 +11,16 @@ class db:
 
 
     def select(self, table, column, where_clause=None, order_by=None):
-        self.table = table
-        self.column = column
-        self.where_clause = where_clause
-        self.order_by = order_by
-
         conn = self.conn
         curs = conn.cursor(pymysql.cursors.DictCursor)
-        if self.where_clause != None and self.order_by != None:
-            sql = "SELECT %s FROM %s WHERE %s ORDER BY %s" % (self.column, self.table, self.where_clause, self.order_by)
-        elif self.where_clause != None and self.order_by == None:
-            sql = "SELECT %s FROM %s WHERE %s" % (self.column, self.table, self.where_clause)
-        elif self.where_clause == None and self.order_by != None:
-            sql = "SELECT %s FROM %s ORDER BY %s" % (self.column, self.table, self.order_by)
+        if where_clause != None and order_by != None:
+            sql = "SELECT %s FROM %s WHERE %s ORDER BY %s" % (column, table, where_clause, order_by)
+        elif where_clause != None and order_by == None:
+            sql = "SELECT %s FROM %s WHERE %s" % (column, table, where_clause)
+        elif where_clause == None and order_by != None:
+            sql = "SELECT %s FROM %s ORDER BY %s" % (column, table, order_by)
         else:
-            sql = "SELECT %s FROM %s" % (self.column, self.table)
+            sql = "SELECT %s FROM %s" % (column, table)
 
         curs.execute(sql)
         rows = curs.fetchall()
@@ -35,19 +30,18 @@ class db:
 
 
     def update_level(self, cid, content_level):
-        self.cid = cid
-        self.content_level = content_level
         conn = self.conn
         curs = conn.cursor()
 
-        new_date = datetime.now().strftime("""%Y-%m-%d %H:%M:%S""")
-
-        sql = "UPDATE contents SET content_level = '%s', update_time = '%s' WHERE cid = '%s'" % (self.content_level, new_date, self.cid)
+        sql = "UPDATE contents SET content_level = '%s', update_time = now() WHERE cid = '%s'" % (content_level, cid)
 
         curs.execute(sql)
         conn.commit()
         rowcount = curs.rowcount
-
         curs.close()
 
         return rowcount
+
+if __name__ =="__main__":
+    db = db()
+    db.update_level(1, 'silver')
