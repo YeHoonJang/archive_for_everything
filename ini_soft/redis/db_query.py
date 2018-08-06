@@ -36,6 +36,7 @@ class db:
         #get a level of zero count
         level = db.select('level', 'content_level', 'min_counts=0')[0]['content_level']
 
+        #value의 순서는 cid, content_level, file_name, generate_time, update_time
         values = "(%s, '%s', '%s', now(), null)" % (cid, level, file_name)
         sql = "INSERT INTO %s VALUES %s" % (table, values)
 
