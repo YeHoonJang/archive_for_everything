@@ -1,7 +1,11 @@
+# **DB process**
+
+## DFD
 ![dfd](https://i.imgur.com/eywiOig.png)
 
-# **DB process**
-*************
+## Work Flow
+![workflow](https://i.imgur.com/EiNmay1.png)
+
 ## Tools
 - Ubuntu 16.04.5 LTS
 - Python 3.5
