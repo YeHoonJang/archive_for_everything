@@ -27,16 +27,16 @@
 - content count가 업데이트 될 때 마다 올바른 level에 relocate 되도록 content에 대한 정보를 실시간으로 api 서버와 worker에 제공 (사실상, api 서버와 worker가 실시간으로 redis를 확인)
 
 ***************************
-## **DB Process**
-### Tools
+### 개발 환경
 - Ubuntu 16.04.5 LTS
 - Python 3.5
 - MySQL 5.7.23
 - PyMySQL 0.9.2
+- Anaconda 4.3.11
 
+## **DB Process**
 
 ### DB 구축
-
 #### 1. ERD
 <center><img src="https://i.imgur.com/B14rOz5.png"/></center>
 
