@@ -1,14 +1,14 @@
-## 1. 프로젝트 개요
+  ## 1. 프로젝트 개요
 
 ### 프로젝트 기간
-2018.07.24 ~ 2018.08.02
+2018.07.24 ~ 2018.08.02 (10일)
 
 ### 목적
-컨텐츠에 대한 접근 수가 증가하면 서버에 대한 트래픽 양 또한 증가하여 용량이 더 큰 서버로의 컨텐츠 재배치가 요구됨
-이를 실시간으로 수행하기 위하여 메모리 기반의 realtime database 인 redis 와 파이썬의 asyncio 를 이용한 비동기 파일 재배치 프로그램을 제작
+컨텐츠에 대한 접근 수가 증가하면 서버에 대한 트래픽 양 또한 증가하여 용량이 더 큰 서버로의 컨텐츠 재배치가 요구됨  
+이를 실시간으로 수행하기 위하여 메모리 기반의 realtime database 인 redis 와 파이썬의 asyncio 라이브러리를 이용한 비동기 파일 재배치 프로그램을 제작
 
 ### 기대효과
-트래픽 용량에 따른 컨텐츠 재배치가 자동으로 이루어져 서버의 부하를 실시간으로 조절하고 여러 개의 워커가 비동기적으로 작동하여 큰 용량의 파일이 이동할 때에도 병목 현상이 일어나지 않도록 함
+트래픽 용량에 따른 컨텐츠 재배치가 자동으로 이루어져 서버의 부하를 실시간으로 조절하고 여러 개의 워커가 비동기적으로 작동하여 큰 용량의 파일이 이동할 때에도 병목 현상 방지 가능
 
 ### Data Flow Diagram
 <center><img src="https://i.imgur.com/vIeEdW1.png" /></center>
@@ -18,7 +18,7 @@
 
 
 ## 2. API
-
+#### 담당자: 김지희
 ### 개발 환경
 - OS : ubutu 16.04
 - python==3.6.5
@@ -30,7 +30,7 @@
 ### 프로세스 상세 및 실행 결과
 #### 컨텐츠 정보 쿼리 및 redis 업데이트(Work Flow. 2)
 1. 사용자가 컨텐츠를 조회하면 컨텐츠의 cid 와 count 정보를 포함하여 API를 호출 (e.g.curl http://192.168.10.108:5001/post_sentence -d "cid=3&count=664")
-2. db_que  ry 모듈을 이용하여 database의 contents table 과 level table에서 post 된 cid를 가진 content의 현재위치와 목적위치를 반환
+2. db_que  ry 모듈을 이용하여 database의 contents table 과 level table에서 post 된 cid를 가진 content의 현재 위치와 목적 위치를 반환
  - contents
   <img src="https://i.imgur.com/L8I5vfa.png" />
 
@@ -53,7 +53,6 @@ foo@bar:~/$ curl http://192.168.10.108:5000/post_sentence -d "cid=7&count=1964"
 2. request를 받으면 cid 를 key 값으로 redis에서 해당 content의 status 가 'done' 인지 검사하고 MySQL의 contents table 에 새로운 level 과 update time 을 업데이트
 만약 status 가 'done' 이 아니면 "check your status again" 메세지를 반환
 
-#### 실행결과
 ```bash
 # redis 값 체크 및 MySQL database 업데이트 example
 # db update 후 해당 content 의 cid 반환
