@@ -23,14 +23,11 @@ def redis_connection():
 # db 에 저장되어있는 contents_level의 기준을 받아와서 level반환
 def get_target(count):
     db = db_query.db()
-    a = db.select(table='level', column ='*', order_by = 'counts desc' )
-    if count >= a[0]['counts']:
-        level = a[0]['content_level']
-    elif count >= a[1]['counts']:
-        level = a[1]['content_level']
-    else:
-        level = 'bronze'
-    return level
+    level_table = db.select(table='level', column ='*' )
+    for i in level_table:
+        if int(i['max_counts'])>= count>= int(i['min_counts']) :
+            level = i['content_level']
+            return level
 
 # db_query 모듈을 이용해서 remote db에 접속하여 update를 수행하는 함수 
 def update_db_level(post_id, final_level):
@@ -62,8 +59,8 @@ def set_contents_redis():
 def update_sentence():
     cid = request.form['cid']
     rc = redis_connection()
-    if json.loads(rc.get(cid).decode('utf8'))['status']=="done":
-       update_db_level(cid,json.loads(rc.get(cid).decode('utf8'))['target'])
+    if json.loads(rc.get(cid))['status']=="done":
+       update_db_level(cid,json.loads(rc.get(cid))['target'],json.loads(rc.get(cid))['filename'] )
        print("check done and db update success")
        return cid
     else:
