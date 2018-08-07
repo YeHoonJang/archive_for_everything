@@ -41,8 +41,8 @@
 ```bash
 # 컨텐츠 정보 쿼리 및 redis 업데이트 example
 foo@bar:~/$ curl http://192.168.10.108:5000/post_sentence -d "cid=7&count=1964"
-{"cid": "7", "count": "1964", "target": "silver", "db_level": "bronze", "filename":
-"g.mp4", "worker_id": null, "status": "update"}
+{"cid": "7", "count": "1964", "target": "silver", "db_level": "bronze",
+"filename":"g.mp4", "worker_id": null, "status": "update"}
 ```
 <br>
 
