@@ -37,10 +37,10 @@
 
 ### DB 구축
 
-#### ERD
+#### 1. ERD
 <center><img src="https://i.imgur.com/B14rOz5.png"/></center>
 
-#### DB 테이블
+#### 2. DB 테이블
 ##### level
 content의 view count 수에 따른 level 정보를 저장하는 테이블
 - `content_level`: level의 이름
@@ -65,17 +65,36 @@ contents level 정보가 업데이트 될 때마다 update history를 저장하�
 - `new_content_level`: content level의 현재 업데이트 content level
 
 
-#### DB 트리거
+#### 3. DB 트리거
   - contents 테이블의 업데이트 이벤트가 발생하면 트리거가 작동되고 update_history에 업데이트 시점과 업데이트 된 content level이 기록됨
   - 트리거
-    <center><img src="https://i.imgur.com/KiQzxsW.png"/></center>
-
+  ```sql
+  CREATE DEFINER = `root`@`localhost` trigger update_history before update on contents for each row
+  begin
+  insert into update_history values(old.cid, old.update_time, old.content_level, now(), new.content_level);
+  end
+  ```
 ### DB 쿼리 클래스 생성
 프로세스 내에서 필요한 db 쿼리 클래스 생성
 
-#### 클래스 구조
-<center><img src="https://i.imgur.com/glyx3Xa.png"/></center>
+#### 1. 클래스 구조
+```python
+class db:
+  def __init__(self):
+    ...
 
+  def select(self, table, column, where_clause=None, order_by=None):
+    ...
+
+  def insert_contents(self, table, cid, file_name):
+    ...
+
+  def update_level(self, cid, content_level):
+    ...
+
+```
+
+#### 2. 함수 설명
 ##### 1. \__init__
 - db 클래스 생성 시 `PyMySQL`로 MySQL 연결할 때 필요한 파라미터 설정
 - `pymysql.connect()`를 이용하여 MySQL 연결
@@ -110,13 +129,27 @@ contents level 정보가 업데이트 될 때마다 update history를 저장하�
   <img src="https://i.imgur.com/FHgGbvS.png"/>  
 
   * api 서버에서 `select 함수`를 호출하여 cid가 1인 content의 level 추출하는 함수 결과
-  <img src="https://i.imgur.com/6uD48dO.png"/>  
+  ```bash
+  #python shell
+  >>> import redis_encode as re
+  >>> re.get_level_from_db(1)
+  {'content_level': 'gold', 'file_name': 'a.mp4'}
+  ```
 
   * MySQL level 테이블
   <img src="https://i.imgur.com/f0TPOj0.png"/>  
 
   * api 서버에서 `select 함수`로 level 테이블을 쿼리 한 후 각 level의 count와 countent의 count를 비교 연산하여 target level을 반환하는 함수 결과
-  <img src="https://i.imgur.com/pzYV7FY.png"/>
+  ```bash
+  #python shell
+  >>> import redis_encode as re
+  >>> re.get_target(2342)
+  'gold'
+  >>> re.get_target(1548)
+  'silver'
+  >>> re.get_target(356)
+  'bronze'
+  ```
 
 ###### 3. api 서버 - redis에 content에 대한 정보 업데이트
 - db에서 쿼리 한 데이터를 알맞게 처리한 후 redis에 content 정보를 업데이트
@@ -133,8 +166,11 @@ contents level 정보가 업데이트 될 때마다 update history를 저장하�
   <img src="https://i.imgur.com/vIM0j4C.png"/>  
 
   * api 서버에서 `update_level 함수` 호출 결과
-  <img src="https://i.imgur.com/V0E91mh.png"/>  
-
+  ```bash
+  >>> import redis_encode as re
+  >>> re.update_db_level(12, 'gold')
+  1
+  ```
   * `update_level 함수` 호출 후 MySQL content 테이블 내의 cid 12 정보
   <img src="https://i.imgur.com/dxiqp8r.png"/>  
 
