@@ -49,9 +49,9 @@ content의 view count 수에 따른 level 정보를 저장하는 테이블
 
 
 > #### Issue of 1.2.1.
-> - api 서버에서 target level을 지정하는 코드가 현재 level 설정 _(gold-silver-bronze)_ 에 specific하게 구현 돼있다는 이슈가 발생
->   * target level을 지정하는 코드를 level 설정의 수정에 영향받지 않게 general 하게 수정
->   * count에 관련된 column 이 한 개였고, count column에 저장 된 숫자가 해당 level의 max count로 적용
+> ###### api 서버에서 target level을 지정하는 코드가 현재 level 설정 _(gold-silver-bronze)_ 에 specific하게 구현 돼있다는 이슈가 발생
+> - target level을 지정하는 코드를 level 설정의 수정에 영향받지 않게 general 하게 수정
+> - count에 관련된 column 이 한 개였고, count column에 저장 된 숫자가 해당 level의 max count로 적용
 > - target level을 지정하는 코드가 현재 level에 specific해 있기 때문에
 > -
 >
