@@ -183,8 +183,6 @@ class db:
 
 ### 프로세스 상세 및 실행 결과
 #### redis에 content 정보 업데이트
-<center><img src="https://i.imgur.com/iBnl3CW.png"/></center>
-
 ##### 1. api 서버 - db 쿼리 함수 호출
 - api 서버는 content의 현재 위치 level과 count가 해당되는 범위의 위치 level 비교를 위해 쿼리 모듈로 db에서 데이터를 쿼리 함
   * content 테이블에서 user로부터 받은 cid로 해당 content의 현재 위치 level을 쿼리 하는 `select 함수` 호출
@@ -222,8 +220,6 @@ class db:
 - db에서 쿼리 한 데이터를 알맞게 처리한 후 redis에 content 정보를 업데이트  
 
 #### relocate가 완료된 content 정보 업데이트
-<center><img src="https://i.imgur.com/sAxe010.png"/></center>
-
 ##### 1. api 서버 - redis 업데이트
 - content의 relocate를 마친 worker의 호출을 받은 api 서버는 해당 cid에 대해 redis의 content status가 'done' 인지 확인
 
