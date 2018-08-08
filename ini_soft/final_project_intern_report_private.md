@@ -1,12 +1,12 @@
 # INI 2018 Intern Final Project  
 **장예훈 (DB 구축 및 쿼리 모듈화)  
-18.07.27 Tue - 18.08.02 Thu**
+<br>18.07.27 Tue - 18.08.02 Thu**
 ## 프로젝트 개요
 ### 1. DFD
 <img src="https://i.imgur.com/kFunars.png"/>
 
 ### 2. Work Flow
-<img src="https://i.imgur.com/Yr4qzaf.png" width="75%"/>
+<img src="https://i.imgur.com/Yr4qzaf.png" width="70%"/>
 
 
 #### 2.1. User (1)
@@ -37,7 +37,7 @@
 
 ### 2. DB 구축
 #### 2.1 ERD
-<img src="https://i.imgur.com/B14rOz5.png"/>
+<img src="https://i.imgur.com/B14rOz5.png" width="60%"/>
 
 #### 2.2. DB 테이블
 ##### 2.2.1 level

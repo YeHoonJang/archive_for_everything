@@ -93,12 +93,16 @@ database 에서 cid 7 의 content_level과 update_time 업데이트
 #### 프로그램 핵심 모듈
 - import redis : redis에 저장된 정보를 확인 할 수 있는 모듈
 <img src = "https://i.imgur.com/nPqUpqk.png" />
+
 - import pymysql : 개발 서버의 데이터베이스에 저장된 정보를 확인 할 수 있는 모듈
 <img src="https://i.imgur.com/Gt2zkxc.png" />
+
 - import shutiil : 콘텐츠 이동을 위한 모듈
 <img src="https://i.imgur.com/reg9Zv0.png" />
+
 - import requests : API에게 worker의 작업이 끝났음을 알리기 위한 모듈
 <img src="https://i.imgur.com/Ss58RDM.png" />
+
 - import asyncio : worker가 비동기로 작동하게 할 모듈
 <img src="https://i.imgur.com/2S81u1p.png" />
 <img src="https://i.imgur.com/mbalg3d.png" />
@@ -110,6 +114,7 @@ database 에서 cid 7 의 content_level과 update_time 업데이트
 #### 실행화면
 - worker1
 <img src="https://i.imgur.com/uvQkKYy.png" />
+
 - worker2
 <img src="https://i.imgur.com/jyAUO5R.png" />
 
