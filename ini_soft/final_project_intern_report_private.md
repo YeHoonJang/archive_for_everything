@@ -6,7 +6,7 @@
 <center><img src="https://i.imgur.com/kFunars.png"/></center>
 
 ### 2. Work Flow
-<center><img src="https://i.imgur.com/Yr4qzaf.png" width="70%" /></center>
+<center><img src="https://i.imgur.com/Yr4qzaf.png" width="70%"/></center>
 
 
 #### 2.1. User (1)
