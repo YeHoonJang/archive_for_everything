@@ -48,7 +48,7 @@ content의 view count 수에 따른 level 정보를 저장하는 테이블
 - `path`: 해당 level의 content가 저장 될 절대 경로
 
 > #### Issue of 2.2.1.
-> **api 서버에서 target level을 구하는 코드가 현재 level 구조 _(gold-silver-bronze)_ 에 specific한 이슈가 발생**
+> **api 서버에서 target level을 구하는 코드가 현재 level 구조 _(gold-silver-bronze)_ 에 specific함**
 > 1. Issue 설명
 >  - level 설정 수정에 영향 받지 않는 general 한 target level 추출 기능으로 수정이 요구됨
 >  - 수정된 target level 추출 기능에서 level count의 범위 필요
@@ -70,7 +70,7 @@ content의 정보를 저장하는 테이블
 > 1. Issue 설명
 >  - 초기의 content 테이블에는 'update_time' 컬럼만 존재
 >  - content의 level이 수정되면 'update_time'도 함께 수정되기 때문에 generate time 정보를 잃게 됨
->  - content의 generate time을 확인하려면 'update_history' 테이블에서 해당 content의 로그를 전부 불러와야 하는 비효율적인 작업이 불가피함
+>  - content의 generate time을 확인하려면 'update_history' 테이블에서 해당 content의 로그를 전부 불러와야 하는 비효율적 작업 발생
 > 2. Issue 해결 방안
 >  - content 테이블에 'generate_time' 컬럼 추가한 후 content가 업로드 되는 시점을 저장
 
@@ -216,3 +216,6 @@ class db:
   <img src="https://i.imgur.com/dbqrXF6.png"/>  
 
 ### 5. 프로젝트 후기
+이번 프로젝트를 진행하면서 가장 많이 배운 점은 코드의 완성도를 높이는 방법에 대한 고민과 각 구현 기능들이 요구사항에 얼마나 적합한 지 검토하는 방법인 것 같다. 다른 파트들에 비해 DB 모듈화는 개인적으로 러닝커브나 코딩 난이도, 진입장벽이 낮았기 때문에 스스로도 해당 기능 완성도에 대한 기대치가 높았다.
+기한 내에 요구사항에 완벽히 들어 맞는 기능을 구현하기 위해서는 설계부터 사용자들의 피드백까지 체계적인 단계가 필수적이라고 생각하였다. 그래서 팀원들과 회의도 수차례 진행하고, 요구사항 명세화 작업도 하며 완성도에 집중하였고 결국엔 요구사항에 부합하는 프로세스를 구현하였다.
+처음부터 내가 직접 설계하고 구현하며 피드백을 받아 보완하는 스텝을 차례대로 겪고 나니 성취감도 높았고, 프로젝트에 대한 애착이 생겼으며 다른 프로젝트를 진행할 때도 막막한 느낌 없이 잘 해낼 수 있을 것 같다.
