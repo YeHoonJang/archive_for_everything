@@ -49,7 +49,7 @@ content의 view count 수에 따른 level 정보를 저장하는 테이블
 
 
 > #### Issue of 1.2.1.
- 초기의 content 테이블은 count에 관련된 column 이 한 개였고, count column에 저장 된 숫자가 해당 level의 max count로 적용되었지만 견고한 프로세스를 위해 'max_count' 와 'min_count'를 분리
+> 초기의 content 테이블은 count에 관련된 column 이 한 개였고, count column에 저장 된 숫자가 해당 level의 max count로 적용되었지만 견고한 프로세스를 위해 'max_count' 와 'min_count'를 분리
 >
 
 
