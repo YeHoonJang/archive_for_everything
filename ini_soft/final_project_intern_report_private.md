@@ -131,8 +131,8 @@ class db:
   * api 서버에서 `select 함수`를 호출하여 cid가 1인 content의 level 추출하는 함수 결과
   ```bash
   #python shell
-  >>> import redis_encode as re
-  >>> re.get_level_from_db(1)
+  \>>> import redis_encode as re
+  \>>> re.get_level_from_db(1)
   {'content_level': 'gold', 'file_name': 'a.mp4'}
   ```
 
@@ -142,12 +142,12 @@ class db:
   * api 서버에서 `select 함수`로 level 테이블을 쿼리 한 후 각 level의 count와 countent의 count를 비교 연산하여 target level을 반환하는 함수 결과
   ```bash
   #python shell
-  >>> import redis_encode as re
-  >>> re.get_target(2342)
+  \>>> import redis_encode as re
+  \>>> re.get_target(2342)
   'gold'
-  >>> re.get_target(1548)
+  \>>> re.get_target(1548)
   'silver'
-  >>> re.get_target(356)
+  \>>> re.get_target(356)
   'bronze'
   ```
 
@@ -167,8 +167,8 @@ class db:
 
   * api 서버에서 `update_level 함수` 호출 결과
   ```bash
-  >>> import redis_encode as re
-  >>> re.update_db_level(12, 'gold')
+  \>>> import redis_encode as re
+  \>>> re.update_db_level(12, 'gold')
   1
   ```
   * `update_level 함수` 호출 후 MySQL content 테이블 내의 cid 12 정보

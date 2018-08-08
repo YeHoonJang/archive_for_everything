@@ -1,3 +1,5 @@
+# 2018 INI Intern Final Project
+
 ## 1. 프로젝트 개요
 
 ### 프로젝트 기간
@@ -36,7 +38,7 @@
   <img src="https://i.imgur.com/L8I5vfa.png" />
 
  - level
-  <img src="https://i.imgur.com/OArMB1b.png " />
+  <img src="https://i.imgur.com/OArMB1b.png" />
 
 3. cid를 key 값으로 현재 위치와 counts에 따른 목적 위치가 다른 경우 status 에 'update' 라는 문자열을, 현재위치와 목적 위치가 같은 경우 status에 'done' 이라는 문자열을 삽입하여 redis database에 json 형식으로 set (worker_id 는 이 후 단계에서 할당되기 때문에 null값으로 초기화)
 (e.g. {'3':{"cid": "3", "count": "664", "target": "bronze", "db_level": "silver", "filename": "c.mp4", "worker_id": null, "status": "update"}} 형식으로 저장)
@@ -196,8 +198,8 @@ class db:
   * api 서버에서 `select 함수`를 호출하여 cid가 1인 content의 level 추출하는 함수 결과
   ```bash
   #python shell
-  >>> import redis_encode as re
-  >>> re.get_level_from_db(1)
+  \>>> import redis_encode as re
+  \>>> re.get_level_from_db(1)
   {'content_level': 'gold', 'file_name': 'a.mp4'}
   ```
 
@@ -207,12 +209,12 @@ class db:
   * api 서버에서 `select 함수`로 level 테이블을 쿼리 한 후 각 level의 count와 countent의 count를 비교 연산하여 target level을 반환하는 함수 결과
   ```bash
   #python shell
-  >>> import redis_encode as re
-  >>> re.get_target(2342)
+  \>>> import redis_encode as re
+  \>>> re.get_target(2342)
   'gold'
-  >>> re.get_target(1548)
+  \>>> re.get_target(1548)
   'silver'
-  >>> re.get_target(356)
+  \>>> re.get_target(356)
   'bronze'
   ```
 
@@ -230,8 +232,8 @@ class db:
 
   * api 서버에서 `update_level 함수` 호출 결과
   ```bash
-  >>> import redis_encode as re
-  >>> re.update_db_level(12, 'gold')
+  \>>> import redis_encode as re
+  \>>> re.update_db_level(12, 'gold')
   1
   ```
 
