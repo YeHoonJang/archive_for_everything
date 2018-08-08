@@ -248,7 +248,7 @@ class db:
   * MySQL content 테이블의 `insert 트리거` 작동 후 cid 12 의 update_history 테이블
   <img src="https://i.imgur.com/dbqrXF6.png"/>  
 
-## 5. 후기
+## 5. 프로젝트 후기
 **김지희**
 remote server에서 이용되는 library나 module의 가용성을 계속 체크해야해서 local 에서 개발할 때보다 더 많은 시간이 소요되었고 권한 문제나 보안상의 이유로 파일의 설정 또한 로컬에서 단독으로 개발 할 때보다 복잡했다.혼자서 기능을 구현하는 것과 실무에서 이용할 수 있는 코드를 만드는 것은 또 다른 문제라는 것을 알게되었다.
 이번 프로젝트에서 예외 케이스 처리나 scalability 같은 완성도는 아쉽지만 redis-server 을 다뤄보고 협업이 이루어졌다는 점에서 유익한 프로젝트였다고 생각한다.
