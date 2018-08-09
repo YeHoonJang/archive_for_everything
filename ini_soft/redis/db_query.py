@@ -34,7 +34,7 @@ class db:
         curs = conn.cursor()
 
         #get a level of zero count
-        level = db.select('level', 'content_level', 'min_counts=0')[0]['content_level']
+        level = db.select(self, 'level', 'content_level', 'min_counts=0')[0]['content_level']
 
         #value의 순서는 cid, content_level, file_name, generate_time, update_time
         values = "(%s, '%s', '%s', now(), null)" % (cid, level, file_name)
@@ -61,8 +61,17 @@ class db:
 
         return rowcount
 
-if __name__ =="__main__":
-    db = db()
-    # db.update_level(1, 'silver')
-    # db.insert_content('contents', )
-    db.insert_contents("contents", 21, "test.mp4")
+
+    def check_max_count(self, count):
+        conn = self.conn
+        curs = conn.cursor()
+
+        current_max_count = db.select(self, 'level', 'max(max_counts)')[0]['max(max_counts)']
+
+        if current_max_count >= count:
+            return True
+        else:
+            sql = "UPDATE level SET max_counts = '%s' WHERE max_counts = '%s'" % (count, current_max_count)
+            curs.execute(sql)
+            conn.commit()
+            return True

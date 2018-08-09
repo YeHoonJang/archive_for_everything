@@ -1,17 +1,16 @@
 # INI Intern First Project - Wordpress & PHP
 **장예훈 (Video Delete)
 18.07.02 Mon - 18.07.17 Tue**
+## 프로젝트 개요
+### 1. 목적
+### 2. DFD
 
-### 개발 환경
-- Ubuntu 16.04.5 LTS
-- Wordpress
-- Apache 2
-- MySQL 5.7.23
-- PHP 7.1
-- Anaconda 4.3.11
+**************************************
 
-### 개발 서버 구축
-팀원들이 맡은 각 기능을 구현 후 통합하고, 프로젝트의 전반적인 요구사항 이행을 위한 환경이 요구됨에 따라 각 기능들의 개발 환경 버전 이슈가 발생하지 않도록 개발 서버를 구축하였음
+
+##  개발 서버 구축
+- 팀원들이 맡은 각 기능을 구현 후 통합하고, 프로젝트의 요구사항 전체를 이행하기 위한 환경이 요구됨
+- 각 기능들의 구현 환경과 개발 서버 환경의 버전 이슈를 방지하기 위해 개발 환경에 대한 컨벤션 설계
 
 **개발 서버 환경**
 - Ubuntu 16.04.5 LTS
@@ -19,15 +18,45 @@
 - Apache 2
 - MySQL 5.7.23
 - PHP 7.1
+- API Star 0.5.40
 
-### 비디오 삭제 및 비디오 파일 관리
-#### 비디오 삭제
-##### 1. 프로세스
+> #### Issue of 개발 서버 구축
+> **우분투 버전 이슈**
+> 1. Issue 정의
+>  -  처음 개발 서버에 AMP(Apache-MySQL-PHP) 설치 시 configuration 설정이 적용되지 않거나 명령어가 실행하지 않는 이슈 발생
+>  - 여러 번의 에러 해결 시도 후 우분투가 18.04 버전인 것을 확인
+>  - 우분투 18.04 버전에서 지원되지 않는 라이브러리 또는 패키지 내 모듈이 다소 존재
+>  - 우분투에서는 버전 downgrade를 지원하지 않음
+> 2. Issue 해결 방안
+>  - 프로젝트 참여자들의 우분투 버전과 동일한 우분투 server 16.04.5 LTS 설치
+
+## 비디오 삭제 및 비디오 파일 관리 프로세스
+### 1. 개발 환경
+- Ubuntu 16.04.5 LTS
+- Wordpress
+- Apache 2
+- MySQL 5.7.23
+- PHP 7.1
+- Anaconda 4.3.11
+- API Statr 0.5.40
+
+### Wordpress
+#### 1. Wordpress 설치 및 세팅
+##### 1. Wordpress 설치
+##### 2. LAMP 설치
+- 
+
+
+#####
+
+###  비디오 삭제 및 비디오 파일 관리
+#### 1. 비디오 삭제
+##### 1.1. 프로세스
 - 사용자가 비디오 리스트 화면에서 `delete` 버튼을 누르면 페이지에 내장된 php 코드가 서버의 `update_video_status.php` 파일을 호출
-- `update_video_status.php` 파일에서는 MySQL wordpress db에 접속하여 wp-uploaded_video 테이블에서 삭제요청 받은 비디오의 status를 `delete`로 변경
+- `update_video_status.php` 파일에서는 MySQL wordpress db에 접속하여 wp-uploaded_video 테이블에서 삭제 요청 받은 비디오의 status를 `delete`로 변경
 - db 업데이트가 정상적으로 완료되면 다시 비디오 리스트 화면을 띄움  
 
-##### 2. 실행 결과
+##### 1.2. 실행 결과
 - `delete` 버튼 누르기 전 비디오 리스트 화면
 <img src="https://i.imgur.com/rJI8Iea.png"/>
 - `delete` 버튼 누른 후 비디오 리스트 화면

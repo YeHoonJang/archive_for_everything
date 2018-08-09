@@ -3,28 +3,31 @@
 <br>18.07.27 Tue - 18.08.02 Thu**
 ## 프로젝트 개요
 ### 1. DFD
-<img src="https://i.imgur.com/kFunars.png"/>
+<img src="https://i.imgur.com/RYDOEwb.png"/>
 
-### 2. Work Flow
-<img src="https://i.imgur.com/Yr4qzaf.png" width="70%"/>
+<!-- ### 2. Work Flow
+<img src="https://i.imgur.com/Yr4qzaf.png" width="70%"/> -->
 
 
-#### 2.1. User (1)
+<!-- #### 1.1. contents view counts
+-
+
+
+#### 1.1. contents view counts
 - api 서버에 cid와 count 정보를 post method로 전달
 
-#### 2.2. API 서버 (2, 7)
 - user로부터 cid와 count 정보를 받아 쿼리 모듈을 이용하여 db에서 필요한 정보를 쿼리 한 후 content의 level relocate 정보에 따라 redis를 업데이트  
 - worker의 호출을 받으면 redis에서 content status가 'done' 인지 확인 후 content의 relocate 된 level에 맞게 쿼리 모듈을 이용해 db 업데이트
 
-#### 2.3. DataBase (3, 9)
 - api 서버에서 파라미터를 db 쿼리 함수에 넘기면 해당 프로젝트와 연결된 db 쿼리를 실행
 
-#### 2.4. Worker (5)
+
 - redis의 content status를 확인하여 status가 'update' 인 content의 relocation을 진행  
 - relocate가 정상적으로 완료된 content에 대하여 redis의 content status를 'done' 으로 바꾼 후 api 서버를 호출
 
-#### 2.5. Redis (4, 6, 8)
+
 - content count가 업데이트 될 때 마다 올바른 level에 relocate 되도록 content에 대한 정보를 실시간으로 api 서버와 worker에 제공 (사실상, api 서버와 worker가 실시간으로 redis를 확인)
+ -->
 
 ***************************
 ## DB 프로세스
@@ -112,6 +115,8 @@ class db:
   def update_level(self, cid, content_level):
     ...
 
+  def check_max_count(self, count):
+    ...
 ```
 
 #### 3.2. 함수 설명
@@ -145,6 +150,21 @@ class db:
 - api 서버가 본 함수를 호출하면 MySQL contents 테이블에서 content_level을 update 하는 쿼리문을 모듈화 한 것
 - update 하고자 하는 콘텐츠의 `cid`와 relocate 된 `contet_level`이 필수 파라미터
 - 본 함수가 실행되면 contents table에서 content_level과 update_time column이 업데이트 이전에 update_history 테이블과 연결된 트리거가 먼저 작동
+
+##### 3.2.5. check_max_count
+ - MySQL level 테이블에서 최상위 level의 max_counts와 함수의 파라미터로 들어온 count의 크기를 비교하여 더 큰 count로 최상위 level의 max_counts를 update 해주는 기능을 모듈화 한 것
+ - api 서버에서 target level을 추출하기 위해 `select 함수`로 level 테이블을 쿼리하기 전에 실행됨
+
+> #### Issue of 3.2.5.
+> **최상위 level의 max_count 값에 대한 이슈**
+> 1. Issue 설명
+>  - 초기의 최상위 level의 max_counts는 임의로 100000으로 설정
+>  - count가 100000을 초과한 값이 들어왔을 시 level을 할당 할 수 없는 이슈 발생
+> 2. Issue 해결 방안
+>  - 최상위 level의 max_counts 값과 content 의 count 크기를 비교 후 max_counts 정보를 핸들링하는 모듈 추가
+>  - db에 저장 돼있던 max_counts가 더 클 때는 아무 이벤트가 발생하지 않음
+>  - content의 count가 더 클 때는 db의 최상위 level 의 max_counts 를 content의 count로 업데이트 함
+
 
 
 ### 4. 프로세스 상세 및 실행 결과
