@@ -45,25 +45,25 @@
 > **Wordpress를 지원하는 AMP 버전이 정해져 있음**
 > 1. Issue 정의
 >  - 초반에 AMP를 모두 설치하고 Wordpress를 설치하려고 할 때 에러가 나거나 configuration이 적용되지 않음
->  - Wordpress 를 지원 AMP 버전이 정해져 있음
+>  - Wordpress를 지원 AMP 버전이 정해져 있음
 > 2. Issue 해결 방안
 >  - Wordpress를 지원하는 AMP 버전 확인 후 설치
 
 #### 2. Wordpress 설치 및 세팅
 ##### 2.1. Wordpress 설치
-##### 2.2. SnapTube Theme 설치
-프로젝트 진행 시 결과물이 실행 될 wordpress theme
-
-<img src="https://i.imgur.com/nSKaHdb.png"/>
-
-##### 2.3. PulgIn 설치
+##### 2.2. PlugIn 설치
 Wordpress 환경에서 각 기능과 요구사항을 구현하기 위한 각종 플러그인 설치
 
-**PHP code snippets(Insert PHP)**
-- 워드프레스 페이지 내에서 동작할 PHP 코드 삽입을 위한 플러그인
-- `<? php ?>` 태그 대신 `[inset_php][/insert_php]` 태그 안에 php 코드를 내장
+- **SnapTube**
+ - 프로젝트 진행 시 결과물이 실행 될 wordpress theme
+ - SnapTube 화면
+   <img src="https://i.imgur.com/nSKaHdb.png"/>
 
-> #### Issue of 2.3.
+- **PHP code snippets(Insert PHP)**
+ - 워드프레스 페이지 내에서 동작 할 PHP 코드 삽입을 위한 플러그인
+ - `<? php ?>` 태그 대신 `[inset_php][/insert_php]` 태그 안에 php 코드를 내장
+
+> #### Issue of 2.2. PHP code snippets(Insert PHP)
 > **Wordpress 페이지 내 PHP 코드 삽입에 관련한 이슈**
 > 1. Issue 정의
 >  - Wordpress 페이지 내 PHP 코드를 삽입하여 서버와 연동하는 것이 요구됨
@@ -73,11 +73,24 @@ Wordpress 환경에서 각 기능과 요구사항을 구현하기 위한 각종 
 >  - Wordpress 페이지에 PHP 코드를 숏코드로 삽입 가능한 플러그인 설치
 >  - `[insert_php] [/insert_php]` 태그 내에 있는 PHP 코드가 숏코드로 페이지 내에서 동작 가능
 
+- **WP Mail SMTP**
+  - Wordpress에서 회원 가입 시 가입 확인 메일을 보내기 위한 플러그인
+  - 사용자 별 비디오 관리가 프로젝트의 목적이기 때문에 회원 가입을 통해 user를 생성해야 함
 
-###  비디오 삭제 및 비디오 파일 관리
+
+### 비디오 삭제 및 비디오 파일 관리
 #### 1. 비디오 삭제
-##### 1.1. 프로세스
-- 사용자가 비디오 리스트 화면에서 `delete` 버튼을 누르면 페이지에 내장된 php 코드가 서버의 `update_video_status.php` 파일을 호출
+<img src="https://i.imgur.com/k7exUSo.png"/>
+
+##### 1.1. 사용자 - 삭제 요청
+- 사용자가 비디오 리스트 화면에서 `delete` 버튼을 누르면 링크된 경로로 routing
+- routing 정보
+
+|  Method  |  URI  |  Code  |    |   |
+|---|---|---|---|---|
+|  GET  |  http://localhost/update_video_status.php?video_id=$video_id  |  200  |   |   |
+
+##### 1.2. Wordpress - 서버의 php 파일 호출
 - `update_video_status.php` 파일에서는 MySQL wordpress db에 접속하여 wp-uploaded_video 테이블에서 삭제 요청 받은 비디오의 status를 `delete`로 변경
 - db 업데이트가 정상적으로 완료되면 다시 비디오 리스트 화면을 띄움  
 
