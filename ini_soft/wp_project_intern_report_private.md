@@ -7,7 +7,6 @@
 
 **************************************
 
-
 ##  개발 서버 구축
 - 팀원들이 맡은 각 기능을 구현 후 통합하고, 프로젝트의 요구사항 전체를 이행하기 위한 환경이 요구됨
 - 각 기능들의 구현 환경과 개발 서버 환경의 버전 이슈를 방지하기 위해 개발 환경에 대한 컨벤션 설계
@@ -40,14 +39,40 @@
 - Anaconda 4.3.11
 - API Statr 0.5.40
 
-### Wordpress
-#### 1. Wordpress 설치 및 세팅
-##### 1. Wordpress 설치
-##### 2. LAMP 설치
-- 
+### Wordpress 설치 및 세팅
+#### 1. LAMP 설치
+> #### Issue of 2.
+> **Wordpress를 지원하는 AMP 버전이 정해져 있음**
+> 1. Issue 정의
+>  - 초반에 AMP를 모두 설치하고 Wordpress를 설치하려고 할 때 에러가 나거나 configuration이 적용되지 않음
+>  - Wordpress 를 지원 AMP 버전이 정해져 있음
+> 2. Issue 해결 방안
+>  - Wordpress를 지원하는 AMP 버전 확인 후 설치
 
+#### 2. Wordpress 설치 및 세팅
+##### 2.1. Wordpress 설치
+##### 2.2. SnapTube Theme 설치
+프로젝트 진행 시 결과물이 실행 될 wordpress theme
 
-#####
+<img src="https://i.imgur.com/nSKaHdb.png"/>
+
+##### 2.3. PulgIn 설치
+Wordpress 환경에서 각 기능과 요구사항을 구현하기 위한 각종 플러그인 설치
+
+**PHP code snippets(Insert PHP)**
+- 워드프레스 페이지 내에서 동작할 PHP 코드 삽입을 위한 플러그인
+- `<? php ?>` 태그 대신 `[inset_php][/insert_php]` 태그 안에 php 코드를 내장
+
+> #### Issue of 2.3.
+> **Wordpress 페이지 내 PHP 코드 삽입에 관련한 이슈**
+> 1. Issue 정의
+>  - Wordpress 페이지 내 PHP 코드를 삽입하여 서버와 연동하는 것이 요구됨
+>  - Wordpress templates 디렉터리에 템플릿 파일을 추가 후 PHP 코드를 작성하는 방법이 존재하였으나, 해당 템플릿 파일에 SnapTube 테마가 적용되지 않아 해당 방법을 적용 불가
+>  - Wordpress 페이지 내 숏코드로 PHP 코드를 삽입하였으나 Wordpress에서 PHP 언어를 숏코드 지원하지 않음
+> 2. Issue 해결 방안
+>  - Wordpress 페이지에 PHP 코드를 숏코드로 삽입 가능한 플러그인 설치
+>  - `[insert_php] [/insert_php]` 태그 내에 있는 PHP 코드가 숏코드로 페이지 내에서 동작 가능
+
 
 ###  비디오 삭제 및 비디오 파일 관리
 #### 1. 비디오 삭제

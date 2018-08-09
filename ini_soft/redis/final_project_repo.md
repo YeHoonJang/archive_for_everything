@@ -12,6 +12,11 @@
 ### 기대효과
 트래픽 용량에 따른 컨텐츠 재배치가 자동으로 이루어져 서버의 부하를 실시간으로 조절하고 여러 개의 워커가 비동기적으로 작동하여 큰 용량의 파일이 이동할 때에도 병목 현상 방지 가능
 
+### 참여자(담당 기능)
+#### - 김지희 [(API)](## 2. API)
+#### - 박병훈 [(Worker)](## 3. Worker)
+#### - 장예훈 [(DataBase)](## 3. DataBase)
+
 ### Data Flow Diagram
 <center><img src="https://i.imgur.com/vIeEdW1.png" /></center>
 

@@ -2,7 +2,9 @@
 **장예훈 (DB 구축 및 쿼리 모듈화)  
 <br>18.07.27 Tue - 18.08.02 Thu**
 ## 프로젝트 개요
-### 1. DFD
+### 목적
+### 시나리오
+### . DFD
 <img src="https://i.imgur.com/RYDOEwb.png"/>
 
 <!-- ### 2. Work Flow
@@ -171,12 +173,12 @@ class db:
 #### 4.1. redis에 content 정보 업데이트
 <img src="https://i.imgur.com/iBnl3CW.png"/>
 
-###### 4.1.1. api 서버 - db 쿼리 함수 호출
+##### 4.1.1. api 서버 - db 쿼리 함수 호출
 - api 서버는 content의 현재 위치 level과 count가 해당되는 범위의 위치 level 비교를 위해 쿼리 모듈로 db에서 데이터를 쿼리 함
   * content 테이블에서 user로부터 받은 cid로 해당 content의 현재 위치 level을 쿼리 하는 `select 함수` 호출
   * `select 함수`로 level 테이블의 모든 coulmn을 쿼리 한 후 user로부터 받은 count와 비교 연산하여 target level을 반환함
 
-###### 4.1.2. db - 쿼리 결과 api  서버에 반환
+##### 4.1.2. db - 쿼리 결과 api  서버에 반환
 - db는 `select 함수`로 쿼리 된 결과를 api 서버에 반환함
   * MySQL content 테이블 내의 cid 1 정보
   <img src="https://i.imgur.com/FHgGbvS.png"/>  
@@ -204,16 +206,16 @@ class db:
   'bronze'
   ```
 
-###### 4.1.3. api 서버 - redis에 content에 대한 정보 업데이트
+##### 4.1.3. api 서버 - redis에 content에 대한 정보 업데이트
 - db에서 쿼리 한 데이터를 알맞게 처리한 후 redis에 content 정보를 업데이트
 
 #### 4.2. relocate가 완료된 content 정보 업데이트
 <img src="https://i.imgur.com/sAxe010.png"/>
 
-###### 4.2.1. api 서버 - redis 업데이트
+##### 4.2.1. api 서버 - redis 업데이트
 - content의 relocate를 마친 worker의 호출을 받은 api 서버는 해당 cid에 대해 redis의 content status가 'done' 인지 확인
 
-###### 4.2.2. api 서버 - db 업데이트
+##### 4.2.2. api 서버 - db 업데이트
 - redis의 content status가 'done' 인 것을 확인 한 api 서버가 쿼리 모듈로 db에서 content status를 업데이트 하는 `update_level 함수`를 호출
   * `update_level 함수` 호출 전 MySQL content 테이블 내의 cid 12 정보
   <img src="https://i.imgur.com/vIM0j4C.png"/>  
@@ -227,7 +229,7 @@ class db:
   * `update_level 함수` 호출 후 MySQL content 테이블 내의 cid 12 정보
   <img src="https://i.imgur.com/dxiqp8r.png"/>  
 
-###### 4.2.3. db 업데이트
+##### 4.2.3. db 업데이트
 - api 서버의 쿼리 모듈 호출로 content 테이블이 업데이트 되면 db에 `insert 트리거`가 작동하여 content 테이블 업데이트 시점에 update_history 테이블에 row가 추가됨
   * MySQL content 테이블의 `insert 트리거` 작동 전 cid 12 의 update_history 테이블
   <img src="https://i.imgur.com/9VSLPvG.png"/>  
