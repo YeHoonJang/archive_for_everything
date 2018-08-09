@@ -86,9 +86,9 @@ Wordpress 환경에서 각 기능과 요구사항을 구현하기 위한 각종 
 - 사용자가 비디오 리스트 화면에서 `delete` 버튼을 누르면 링크된 경로로 routing
 - routing 정보
 
-|  Method  |  URI  |  Code  |    |   |
-|---|---|---|---|---|
-|  GET  |  http://localhost/update_video_status.php?video_id=$video_id  |  200  |   |   |
+|  Method  |  URI  |  Code  |  Description  |
+|---|---|---|---|
+|  GET  |  http://localhost/update_video_status.php?video_id=$video_id  |  200  |  localhost 서버에 있는 update_video_status.php 파일을 호출<br/>delete 하는 video_id를 전달  |
 
 ##### 1.2. Wordpress - 서버의 php 파일 호출
 - `update_video_status.php` 파일에서는 MySQL wordpress db에 접속하여 wp-uploaded_video 테이블에서 삭제 요청 받은 비디오의 status를 `delete`로 변경
