@@ -25,6 +25,7 @@
 
 
 <div id="api"><h2>2. API</h2></div>
+
 #### 담당자: 김지희
 
 ### 개발 환경
@@ -74,6 +75,7 @@ database 에서 cid 7 의 content_level과 update_time 업데이트
 <img src="https://i.imgur.com/4EiSSFO.png" />
 
 <div id="worker"><h2>3. Worker</h2></div>
+
 #### 담당자: 박병훈
 
 ### 개발환경
@@ -125,6 +127,7 @@ database 에서 cid 7 의 content_level과 update_time 업데이트
 
 
 <div id="database"><h2>4. DataBase</h2></div>
+
 #### 담당자: 장예훈
 
 ### 개발 환경
