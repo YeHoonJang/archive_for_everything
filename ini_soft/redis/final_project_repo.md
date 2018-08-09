@@ -13,9 +13,9 @@
 트래픽 용량에 따른 컨텐츠 재배치가 자동으로 이루어져 서버의 부하를 실시간으로 조절하고 여러 개의 워커가 비동기적으로 작동하여 큰 용량의 파일이 이동할 때에도 병목 현상 방지 가능
 
 ### 참여자(담당 기능)
-#### - 김지희 [(API)](## 2. API)
-#### - 박병훈 [(Worker)](## 3. Worker)
-#### - 장예훈 [(DataBase)](## 3. DataBase)
+#### - 김지희 [(API)](#api)
+#### - 박병훈 [(Worker)](#worker)
+#### - 장예훈 [(DataBase)](#database)
 
 ### Data Flow Diagram
 <center><img src="https://i.imgur.com/vIeEdW1.png" /></center>
@@ -24,7 +24,7 @@
 <center><img src="https://i.imgur.com/Yr4qzaf.png" width="70%" /></center>
 
 
-## 2. API
+<div id="api"><h2>2. API</h2></div>
 #### 담당자: 김지희
 
 ### 개발 환경
@@ -73,7 +73,7 @@ database 에서 cid 7 의 content_level과 update_time 업데이트
 
 <img src="https://i.imgur.com/4EiSSFO.png" />
 
-## 3. Worker
+<div id="worker"><h2>3. Worker</h2></div>
 #### 담당자: 박병훈
 
 ### 개발환경
@@ -124,7 +124,7 @@ database 에서 cid 7 의 content_level과 update_time 업데이트
 <img src="https://i.imgur.com/jyAUO5R.png" />
 
 
-## 4. DataBase
+<div id="database"><h2>4. DataBase</h2></div>
 #### 담당자: 장예훈
 
 ### 개발 환경
