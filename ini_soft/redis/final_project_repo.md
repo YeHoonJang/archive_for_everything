@@ -1,31 +1,28 @@
+
+
 # 2018 INI Intern Final Project
-## 목차
+### 목차
 1. [프로젝트 개요](#summary)
 2. [API](#api)
-3. [Woker](#worker)
+3. [Worker](#worker)
 4. [DataBase](#databse)
 5. [프로젝트 후기](#comment)
 
+<div id="summary"><h3>1. 프로젝트 개요</h3></div>
 
-
-<div id="summary"><h2>1. 프로젝트 개요</h2></div>
-
-### 1.1. 프로젝트 기간
+#### 1.1. 프로젝트 기간
 2018.07.24 ~ 2018.08.02 (10일)
 
-### 1.2. 목적
+#### 1.2. 목적
 컨텐츠에 대한 접근 수가 증가하면 서버에 대한 트래픽 양 또한 증가하여 용량이 더 큰 서버로의 컨텐츠 재배치가 요구됨  
 이를 실시간으로 수행하기 위하여 메모리 기반의 realtime database 인 redis 와 파이썬의 asyncio 라이브러리를 이용한 비동기 파일 재배치 프로그램을 제작
 
-### 1.3. 기대효과
-트래픽 용량에 따른 컨텐츠 재배치가 자동으로 이루어져 서버의 부하를 실시간으로 조절하고 여러 개의 워커가 비동기적으로 작동하여 큰 용량의 파일이 이동할 때에도 병목 현상 방지 가능
-
-### 1.4. 참여자 (담당 기능)
+#### 1.3. 참여자 (담당 기능)
 ##### - 김지희 [(API)](#api)
 ##### - 박병훈 [(Worker)](#worker)
 ##### - 장예훈 [(DataBase)](#database)
 
-### 1.5. Process
+#### 1.4. Process
 <center><img src="https://i.imgur.com/RYDOEwb.png" /></center>
 
 
@@ -48,7 +45,7 @@
 **API Specification**
 
 * **URL**
-  /post_sentence
+  host:port/post_sentence
 
 * **Method:**
 
@@ -87,34 +84,29 @@ foo@bar:~/$ curl http://192.168.10.108:5000/post_sentence -d "cid=7&count=1964"
 
 **기능 설명**
 
-1. 사용자가 컨텐츠를 조회하면 컨텐츠의 cid 와 count 정보를 포함하여 API를 호출한다. (e.g.curl http://192.168.10.108:5001/post_sentence -d "cid=3&count=664")
-2. db_query 모듈을 이용하여 database의 contents table 과 level table에서 post 된 cid를 가진 content의 현재위치와 목적위치를 반환한다.
+1. 사용자가 컨텐츠를 조회하면 컨텐츠의 cid 와 count 정보를 포함하여 API를 호출 (e.g.curl http://192.168.10.108:5001/post_sentence -d "cid=3&count=664")
+2. db_query 모듈을 이용하여 database의 contents table 과 level table에서 post 된 cid를 가진 content의 현재 위치와 목적 위치를 반환
+3. redis-server에 연결하여 post 요청이 들어온 cid에 대한 count, 목적 위치, 현재 위치, filename, worker_id, status 정보를 json type으로 만들어 key:cid, value :json 형식의 정보 로 redis database에 set 한 후 value를 반환 (e.g.)
+``{'3':{"cid": "3", "count": "664", "target": "bronze", "db_level": "silver", "filename": "c.mp4","worker_id": null, "status": "update"}} `` 형식으로 저장
+
+*worker_id는 worker에서 지정되므로 null로 초기화하며 status는 현재 위치와 목적 위치가 같은 경우 'done', 다른 경우 'update'로 초기화*
+
 
 **contents table**
 
-| cid | content_level | filename | generate_time       | update_time         |
-|-----|---------------|----------|---------------------|---------------------|
-| 1   | gold          | a.mp4    | 2018-07-29 15:31:24 | 2018-08-02 18:30:17 |
-| 2   | bronze        | b.mp4    | 2018-07-29 15:31:24 | 2018-08-02 10:47:40 |
-| 3   | silver        | c.mp4    | 2018-07-29 15:31:24 | 2018-08-02 18:30:18 |
-| 4   | bronze        | d.mp4    | 2018-07-29 15:31:24 | 2018-08-01 16:25:19 |
-| 5   | silver        | e.mp4    | 2018-07-29 15:31:25 | 2018-08-02 18:30:18 |
+<img src = "https://i.imgur.com/L8I5vfa.png" width= "75%"/>
+
 
 **level table**
 
-| content_level | max_counts | path                                                | min_counts |
-|---------------|------------|-----------------------------------------------------|------------|
-| bronze        | 999        | /etc/inisoft/redis_project/bronze/                  | 0          |
-| gold          | 3001       | /home/inisoft/workspace/inisoft/redis_project/gold/ | 2000       |
-| silver        | 1999       | /var/www/html/redis_project/silver/                 | 1000       |
-
+<img src = "https://i.imgur.com/RDFIaAv.png" />
 
 #### 2.2.2. redis 값 체크 및 MySQL database 업데이트(Process step6 ~ step8)
 
 **API Specification**
 
 * **URL**
-  /update_sentence
+  host:port/update_sentence
 
 * **Method:**
 
@@ -153,9 +145,9 @@ foo@bar:~/$ curl http://192.168.10.108:5000/post_sentence -d "cid=7&count=1964"
 
 **기능 설명**
 
- 1. worker가 파일을 재배치한 후 해당 contents 의 status 를 'done' 으로 바꾸고 API 를 호출한다. (e.g. curl http://192.168.10.108:5000/update_sentence -d "cid=3")
- 2. request를 받으면 cid 를 Key 값으로 redis에서 해당 content의 status 가 'done' 인지 검사하고 MySQL의 contents table 에 새로운 level 과 update time 을 업데이트한다.
-만약 status 가 'done' 이 아니면 "check your status again" 메세지를 반환한다.
+ 1. worker가 파일을 재배치한 후 해당 contents 의 status 를 'done' 으로 바꾸고 API 를 호출 (e.g. curl http://192.168.10.108:5000/update_sentence -d "cid=3")
+ 2. request를 받으면 cid 를 Key 값으로 redis에서 해당 content의 status 가 'done' 인지 검사하고 MySQL의 contents table 에 새로운 level 과 update time 을 업데이트
+만약 status 가 'done' 이 아니면 "check your status again" 메세지를 반환
 
   **redis status check 후 content_level과 update_time update 결과**
 
@@ -241,7 +233,7 @@ foo@bar:~/$ curl http://192.168.10.108:5000/post_sentence -d "cid=7&count=1964"
 ### 4.2. DB 구축
 
 #### 4.2.1. ERD
-<center><img src="https://i.imgur.com/B14rOz5.png"/></center>
+<img src="https://i.imgur.com/B14rOz5.png" width= 50% />
 
 #### 4.2.2. DB 테이블
 - level: content의 view count 수에 따른 level 정보를 저장하는 테이블
@@ -250,11 +242,17 @@ foo@bar:~/$ curl http://192.168.10.108:5000/post_sentence -d "cid=7&count=1964"
 
 #### 4.2.3. DB 트리거
   - contents 테이블의 업데이트 이벤트가 발생하면 트리거가 작동되고 update_history에 업데이트 시점과 업데이트 된 content level이 기록됨
+  - 현재 content level과 업데이트 된 content level 이 다를 때만 트리거가 작동
   - 트리거
+
   ```sql
-  CREATE DEFINER = `root`@`localhost` trigger update_history before update on contents for each row
+  CREATE DEFINER = `root`@`localhost` trigger update_history after update on
+  contents for each row
   begin
-  insert into update_history values(old.cid, old.update_time, old.content_level, now(), new.content_level);
+    if (old.content_level != new.content_level) then
+      insert into update_history values(old.cid, old.update_time,
+        old.content_level, now(), new.content_level);
+    end if;
   end
   ```
 
@@ -262,6 +260,7 @@ foo@bar:~/$ curl http://192.168.10.108:5000/post_sentence -d "cid=7&count=1964"
 프로세스 내에서 필요한 db 쿼리 클래스 생성
 
 #### 4.3.1. 클래스 구조
+
 ```python
 class db:
   def __init__(self):
@@ -317,6 +316,7 @@ class db:
   <img src="https://i.imgur.com/FHgGbvS.png"/>  
 
   * api 서버에서 `select 함수`를 호출하여 cid가 1인 content의 level 추출하는 함수 결과
+
   ```bash
   #python shell
   \>>> import redis_encode as re
@@ -325,9 +325,10 @@ class db:
   ```
 
   * MySQL level 테이블
-  <img src="https://i.imgur.com/f0TPOj0.png"/>  
+  <img src="https://i.imgur.com/RDFIaAv.png"/>  
 
   * api 서버에서 `select 함수`로 level 테이블을 쿼리 한 후 각 level의 count와 countent의 count를 비교 연산하여 target level을 반환하는 함수 결과
+
   ```bash
   #python shell
   \>>> import redis_encode as re
@@ -348,26 +349,27 @@ class db:
 
 ##### 2. api 서버 - db 업데이트
 - redis의 content status가 'done' 인 것을 확인 한 api 서버가 쿼리 모듈로 db에서 content status를 업데이트 하는 `update_level 함수`를 호출
-  * `update_level 함수` 호출 전 MySQL content 테이블 내의 cid 12 정보
-  <img src="https://i.imgur.com/vIM0j4C.png"/>  
+  * `update_level 함수` 호출 전 MySQL content 테이블 내의 cid 21 정보
+  <img src="https://i.imgur.com/F5ANoqJ.png"/>  
 
   * api 서버에서 `update_level 함수` 호출 결과
+
   ```bash
   \>>> import redis_encode as re
-  \>>> re.update_db_level(12, 'gold')
+  \>>> re.update_db_level(21, 'silver')
   1
   ```
 
   * `update_level 함수` 호출 후 MySQL content 테이블 내의 cid 12 정보
-  <img src="https://i.imgur.com/dxiqp8r.png"/>  
+  <img src="https://i.imgur.com/AOKRweX.png"/>  
 
 ##### 3. db 업데이트
 - api 서버의 쿼리 모듈 호출로 content 테이블이 업데이트 되면 db에 `insert 트리거`가 작동하여 content 테이블 업데이트 시점에 update_history 테이블에 row가 추가됨
-  * MySQL content 테이블의 `insert 트리거` 작동 전 cid 12 의 update_history 테이블
-  <img src="https://i.imgur.com/9VSLPvG.png"/>  
+  * MySQL content 테이블의 `insert 트리거` 작동 전 cid 21 의 update_history 테이블
+  <img src="https://i.imgur.com/NBkVJW1.png"/>  
 
-  * MySQL content 테이블의 `insert 트리거` 작동 후 cid 12 의 update_history 테이블
-  <img src="https://i.imgur.com/dbqrXF6.png"/>  
+  * MySQL content 테이블의 `insert 트리거` 작동 후 cid 21 의 update_history 테이블
+  <img src="https://i.imgur.com/6HyV5SH.png"/>  
 
 <div id="comment"><h2>5. 프로젝트 후기</h2></div>
 

@@ -88,11 +88,17 @@ contents level 정보가 업데이트 될 때마다 update history를 저장하�
 
 #### 2.3. DB 트리거
   - contents 테이블의 업데이트 이벤트가 발생하면 트리거가 작동되고 update_history에 업데이트 시점과 업데이트 된 content level이 기록됨
+  - 현재 content level과 업데이트 된 content level 이 다를 때만 트리거가 작동
   - 트리거
+
   ```sql
-  CREATE DEFINER = `root`@`localhost` trigger update_history before update on contents for each row
+  CREATE DEFINER = `root`@`localhost` trigger update_history after update on
+  contents for each row
   begin
-  insert into update_history values(old.cid, old.update_time, old.content_level, now(), new.content_level);
+    if (old.content_level != new.content_level) then
+      insert into update_history values(old.cid, old.update_time,
+        old.content_level, now(), new.content_level);
+    end if;
   end
   ```
 
@@ -182,6 +188,7 @@ class db:
   <img src="https://i.imgur.com/FHgGbvS.png"/>  
 
   * api 서버에서 `select 함수`를 호출하여 cid가 1인 content의 level 추출하는 함수 결과
+
   ```bash
   #python shell
   \>>> import redis_encode as re
@@ -190,9 +197,10 @@ class db:
   ```
 
   * MySQL level 테이블
-  <img src="https://i.imgur.com/f0TPOj0.png"/>  
+  <img src="https://i.imgur.com/RDFIaAv.png"/>  
 
   * api 서버에서 `select 함수`로 level 테이블을 쿼리 한 후 각 level의 count와 countent의 count를 비교 연산하여 target level을 반환하는 함수 결과
+
   ```bash
   #python shell
   \>>> import redis_encode as re
@@ -215,25 +223,28 @@ class db:
 
 ##### 4.2.2. api 서버 - db 업데이트
 - redis의 content status가 'done' 인 것을 확인 한 api 서버가 쿼리 모듈로 db에서 content status를 업데이트 하는 `update_level 함수`를 호출
-  * `update_level 함수` 호출 전 MySQL content 테이블 내의 cid 12 정보
-  <img src="https://i.imgur.com/vIM0j4C.png"/>  
+  * `update_level 함수` 호출 전 MySQL content 테이블 내의 cid 21 정보
+  <img src="https://i.imgur.com/F5ANoqJ.png"/>  
 
   * api 서버에서 `update_level 함수` 호출 결과
+
   ```bash
   \>>> import redis_encode as re
-  \>>> re.update_db_level(12, 'gold')
+  \>>> re.update_db_level(21, 'silver')
   1
   ```
+
   * `update_level 함수` 호출 후 MySQL content 테이블 내의 cid 12 정보
-  <img src="https://i.imgur.com/dxiqp8r.png"/>  
+  <img src="https://i.imgur.com/AOKRweX.png"/>  
 
 ##### 4.2.3. db 업데이트
 - api 서버의 쿼리 모듈 호출로 content 테이블이 업데이트 되면 db에 `insert 트리거`가 작동하여 content 테이블 업데이트 시점에 update_history 테이블에 row가 추가됨
-  * MySQL content 테이블의 `insert 트리거` 작동 전 cid 12 의 update_history 테이블
-  <img src="https://i.imgur.com/9VSLPvG.png"/>  
+  * MySQL content 테이블의 `insert 트리거` 작동 전 cid 21 의 update_history 테이블
+  <img src="https://i.imgur.com/NBkVJW1.png"/>  
 
-  * MySQL content 테이블의 `insert 트리거` 작동 후 cid 12 의 update_history 테이블
-  <img src="https://i.imgur.com/dbqrXF6.png"/>  
+  * MySQL content 테이블의 `insert 트리거` 작동 후 cid 21 의 update_history 테이블
+  <img src="https://i.imgur.com/6HyV5SH.png"/>  
+
 
 ### 5. 프로젝트 후기
 이번 프로젝트를 진행하면서 가장 많이 배운 점은 코드의 완성도를 높이는 방법에 대한 고민과 각 구현 기능들이 요구사항에 얼마나 적합한 지 검토하는 방법인 것 같다. 다른 파트들에 비해 DB 모듈화는 개인적으로 러닝커브나 코딩 난이도, 진입장벽이 낮았기 때문에 스스로도 해당 기능 완성도에 대한 기대치가 높았다.

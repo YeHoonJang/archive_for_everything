@@ -90,9 +90,11 @@ Wordpress 환경에서 각 기능과 요구사항을 구현하기 위한 각종 
 - 사용자의 링크 클릭 이벤트가 발생하면 Wordpress는 `delete` 버튼과 연결된 링크로 routing
 - routing 정보
 
-|  Method  |  URI  |  Code  |  Description  |
-|---|---|---|---|
-|  GET  |  http://localhost/update_video_status.php?video_id=$video_id  |  200  |  localhost 서버에 있는 update_video_status.php 파일을 호출<br/>delete 하는 video_id를 전달  |
+|  Method  |  URI  |
+|:---|:---|
+|  GET  |  http://localhost/update_video_status.php?video_id=$video_id  |
+|  **Code**  |  **Description**  |
+|  200  |  localhost 서버에 있는 update_video_status.php 파일을 호출하며 delete 하고자 하는 video_id를 전달  |
 
 ##### 3.1.3. 서버 - 비디오 상태 변경
 - routing 된 `update_video_status.php` 파일에서는 MySQL wordpress db에 접속하여 wp-uploaded_video 테이블에서 전달 받은 video id와 쿠키로 추출한 user name을 사용하여 사용자의 유효성을 검사
