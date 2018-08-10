@@ -1,10 +1,8 @@
 # INI 2018 Intern Final Project  
 **장예훈 (DB 구축 및 쿼리 모듈화)  
 <br>18.07.27 Tue - 18.08.02 Thu**
-## 프로젝트 개요
-### 목적
-### 시나리오
-### . DFD
+
+## Project Process
 <img src="https://i.imgur.com/RYDOEwb.png"/>
 
 <!-- ### 2. Work Flow
@@ -32,7 +30,7 @@
  -->
 
 ***************************
-## DB 프로세스
+## DB 프로세스 (Process 2 & 8)
 ### 1. 개발 환경
 - Ubuntu 16.04.5 LTS
 - Python 3.5
