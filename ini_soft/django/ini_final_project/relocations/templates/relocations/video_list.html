@@ -1,0 +1,10 @@
+{% block content %}
+<h1>Relocation!</h1>
+{% if contents_list %}
+<ul>
+  {% for content in contents_list %}
+  <li><button>{{ content }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endblock %}

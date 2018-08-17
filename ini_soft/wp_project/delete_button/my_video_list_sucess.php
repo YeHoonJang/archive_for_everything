@@ -1,5 +1,8 @@
+#wordpress 페이지 내에 삽입된 코드 입니다
+
+
 [insert_php]
-$db = new PDO('mysql:host=localhost;dbname=wordpress;charset=utf8', 'root', 'inisoft6223');
+$db = new PDO('mysql:host=localhost;dbname=wordpress;charset=utf8', 'root', 'ini6223');
 foreach($_COOKIE as $key => $value)
 {
    if(preg_match('/^wordpress_logged_/', $key))
@@ -49,12 +52,12 @@ foreach ($result as $key => $val )   {
       $path_without_title = explode(".",$val[2]);
       $thumb_nail_path = explode("html/",$path_without_title[0]);
       echo '<tr>';
-      echo "<td><img src='http://192.168.10.190/".  $thumb_nail_path[1]. ".png'/></td>";
+      echo "<td><img src='http://192.168.10.37/".  $thumb_nail_path[1]. ".png'/></td>";
       echo '<td>' . $val[1].'</td>';
       echo '<td>' . format_size($val[3]).'</td>';
       echo '<td>' . $val[5].'</td>';
       echo '<td>' . $val[6].'</td>';
-      echo '<td><a name="'.$video_id.'" href="http://192.168.10.190/update_video_status.php?video_id='.$video_id.'">delete</a></td>';
+      echo '<td><a name="'.$video_id.'" href="http://192.168.10.37/update_video_status.php?video_id='.$video_id.'">delete</a></td>';
       echo '</tr>';
     }
 echo '</table>';
