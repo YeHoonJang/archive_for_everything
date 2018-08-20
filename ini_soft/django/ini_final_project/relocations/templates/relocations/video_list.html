@@ -1,12 +1,29 @@
 {% extends "base.html" %}
-{% block title %}Relocation{% endblock %}
 
 {% block content %}
 {% if contents_list %}
-<ul>
-  {% for content in contents_list %}
-  <li><button>{{ content }}</li>
-  {% endfor %}
-</ul>
+<table>
+  <tr>
+    <th>제목</th>
+    <th>작성자</th>
+    <th>조회수</th>
+    <th>보러가기</th>
+  </tr>
+      {% for content in contents_list %}
+      <tr>
+      <td>{{ content.content_name }}</td>
+      <td>{{ content.content_author }}</td>
+      <td>{{ content.counts }}</td>
+      <td>
+        <form action="{% url 'counts' content.id %}" method="post">
+          {% csrf_token %}
+          <input type="hidden" name="vid" value="{{ content.id }}">
+          <input type="submit" value="보러가기">
+          </input>
+      </form></td>
+      </tr>
+      {% endfor %}
+
+<table>
 {% endif %}
 {% endblock %}

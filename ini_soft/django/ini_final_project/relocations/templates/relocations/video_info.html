@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+  <tr>
+    {% for key in content_info_list.0.keys %}
+      {% if key != 'id' %}
+        <th>{{ key }}</th>
+      {% endif %}
+    {% endfor %}
+  </tr>
+  {% for information in content_info_list %}
+    <tr>
+      {% for key, val in information.items %}
+        {% if key != 'id' %}
+          <td>{{ val }}</td>
+        {% endif %}
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>
+{% endblock %}

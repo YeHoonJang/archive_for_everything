@@ -1,0 +1,11 @@
+
+
+{% extends "base.html" %}
+{% block content%}
+
+<p>비디오 보셈</p>
+<video controls autoplay>
+  <source src="{{ content_route }}" type="video/mp4">
+</video><br/>
+<a href="{% url 'video_list' %}"><button>목록으로</button></a>
+{% endblock %}
