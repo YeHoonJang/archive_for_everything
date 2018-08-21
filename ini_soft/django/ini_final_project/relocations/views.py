@@ -36,6 +36,6 @@ def video_count(request, vid):
     # print("keys:", rc.keys())
     content_route = str(Contents.objects.get(pk=vid).content_file)
     content_route = os.path.join(BASE_DIR, content_route)
-    content_route = os.path.join('192.168.10.37:', content_route)
+    print(content_route)
     content_route_dict = {'content_route':content_route}
     return render(request, 'relocations/watching.html', content_route_dict)

@@ -1,11 +1,11 @@
-
-
 {% extends "base.html" %}
-{% block content%}
 
-<p>비디오 보셈</p>
-<video controls autoplay>
-  <source src="{{ content_route }}" type="video/mp4">
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
+
+{% block content%}
+<video controls autoplay class="video" style="margin: 20px auto; width: 70%; text-align: center; display:block;">
+  <source src="file://{{ content_route }}" type="video/mp4">
 </video><br/>
-<a href="{% url 'video_list' %}"><button>목록으로</button></a>
+<a href="{% url 'video_list' %}"><button style="float: right;" class="btn" id="back list">목록으로</button></a>
 {% endblock %}
