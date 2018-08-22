@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+{% block content %}
+<div class="logout_form">
+<h2>Bye!</h2>
+<p><a href="{%url 'main' %}">홈으로</a></p>
+<p><a href="{%url 'login' %}">다시 로그인하기</a></p>
+</div>
+{% endblock %}
