@@ -56,19 +56,3 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'relocations/adduser.html', {'form': form})
-
-
-def signin(request):
-    if request.method == "POST":
-        form = LoginForm(request.POST)
-        username = request.POST['username']
-        password = request.POST['password']
-        user = authenticate(username = username, password = password)
-        if user is not None:
-            login(request, user)
-            return redirect('main')
-        else:
-            return HttpResponse('로그인 실패! 다시 시도 해보십시오.')
-    else:
-        form = LoginForm()
-        return render(request, 'relocations/login.html', {'form': form})

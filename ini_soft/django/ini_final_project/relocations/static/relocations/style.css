@@ -27,6 +27,19 @@
   height: 300px;
 }
 
+/*account*/
+.out_frame {
+  margin: 0 auto;
+  display: table;
+}
+
+#active_user {
+  text-align: center;
+}
+
+#unactive_user {
+  text-align: center;
+}
 
 /*table*/
 .table {

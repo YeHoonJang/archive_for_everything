@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -18,10 +18,11 @@
     <ul class="navbar-nav navbar-right">
     {% if user.is_active %}
       <li class="nav-item"><a href="{%url 'login' %}" class="nav-link"> <span class="glyphicon glyphicon-heart"></span> {{user.username}}</a></li>
-      <li class="nav-item"><a href="{% url 'logout' %}" class="nav-link">Logout</a></li>
+      <li class="nav-item"><a href="{% url 'logout' %}" class="nav-link">로그아웃</a></li>
     {% else %}
-      <li class="nav-item"><a href="{%url 'login' %}" class="nav-link"> <span class="glyphicon glyphicon-user"></span> Login</a></li>
-      <li class="nav-item"><a href="{% url 'admin:index' %}" class="nav-link">Admin</a></li>
+      <li class="nav-item"><a href="{%url 'login' %}" class="nav-link"><span class="glyphicon glyphicon-user"></span>로그인</a></li>
+      <li class="nav-item"><a href="{%url 'join' %}" class="nav-link"><span class="glyphicon glyphicon-user"></span>회원가입</a></li>
+      <li class="nav-item"><a href="{% url 'admin:index' %}" class="nav-link">관리자</a></li>
     {% endif %}
     </ul>
   </div>
