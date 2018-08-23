@@ -13,10 +13,10 @@
     <th>조회수</th>
   </tr>
   {% for information in content_info_list %}
-    <tr>
-      <td class="title">{{ information.content_name }}</td>
-      <td>{{ information.content_file }}</td>
-      <td>{{ information.content_author }}</td>
+  <tr>
+      <td class="title">{{ information.title }}</td>
+      <td>{{ information.file }}</td>
+      <td>{{ information.author }}</td>
       <td>{{ information.upload_date|date:"y-m-d, H:i:s" }}</td>
       <td>{{ information.counts }}</td>
     </tr>

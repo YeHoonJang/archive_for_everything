@@ -1,10 +1,10 @@
 from django.shortcuts import render, redirect
 from django.views import generic
-from django.http import HttpResponse
-from .forms import UserForm, LoginForm
+from django.http import HttpResponse, HttpResponseRedirect
+from .forms import UserForm, UploadFileForm
 from django.contrib.auth.models import User
-from django.contrib.auth import login, authenticate
-from django.template import RequestContext
+from django.contrib.auth import login
+
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -37,7 +37,7 @@ def video_count(request, vid):
     selected_video.save()
     # rc = redis.Redis(host='192.168.10.37', port=6379, db=0)
     # print("keys:", rc.keys())
-    content_route = str(Contents.objects.get(pk=vid).content_file)
+    content_route = str(Contents.objects.get(pk=vid).file)
     content_route = os.path.join(BASE_DIR, content_route)
     print(content_route)
     content_route_dict = {'content_route':content_route}
@@ -56,3 +56,17 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, 'relocations/adduser.html', {'form': form})
+
+
+def upload_file(request):
+    if request.method == 'POST':
+        print("여기임")
+        form = UploadFileForm(request.POST, request.FILES)
+        if form.is_valid():
+            print("111111111111")
+            form.save()
+            return HttpResponseRedirect('success/url/')
+        else:
+            print("22222")
+            form = UploadFileForm()
+            return render(request, 'relocations/upload.html', {'form': form})

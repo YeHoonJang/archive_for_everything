@@ -1,8 +1,17 @@
 from django import forms
 from django.contrib.auth.models import User
+from .models import UploadFile
 
 #파일업로드
-# class UploadFileForm(forms.Form):
+class UploadFileForm(forms.ModelForm):
+    class Meta:
+        model = UploadFile
+        fields = ['title', 'file']
+
+    def __init__(self, *args, **kwargs):
+        super(UploadFileForm, self).__init__(*args, **kwargs)
+        # self.files['file'].required = False
+
 
 #회원가입
 class UserForm(forms.ModelForm):

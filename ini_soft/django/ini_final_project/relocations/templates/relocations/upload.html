@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
+
+{% block content %}
+<form method="post" action="{% url 'upload' %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p>제목</p><p>{{ form.title }}</p>
+    <p>파일</p><p>{{ form.file }}</p>
+    <input type="submit" value="업로드"/>
+</form>
+{% endblock %}
