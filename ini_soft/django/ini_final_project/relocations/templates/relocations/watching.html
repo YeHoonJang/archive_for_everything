@@ -5,8 +5,8 @@
 <link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
 
 {% block content%}
-<video controls autoplay class="video" style="margin: 20px auto; width: 70%; text-align: center; display:block;">
-  <source src="file://{{ content_route }}" type="video/mp4">
+<video controls autoplay class="video" style="margin: 20px auto; width:80%; text-align: center; display:block;">
+  <source src="{{ content_route }}" type="video/mp4">
 </video><br/>
 <a href="{% url 'video_list' %}"><button style="float: right;" class="btn" id="back list">목록으로</button></a>
 {% endblock %}

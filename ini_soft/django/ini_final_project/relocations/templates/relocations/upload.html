@@ -4,10 +4,35 @@
 <link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
 
 {% block content %}
-<form method="post" action="{% url 'upload' %}" enctype="multipart/form-data">
-    {% csrf_token %}
-    <p>제목</p><p>{{ form.title }}</p>
-    <p>파일</p><p>{{ form.file }}</p>
-    <input type="submit" value="업로드"/>
-</form>
+<script>
+function verifFile() {
+    myForm = document.form;
+    myFile = myForm.file;
+    if (myFile.value.length == 0) {
+        alert('선택된 파일이 없습니다!\n파일을 선택해주세요');
+        return false;
+        window.location.href = "relocations/upload.html";
+    }
+}
+
+</script>
+<div class="out_frame">
+        <form name="form" method="post" enctype="multipart/form-data" onsubmit="return verifFile()">
+            {% csrf_token %}
+            <div>
+                제목<input type="text" name="title" class="form-control"><br/>
+                파일<input type="file" name="file" class="form-control">
+                <div style="text-align: center; margin:50px 0;">
+                    <button type="submit" class="btn">업로드</button>
+                    <a href="{% url 'main' %}"><button class="btn">홈으로</button></a>
+                    {% if uploaded_file_url %}
+                    <script type="text/javascript">
+                        alert('파일이 업로드가 완료 되었습니다!\n파일경로: {{ uploaded_file_url }}');
+                        window.location.href = "{% url 'upload' %}";
+                    </script>
+                    {% endif %}
+                </div>
+            </div>
+        </form>
+    </div>
 {% endblock %}

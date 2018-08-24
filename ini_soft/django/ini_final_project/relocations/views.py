@@ -1,10 +1,12 @@
 from django.shortcuts import render, redirect
 from django.views import generic
-from django.http import HttpResponse, HttpResponseRedirect
-from .forms import UserForm, UploadFileForm
+from django.http import HttpResponse
+from django.core.files.storage import FileSystemStorage
+from .forms import UserForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login
 
+import pymysql
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -59,14 +61,27 @@ def signup(request):
 
 
 def upload_file(request):
-    if request.method == 'POST':
-        print("여기임")
-        form = UploadFileForm(request.POST, request.FILES)
-        if form.is_valid():
-            print("111111111111")
-            form.save()
-            return HttpResponseRedirect('success/url/')
-        else:
-            print("22222")
-            form = UploadFileForm()
-            return render(request, 'relocations/upload.html', {'form': form})
+    if request.method == 'POST' and request.FILES['file']:
+        file = request.FILES['file']
+        title = request.POST['title']
+        print("file: ", file)
+        fs = FileSystemStorage()
+        print("fs: ", fs)
+        filename = fs.save(file.name, file)
+        print("filename: ", filename.split('.')[0])
+        uploaded_file_url = fs.url(filename)
+        print("url: ", uploaded_file_url)
+        author = 'me'
+        #pymysql 로 mysql 에 data insert
+        conn = pymysql.connect(host='localhost', user='root', password='ini6223', db='django_db', charset='utf8')
+        curs = conn.cursor()
+
+        sql = "INSERT INTO relocations_contents VALUES (null, '%s', '%s', '%s', now(), 0)" % (title, uploaded_file_url, author)
+
+        curs.execute(sql)
+        conn.commit()
+        curs.close()
+
+        return render(request, 'relocations/upload.html',
+                      {'uploaded_file_url':uploaded_file_url})
+    return render(request, 'relocations/upload.html')
