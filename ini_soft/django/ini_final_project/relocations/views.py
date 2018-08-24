@@ -38,18 +38,52 @@ def video_information(request):
     return render(request, 'relocations/video_manage.html', {'content_info_list': video_info_list})
 
 
-#redis에 data 어떻게 넣지???
+#실제 파일 relocate만 하면 돼!
+
 def video_count(request, vid):
     selected_video = Contents.objects.get(pk=vid)
     selected_video.counts += 1
     selected_video.save()
-    # rc = redis.Redis(host='192.168.10.37', port=6379, db=0)
-    # print("keys:", rc.keys())
-    content_route = str(Contents.objects.get(pk=vid).file)
-    content_route = os.path.join(BASE_DIR, content_route)
-    print(content_route)
+
+    current_level = get_current_level(vid)
+    target_level = check_video_level(selected_video.counts)
+
+    if current_level != target_level[0]:
+        selected_video.level = target_level[0]
+        selected_video.file = target_level[1]
+        selected_video.save()
+
+        conn = connect_mysql()
+        curs = conn.cursor()
+        sql = "UPDATE relocations_contents SET level='%s', file='%s' WHERE id=%s" % (target_level[0], target_level[1], vid)
+        curs.execute(sql)
+        conn.commit()
+
+    content_route = str(Contents.objects.get(pk=vid).file).split('/')[-1]
+    content_route = os.path.join(str(target_level[1]), content_route)
+
     content_route_dict = {'content_route':content_route}
     return render(request, 'relocations/watching.html', content_route_dict)
+
+def get_current_level(vid):
+    conn = connect_mysql()
+    curs = conn.cursor()
+    sql = "SELECT level FROM relocations_contents WHERE id=%s" % (vid)
+    curs.execute(sql)
+    return curs.fetchall()[0][0]
+
+def check_video_level(counts):
+    conn = connect_mysql()
+    curs = conn.cursor(pymysql.cursors.DictCursor)
+    curs.execute("SELECT * FROM level")
+    rows = curs.fetchall()
+    for row in rows:
+        if row['min_count'] <= counts <= row['max_count']:
+            target_level = row['level']
+            target_level_path = row['path']
+            print(target_level, target_level_path)
+            print([target_level, target_level_path])
+            return [target_level, target_level_path]
 
 
 def signup(request):
@@ -84,7 +118,7 @@ def upload_file(request):
         conn = connect_mysql()
         curs = conn.cursor()
 
-        sql = "INSERT INTO relocations_contents VALUES (null, '%s', '%s', '%s', now(), 0, 'uploaded')" % (title, uploaded_file_url, author)
+        sql = "INSERT INTO relocations_contents VALUES (null, '%s', '%s', '%s', now(), 0, 'uploaded', 'bronze')" % (title, uploaded_file_url, author)
 
         curs.execute(sql)
         conn.commit()
