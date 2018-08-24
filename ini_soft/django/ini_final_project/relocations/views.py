@@ -5,13 +5,12 @@ from django.core.files.storage import FileSystemStorage
 from .forms import UserForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login
+from .models import Contents
 
 import pymysql
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-from .models import Contents
 
 def main(request):
     return render(request, 'relocations/main.html')
@@ -21,15 +20,22 @@ class VideoList(generic.ListView):
     template_name = 'relocations/video_list.html'
     context_object_name = 'contents_list'
 
-    def get_queryset(self):
-        return Contents.objects.values()
+def video_list(request):
+    video_list_dict = Contents.objects.values()
+    video_list = []
+    for i in video_list_dict:
+        if i['status'] != 'deleted':
+            video_list.append(i)
+    return render(request, 'relocations/video_list.html', {'contents_list':video_list})
 
-class VideoInfo(generic.ListView):
-    template_name = 'relocations/video_info.html'
-    context_object_name = 'content_info_list'
 
-    def get_queryset(self):
-        return Contents.objects.values()
+def video_information(request):
+    video_info_dict = Contents.objects.values()
+    video_info_list = []
+    for i in video_info_dict:
+        if i['author'] == request.user.username and i['status'] != 'deleted':
+            video_info_list.append(i)
+    return render(request, 'relocations/video_manage.html', {'content_info_list': video_info_list})
 
 
 #redis에 data 어떻게 넣지???
@@ -60,23 +66,25 @@ def signup(request):
     return render(request, 'relocations/adduser.html', {'form': form})
 
 
+def connect_mysql():
+    return pymysql.connect(host='localhost', user='root', password='ini6223', db='django_db', charset='utf8')
+
+
 def upload_file(request):
     if request.method == 'POST' and request.FILES['file']:
         file = request.FILES['file']
         title = request.POST['title']
-        print("file: ", file)
         fs = FileSystemStorage()
-        print("fs: ", fs)
         filename = fs.save(file.name, file)
-        print("filename: ", filename.split('.')[0])
         uploaded_file_url = fs.url(filename)
-        print("url: ", uploaded_file_url)
-        author = 'me'
+        if request.user.is_authenticated:
+            author = request.user.username
+
         #pymysql 로 mysql 에 data insert
-        conn = pymysql.connect(host='localhost', user='root', password='ini6223', db='django_db', charset='utf8')
+        conn = connect_mysql()
         curs = conn.cursor()
 
-        sql = "INSERT INTO relocations_contents VALUES (null, '%s', '%s', '%s', now(), 0)" % (title, uploaded_file_url, author)
+        sql = "INSERT INTO relocations_contents VALUES (null, '%s', '%s', '%s', now(), 0, 'uploaded')" % (title, uploaded_file_url, author)
 
         curs.execute(sql)
         conn.commit()
@@ -85,3 +93,18 @@ def upload_file(request):
         return render(request, 'relocations/upload.html',
                       {'uploaded_file_url':uploaded_file_url})
     return render(request, 'relocations/upload.html')
+
+
+def delete_video(request, vid):
+    deleted_video = Contents.objects.get(pk=vid)
+    deleted_video.status = 'deleted'
+    deleted_video.save()
+
+    conn = connect_mysql()
+    curs = conn.cursor()
+
+    sql = "UPDATE relocations_contents SET upload_date=now() WHERE id=%s" % (vid)
+    curs.execute(sql)
+    conn.commit()
+
+    return video_information(request)

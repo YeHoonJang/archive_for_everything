@@ -8,3 +8,4 @@ class Contents(models.Model):
     author = models.CharField(max_length=50, default='anonymous')
     upload_date = models.DateTimeField('upload date', default=timezone.now())
     counts = models.IntegerField(default=0)
+    status = models.CharField(default='uploaded', max_length=10)

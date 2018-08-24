@@ -13,8 +13,14 @@ function verifFile() {
         return false;
         window.location.href = "relocations/upload.html";
     }
+    myForm = document.form;
+    myFileTitle = myForm.title;
+    if (myFileTitle.value.length == 0) {
+        alert('파일의 제목이 없습니다!\n제목을 입력해주세요');
+        return false;
+        window.location.href = "relocations/upload.html";
+    }
 }
-
 </script>
 <div class="out_frame">
         <form name="form" method="post" enctype="multipart/form-data" onsubmit="return verifFile()">
