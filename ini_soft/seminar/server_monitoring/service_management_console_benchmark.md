@@ -13,16 +13,17 @@
 #### 개요
 - 데이터를 수집하는 RRD Tool에 특화된 프론트 엔드
   > RRD Tool (Round Robin DB Tool):  
-  > 연속적으로 들어오는 데이터들을 고정된 양으로 나누어 DB에 저장한 후 그것을 CLI 또는 GUI 환경에서 보여주는 툴
+  > 연속적으로 들어오는 데이터들을 고정된 양으로 나누어 DB에 저장한 후 그것을 CLI 또는 GUI 환경에서 보여주는 툴  
+
 - 심플한 인터페이스 제공
 - 자바 스크립트를 사용한 그래프 기능 지원
-- 시스템 권한에 대한 미세한 설정 가능, 사용자 별 권한 부여 가능
+- 시스템 권한에 대한 미세한 설정 및 사용자 별 권한 부여 가능
 - 사용자의 권한에 따라 그래프 액세스 지정 가능
-- 운영체제의 스케줄러에서 일정 시간(기본 값 5분)마다 PING, SNMP를 통해 네트워크 스위치, 라우터 인터페이스를 polling 하여 서버의 정보를 DB에 저장하며 네트워크 트래픽을 모니터링
+- 운영체제의 스케쥴러에서 일정 시간(기본 값 5분)마다 PING, SNMP를 통해 네트워크 스위치, 라우터 인터페이스를 polling 하여 서버의 정보를 DB에 저장하며 네트워크 트래픽을 모니터링
 - PIA(Plugin Architecture) 설치 후 여러 플러그인을 통해 기능 확장 가능
 - 성능은 기존 스크립트를 사용할 때 보다 바이너리로 실행할 경우 속도가 4배 정도 증가(바이너리 기본제공 X, 소스를 받아와서 컴파일 해야함)
 - 비용
-  * 구매, 사용은 무료 / 유지 보수 유료
+  * 사용은 무료 / 유지 보수 유료
 - OS
   * Linux/Unix, Windows
 - DB
@@ -32,6 +33,7 @@
 - 서버의 과부하가 없어도 그래프가 작동을 중지
 - 시스템을 설치하거나 템플릿을 설정할 때 마다 웹 인터페이스에서 개별 설정
 - 정식 배포 버전이어도 소스 수정 없이 바로 사용 불가능한 플러그인이 일부 존재
+- 유지보수가
 - 지표를 수집하는 최소 주기가 5분 → 데이터 누락 불가피, 잘못된 통계
 - 임계치에 도달하여도 알림이 발생하지 않는 경우 존재
 - 디테일한 그래프 데이터의 경우 장기간 보존 불가
@@ -41,8 +43,9 @@
 #### Language
 *(Nginx, API star, Flask)*
 #### Dash Board
-#### Custom & Extension
-*(Elastic Search)*
+#### Custom & Extension *(ElasticSearch)*
+- 템플릿을 통해 ElasticSearch 과 연동 가능  
+  (ElasticSearch Memory Usage, JVM Heap Mem, JVM non Heap Mem, JVM Uptime, JVM Threads, Search requests, Indexing requests, Number of open files, CPU used by ElasticSearch, Indeces Storage Size, Docs in Indeces, Execution times, Segments, Merges, Gets Count, Gets Times)
 
 #### Usecase
 
