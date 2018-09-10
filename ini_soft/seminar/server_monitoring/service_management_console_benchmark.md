@@ -12,9 +12,8 @@
 ### 1. Cacti
 #### 개요
 - 데이터를 수집하는 RRD Tool에 특화된 프론트 엔드
-   > RRD Tool (Round Robin DB Tool)
+   > RRD Tool (Round Robin DB Tool):  
    > 연속적으로 들어오는 데이터들을 고정된 양으로 나누어 DB에 저장한 후 그것을 CLI 또는 GUI 환경에서 보여주는 툴
-
 
 - 심플한 인터페이스 제공
 - 자바 스크립트를 사용한 그래프 기능 지원
