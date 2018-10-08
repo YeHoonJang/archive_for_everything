@@ -5,11 +5,11 @@
 ## Project Process
 <img src="https://i.imgur.com/RYDOEwb.png"/>
 
-<!-- ### 2. Work Flow
-<img src="https://i.imgur.com/Yr4qzaf.png" width="70%"/> -->
+### 2. Work Flow
+<img src="https://i.imgur.com/Yr4qzaf.png" width="70%"/>
 
 
-<!-- #### 1.1. contents view counts
+#### 1.1. contents view counts
 -
 
 
@@ -27,7 +27,7 @@
 
 
 - content count가 업데이트 될 때 마다 올바른 level에 relocate 되도록 content에 대한 정보를 실시간으로 api 서버와 worker에 제공 (사실상, api 서버와 worker가 실시간으로 redis를 확인)
- -->
+
 
 ***************************
 ## DB 프로세스 (Process 2 & 8)
