@@ -11,14 +11,14 @@
 #### Docker Command
 ```bash
 $ docker run -d -p 3000:3000 --name=grafana --restart=always \
--e "GF_INSTALL_PLUGINS=grafana-piechart-panel" \
--e "GF_SMTP_ENABLED=true"\
--e "GF_SMTP_HOST=smtp.test.com:25"\
--e "GF_SMTP_FROM_ADDRESS=admin@grafana.localhost"\
--e "GF_SMTP_USER="\
--e "GF_SMTP_PASSWORD="\
--e "GF_SMTP_SKIP_VERIFY=true"\
---privileged grafana/grafana
+  -e "GF_INSTALL_PLUGINS=grafana-piechart-panel" \
+  -e "GF_SMTP_ENABLED=true"\
+  -e "GF_SMTP_HOST=smtp.test.com:25"\
+  -e "GF_SMTP_FROM_ADDRESS=admin@grafana.localhost"\
+  -e "GF_SMTP_USER="\
+  -e "GF_SMTP_PASSWORD="\
+  -e "GF_SMTP_SKIP_VERIFY=true"\
+  --privileged grafana/grafana
 
 ```
 
