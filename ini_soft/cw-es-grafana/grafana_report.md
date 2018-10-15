@@ -54,7 +54,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * 입력된 Access Key에 상응하는 계정의 CloudWatch가 리포팅 하는 모든 EC2/LoadBalancer의 지표를 모두 수집 → 사용자가 선택한 지표에 대하여 데이터가 없는 EC2/LoadBalancer의  InstanceID/LoadBalancerName는 표시하지 않음
     > **e.g.**  
     > CloudWatch Version2 EC2 Instance 중 <U>License_W_1</U> 인스턴스가 수집하지 않는 지표인 <U>CPUCreditBalance</U> 지표를 선택 후 <U>InstanceID</U>로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
-    > <img src="https://i.imgur.com/uf3emhT.png"/>
+    > <img src="https://i.imgur.com/Q2uzoWI.png?1"/>
 
 
 #### 제한 사항
