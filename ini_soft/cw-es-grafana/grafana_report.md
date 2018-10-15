@@ -18,7 +18,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   --privileged grafana/grafana
 ```
 #### Grafana
-- URI: [localhost:3000](http://localhost:3005)
+- URI: [`localhost:3000`](http://localhost:3005)
 - Admin Name: `admin`
 - Admin Password: `admin`
 
