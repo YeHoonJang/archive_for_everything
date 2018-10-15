@@ -20,22 +20,25 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 ```
 
 ### Run Grafana
-- URI: [`localhost:3000`](http://192.168.10.135:3005)
+- URI: [`localhost:3000`](http://localhost:3005)
 - Admin Name: `admin`
 - Admin Password: `admin`
 
 
 ## CloudWatch - Grafana
 ### Data Source
-- Type: CloudWatch
-- Auth Provider: Access & secret key
-  * Access key ID & Secret access key 는 AWS에서 부여 받은 Key 입력
--
+- Type: **CloudWatch**
+- Auth Provider: **Access & secret key**
+  * Access key ID & Secret access key 는 AWS에서 부여 받은 Key 정보 입력
+- Default Region: Instance가 있는 Region으로 선택 (Dash Board 그릴 때 다른 Region 선택 가능)
+- Custom Metrics: 사용자 지정 메트릭 이 **다시 봐!!!**
+- `Save & Test` 누른 후 `Data source is working` 이라는 문구가 뜨면 연동 성공
+
 #### 지원 기능
 #### 제한 사항
 #### 기타
 
-### Elasticsearch - Grafana
+## Elasticsearch - Grafana
 #### 지원 기능
 #### 제한 사항
 #### 기타
