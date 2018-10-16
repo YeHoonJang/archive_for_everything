@@ -52,9 +52,9 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 ### Dash Board 지원 기능
 - Dash Board에 생성할 수 있는 Graph 개수 제한 없음 (Loading 및 Dash Board 설정을 바꿀 시 적용 시간이 김)
 - Data Source에 대한 계정 정보만 입력하면 해당 계정으로 수집하는 데이터 모두 열람 및 사용 가능
-- Plug In
-  * pie chart panel plugin을 통한 ratio 연산
-  * Zabbix plugin을 통한 Zabbix-Grafana 연동
+- PlugIn
+  * Pie-Chart-Panel plugin을 통한 데이터 간 ratio 연산 가능
+  * Zabbix plugin을 통한 Zabbix-Grafana 연동 *(현재 Grafana가 Zabbix의 버전 캐치를 못해서 모니터링 불가)*
 - Panel
   * Graph, Singlestat, Table, Heatmap, Alert List 등
   * Axes, Legend, Display, Alert, Time Range 설정
@@ -68,9 +68,9 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 #### CloudWatch
 - Data Source Type에 맞게 Metric 지표 자동 쿼리
   * region, namespace, metric, Demensions 순
-  * 입력된 Access Key에 상응하는 계정의 CloudWatch가 리포팅 하는 모든 EC2/LoadBalancer의 지표를 모두 수집 → 사용자가 선택한 지표에 대하여 데이터가 없는 EC2/LoadBalancer의  InstanceID/LoadBalancerName는 표시하지 않음
+  * 입력된 Access Key에 상응하는 계정의 CloudWatch가 리포팅 하는 모든 EC2/LoadBalancer의 지표를 사용자에게 모두 표시 → 사용자가 선택한 지표에 대하여 데이터가 없는 EC2/LoadBalancer의 InstanceID/LoadBalancerName는 표시하지 않음
     > **e.g.**  
-    > CloudWatch Version2 EC2 Instance 중 <U>License_W_1</U> 인스턴스가 수집하지 않는 지표인 <U>CPUCreditBalance</U> 지표를 선택 후 <U>InstanceID</U>로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
+    > CloudWatch Version2 EC2 Instance 중 <u>License_W_1</u> 인스턴스가 수집하지 않는 지표인 <u>CPUCreditBalance</u> 지표를 선택 후 <u>InstanceID</u>로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
     > <img src="https://i.imgur.com/4ZofZ2f.png?2"/>
 
 #### Elasticsearch
