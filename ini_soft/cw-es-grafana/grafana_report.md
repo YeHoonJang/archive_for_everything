@@ -26,7 +26,8 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 
 
 ## Grafana
-### Data Source - CloudWatch
+### Data Source
+#### CloudWatch
 - Type: **CloudWatch**
 - CloudWatch details
   * Auth Provider: **Access & secret key** (Access key ID & Secret access key 는 AWS에서 부여 받은 Key 정보 입력)
@@ -36,7 +37,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 - Access Key ID와 Secret Key만 입력하면 해당 계정으로 수집하는 데이터 모두 열람 및 사용 가능
 - <img src="https://i.imgur.com/nODsguQ.png?2"/>
 
-### Data Source - Elasticsearch
+#### Elasticsearch
 - Type: **Elasticsearch**
 - HTTP
   * URL: 모니터링 할 Elasticsearch URI 입력, 반드시 Port 번호 입력
@@ -60,7 +61,8 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * Axes, Legend, Display, Alert, Time Range 설정
 - Snapshot 기능을 제공하여 Dash Board 백업 지원
 - Settings
-  * Dash Board refresh time 지정
+  * Dash Board refresh time custom → 0.5초까지 확인
+  * Monitoring time range custom → 1초까지 가능
   * Versions - Dash Board 저장 시점을 기록하여 버전 관리
   * Permissions - 사용자들에게 Admin, Editor, Viewer 역할을 부여하여 Dash Board 접근 권한 관리
   * JSON Model - 해당 Dash Board의 settings 관련 데이터는 json 형태로 제공
@@ -70,8 +72,12 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   > <img src="https://i.imgur.com/xzdq0mH.png"/>
 
   > **e.g.2.**  
-  > 하나의 LoadBalancer에 대한 모든 지표(HTTPcode_Target_2XX, 3XX, 4XX, 5XX 등)를  하나의 graph에 표시 가능
+  > 하나의 LoadBalancer에 대한 모든 지표(HTTPcode_Target_2XX, 3XX, 4XX, 5XX 등)를 하나의 graph에 표시 가능
   > <img src="https://i.imgur.com/WpVhG0K.png?1"/>
+
+  > **e.g.3.**  
+  > 하나의 Graph에 Type이 다른 Data Source 데이터 표시 가능
+  > <img src="https://i.imgur.com/9lhsI5z.png"/>
 
 
 #### CloudWatch
@@ -83,7 +89,9 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
     > <img src="https://i.imgur.com/4ZofZ2f.png?2"/>
 
 #### Elasticsearch
--
+- 아직까지는 없음 특별한 기능 없음
+
+
 ### 제한 사항
 - 지표 및 Key list 받아 오는 기능 없음
 - Alert에 대한 메일 및 API Notification 에러
@@ -96,12 +104,11 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 
 
 #### CloudWatch
-- CloudWatch의 데이터 수집 최소 단위가 1초 → Grafana는 그래프 그리는 최소 단위가 1분
+- CloudWatch 만의 제한 사항 아직까지 없음
+
 #### Elasticsearch
+- 데이터에 대한 range 설정이 어려움
+-
+- 자동 쿼리 기능 없음
 - 쿼리할 때 **" "** 쌍따옴표 인식 못함
 - key는 따옴표 없이, value는 type(int, str 등)에 따라 따옴표 사용
--
-
-### 기타
-#### CloudWatch
-#### Elasticsearch
