@@ -111,7 +111,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 #### Elasticsearch
 - 데이터에 대한 range 설정이 번거로움
 > **e.g.**  
-> status_code가 200일 경우와 아닌 경우만 확인 가능
+> status_code가 200일 경우와 아닌 경우만 확인 가능  
 > 4XX 데이터를 확인하고 싶으면 *400 to 499* 로 지정하거나 403, 404와 같이 지정
 
 - 자동 쿼리 기능 없음
