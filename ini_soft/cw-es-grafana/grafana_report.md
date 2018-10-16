@@ -64,24 +64,42 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * Versions - Dash Board 저장 시점을 기록하여 버전 관리
   * Permissions - 사용자들에게 Admin, Editor, Viewer 역할을 부여하여 Dash Board 접근 권한 관리
   * JSON Model - 해당 Dash Board의 settings 관련 데이터는 json 형태로 제공
+- Graph panel에서 여러 Data Source, 여러 지표 혼합 가능
+  > **e.g.1.**  
+  > CloudWatch version 1 과 version 2 에 있는 모든 EC2 instance에 대한 NetworkIn 정보 모두를 한 graph에 표시 가능
+  > <img src="https://i.imgur.com/xzdq0mH.png"/>
+
+  > **e.g.2.**  
+  > 하나의 LoadBalancer에 대한 모든 지표(HTTPcode_Target_2XX, 3XX, 4XX, 5XX 등)를  하나의 graph에 표시 가능
+  > <img src="https://i.imgur.com/WpVhG0K.png?1"/>
+
 
 #### CloudWatch
 - Data Source Type에 맞게 Metric 지표 자동 쿼리
   * region, namespace, metric, Demensions 순
   * 입력된 Access Key에 상응하는 계정의 CloudWatch가 리포팅 하는 모든 EC2/LoadBalancer의 지표를 사용자에게 모두 표시 → 사용자가 선택한 지표에 대하여 데이터가 없는 EC2/LoadBalancer의 InstanceID/LoadBalancerName는 표시하지 않음
     > **e.g.**  
-    > CloudWatch Version2 EC2 Instance 중 <u>License_W_1</u> 인스턴스가 수집하지 않는 지표인 <u>CPUCreditBalance</u> 지표를 선택 후 <u>InstanceID</u>로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
+    > CloudWatch Version2 EC2 Instance 중 License_W_1 인스턴스가 수집하지 않는 지표인 CPUCreditBalance 지표를 선택 후 InstanceID로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
     > <img src="https://i.imgur.com/4ZofZ2f.png?2"/>
 
 #### Elasticsearch
 -
 ### 제한 사항
-- key list 받아 오는 기능 없음
-- Alert에 대한 메일 Alert 기능이 작동 X
--
+- 지표 및 Key list 받아 오는 기능 없음
+- Alert에 대한 메일 및 API Notification 에러
+  * SMPT 관련 이슈
+    + Docker `-v` 옵션: 로컬에서 grafana.ini 파일 수정하는 방법 시도했으나 볼륨 설정 옵션을 넣으면 에러
+    + Docker `-e` 옵션: SMPT 값 변경 후 Grafana에서는 메일 발신 완료 뜸 → 알림 메일 수신 안됨
+  * Grafana Notification Service
+    + Email: Send Test Failed → SMPT 이슈로 추정
+    + Slack 연동: Grafana에서 Slack API App Token 입력해도 Send Test Failed
+
+
 #### CloudWatch
--
+- CloudWatch의 데이터 수집 최소 단위가 1초 → Grafana는 그래프 그리는 최소 단위가 1분
 #### Elasticsearch
+- 쿼리할 때 **" "** 쌍따옴표 인식 못함
+- key는 따옴표 없이, value는 type(int, str 등)에 따라 따옴표 사용
 -
 
 ### 기타
