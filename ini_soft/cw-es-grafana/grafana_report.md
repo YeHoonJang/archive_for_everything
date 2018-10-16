@@ -32,7 +32,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 - CloudWatch details
   * Auth Provider: **Access & secret key** (Access key ID & Secret access key 는 AWS에서 부여 받은 Key 정보 입력)
   * Default Region: 모니터링 할 Instance가 있는 Region으로 선택 (Dash Board 그릴 때 다른 Region 선택 가능)
-  * Custom Metrics: 사용자 지정 메트릭 **다시 봐!!!**
+  <!-- * Custom Metrics: 사용자 지정 메트릭 **다시 봐!!!** -->
 - `Save & Test` 버튼 누른 후 **Data source is working** 이라는 문구가 뜨면 연동 성공
 - <img src="https://i.imgur.com/nODsguQ.png?2"/>
 
@@ -45,7 +45,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * Pattern: index의 날짜 pattern에 맞게 선택
   * Time field name: 로그의 time field 입력 (default는 \@timestamp)
   * Version: 모니터링 하는 Elasticsearch version (default는 5.x)
-  * Min time interval: 데이터 수집 주기 (default는 10s) **!!이거 최소 주기 뭔지 찾아보기**
+  * Min time interval: 데이터 수집 주기 (default는 10s)
 - `Save & Test` 버튼 누른 후 **Index OK. Time field name OK.** 이라는 문구가 뜨면 연동 성공
 - <img src="https://i.imgur.com/5btpI9j.png"/>
 
