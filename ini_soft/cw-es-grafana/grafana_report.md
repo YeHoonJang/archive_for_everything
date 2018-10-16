@@ -109,8 +109,11 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 - CloudWatch 만의 제한 사항 아직까지 없음
 
 #### Elasticsearch
-- 데이터에 대한 range 설정이 어려움
--
+- 데이터에 대한 range 설정이 번거로움
+> **e.g.**  
+> status_code가 200일 경우와 아닌 경우만 확인 가능
+> 4XX 데이터를 확인하고 싶으면 *400 to 499* 로 지정하거나 403, 404와 같이 지정
+
 - 자동 쿼리 기능 없음
 - 쿼리할 때 **" "** 쌍따옴표 인식 못함
 - key는 따옴표 없이, value는 type(int, str 등)에 따라 따옴표 사용
