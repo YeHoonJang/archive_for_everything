@@ -34,7 +34,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * Custom Metrics: 사용자 지정 메트릭 **다시 봐!!!**
 - `Save & Test` 버튼 누른 후 **Data source is working** 이라는 문구가 뜨면 연동 성공
 - Access Key ID와 Secret Key만 입력하면 해당 계정으로 수집하는 데이터 모두 열람 및 사용 가능
-- <img src="https://i.imgur.com/46DOsh4.png?1"/>
+- <img src="https://i.imgur.com/nODsguQ.png?2"/>
 
 ### Data Source - Elasticsearch
 - Type: **Elasticsearch**
@@ -47,7 +47,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * Version: 모니터링 하는 Elasticsearch version (default는 5.x)
   * Min time interval: 데이터 수집 주기 (default는 10s) **!!이거 최소 주기 뭔지 찾아보기**
 - `Save & Test` 버튼 누른 후 **Index OK. Time field name OK.** 이라는 문구가 뜨면 연동 성공
-- <img src="https://i.imgur.com/yLtE45E.png?1"/>
+- <img src="https://i.imgur.com/5btpI9j.png"/>
 
 ### Dash Board 지원 기능
 - Dash Board에 생성할 수 있는 Graph 개수 제한 없음 (Loading 및 Dash Board 설정을 바꿀 시 적용 시간이 김)
@@ -71,7 +71,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * 입력된 Access Key에 상응하는 계정의 CloudWatch가 리포팅 하는 모든 EC2/LoadBalancer의 지표를 모두 수집 → 사용자가 선택한 지표에 대하여 데이터가 없는 EC2/LoadBalancer의  InstanceID/LoadBalancerName는 표시하지 않음
     > **e.g.**  
     > CloudWatch Version2 EC2 Instance 중 <U>License_W_1</U> 인스턴스가 수집하지 않는 지표인 <U>CPUCreditBalance</U> 지표를 선택 후 <U>InstanceID</U>로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
-    > <img src="https://i.imgur.com/lVmicxs.png"/>
+    > <img src="https://i.imgur.com/4ZofZ2f.png?2"/>
 
 #### Elasticsearch
 -
