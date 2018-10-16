@@ -50,6 +50,21 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 - <img src="https://i.imgur.com/yLtE45E.png?1"/>
 
 ### Dash Board 지원 기능
+- Dash Board에 생성할 수 있는 Graph 개수 제한 없음 (Loading 및 Dash Board 설정을 바꿀 시 적용 시간이 김)
+- Data Source에 대한 계정 정보만 입력하면 해당 계정으로 수집하는 데이터 모두 열람 및 사용 가능
+- Plug In
+  * pie chart panel plugin을 통한 ratio 연산
+  * Zabbix plugin을 통한 Zabbix-Grafana 연동
+- Panel
+  * Graph, Singlestat, Table, Heatmap, Alert List 등
+  * Axes, Legend, Display, Alert, Time Range 설정
+- Snapshot 기능을 제공하여 Dash Board 백업 지원
+- Settings
+  * Dash Board refresh time 지정
+  * Versions - Dash Board 저장 시점을 기록하여 버전 관리
+  * Permissions - 사용자들에게 Admin, Editor, Viewer 역할을 부여하여 Dash Board 접근 권한 관리
+  * JSON Model - 해당 Dash Board의 settings 관련 데이터는 json 형태로 제공
+
 #### CloudWatch
 - Data Source Type에 맞게 Metric 지표 자동 쿼리
   * region, namespace, metric, Demensions 순
@@ -58,10 +73,17 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
     > CloudWatch Version2 EC2 Instance 중 <U>License_W_1</U> 인스턴스가 수집하지 않는 지표인 <U>CPUCreditBalance</U> 지표를 선택 후 <U>InstanceID</U>로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
     > <img src="https://i.imgur.com/lVmicxs.png"/>
 
-#### 제한 사항
-### 기타
+#### Elasticsearch
+-
+### 제한 사항
+- key list 받아 오는 기능 없음
+- Alert에 대한 메일 Alert 기능이 작동 X
+-
+#### CloudWatch
+-
+#### Elasticsearch
+-
 
-## Elasticsearch - Grafana
-#### 지원 기능
-#### 제한 사항
-#### 기타
+### 기타
+#### CloudWatch
+#### Elasticsearch
