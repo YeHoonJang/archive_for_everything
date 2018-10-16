@@ -34,13 +34,12 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * Default Region: 모니터링 할 Instance가 있는 Region으로 선택 (Dash Board 그릴 때 다른 Region 선택 가능)
   * Custom Metrics: 사용자 지정 메트릭 **다시 봐!!!**
 - `Save & Test` 버튼 누른 후 **Data source is working** 이라는 문구가 뜨면 연동 성공
-- Access Key ID와 Secret Key만 입력하면 해당 계정으로 수집하는 데이터 모두 열람 및 사용 가능
 - <img src="https://i.imgur.com/nODsguQ.png?2"/>
 
 #### Elasticsearch
 - Type: **Elasticsearch**
 - HTTP
-  * URL: 모니터링 할 Elasticsearch URI 입력, 반드시 Port 번호 입력
+  * URL: 모니터링 할 Elasticsearch URI 입력, 반드시 Port 입력
 - Elasticsearch details
   * Index name: 모니터링 할 index 입력
   * Pattern: index의 날짜 pattern에 맞게 선택
@@ -60,7 +59,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   * Graph, Singlestat, Table, Heatmap, Alert List 등
   * Axes, Legend, Display, Alert, Time Range 설정
 - Snapshot 기능을 제공하여 Dash Board 백업 지원
-- Settings
+- Dash Board Settings
   * Dash Board refresh time custom → 0.5초까지 확인
   * Monitoring time range custom → 1초까지 가능
   * Versions - Dash Board 저장 시점을 기록하여 버전 관리
@@ -79,6 +78,8 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
   > 하나의 Graph에 Type이 다른 Data Source 데이터 표시 가능
   > <img src="https://i.imgur.com/9lhsI5z.png"/>
 
+- Playlist를 통해 기존에 있던 여러 Dash Board를 묶어서 한번에 모니터링 가능
+
 
 #### CloudWatch
 - Data Source Type에 맞게 Metric 지표 자동 쿼리
@@ -93,6 +94,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 
 
 ### 제한 사항
+- Docker 기반이기 때문에 플러그인 설치가 Container를 만들 때만 가능
 - 지표 및 Key list 받아 오는 기능 없음
 - Alert에 대한 메일 및 API Notification 에러
   * SMPT 관련 이슈
@@ -112,3 +114,7 @@ $ docker run -d -p 3000:3000 --name=grafana --restart=always \
 - 자동 쿼리 기능 없음
 - 쿼리할 때 **" "** 쌍따옴표 인식 못함
 - key는 따옴표 없이, value는 type(int, str 등)에 따라 따옴표 사용
+
+### 기타 Grafana 기능
+- Alert Rules와 Notification channel에서 설정된 Alert 목록 확인
+- Sever Admin 탭에서 사용자 추가 가능
