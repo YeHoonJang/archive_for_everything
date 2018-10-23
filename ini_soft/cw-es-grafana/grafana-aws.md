@@ -14,22 +14,23 @@
   * Graph, Singlestat, Table, Heatmap, Alert List 등
   * 각 패널 편집 모드에서 Axes, Legend, Display, Alert, Time Range 설정 가능
 - Row 패널을 활용하여 Dash Board 내에 카테고리 생성 및 접기 가능
-- SingleStat, Table 패널에서 Thredhold 값과 색상 설정
+- SingleStat, Table 패널에서 thresholds 와 색상 설정
   > Grafana "Alert 기능 추후 버전에 추가 예정"
 
+- Alert list
 - PlugIn
   * Clock 패널을 이용하여 시계와 CountDown 가능
   * Pie Chart로 Ratio 표현 가능
-- Alert list
+
 - Graph panel에서 여러 Data Source, 여러 지표 혼합 가능
 
   > **e.g.1.**  
-  > 서로 다른 계정과 다른 region에 있는 같은 OS의 NetworkIn 정보 모두를 한 graph에 표시 가능
-  > <img src="https://i.imgur.com/XDkmCOy.png"/>
-
-  > **e.g.2.**  
   > 하나의 LoadBalancer에 대한 모든 지표(HTTPcode_Target_2XX, 3XX, 4XX, 5XX 등)를 하나의 graph에 표시 가능
   > <img src="https://i.imgur.com/y23Hs0g.png"/>
+
+  > **e.g.2.**  
+  > 서로 다른 계정과 다른 region에 있는 같은 OS의 NetworkIn 정보 모두를 한 graph에 표시 가능
+  > <img src="https://i.imgur.com/XDkmCOy.png"/>
 
 - Playlist를 통해 기존에 있던 여러 Dash Board를 묶어서 한번에 모니터링 가능 - 설정한 time interval대로 자동 넘김
 - Alerting - Notification
