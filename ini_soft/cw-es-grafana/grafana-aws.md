@@ -32,10 +32,11 @@
   > 서로 다른 계정과 다른 region에 있는 같은 OS의 NetworkIn 정보 모두를 한 graph에 표시 가능
   > <img src="https://i.imgur.com/XDkmCOy.png"/>
 
-- Playlist를 통해 기존에 있던 여러 Dash Board를 묶어서 한번에 모니터링 가능 - 설정한 time interval대로 자동 넘김
+- Playlist를 통해 기존에 있던 여러 Dash Board를 묶어서 한번에 모니터링 가능 - 설정한 time interval 대로 자동 넘김
 - Alerting - Notification
   * e-mail
    <img src="https://i.imgur.com/A6Urygk.png"/>
+   
   * LINE Alert
     <img src="https://i.imgur.com/lG0Tbsl.png"/>
 
