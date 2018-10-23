@@ -10,16 +10,19 @@
 - <img src="https://i.imgur.com/nODsguQ.png?2"/>
 
 ### Grafana - AWS Dash Board
-- **Panel**
+- Panel
   * Graph, Singlestat, Table, Heatmap, Alert List 등
   * 각 패널 편집 모드에서 Axes, Legend, Display, Alert, Time Range 설정 가능
 - Row 패널을 활용하여 Dash Board 내에 카테고리 생성 및 접기 가능
-- **SingleStat** 패널에서 Thredhold 값과 색상 설정
+- SingleStat, Table 패널에서 Thredhold 값과 색상 설정
+  > Grafana: Alert 기능 추후 버전에 추가 예정
+
 - PlugIn
   * Clock 패널을 이용하여 시계와 CountDown 가능
   * Pie Chart로 Ratio 표현 가능
 - Alert list
 - Graph panel에서 여러 Data Source, 여러 지표 혼합 가능
+
   > **e.g.1.**  
   > 서로 다른 계정과 다른 region에 있는 같은 OS의 NetworkIn 정보 모두를 한 graph에 표시 가능
   > <img src="https://i.imgur.com/XDkmCOy.png"/>
@@ -29,6 +32,13 @@
   > <img src="https://i.imgur.com/y23Hs0g.png"/>
 
 - Playlist를 통해 기존에 있던 여러 Dash Board를 묶어서 한번에 모니터링 가능 - 설정한 time interval대로 자동 넘김
+- Alerting - Notification
+  * e-mail
+   <img src="https://i.imgur.com/A6Urygk.png"/>
+  * LINE Alert
+    <img src="https://i.imgur.com/lG0Tbsl.png"/>
+
+
 
 ### 그 외 Dash Board 지원 기능
 - Dash Board에 생성할 수 있는 Graph 개수 제한 없음 (Loading 및 Dash Board 설정을 바꿀 시 적용 시간이 김)
@@ -44,10 +54,7 @@
 #### CloudWatch
 - Data Source Type에 맞게 Metric 지표 자동 쿼리
   * region, namespace, metric, Demensions 순
-  * 입력된 Access Key에 상응하는 계정의 CloudWatch가 리포팅 하는 모든 EC2/LoadBalancer의 지표를 사용자에게 모두 표시 → 사용자가 선택한 지표에 대하여 데이터가 없는 EC2/LoadBalancer의 InstanceID/LoadBalancerName는 표시하지 않음
-    > **e.g.**  
-    > CloudWatch Version2 EC2 Instance 중 License_W_1 인스턴스가 수집하지 않는 지표인 CPUCreditBalance 지표를 선택 후 InstanceID로 검색하면 License_W_1의 InstanceID(i-09182f05b3e2bf0d3)를 표시하지 않음
-    > <img src="https://i.imgur.com/4ZofZ2f.png?2"/>
+
 
 ### 제한 사항
 - 지표 list를 따로 보여주는 기능 없음
