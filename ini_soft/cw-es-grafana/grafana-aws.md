@@ -35,10 +35,10 @@
 - Playlist를 통해 기존에 있던 여러 Dash Board를 묶어서 한번에 모니터링 가능 - 설정한 time interval 대로 자동 넘김
 - Alerting - Notification
   * e-mail
-   <img src="https://i.imgur.com/A6Urygk.png"/>
-   
+  <img src="https://i.imgur.com/A6Urygk.png"/>  
+
   * LINE Alert
-    <img src="https://i.imgur.com/lG0Tbsl.png"/>
+  <img src="https://i.imgur.com/lG0Tbsl.png"/>
 
 
 
