@@ -15,7 +15,7 @@
   * 각 패널 편집 모드에서 Axes, Legend, Display, Alert, Time Range 설정 가능
 - Row 패널을 활용하여 Dash Board 내에 카테고리 생성 및 접기 가능
 - SingleStat, Table 패널에서 Thredhold 값과 색상 설정
-  > Grafana: Alert 기능 추후 버전에 추가 예정
+  > Grafana "Alert 기능 추후 버전에 추가 예정"
 
 - PlugIn
   * Clock 패널을 이용하여 시계와 CountDown 가능
