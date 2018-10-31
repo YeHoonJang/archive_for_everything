@@ -30,7 +30,6 @@ def webhook():
     for i in parameter[1].split("&"):
         if "orgId" in i:
             parm_str = "%s%s&"%(parm_str,i)
-
         if "panelId" in i:
             panel_id = i.split("=")[-1]
             parm_str = "%s%s&"%(parm_str,i)
@@ -38,15 +37,20 @@ def webhook():
     auth_key = "Bearer eyJrIjoiNjdKNGtHS2J0Ym9pZlVlOGloNG5yMnpzaUtTUmZGR1oiLCJuIjoicG5nLXRlc3QiLCJpZCI6MX0="
     header = {"Authorization" : auth_key,"Accept":"application/json", "Content-Type":"application/json"}
     timestamp = int(time.mktime(datetime.datetime.now().timetuple()))
+
+    #url_list[4] == dashboardId
+    #page == dashboardName
     request_png_url = "%s/render/d-solo/%s/%s?%sto=%d&from=%d&width=1000&height=500&tz=Asia\Seoul.png"%(url,url_list[4],page,parm_str,timestamp*1000,(timestamp-7200)*1000)
     request_png_url = request_png_url.replace("\\","%2F")
+    print(request_png_url)
     # logging.info(request_png_url)
     png_name = "%s-%s.png"%(url_list[4], panel_id)
     # logging.info(png_name)
     r = requests.get(request_png_url, headers=header)
-    # with open("/usr/share/nginx/html/%s"%png_name,"w+") as f:
-    #     for chunk in r.iter_content(1024):
-    #         f.write(chunk)
+    with open("/usr/share/nginx/html/%s"%png_name,"wb") as f:
+        response = requests.get(request_png_url, stream=True)
+        for chunk in response.iter_content(1024):
+            f.write(chunk)
     message["imageUrl"] = "https://license-eval.drmkeyserver.com/%s"%(png_name)
     # logging.info("get_png")
     text_msg = {
@@ -109,4 +113,4 @@ def webhook():
     return "200"
 
 if __name__ == "__main__":
-    app.run(host='192.168.10.135', port='1005', debug=True)
+    app.run(host='192.168.10.135', port='5005', debug=True)
