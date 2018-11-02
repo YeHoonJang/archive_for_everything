@@ -29,6 +29,10 @@ def query():
             ]
         }
     ]
+
+    print("req:", req['targets'],"\n")
+    print("req['targets'][0]:", req['targets'][0], "\n")
+    print("req['targets'][0]['target']", req['targets'][0]['target'], "\n")
     return jsonify(data)
 
 if __name__ == '__main__':
