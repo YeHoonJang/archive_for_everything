@@ -7,7 +7,7 @@ app = Flask(__name__)
 def health_check():
     return 'This datasource is healhty.'
 
-@app.route('/search', method=['POST'])
+@app.route('/search', methods=['POST'])
 def search():
     return jsonify(['my_series', 'another_series'])
 
