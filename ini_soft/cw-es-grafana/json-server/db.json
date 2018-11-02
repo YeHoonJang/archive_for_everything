@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "search": [
+    {
+      "id": 1,
+      "target": "text",
+      "text": "hello, world!"
+    },
+    {
+      "target": "What is the TARGET??????",
+      "id": 2
+    },
+    {
+      "target": "",
+      "id": 3
+    },
+    {
+      "target": "",
+      "id": 4
+    },
+    {
+      "target": "",
+      "id": 5
+    },
+    {
+      "target": "",
+      "id": 6
+    },
+    {
+      "target": "",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
