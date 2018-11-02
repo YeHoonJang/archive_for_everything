@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from calendar import timegm
 from datetime import datetime
-import __strptime
+import _strptime
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
