@@ -3,6 +3,10 @@
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
+def convert_to_time_ms(timestamp):
+    return 1000 * timegm(datetime.strptime(timestamp, '%Y-%m-%dT%H:%M:%S.%fZ').timetuple())
+
+
 @app.route('/')
 def health_check():
     return 'This datasource is healhty.'
