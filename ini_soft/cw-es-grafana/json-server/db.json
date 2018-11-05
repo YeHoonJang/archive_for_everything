@@ -1,9 +1,37 @@
 {
-  "search" : [
-    {"target": "es-tets",
-    "id": 1},
-    {"target": "employess",
-    "id": 2}
+  "search": [
+    {
+      "target": "es-test",
+      "id": 1
+    },
+    {
+      "target": "employess",
+      "id": 2
+    },
+    {
+      "target": "",
+      "id": 3
+    },
+    {
+      "target": "",
+      "id": 4
+    },
+    {
+      "target": "",
+      "id": 5
+    },
+    {
+      "target": "",
+      "id": 6
+    },
+    {
+      "target": "",
+      "id": 7
+    },
+    {
+      "target": "",
+      "id": 8
+    }
   ],
   "employees": [
     {

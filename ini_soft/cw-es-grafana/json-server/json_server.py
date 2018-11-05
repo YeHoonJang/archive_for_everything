@@ -13,11 +13,11 @@ def convert_to_time_ms(timestamp):
 def health_check():
     return 'This datasource is healhty.'
 
-@app.route('/search', methods=['POST'])
+@app.route('/search', methods=['POST','GET'])
 def search():
     return jsonify(['my_series', 'another_series'])
 
-@app.route('/query', methods=['POST'])
+@app.route('/query', methods=['POST','GET'])
 def query():
     req = request.get_json()
     data = [
@@ -33,6 +33,7 @@ def query():
     print("req:", req['targets'],"\n")
     print("req['targets'][0]:", req['targets'][0], "\n")
     print("req['targets'][0]['target']", req['targets'][0]['target'], "\n")
+    print(data)
     return jsonify(data)
 # 
 # @app.route('/annotations', methods=['POST'])
