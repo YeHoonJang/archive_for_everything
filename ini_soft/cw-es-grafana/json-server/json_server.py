@@ -34,20 +34,20 @@ def query():
     print("req['targets'][0]:", req['targets'][0], "\n")
     print("req['targets'][0]['target']", req['targets'][0]['target'], "\n")
     return jsonify(data)
-
-@app.route('/annotations', methods=['POST'])
-def annotations():
-    req = request.get_json()
-    data = [
-        {
-            "annotation": 'This is the annotation',
-            "time": (convert_to_time_ms(req['range']['from']) + convert_to_time_ms(req['range']['to'])) / 2,
-            "title": 'Deployment notes',
-            "tags": ['tag1', 'tag2'],
-            "text": 'Hm, something went wrong...'
-        }
-    ]
-    return jsonify(data)
+# 
+# @app.route('/annotations', methods=['POST'])
+# def annotations():
+#     req = request.get_json()
+#     data = [
+#         {
+#             "annotation": 'This is the annotation',
+#             "time": (convert_to_time_ms(req['range']['from']) + convert_to_time_ms(req['range']['to'])) / 2,
+#             "title": 'Deployment notes',
+#             "tags": ['tag1', 'tag2'],
+#             "text": 'Hm, something went wrong...'
+#         }
+#     ]
+#     return jsonify(data)
 
 
 @app.route('/tag-keys', methods=['POST'])
