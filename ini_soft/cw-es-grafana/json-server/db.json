@@ -1,6 +1,6 @@
 {
   "search" : [
-    {"target": "es-tets",
+    {"target": "es-test",
     "id": 1},
     {"target": "employess",
     "id": 2}
