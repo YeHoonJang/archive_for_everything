@@ -8,7 +8,14 @@
 > **Time Range 설정**
 > <img src="https://i.imgur.com/DRVunjL.png?1"/>
 
-- Graph 위에서 특정 영역을 드래그 하면 Time Range가 드래그 한 영역으로 변경되며 이 때 대시 보드 전체 time range 가 변한다.
+- Graph 위에서 특정 영역을 드래그 하면 time range가 드래그 한 영역으로 변경되며 이 때 대시 보드 전체 time range 가 변한다.
+
+> **드래그 하여 Time Range 선택**  
+> - 영역 선택  
+> <img src="https://i.imgur.com/doyN7Hn.png?1"/>
+> - 결과  
+> <img src="https://i.imgur.com/omH5EVQ.png?1"/>
+
 
 ### 2. Graph
 - 그래프 위에 마우스를 올리면 해당 시점의 수치를 확인할 수 있다.
@@ -29,16 +36,60 @@
 - 오른쪽 테이블은 각 서버의 현재 여유 디스크 공간의 백분율 값이 표시된다.
 -  
 
+> **Win Free Disk**
+> <img src="https://i.imgur.com/6y8DeMJ.png"/>
 
 
 
 ## DB Free Disk
 
+> **DB Free Disk**
+> <img src="https://i.imgur.com/jje99OB.png"/>
+
+
 ## V1 DB Disk Usage
+
+> **V1 DB Disk Usage**
+> <img src="https://i.imgur.com/HMPC0L6.png"/>
+
+
 ## ELB Status 200
+
+> **ELB Status 200**
+> <img src="https://i.imgur.com/ZWZlJR9.png"/>
+
+
 ## ELB Status Error 500
+
+> **ELB Status Error 500**
+> <img src="https://i.imgur.com/C4nA2rI.png"/>
+
+
 ## ELB Status Error 400
+
+> **ELB Status Error 400**
+> <img src="https://i.imgur.com/Vlgwl9q.png"/>
+
+
 ## Instance CPU Usage
+
+> **Instance CPU Usage**
+> <img src="https://i.imgur.com/QCilU90.png"/>
+
+
 ## HBO EU Network IN/OUT
+
+> **HBO EU Network IN/OUT**
+> <img src="https://i.imgur.com/qidlFPq.png"/>
+
+
 ## Tokyo Proxy Network IN/OUT
+
+> **Tokyo Proxy Network IN/OUT**
+> <img src="https://i.imgur.com/Rga0MyH.png"/>
+
+
 ## ELB-Network
+
+> **ELB-Network**
+> <img src="https://i.imgur.com/dw5HoIK.png"/>
