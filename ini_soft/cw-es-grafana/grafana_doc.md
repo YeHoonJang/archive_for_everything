@@ -35,62 +35,61 @@
 ### 3. Win Free Disk
 - 라이센스 서버의 현재 여유 디스크 공간을 백분율로 나타낸 그래프이다.
 - 오른쪽 테이블은 각 서버의 현재 여유 디스크 공간의 백분율 값이 표시된다.
--  
 
 > **Win Free Disk**
 > <img src="https://i.imgur.com/6y8DeMJ.png"/>
 
 
 
-## DB Free Disk
-
+## 4. DB Free Disk
+-
 > **DB Free Disk**
 > <img src="https://i.imgur.com/jje99OB.png"/>
 
 
-## V1 DB Disk Usage
+## 5. V1 DB Disk Usage
 
 > **V1 DB Disk Usage**  
 > <img src="https://i.imgur.com/HMPC0L6.png"/>
 
 
-## ELB Status 200
+## 6. ELB Status 200
 
 > **ELB Status 200**
 > <img src="https://i.imgur.com/ZWZlJR9.png"/>
 
 
-## ELB Status Error 500
+## 7. ELB Status Error 500
 
 > **ELB Status Error 500**
 > <img src="https://i.imgur.com/C4nA2rI.png"/>
 
 
-## ELB Status Error 400
+## 8. ELB Status Error 400
 
 > **ELB Status Error 400**
 > <img src="https://i.imgur.com/Vlgwl9q.png"/>
 
 
-## Instance CPU Usage
+## 9. Instance CPU Usage
 
 > **Instance CPU Usage**
 > <img src="https://i.imgur.com/QCilU90.png"/>
 
 
-## HBO EU Network IN/OUT
+## 10. HBO EU Network IN/OUT
 
 > **HBO EU Network IN/OUT**
 > <img src="https://i.imgur.com/qidlFPq.png"/>
 
 
-## Tokyo Proxy Network IN/OUT
+## 11. Tokyo Proxy Network IN/OUT
 
 > **Tokyo Proxy Network IN/OUT**
 > <img src="https://i.imgur.com/Rga0MyH.png"/>
 
 
-## ELB-Network
+## 12. ELB-Network
 
 > **ELB-Network**
 > <img src="https://i.imgur.com/dw5HoIK.png"/>
