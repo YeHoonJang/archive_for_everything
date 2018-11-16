@@ -50,7 +50,7 @@
 
 ## V1 DB Disk Usage
 
-> **V1 DB Disk Usage**
+> **V1 DB Disk Usage**  
 > <img src="https://i.imgur.com/HMPC0L6.png"/>
 
 
