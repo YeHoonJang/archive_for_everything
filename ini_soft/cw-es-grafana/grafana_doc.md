@@ -12,7 +12,7 @@
 
 > **드래그 하여 Time Range 선택**  
 > - 영역 선택  
-> <img src="https://i.imgur.com/doyN7Hn.png?1"/>
+> <img src="https://i.imgur.com/doyN7Hn.png?1"/>  
 > - 결과  
 > <img src="https://i.imgur.com/omH5EVQ.png?1"/>
 
