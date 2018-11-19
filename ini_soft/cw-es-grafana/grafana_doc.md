@@ -31,11 +31,18 @@
 > **특정 범주 그래프**
 > <img src="https://i.imgur.com/qWCOmJ5.png?1"/>
 
+- alert을 설정한 그래프는 alert 상황이 발생하면 그래프 제목 앞 하트의 색이 빨강으로 변하며, 그래프 주변이 붉게 깜빡거린다.
+- Zabbix 데이터 소스 플러그인은 alert 기능을 지원하지 않아 thresholds를 설정하여 대체하였다.  
+  *e.g., Win Free Disk, DB Free Disk, V1 DB Disk Usage*
+
+> **그래프 Alert**
+> <img src="https://i.imgur.com/b4duleC.png"/>
+
 
 ### 3. Win Free Disk
 - 라이센스 서버의 현재 여유 디스크 공간을 백분율로 나타낸 그래프이다.
 - 오른쪽 테이블은 각 서버의 현재 여유 디스크 공간의 백분율 값이 표시된다.
-
+-
 > **Win Free Disk**
 > <img src="https://i.imgur.com/6y8DeMJ.png"/>
 
