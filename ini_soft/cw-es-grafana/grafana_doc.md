@@ -35,7 +35,7 @@
 - Zabbix 데이터 소스 플러그인은 alert 기능을 지원하지 않아 thresholds를 설정하여 대체하였다.  
   *e.g., Win Free Disk, DB Free Disk, V1 DB Disk Usage*
 
-> **그래프 Alert**
+> **그래프 Alert**  
 > <img src="https://i.imgur.com/b4duleC.png"/>
 
 
