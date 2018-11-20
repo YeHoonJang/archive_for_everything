@@ -36,7 +36,7 @@
   *e.g., Win Free Disk, DB Free Disk, V1 DB Disk Usage*
 
 > **그래프 Alert**  
-> <img src="https://i.imgur.com/b4duleC.png"/>
+> <img src="https://i.imgur.com/IFgSw50.png"/>
 
 
 ### 3. Win Free Disk
