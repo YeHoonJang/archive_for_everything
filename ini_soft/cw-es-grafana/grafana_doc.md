@@ -65,7 +65,8 @@
 
 
 ### 6. ELB Status 200
-- AWS Elastic Load Balancing Status 200 개수를 나타낸 그래프이다.
+- AWS ELB Status 200 개수를 나타낸 그래프이다.
+- 그래프는 1분동안 ELB Status 200 Code의 합을 그린다.
 - 왼쪽 테이블은 각 ELB Status 200의 평균 값을 표시한다.
 
 > **ELB Status 200**
@@ -73,7 +74,8 @@
 
 
 ### 7. ELB Status Error 500
-- AWS Elastic Load Balancing Status 500 개수를 나타낸 그래프이다.
+- AWS ELB Status 500 개수를 나타낸 그래프이다.
+- 그래프는 1분동안 ELB Status 500 Error Code의 합을 그린다.
 - 왼쪽 테이블은 각 ELB Status 500의 평균 값을 표시한다.
 
 > **ELB Status Error 500**
@@ -81,7 +83,8 @@
 
 
 ### 8. ELB Status Error 400
-- AWS Elastic Load Balancing Status 400 개수를 나타낸 그래프이다.
+- AWS ELB Status 400 개수를 나타낸 그래프이다.
+- 그래프는 1분동안의 ELB Status 400 Error Code의 합을 그린다.
 - 왼쪽 테이블은 각 ELB Status 400의 평균 값을 표시한다.
 
 > **ELB Status Error 400**
@@ -89,7 +92,7 @@
 
 
 ### 9. Instance CPU Usage
-- AWS EC2 서버의 CPU 사용량을 나타낸 그래프이다.
+- AWS EC2 서버의 CPU 평균 사용량을 나타낸 그래프이다.
 - 왼쪽 테이블은 각 EC2 서버의 CPU 사용량 평균 값을 표시한다.
 
 > **Instance CPU Usage**
@@ -97,19 +100,26 @@
 
 
 ### 10. HBO EU Network IN/OUT
--
+- AWS EC2 EU 서버의 Network In, Network Out을 나타낸 그래프이다.
+- 그래프는 5분동안의 Network In, Out 각각의 합을 그린다.
+- 왼쪽 테이블은 각 서버의 현재 Network In 수치를 표시한다.
 
 > **HBO EU Network IN/OUT**
 > <img src="https://i.imgur.com/qidlFPq.png"/>
 
 
 ### 11. Tokyo Proxy Network IN/OUT
+- AWS EC2 JP Proxy 서버의 Network In, Network Out 각각의 Sum을 나타낸 그래프이다.
+- 그래프는 5분동안의 Network In, Out 각각의 합을 그린다.
+- 왼쪽 테이블은 현재 Network In/Out 수치를 표시한다.
 
 > **Tokyo Proxy Network IN/OUT**
 > <img src="https://i.imgur.com/Rga0MyH.png"/>
 
 
 ### 12. ELB-Network
+- AWS ELB Network Request Count 를 나타낸 그래프이다.
+- 그래프는 1분동안의 각 ELB Network Request Count의 합을 그린다.
 
 > **ELB-Network**
 > <img src="https://i.imgur.com/dw5HoIK.png"/>
