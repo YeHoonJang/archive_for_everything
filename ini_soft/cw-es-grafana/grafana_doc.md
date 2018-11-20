@@ -41,7 +41,7 @@
 
 ### 3. Win Free Disk
 - 라이센스 서버의 여유 디스크 공간 백분율을 나타낸 그래프이다.
-- 오른쪽 테이블은 각 서버의 현재 여유 디스크 공간의 백분율 값이 표시된다.
+- 오른쪽 테이블은 각 서버의 현재 여유 디스크 공간의 백분율 값이 표시한다.
 
 > **Win Free Disk**
 > <img src="https://i.imgur.com/6y8DeMJ.png"/>
@@ -50,46 +50,54 @@
 
 ### 4. DB Free Disk
 - 라이센스 DB 서버의 여유 DB 공간 백분율을 나타낸 그래프이다.
-- 아래쪽 테이블은 각 DB의 현재 여유 공간의 백분율 값이 표시된다.
+- 아래쪽 테이블은 각 DB의 현재 여유 공간의 백분율 값이 표시한다.
 
 > **DB Free Disk**
 > <img src="https://i.imgur.com/jje99OB.png"/>
 
 
-### 5. V1 DB
+### 5. V1 DB Disk Usage
 - AWS Version 1 Redshift 사용량 백분율을 나타낸 그래프이다.
-- 아래쪽 테이블은 Redshift의 평균 사용량 백분율 값이 표시된다.
+- 아래쪽 테이블은 Redshift의 평균 사용량 백분율 값을 표시한다.
 
 > **V1 DB Disk Usage**  
 > <img src="https://i.imgur.com/HMPC0L6.png"/>
 
 
 ### 6. ELB Status 200
--
+- AWS Elastic Load Balancing Status 200 개수를 나타낸 그래프이다.
+- 왼쪽 테이블은 각 ELB Status 200의 평균 값을 표시한다.
 
 > **ELB Status 200**
 > <img src="https://i.imgur.com/ZWZlJR9.png"/>
 
 
 ### 7. ELB Status Error 500
+- AWS Elastic Load Balancing Status 500 개수를 나타낸 그래프이다.
+- 왼쪽 테이블은 각 ELB Status 500의 평균 값을 표시한다.
 
 > **ELB Status Error 500**
 > <img src="https://i.imgur.com/C4nA2rI.png"/>
 
 
 ### 8. ELB Status Error 400
+- AWS Elastic Load Balancing Status 400 개수를 나타낸 그래프이다.
+- 왼쪽 테이블은 각 ELB Status 400의 평균 값을 표시한다.
 
 > **ELB Status Error 400**
 > <img src="https://i.imgur.com/Vlgwl9q.png"/>
 
 
 ### 9. Instance CPU Usage
+- AWS EC2 서버의 CPU 사용량을 나타낸 그래프이다.
+- 왼쪽 테이블은 각 EC2 서버의 CPU 사용량 평균 값을 표시한다.
 
 > **Instance CPU Usage**
 > <img src="https://i.imgur.com/QCilU90.png"/>
 
 
 ### 10. HBO EU Network IN/OUT
+-
 
 > **HBO EU Network IN/OUT**
 > <img src="https://i.imgur.com/qidlFPq.png"/>
