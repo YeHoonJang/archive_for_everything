@@ -48,6 +48,7 @@
 > **Win Free Disk**
 > <img src="https://i.imgur.com/6y8DeMJ.png"/>
 
+3. Thresholds를 20으로 지정하여 서버의 Disk 여유 공간이 20% 이하가 되면 그래프 제목 앞 하트 색이 빨간색으로 바뀌며 상태 변화를 알린다.
 
 
 ### 4. DB Free Disk
@@ -57,6 +58,8 @@
 > **DB Free Disk**
 > <img src="https://i.imgur.com/jje99OB.png"/>
 
+3. Thresholds를 20으로 지정하여 DB의 여유 공간이 20% 이하가 되면 그래프 제목 앞 하트 색이 빨간색으로 바뀌며 상태 변화를 알린다.
+
 
 ### 5. V1 DB Disk Usage
 1. AWS Version 1 Redshift 사용량을 백분율 값으로 나타낸 그래프이다.
@@ -64,6 +67,8 @@
 
 > **V1 DB Disk Usage**  
 > <img src="https://i.imgur.com/HMPC0L6.png"/>
+
+3. Alert을 지정하여 Redshift 사용량이 80% 이상이 되면 grafana alert system과 연동한 notification channel로 alert message가 전송되며 그래프 앞 하트 색이 빨간색으로 바뀌고, 그래프에 alert 이 발생한 시점을 표시한다.
 
 
 ### 6. ELB Status 200
