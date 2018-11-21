@@ -88,6 +88,7 @@
 > **ELB Status Error 500**
 > <img src="https://i.imgur.com/C4nA2rI.png"/>
 
+4. Alert을 지정하여 ELB Status 500 Error가 50개 이상이 되면 grafana alert system과 연동한 notification channel로 alert message가 전송되며 그래프 앞 하트 색이 빨간색으로 바뀌고, 그래프에 alert 이 발생한 시점을 표시한다.
 
 ### 8. ELB Status Error 400
 1. AWS ELB Status 400 개수를 나타낸 그래프이다.
@@ -105,6 +106,7 @@
 > **Instance CPU Usage**
 > <img src="https://i.imgur.com/QCilU90.png"/>
 
+3. Alert을 지정하여 Instance CPU Usage가 50% 이상이 되면 grafana alert system과 연동한 notification channel로 alert message가 전송되며 그래프 앞 하트 색이 빨간색으로 바뀌고, 그래프에 alert 이 발생한 시점을 표시한다.
 
 ### 10. HBO EU Network IN/OUT
 1. AWS EC2 EU 서버의 Network In, Network Out을 나타낸 그래프이다.
