@@ -50,7 +50,9 @@
 > <img src="https://i.imgur.com/6y8DeMJ.png"/>
 
 3. Thresholds를 20으로 지정하여 서버의 Disk 여유 공간이 20% 이하가 되면 그래프 제목 앞 하트 색이 빨간색으로 바뀌며 상태 변화를 알린다.
-
+4. 디스크의 총 용량 대비 사용량을 모니터링 해야 하기 때문에 디스크 총 용량 정보를 제공해주는 Zabbix를 데이터 소스로 사용하였다.
+5. License Service Server 그룹에 있는 각각의 호스트의 디스크 사용량을 표시하기 위해 아래와 같은 세팅을 하였다.
+  - `Group: 'License Service Server' > Host: 각 호스트의 윈도우 서버 > Application: 'Filesystems' > Item: 'Free disk sapce on C: (percentage)'`
 
 ### 4. DB Free Disk
 1. 라이센스 DB 서버의 여유 DB 공간을 백분율 값으로 나타낸 그래프이다.
@@ -60,7 +62,9 @@
 > <img src="https://i.imgur.com/jje99OB.png"/>
 
 3. Thresholds를 20으로 지정하여 DB의 여유 공간이 20% 이하가 되면 그래프 제목 앞 하트 색이 빨간색으로 바뀌며 상태 변화를 알린다.
-
+4. DB의 총 용량 대비 사용량을 모니터링 해야 하기 때문에 DB 총 용량 정보를 제공해주는 Zabbix를 데이터 소스로 사용하였다.
+5. License Service Server 그룹에 있는 각각의 DB의 사용량을 표시하기 위해 아래와 같은 세팅을 하였다.
+  - `Group: 'License Service Server' > Host: 각 호스트의 DB > Application: 'Filesystems' > Item: 'Free disk sapce on / (percentage)'`
 
 ### 5. V1 DB Disk Usage
 1. AWS Version 1 Redshift 사용량을 백분율 값으로 나타낸 그래프이다.
