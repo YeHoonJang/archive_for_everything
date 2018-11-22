@@ -10,7 +10,8 @@
 
 3. Graph 위에서 특정 영역을 드래그 하면 time range가 드래그 한 영역으로 변경되며 이 때 대시 보드 전체 time range 가 변한다.
 
-> **드래그 하여 Time Range 선택**  
+> **드래그 하여 Time Range 선택**
+>   
 > - 영역 선택  
 > <img src="https://i.imgur.com/doyN7Hn.png?1"/>  
 >  
