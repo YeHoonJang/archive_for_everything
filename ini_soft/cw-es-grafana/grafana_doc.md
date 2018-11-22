@@ -51,8 +51,8 @@
 
 3. Thresholds를 20으로 지정하여 서버의 Disk 여유 공간이 20% 이하가 되면 그래프 제목 앞 하트 색이 빨간색으로 바뀌며 상태 변화를 알린다.
 4. 디스크의 총 용량 대비 사용량을 모니터링 해야 하기 때문에 디스크 총 용량 정보를 제공해주는 Zabbix를 데이터 소스로 사용하였다.
-5. License Service Server 그룹에 있는 각각의 호스트의 디스크 사용량을 표시하기 위해 아래와 같은 세팅을 하였다.
-  - `Group: 'License Service Server' > Host: 각 호스트의 윈도우 서버 > Application: 'Filesystems' > Item: 'Free disk sapce on C: (percentage)'`
+5. License Service Server 그룹에 있는 각각의 윈도우 서버의 디스크 사용량을 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: 'zabbix-test' > Group: 'License Service Server' > Host: 각 윈도우 서버의 호스트 이름 > Application: 'Filesystems' > Item: 'Free disk sapce on C: (percentage)'`
 
 ### 4. DB Free Disk
 1. 라이센스 DB 서버의 여유 DB 공간을 백분율 값으로 나타낸 그래프이다.
@@ -63,8 +63,8 @@
 
 3. Thresholds를 20으로 지정하여 DB의 여유 공간이 20% 이하가 되면 그래프 제목 앞 하트 색이 빨간색으로 바뀌며 상태 변화를 알린다.
 4. DB의 총 용량 대비 사용량을 모니터링 해야 하기 때문에 DB 총 용량 정보를 제공해주는 Zabbix를 데이터 소스로 사용하였다.
-5. License Service Server 그룹에 있는 각각의 DB의 사용량을 표시하기 위해 아래와 같은 세팅을 하였다.
-  - `Group: 'License Service Server' > Host: 각 호스트의 DB > Application: 'Filesystems' > Item: 'Free disk sapce on / (percentage)'`
+5. License Service Server 그룹에 있는 각각의 DB의 사용량을 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: 'zabbix-test' > Group: 'License Service Server' > Host: 각 호스트의 DB 이름 > Application: 'Filesystems' > Item: 'Free disk sapce on / (percentage)'`
 
 ### 5. V1 DB Disk Usage
 1. AWS Version 1 Redshift 사용량을 백분율 값으로 나타낸 그래프이다.
@@ -74,7 +74,8 @@
 > <img src="https://i.imgur.com/HMPC0L6.png"/>
 
 3. Alert을 지정하여 Redshift 사용량이 80% 이상이 되면 grafana alert system과 연동한 notification channel로 alert message가 전송되며 그래프 앞 하트 색이 빨간색으로 바뀌고, 그래프에 alert 이 발생한 시점을 표시한다.
-
+4. AWS version1 계정의 도쿄 region에 있는 Redshift의 사용량을 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: 'cloudwatch-v1' > Metric-region: 'ap-northeast-1' > Metric-namespace: 'AWS/Redshift' > Metric-metric: 'PercentageDiskSpaceUsed' > Stats: 'Average' > Dimensions: 'Clusteridentifier=vd-ne-instance'`
 
 ### 6. ELB Status 200
 1. AWS ELB Status 200 개수를 나타낸 그래프이다.
@@ -84,6 +85,8 @@
 > **ELB Status 200**
 > <img src="https://i.imgur.com/ZWZlJR9.png"/>
 
+4. AWS version1, version2 계정의 도쿄, 서울, 프랑크푸르트 region에 있는 ELB Status 200 Code를 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: '--Mixed--' > Add Query: 'cloudwatch-v1'/'cloudwatch-v2' > Metric-region: LoadBalancer가 있는 region > Metric-namespace: 'AWS/ApplicationELB'/'AWS/ELB' > Metric-metric: 'HTTPCode_Target_2XX_Count'/'HTTPCode_Backend_2XX' > Stats: 'Sum' > Dimensions: 'LoadBalancer'/'LoadBalancerName'= 모니터링하고자 하는 LoadBalancer`
 
 ### 7. ELB Status Error 500
 1. AWS ELB Status 500 개수를 나타낸 그래프이다.
@@ -94,6 +97,9 @@
 > <img src="https://i.imgur.com/C4nA2rI.png"/>
 
 4. Alert을 지정하여 ELB Status 500 Error가 50개 이상이 되면 grafana alert system과 연동한 notification channel로 alert message가 전송되며 그래프 앞 하트 색이 빨간색으로 바뀌고, 그래프에 alert 이 발생한 시점을 표시한다.
+5. AWS version1, version2 계정의 도쿄, 서울, 프랑크푸르트 region에 있는 ELB Status 500 Error Code를 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: '--Mixed--' > Add Query: 'cloudwatch-v1'/'cloudwatch-v2' > Metric-region: LoadBalancer가 있는 region > Metric-namespace: 'AWS/ApplicationELB'/'AWS/ELB' > Metric-metric: 'HTTPCode_Target_5XX_Count'/'HTTPCode_Backend_5XX' > Stats: 'Sum' > Dimensions: 'LoadBalancer'/'LoadBalancerName'= 모니터링하고자 하는 LoadBalancer`
+
 
 ### 8. ELB Status Error 400
 1. AWS ELB Status 400 개수를 나타낸 그래프이다.
@@ -103,6 +109,8 @@
 > **ELB Status Error 400**
 > <img src="https://i.imgur.com/Vlgwl9q.png"/>
 
+4. AWS version1, version2 계정의 도쿄, 서울, 프랑크푸르트 region에 있는 ELB Status 400 Error Code를 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: '--Mixed--' > Add Query: 'cloudwatch-v1'/'cloudwatch-v2' > Metric-region: LoadBalancer가 있는 region > Metric-namespace: 'AWS/ApplicationELB'/'AWS/ELB' > Metric-metric: 'HTTPCode_Target_4XX_Count'/'HTTPCode_Backend_4XX' > Stats: 'Sum' > Dimensions: 'LoadBalancer'/'LoadBalancerName'= 모니터링하고자 하는 LoadBalancer`
 
 ### 9. Instance CPU Usage
 1. AWS EC2 서버의 CPU 평균 사용량을 나타낸 그래프이다.
@@ -112,6 +120,9 @@
 > <img src="https://i.imgur.com/QCilU90.png"/>
 
 3. Alert을 지정하여 Instance CPU Usage가 50% 이상이 되면 grafana alert system과 연동한 notification channel로 alert message가 전송되며 그래프 앞 하트 색이 빨간색으로 바뀌고, 그래프에 alert 이 발생한 시점을 표시한다.
+4. AWS version1, version2 계정의 도쿄, 서울, 프랑크푸르트 region에 있는 각 Instance의 CPU 사용량을 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: '--Mixed--' > Add Query: 'cloudwatch-v1'/'cloudwatch-v2' > Metric-region: EC2 Instance가 있는 region > Metric-namespace: 'AWS/EC2' > Metric-metric: 'CPUUtilization' > Stats: 'Average' > Dimensions: 'InstanceId'= 모니터링하고자 하는 Instance Id`
+
 
 ### 10. HBO EU Network IN/OUT
 1. AWS EC2 EU 서버의 Network In, Network Out을 나타낸 그래프이다.
@@ -121,6 +132,8 @@
 > **HBO EU Network IN/OUT**
 > <img src="https://i.imgur.com/qidlFPq.png"/>
 
+4. AWS version1 계정의 프랑크푸르트 region에 있는 HBO Instance의 Network In/Out을 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: 'cloudwatch-v1' > Metric-region: 'eu-central-1' > Metric-namespace: 'AWS/EC2' > Metric-metric: 'NetworkIn'/'NetworkOut' > Stats: 'Sum' > Dimensions: 'InstanceId'= 모니터링하고자 하는 Instance Id`
 
 ### 11. Tokyo Proxy Network IN/OUT
 1. AWS EC2 JP Proxy 서버의 Network In, Network Out 각각의 Sum을 나타낸 그래프이다.
@@ -130,6 +143,8 @@
 > **Tokyo Proxy Network IN/OUT**
 > <img src="https://i.imgur.com/Rga0MyH.png"/>
 
+4. AWS version1 계정의 도쿄 region에 있는 Tokyo Proxy Instance의 Network In/Out을 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: 'cloudwatch-v1' > Metric-region: 'ap-northeast-1' > Metric-namespace: 'AWS/EC2' > Metric-metric: 'NetworkIn'/'NetworkOut' > Stats: 'Sum' > Dimensions: 'InstanceId'= 모니터링하고자 하는 Instance Id`
 
 ### 12. ELB-Network
 1. AWS ELB Network Request Count 를 나타낸 그래프이다.
@@ -138,3 +153,6 @@
 
 > **ELB-Network**
 > <img src="https://i.imgur.com/dw5HoIK.png"/>
+
+4. AWS version1, version2 계정의 도쿄, 서울, 프랑크푸르트 region에 있는 각 ELB Network Request를 표시하기 위해 아래와 같은 순서로 세팅하였다.
+  - `Data Source: '--Mixed--' > Add Query: 'cloudwatch-v1'/'cloudwatch-v2' > Metric-region: ELB가 있는 region > Metric-namespace: 'AWS/ApplicationELB'/'AWS/ELB' > Metric-metric: 'RequestCount' > Stats: 'Sum' > Dimensions: 'LoadBalancer'= 모니터링하고자 하는 LoadBalancer`
