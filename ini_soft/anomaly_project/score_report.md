@@ -31,7 +31,7 @@ Accuracy: 0.96
 
 ### resample(rule: 15s, first) & fillna(ffill) & STMOTE
 
-Accuracy: 0.32
+Accuracy: 0.630992342753 (10000 iters)
 
 |   |Precision   |Recall   |F1-score   |Support   |
 |---|---|---|---|---|
