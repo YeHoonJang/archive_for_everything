@@ -45,7 +45,8 @@ Accuracy: 0.630992342753 (10000 iters)
 |0.0   |1.00   |0.35   |0.52   |3184   |
 ```
 
-##RandomForest
+
+## RandomForest
 ### resample(rule: 15s, first) & fillna(ffill) & STMOTE
 
 Accuracy: 0.98
