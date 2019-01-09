@@ -1,5 +1,6 @@
 ## Decision Tree
-### naive
+### 1. naive
+
 Accuracy: 0.96  
 
 |   |Precision   |Recall   |F1-score   |Support   |
@@ -15,7 +16,7 @@ Accuracy: 0.96
 |-38.0   |0.00   |0.00   |0.00   |53   |
 |0.0   |0.96   |1.00   |0.98   |3554   |
 
-### resample(rule: 15s, first) & fillna(ffill)
+### 2. resample(rule: 15s, first) & fillna(ffill)
 
 Accuracy: 0.96  
 
@@ -30,7 +31,7 @@ Accuracy: 0.96
 |-38   |0.00   |0.00   |0.00   |22   |
 |0   |0.96   |1.00   |0.98   |2114   |
 
-### resample(rule: 15s, first) & fillna(ffill) & STMOTE
+### 3. resample(rule: 15s, first) & fillna(ffill) & STMOTE
 
 Accuracy: 0.630992342753 (10000 iters)
 
@@ -47,7 +48,7 @@ Accuracy: 0.630992342753 (10000 iters)
 
 
 ## RandomForest
-### resample(rule: 15s, first) & fillna(ffill) & STMOTE
+### 1. resample(rule: 15s, first) & fillna(ffill) & STMOTE
 
 Accuracy: 0.98
 
