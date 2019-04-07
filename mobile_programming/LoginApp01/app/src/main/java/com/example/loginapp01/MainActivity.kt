@@ -12,18 +12,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_login.setOnClickListener {
-            if (!edit_username.text.toString().isNullOrBlank()) {
-                val myIntent = Intent(this, SecondActivity::class.java)
-                myIntent.putExtra(USER_NAME, edit_username.text.toString())
-                startActivity(myIntent)
-            } else {
-                Toast.makeText(this, "아이디를 입력해주세요", Toast.LENGTH_LONG).show()
-            }
+//        btn_login.setOnClickListener {
+////            if (!edit_username.text.toString().isNullOrBlank()) {
+//            val myIntent = Intent(this, SecondActivity::class.java)
+////            myIntent.putExtra(USER_NAME, edit_username.text.toString())
+//            startActivity(myIntent)
+////            } else {
+////                Toast.makeText(this, "아이디를 입력해주세요", Toast.LENGTH_LONG).show()
+////            }
+//        }
+
+        fav_btn.setOnClickListener {
+            val myIntent = Intent(this, FavoriteActivity::class.java)
+            startActivity(myIntent)
         }
     }
 
-    companion object {
-        const val USER_NAME = "USER_NAME"
-    }
+//    companion object {
+//        const val USER_NAME = "USER_NAME"
+//    }
 }

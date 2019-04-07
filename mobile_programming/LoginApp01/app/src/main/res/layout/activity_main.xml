@@ -56,7 +56,7 @@
             <Button
                     android:text="로그인"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/btn_login" android:elevation="0dp"
+                    android:layout_height="wrap_content" android:id="@+id/fav_login" android:elevation="0dp"
                     android:background="@color/colorPrimary"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>

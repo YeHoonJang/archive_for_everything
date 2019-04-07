@@ -11,72 +11,70 @@
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="0dp"
-            android:layout_height="228dp"
-            android:id="@+id/linearLayout" android:layout_marginTop="16dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout" android:layout_marginTop="92dp"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
             android:background="#80FFFFFF"
-            android:padding="5dp">
+            android:padding="5dp" app:layout_constraintHorizontal_bias="0.0">
         <ImageView
                 android:layout_width="158dp"
                 android:layout_height="218dp" app:srcCompat="@drawable/selfie"
                 android:id="@+id/imageView"
                 tools:layout_editor_absoluteY="241dp" tools:layout_editor_absoluteX="16dp"
                 android:layout_marginEnd="10dp"
-                android:padding="5dp">
+                android:padding="5dp"/>
         <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="wrap_content"
-                android:layout_height="212dp" tools:layout_editor_absoluteY="8dp" tools:layout_editor_absoluteX="8dp"
+                android:layout_height="wrap_content" tools:layout_editor_absoluteY="8dp"
+                tools:layout_editor_absoluteX="8dp"
                 android:layout_marginEnd="10dp">
             <TextView
-                    android:text="장예훈 (Yehoon Jang)"
+                    android:text="장예훈\n(Yehoon Jang)"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:id="@+id/name_text"
                     tools:layout_editor_absoluteY="62dp" tools:layout_editor_absoluteX="176dp"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
             <TextView
                     android:text="산업경영공학과 / 컴퓨터공학과"
                     android:layout_width="204dp"
                     android:layout_height="wrap_content" tools:layout_editor_absoluteY="101dp"
                     tools:layout_editor_absoluteX="176dp" android:id="@+id/major_text" android:typeface="sans"
-                    android:layout_marginBottom="30dp"/>
+                    android:layout_marginBottom="15dp"/>
             <TextView
-                    android:text="안녕하세요!\n저는 장예훈이라고해요:)\n저에 대해 간단하게 소개해 드릴게요\n아래 버튼을 눌러주세요!!"
+                    android:text="안녕하세요!\n저는 장예훈이라고해요:)\n저에 대해 간단하게 소개해 드릴게요!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" tools:layout_editor_absoluteY="168dp"
                     tools:layout_editor_absoluteX="176dp" android:id="@+id/HelloEveryone"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
         </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-            android:orientation="vertical"
+    <android.support.v7.widget.CardView
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="10dp"
-            android:paddingVertical="20dp"
-            android:id="@+id/linearLayout2" app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-            android:layout_marginBottom="16dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="8dp"
-            android:layout_marginVertical="20dp" app:layout_constraintHorizontal_bias="1.0"
-            android:layout_marginEnd="8dp"
-            android:background="#80FFFFFF">
-        <TextView
-                android:text="\n저는 사진으로 일상을 기록하는 것을 좋아합니다.\n맛있는 음식 사진을 찍는 것은 물론, \n좋은 장소에서 멋진 풍경을 찍는 것도 좋아합니다.\n또 저는 여행을 가는 것도 좋아해서 \n시간이 날때 마다 좋은 곳에 여행가기도 합니다!\n\n여러분께 제가 좋아하는 것들을 보여드리고 싶어요 :)\n"
+            android:layout_height="wrap_content" android:id="@+id/cardView" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="396dp" app:layout_constraintHorizontal_bias="1.0">
+        <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/myLikes"
-                android:layout_marginBottom="20dp" android:textColor="#000000" android:textAlignment="center"/>
-        <Button
-                android:text="사진 보러가기"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#70C38EC7"
-                android:layout_marginVertical="3dp"/>
-    </LinearLayout>
+                android:layout_height="match_parent"
+                android:paddingVertical="20dp">
+            <TextView
+                    android:text="저는 산업경영공학과이고,\n컴퓨터공학과 복수전공을 하는 중이에요\n모바일 프로그래밍을 통해\n코틀린과 안드로이드 프로그래밍을 처음 해봅니다!\n\n여러분께 제가 좋아하는 것들을 보여드리고 싶어요 :)\n"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/myLikes"
+                    android:layout_marginBottom="20dp" android:textColor="#000000" android:textAlignment="center"/>
+            <Button
+                    android:text="취미 보러가기"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#70C38EC7"
+                    android:layout_marginVertical="3dp" android:id="@+id/fav_btn" android:textStyle="bold"
+                    android:elevation="0dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 </android.support.constraint.ConstraintLayout>

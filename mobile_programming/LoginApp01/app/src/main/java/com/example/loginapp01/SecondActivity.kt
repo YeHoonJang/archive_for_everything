@@ -10,9 +10,9 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        intent.getStringExtra(MainActivity.USER_NAME).run {
-            text_msg.text = this + "님!!"
-        }
+//        intent.getStringExtra(MainActivity.USER_NAME).run {
+////            text_msg.text = this + "님!!"
+////        }
 
         btn_finish.setOnClickListener {
             finish()
