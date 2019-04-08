@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="blueCategory">#6EB3C0</color>
+    <color name="greenCategory">#65B391</color>
+    <color name="yellowCategory">#EEBA4A</color>
+    <color name="redCategory">#D27173</color>
+    <color name="violetCategory">#8A69C0</color>
+    <color name="deepBlueCategory">#7675D7</color>
+    <color name="lightBlackCategory">#3A425A</color>
+</resources>
