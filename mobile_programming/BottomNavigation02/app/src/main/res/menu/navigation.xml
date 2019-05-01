@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_random"
+            android:icon="@drawable/ic_all_inclusive_black_24dp"
+            android:title="@string/title_random"/>
+
+    <item
+            android:id="@+id/navigation_constellation"
+            android:icon="@drawable/ic_assistant_black_24dp"
+            android:title="@string/title_constellation"/>
+
+    <item
+            android:id="@+id/navigation_name"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="@string/title_name"/>
+
+</menu>
