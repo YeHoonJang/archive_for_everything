@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <TextView
+            android:text="IT대학"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp" tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="78dp" android:id="@+id/college"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextView
+            android:text="컴퓨터공학과 학생회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/major"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="158dp" app:layout_constraintBaseline_toBaselineOf="@+id/college"/>
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="647dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:divider="#a2acef"
+            android:dividerHeight="2dp"
+            android:listSelector="#e4e5ed"
+            android:id="@+id/listView" tools:layout_editor_absoluteY="68dp"/>
+</android.support.constraint.ConstraintLayout>
