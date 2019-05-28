@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">경락정보조회</string>
+    <string name="title_activity_result">ResultActivity</string>
+</resources>
