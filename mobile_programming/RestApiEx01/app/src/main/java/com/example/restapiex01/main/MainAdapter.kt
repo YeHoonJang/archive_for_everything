@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_save.view.*
 import com.example.restapiex01.R
-import com.example.restapiex01.model.SaveItem
 import com.example.restapiex01.local.LocalDbSearchActivity
+import com.example.restapiex01.model.SaveItem
 
 /* 메인화면에서 저장된 데이터를 리사이클러뷰에 보여주는 어댑터 */
 class MainAdapter(var saveItems: List<SaveItem>) : RecyclerView.Adapter<MainAdapter.ItemViewHolder>() {

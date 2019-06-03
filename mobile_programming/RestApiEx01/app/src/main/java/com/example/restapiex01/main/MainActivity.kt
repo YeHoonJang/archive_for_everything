@@ -1,17 +1,24 @@
 package com.example.restapiex01.main
 
 import android.app.DatePickerDialog
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.restapiex01.R
 import com.example.restapiex01.database.DatabaseModule
+//import com.example.restapiex01.login.LoginActivity
 import com.example.restapiex01.model.Fruits
 import com.example.restapiex01.result.ResultActivity
 import java.text.SimpleDateFormat
@@ -26,6 +33,7 @@ class MainActivity : AppCompatActivity() {
     var selectedFruit: String? = null
     var selectedDate: String? = null
 
+    val firebaseAuth by lazy { FirebaseAuth.getInstance() }
 
     /* todo2 - 사용자가 클릭할때 분류(과일)를 선택하는 Dialog 설정
      - alertDialog를 사용하여 과일을 선택하는 Dialog 설정
@@ -153,6 +161,28 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    /* actionbar에 로그아웃버튼을 만들어줍니다. */
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main_actionbar, menu)
+        return true
+    }
+
+
+    /* 사용자가 로그아웃버튼을 누를경우 현재 액티비티를 종료후 로그인으로 넘어갑니다.*/
+//    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+//        if (item?.itemId == R.id.logout_menu) {
+//
+//            Intent(this, LoginActivity::class.java).run {
+//                /* 파이어베이스를 로그아웃합니다.*/
+//                firebaseAuth.signOut()
+//                startActivity(this)
+//                finish()
+//            }
+//        }
+//        return true
+//    }
+
 
     override fun onStart() {
         super.onStart()

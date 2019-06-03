@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">경락정보조회</string>
     <string name="title_activity_result">ResultActivity</string>
+
+    <!-- firebasemessagingservice -->
+    <string name="fcm_message">Fresh FCM Message</string>
+    <string name="default_notification_channel_name" translatable="true">fresh</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
 </resources>
