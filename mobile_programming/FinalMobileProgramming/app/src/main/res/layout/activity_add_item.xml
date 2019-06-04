@@ -45,6 +45,6 @@
     <ImageView
             android:layout_width="117dp"
             android:layout_height="124dp" app:srcCompat="@drawable/ic_menu_gallery"
-            tools:layout_editor_absoluteY="72dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/imageView2"/>
+            tools:layout_editor_absoluteY="71dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/imageView2"/>
 
 </android.support.constraint.ConstraintLayout>

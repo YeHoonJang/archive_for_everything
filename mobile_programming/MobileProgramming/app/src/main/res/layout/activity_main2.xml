@@ -16,26 +16,27 @@
             <Button
                     android:text="대여"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/button_main_rent"
+                    android:layout_height="wrap_content" android:id="@+id/button_main2_rent"
                     android:background="@android:color/transparent" android:textSize="36sp" android:textStyle="bold"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1" android:textColor="@android:color/darker_gray"/>
             <Button
                     android:text="예약"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/button_main_reservation"
+                    android:layout_height="wrap_content" android:id="@+id/button_main2_reservation"
                     android:background="@android:color/transparent" android:textSize="36sp" android:textStyle="bold"
-                    android:layout_weight="1" android:textColor="@android:color/darker_gray"/>
+                    android:layout_weight="1"/>
         </TableRow>
     </TableLayout>
 
-    <ListView
-            android:id="@+id/list_item_rent"
-            android:layout_width="373dp"
-            android:layout_height="583dp" android:layout_marginTop="80dp"
-            app:layout_constraintTop_toTopOf="@+id/tableLayout" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"/>
+    <android.support.v7.widget.RecyclerView android:layout_width="357dp"
+                                            android:layout_height="wrap_content"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            android:layout_marginStart="8dp" android:layout_marginTop="80dp"
+                                            app:layout_constraintTop_toTopOf="@+id/tableLayout"
+                                            android:id="@+id/recycle_item_reservation" app:layout_constraintEnd_toEndOf="parent"
+                                            android:layout_marginEnd="8dp" android:layout_marginRight="8dp">
+
+    </android.support.v7.widget.RecyclerView>
 
 
 </android.support.constraint.ConstraintLayout>

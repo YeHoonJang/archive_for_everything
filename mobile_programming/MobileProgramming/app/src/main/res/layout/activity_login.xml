@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LoginActivity" android:background="@color/colorAccent">
+        tools:context=".login.LoginActivity" android:background="@color/colorAccent">
     <ImageView
             android:layout_width="298dp"
             android:layout_height="228dp" app:srcCompat="@android:color/white"
@@ -16,7 +16,7 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"/>
     <TextView
-            android:text="LOGIN"
+            android:text="학생 LOGIN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/text_login" android:textSize="24sp"
