@@ -95,23 +95,23 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.lend_list -> {
-                Toast.makeText(this, "대여내역 선택 ", Toast.LENGTH_SHORT).show()
-
-                var intent = Intent(this, LendListActivity::class.java)
+                Toast.makeText(this, "대여내역 선택", Toast.LENGTH_SHORT).show()
+                val intent = Intent(this, LendListActivity::class.java)
                 startActivity(intent)
             }
             R.id.reservation_list -> {
-                Toast.makeText(this, "예약내역 선택 ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "예약내역 선택", Toast.LENGTH_SHORT).show()
 
-                var intent2 = Intent(this, ReservationListActivity::class.java)
+                val intent2 = Intent(this, ReservationListActivity::class.java)
                 startActivity(intent2)
             }
             R.id.delay_list -> {
-                Toast.makeText(this, "연체일 수 선택 ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "연체일 수 선택", Toast.LENGTH_SHORT).show()
 
-                var intent3 = Intent(this, DelayListActivity::class.java)
+                val intent3 = Intent(this, DelayListActivity::class.java)
                 startActivity(intent3)
             }
+
         }
 
         //네비게이션뷰(drawer_layout)를 close

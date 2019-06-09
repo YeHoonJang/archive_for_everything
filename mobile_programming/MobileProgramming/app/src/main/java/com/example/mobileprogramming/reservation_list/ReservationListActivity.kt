@@ -12,7 +12,7 @@ class ReservationListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_reservation_list)
 
-        var adapter = ReservationListAdapter(this)
+        val adapter = ReservationListAdapter(this)
         listView.adapter = adapter
 
         supportActionBar?.title = "예약내역"

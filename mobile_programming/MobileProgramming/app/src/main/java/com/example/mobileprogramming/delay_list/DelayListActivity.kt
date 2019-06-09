@@ -11,7 +11,7 @@ class DelayListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_delay_list)
 
-        var adapter = DelayListAdapter(this)
+        val adapter = DelayListAdapter(this)
         listView.adapter = adapter
 
         supportActionBar?.title = "연체일 수"

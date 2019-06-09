@@ -35,11 +35,4 @@
     </android.support.v4.widget.DrawerLayout>
 
 
-    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent"
-                 app:layout_constraintTop_toTopOf="@+id/constraintLayout"
-                 android:layout_marginTop="50dp" android:id="@+id/tableLayout">
-        <TableRow/>
-    </TableLayout>
-
-
 </android.support.constraint.ConstraintLayout>

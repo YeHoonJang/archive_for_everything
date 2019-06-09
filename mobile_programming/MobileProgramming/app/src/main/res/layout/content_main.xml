@@ -21,6 +21,12 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="8dp"
-            android:id="@+id/viewPager"/>
+            android:id="@+id/viewPager">
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/frame_main">
+
+        </FrameLayout>
+    </android.support.v4.view.ViewPager>
 
 </android.support.constraint.ConstraintLayout>

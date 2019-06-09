@@ -9,12 +9,24 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".list_reservation.Main2Activity">
+        <activity android:name=".reservation_list.ReservationListActivity">
+        </activity>
+        <activity android:name=".ListItemActivity">
+        </activity>
+        <activity android:name=".lend_list.LendListActivity">
+        </activity>
+        <activity android:name=".delay_list.DelayListActivity">
+        </activity>
+        <activity android:name=".RentActivity">
+        </activity>
+        <activity android:name=".list_reservation.RecyclerAdapter_reservation">
         </activity>
         <activity
                 android:name=".list_rent.MainActivity"
                 android:label="@string/title_activity_main"
                 android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".list_reservation.Main2Activity">
         </activity>
         <activity android:name=".login.LoginActivity">
             <intent-filter>

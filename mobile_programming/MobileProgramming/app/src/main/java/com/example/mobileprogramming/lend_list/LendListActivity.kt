@@ -11,7 +11,7 @@ class LendListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lend_list)
 
-        var adapter = LendListAdapter(this)
+        val adapter = LendListAdapter(this)
         listView.adapter = adapter
 
         supportActionBar?.title = "대여내역"
