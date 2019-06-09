@@ -1,7 +1,7 @@
 package com.example.mobileprogramming.login
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mobileprogramming.list_rent.MainActivity
 import com.example.mobileprogramming.R

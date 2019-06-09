@@ -1,6 +1,6 @@
 package com.example.mobileprogramming.lend_list
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.mobileprogramming.R
 import kotlinx.android.synthetic.main.activity_lend_list.*
@@ -11,7 +11,7 @@ class LendListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lend_list)
 
-        val adapter = LendListAdapter(this)
+        var adapter = LendListAdapter(this)
         listView.adapter = adapter
 
         supportActionBar?.title = "대여내역"

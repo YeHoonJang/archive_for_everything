@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".list_rent.reservation.ReservationActivity">
+        </activity>
         <activity android:name=".reservation_list.ReservationListActivity">
         </activity>
         <activity android:name=".ListItemActivity">
@@ -17,7 +19,7 @@
         </activity>
         <activity android:name=".delay_list.DelayListActivity">
         </activity>
-        <activity android:name=".RentActivity">
+        <activity android:name=".list_rent.rent.RentActivity">
         </activity>
         <activity android:name=".list_reservation.RecyclerAdapter_reservation">
         </activity>
