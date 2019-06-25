@@ -9,13 +9,13 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import com.example.mobileprogramming.R
+import com.google.android.material.navigation.NavigationView
 import com.example.mobileprogramming.LoginData
 import com.example.mobileprogramming.delay_list.DelayListActivity
 import com.example.mobileprogramming.lend_list.LendListActivity
 import com.example.mobileprogramming.list_rent.rent.RentActivity
 import com.example.mobileprogramming.list_rent.reservation.ReservationActivity
 import com.example.mobileprogramming.reservation_list.ReservationListActivity
-import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*

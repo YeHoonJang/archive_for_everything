@@ -16,11 +16,17 @@ import com.example.mobileprogramming2.R
 import com.example.mobileprogramming2.add.AddActivity
 import com.example.mobileprogramming2.lend_demand.LendDemandActivity
 import com.example.mobileprogramming2.lend_list.LendListActivity
+import com.example.mobileprogramming2.model.Item
+import com.example.mobileprogramming2.model.ItemDB
 import kotlinx.android.synthetic.main.activity_nav.*
 import kotlinx.android.synthetic.main.app_bar_nav.*
 import kotlinx.android.synthetic.main.start_page.view.*
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+// *****************************************************************************************************
+    private var itemDb : ItemDB? = null
+    private var itemList = listOf<Item>()
+    lateinit var mAdapter : ModifyAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,10 +34,28 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setSupportActionBar(toolbar)
 
         supportActionBar?.title = "해당학과"
+//
+//        var adapter = ModifyAdapter(this)
+//        listView.adapter = adapter
 
-        var adapter = ModifyAdapter(this)
-        listView.adapter = adapter
+        itemDb = ItemDB.getInstance(this)
+        mAdapter = ModifyAdapter(this, itemList)
 
+        val r = Runnable {
+            try {
+                itemList = itemDb?.itemDao()?.getAll()!!
+                mAdapter = ModifyAdapter(this, itemList)
+                mAdapter.notifyDataSetChanged()
+
+//                mRecyclerView.adapter = mAdapter
+//                mRecyclerView.layoutManager = LinearLayoutManager(this)
+//                mRecyclerView.setHasFixedSize(true)
+//            } catch (e: Exception) {
+//                Log.d("tag", "Error - $e")
+            }
+        }
+
+// *****************************************************************************************************
         listView.setOnItemClickListener { parent, view, position, id ->
             var curItem = adapter.getItem(position)
             Toast.makeText(this, "${curItem.itemName} 선택", Toast.LENGTH_LONG).show()
