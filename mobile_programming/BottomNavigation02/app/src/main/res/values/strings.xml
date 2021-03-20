@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">ButtomNavigation02</string>
-    <string name="title_random">랜덤</string>
-    <string name="title_constellation">별자리</string>
-    <string name="title_name">이름</string>
-</resources>

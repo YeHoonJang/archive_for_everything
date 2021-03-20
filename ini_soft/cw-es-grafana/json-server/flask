@@ -1,4 +1,0 @@
-export FLASK_APP=json_server.py
-export FLASK_ENV=development
-flask run
-
