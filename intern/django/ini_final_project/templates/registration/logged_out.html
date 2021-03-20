@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'registration/style.css' %}">
+
+{% block content %}
+<div class="out_frame">
+    <div class="main_frame" id="unactive_user">
+        <p style="font-size: 200%; margin:30% auto;">Bye!</p>
+        <a href="{% url 'main' %}">
+            <button type="button" class="btn">홈으로</button>
+        </a>
+        <a href="{% url 'login' %}">
+            <button type="button" class="btn">다시 로그인하기</button>
+        </a>
+    </div>
+</div>
+{% endblock %}

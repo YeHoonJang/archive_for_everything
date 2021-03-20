@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
+
+{% block content %}
+<script>
+function deleteVideo() {
+    confirm('비디오를 삭제하시겠습니까?');
+    return true;
+}
+
+</script>
+<table class="table">
+  <tr>
+    <th class="title">제목</th>
+    <th>경로</th>
+    <th>작성자</th>
+    <th>업로드 날짜</th>
+    <th>조회수</th>
+    <th></th>
+  </tr>
+  {% for information in content_info_list %}
+  <tr>
+      <td class="title">{{ information.title }}</td>
+      <td>{{ information.file }}</td>
+      <td>{{ information.author }}</td>
+      <td>{{ information.upload_date|date:"y-m-d, H:i:s" }}</td>
+      <td>{{ information.counts }}</td>
+      <td><a href="{% url 'delete_video' information.id %}"><button type="button" class="btn" onclick="return deleteVideo()">삭제</button></a></td>
+    </tr>
+  {% endfor %}
+</table>
+{% endblock %}

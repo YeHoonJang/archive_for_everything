@@ -1,0 +1,65 @@
+/*button*/
+.btn {
+  color: white;
+  background-color: #3b5998;
+  border-radius: 2px;
+  border: none;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 110%;
+}
+
+.main.btn {
+  width: 150px;
+  height: 150px;
+  color: white;
+  background-color: #3b5998;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 50px;
+  font-size: 130%;
+}
+
+.main_frame {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  height: 300px;
+}
+
+/*account*/
+.out_frame {
+  margin: 0 auto;
+  display: table;
+}
+
+#active_user {
+  text-align: center;
+}
+
+#unactive_user {
+  text-align: center;
+}
+
+/*table*/
+.table {
+  text-align: center;
+}
+
+.table .title {
+  text-align: left;
+}
+
+/*vidoe*/
+.video {
+  margin: 20px;
+}
+
+/*footer*/
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
+
+{% block content %}
+<form method="post" action="{% url 'login' %}" class="sign-in-form">
+  {%csrf_token%}
+    {% if user.is_active %}
+    <div class="out_frame">
+        <div class="main_frame" id="active_user">
+            <p style="font-size: 200%; margin:30% auto;"> Welcome, {{user.username}} </p>
+            <a href="{% url 'main' %}">
+                <button type="button" class="btn">홈으로</button>
+            </a>
+            <a href="{% url 'logout' %}">
+                <button type="button" class="btn">로그아웃</button>
+            </a>
+        </div>
+    </div>
+    {% else %}
+        {% if form.errors %}
+    <script type="text/javascript">
+        alert('사용자 이름이나 비밀번호가 일치하지 않습니다.\n다시 한 번 확인 부탁드립니다.')
+        window.location.href = '{% url 'login' %}';
+    </script>
+    {% endif %}
+<div class="out_frame">
+<div id="form_section">
+  <div class="form_group">
+    <label for="{{ form.username.id_for_label }}">
+        사용자 이름
+        <input class="form-control" id="{{ form.username.id_for_label }}" maxlength="15" name="{{ form.username.html_name }}" type="text" />
+    </label>
+  </div>
+  </div>
+  <div class="form_group">
+    <label for="{{ form.password.id_for_label }}">
+        비밀번호
+    <input class="form-control" id="{{ form.password.id_for_label }}" maxlength="120" name="{{ form.password.html_name }}" type="password" />
+    </label>
+  </div>
+    <div class="out_frame">
+  <input type="submit" class="save btn btn-success" value="로그인">
+  <a href="{% url 'main' %}">
+    <button type="button" class="btn btn-danger">취소</button>
+  </a>
+  <input type="hidden" name="next" value="{{ next }}" />
+    </div>
+</div>
+</form>
+{% endif %}
+{% endblock %}

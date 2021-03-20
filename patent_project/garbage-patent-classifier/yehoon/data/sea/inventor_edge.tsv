@@ -1,0 +1,4105 @@
+	inventor	patent_id
+0	Hubert E.  Sales	0
+1	Peter  Asplund	0
+2	ROBERT HARVEY  MOFFETT	1
+3	SIGRIDUR SOLEY  KRIST JANSDOTTIR	1
+4	Paul  Garcia	2
+5	Bruce S.  Beattie	2
+6	Ben  Harris	2
+7	Doug  Kimzey	2
+8	Robert C.  Parrott	2
+9	James  Micak	2
+10	Gilad  Golub	3
+11	Julio  Subovich	3
+12	Philippe  Sauvignet	4
+13	Claus  Dahl	4
+14	Valey  Ursel	4
+15	Celine  Levecq	4
+16	Jean-Francois  Beaudet	4
+17	Brian E.  Butters	5
+18	Anthony L.  Powell	5
+19	John D.  Pearce	5
+20	Bruce  Henniges	6
+21	Douglas L.  Tyler	6
+22	James G.  Walen	6
+23	Chunwu  Wu	6
+24	Henry G  Justiniano	7
+25	Yoshihiko  Masuda	8
+26	Masazumi  Sasabe	8
+27	Seiji  Kato	8
+28	Atsushi  Tachibana	8
+29	Kenji  Kadonaga	8
+30	Shigeru  Oka	8
+31	Tobias  Wittmann	9
+32	David A.  Potts	10
+33	David A.  Potts	11
+34	Mark D.  Owen	12
+35	Tom  McNeil	12
+36	Francois  Vlach	12
+37	Joseph Phillip  Ehrhardt	13
+38	Miguel  Gonzales	13
+39	Joon Ha  Kim	14
+40	Sarper  Sarp	14
+41	Ji Jung  Lee	14
+42	Jason Craig  Snydmiller	15
+43	Stuart Allan  Snydmiller	15
+44	William G.  Conner	16
+45	Mohammed A.  Al-Hajri	16
+46	Thomas E.  Schultz	16
+47	Michael  Howdeshell	16
+48	Chad L.  Felch	16
+49	Matthew  Patterson	16
+50	Samuel  Shafarik	16
+51	Curt  Cooley	16
+52	Peter G.  Stroot	17
+53	Jimmie A.  Keeton	18
+54	Coyte R  Jones	19
+55	Robert C  Jones	19
+56	William G.  CONNER	20
+57	Osama I.  FAGEEHA	20
+58	Thomas E.  SCHULTZ	20
+59	Edmundo  Ganter Parga	21
+60	Oded  Erez	22
+61	Adi  Erez	22
+62	Izhar  Halahmi	22
+63	Oded  Erez	23
+64	Adi  Erez	23
+65	Izhar  Halahmi	23
+66	Coyte R.  Jones	24
+67	Robert C.  Jones	24
+68	Charles Doyle  Fleishman	25
+69	Edwin T.  Sortwell	26
+70	Tim  Heffernan	27
+71	Bruce  REA	27
+72	Huagang  Zhang	28
+73	Lijun  Mao	28
+74	Paul Owen  Kramer	28
+75	Caidian  Luo	28
+76	Ryan Matthew  Sullivan	28
+77	John Andrew  Joecken	28
+78	Marko  Suput	28
+79	David C. Rennard	29
+80	Justin D. Pace	29
+81	Thomas R. Palmer	29
+82	Frank R. FITCH	30
+83	Naresh J. Suchak	30
+84	Donald E. Henley	31
+85	Kaj Jansson	32
+86	Iiris Joensuu	32
+87	Marjatta Piironen	32
+88	Jukka-Pekka Sirvio	32
+89	Tapio Yrjanainen	32
+90	Fernando Fischmann T.	33
+91	David S. Soane	34
+92	Nathan Ashcraft	34
+93	Phyo Kyaw	34
+94	CARLTON DUDDING	35
+95	James T. Mullowney	36
+96	Theresa L. O'Keefe	36
+97	John Lean	37
+98	Scott Griffin	37
+99	Matthew Taylor	37
+100	David R. Van Vliet	38
+101	Herbert Wallace Campbell	38
+102	Stephen Barrie Chambers	38
+103	Hector Alvarez-Vazquez	38
+104	Donald M. D. Gray	39
+105	Yuyun Shang	39
+106	Carlton Dudding	40
+107	Richard Helferich	41
+108	Ramachandra R. Revur	41
+109	Suvankar Sengupta	41
+110	J. Richard Schorr	41
+111	Roger W. Carson	42
+112	Bruce W. Bremer	42
+113	Michael L. Mastracci	42
+114	Kent E. Maggard	42
+115	Steven Zimmerman	43
+116	Van T. Walworth	43
+117	Scott Drummond	43
+118	Robert P. Carnahan	44
+119	Christopher C. Tubbs	44
+120	Nidal Samad	44
+121	Paul Stocks	45
+122	Ian John Flanagan	45
+123	Gregor Brodt	45
+124	Stephen Adkins	45
+125	Eli Gruber	46
+126	Miguel Ribeiro	46
+127	BADER SHAFAQA AL-ANZI	47
+128	BADER SHAFAQA AL-ANZI	48
+129	Bernard F. Duesel, Jr.	49
+130	Michael J. Rutsch	49
+131	Corwyn Oldfield	50
+132	Riad A. Al-Samadi	51
+133	Carlton Dudding	52
+134	Dong Chen	53
+135	ALBERT N. HEICHBERGER	54
+136	HSIN-YING LIU	55
+137	MICHAEL WAYNE FALK, JR.	55
+138	Mark A. Williams	56
+139	Alan R. Williams	56
+140	Nazli Yesiller	57
+141	James Lewis Hanson	57
+142	Stephen A. Maher	58
+143	Kord J. Wissmann	58
+144	Gholemhossein (Shahrad) KARIMI	59
+145	Darren MacDonald	59
+146	Marcus Hoefken	60
+147	Kurt Ingerle	61
+148	Kaigen Zhou	62
+149	Michael W. Slutz	63
+150	Stephen A. Maher	64
+151	Kord J. Wissmann	64
+152	Peter G. Stroot	65
+153	James Weifu Lee	66
+154	Soren Johannes Hojsgaard	67
+155	Tom Kraemer	68
+156	Charles Kemper	68
+157	Jan Allen	68
+158	Joseph Atzmon	69
+159	William G. Conner	70
+160	Mohammed A. Al-Hajri	70
+161	Thomas E. Schultz	70
+162	Michael Howdeshell	70
+163	Chad L. Felch	70
+164	Matthew Patterson	70
+165	Samuel Shafarik	70
+166	Curt Cooley	70
+167	Roger Allen Nolte	71
+168	Robert L. McGinnis	72
+169	Joseph Edward Zuback	72
+170	James Joseph Manno, JR.	73
+171	Jacqueline Lilja Manno	73
+172	Jason A. Demers	74
+173	Scott A. Leonard	74
+174	Kingston Owens	74
+175	Kenneth J. Kistner	75
+176	Carolyn R. Kistner	75
+177	Huansheng Zhong	76
+178	Xuewei Wu	76
+179	Jiacong Wu	76
+180	Zhimin Sun	76
+181	Haiying Yang	76
+182	Joshua Curlett	77
+183	Samuel Curlett	77
+184	Jesse Curlett	77
+185	Harry Curlett	77
+186	Hongqiang Ren	78
+187	Yunjun Yang	78
+188	Lili Ding	78
+189	Xiaolei Shi	78
+190	Theodore Taylor Sand	79
+191	Carlton Dudding	80
+192	Mindy S. Panunzio	81
+193	Prakash N. Govindan	82
+194	Karan H. Mistry	82
+195	John H. Lienhard	82
+196	Syed M. Zubair	82
+197	Zicheng WU	83
+198	Karthikeyan Sathrugnan	84
+199	Lew Andrew Reyes	84
+200	Rahul Shankar BHADURI	85
+201	Alexander E. KUPERMAN	85
+202	Peter L. Fraenkel	86
+203	Richard Montague	86
+204	Charles F. Julian	87
+205	Mark A. Williams	87
+206	Alan R. Williams	87
+207	Kraig Johnson	88
+208	Lawrence D. Reaveley	88
+209	Fred Jaeger	88
+210	Hua Xu	88
+211	Robert Okey	88
+212	Michio NISHI	89
+213	Takehiro TANAKA	89
+214	Shizuo TAIRA	89
+215	David Stanley Lawry	90
+216	Daniel P. Bjorklund	91
+217	David Kersey	91
+218	Gregory J. Mandigo	91
+219	Chandrakant Tiwari	91
+220	Roger L. Simpson	92
+221	K. Todd Lowe	92
+222	Quinn Q. Tian	92
+223	Siqing Xia	93
+224	Zhiqiang Zhang	93
+225	David A. Potts	94
+226	Mark Y. Kigel	95
+227	Oleksandr O. Kovalenko	95
+228	Leonard B. Goldman	95
+229	John F. Shultis	95
+230	Pierre Dumons	96
+231	Gang YUAN	97
+232	Hendrikus Johannes VAN DER MEIJDEN	98
+233	Josef Merai	99
+234	William G. Conner	100
+235	Mohammed A. Al-Hajri	100
+236	Thomas E. Schultz	100
+237	Michael Howdeshell	100
+238	Chad L. Felch	100
+239	Matthew Patterson	100
+240	Samuel Shafarik	100
+241	Curt Cooley	100
+242	Fernando Benjamin Fischmann T.	101
+243	Thomas A. Davis	102
+244	Malynda A. Cappelle	102
+245	Keith R. Minnich	103
+246	David E. Gamache	103
+247	John Kus	103
+248	Dennis Frank Hussey	104
+249	David Bradbury	104
+250	George Richard Elder	104
+251	Lisa Maxine Edwards	104
+252	Kashi Banerjee	105
+253	Charles D. Blumenschein	105
+254	John Charles Schrader	105
+255	Richard B. Peterson	106
+256	Robbie Ingram-Goble	106
+257	Kevin J. Harada	106
+258	Gregory D. Graves	107
+259	Matthew David STEWART	108
+260	Brian Edward Connelly	108
+261	Daniel Charles Habicht	108
+262	Daekyoo Hwang	109
+263	George W. Smith	110
+264	Wenjun Liu	110
+265	Michael L. Doyle	110
+266	Colin M. McKean	110
+267	Sean G. Callan	111
+268	Juan I. Baez	111
+269	Sean G. Callan	112
+270	Juan I. Baez	112
+271	Frederick C. Wilkins	113
+272	Evgeniya Freydina	113
+273	Aytac Sezgi	113
+274	Reshma Madhusudan	113
+275	Anil Jha	113
+276	Ivano Aglietto	114
+277	Jonathan E. Martin	115
+278	Joel W. Quinn	115
+279	Shanon Rogers	115
+280	Karl Duncan Bishop	116
+281	Michael A. Bilodeau	116
+282	Susan G. Mackay	116
+283	Douglas M. Ruthven	116
+284	Gerd Peter Waschke	117
+285	WILLIAM GREEN	118
+286	Detlev K. Johnson	119
+287	LARRY SAIK	120
+288	Stephen C. Kurtzman	121
+289	James W. Patten	122
+290	Patrick Descamps	123
+291	Claude Prevot	123
+292	Andre Haubry	123
+293	Fernando Alberto Grazziotin	124
+294	John P. Osegovic	125
+295	Michael D. Max	125
+296	Shelli R. Tatro	125
+297	Tianxi ZHANG	126
+298	Richard CROWELL	126
+299	Peter J. Ianniello	127
+300	Giovanni Capra	127
+301	Hongqiang Ren	128
+302	Yunjun Yang	128
+303	Lili Ding	128
+304	Xiaolei Shi	128
+305	Gina Young Becker	129
+306	Sigifredo Castro Diaz	129
+307	Michael Hanson	129
+308	Kylo Martin Heller	129
+309	Dean Thompson	129
+310	Brent R. Constantz	130
+311	Andrew Youngs	130
+312	Terence C. Holland	130
+313	David Michael Jones	131
+314	Tommy Spikes	131
+315	Chris Timpson	131
+316	Raymond J. Roussy	132
+317	Dale Marshall	133
+318	William L. French, SR.	134
+319	Achim Kopmeier	135
+320	Ning Chong	136
+321	Lan Wong	136
+322	Ning CHONG	137
+323	Lan WONG	137
+324	James Tafoya	138
+325	Bert ZAUDERER	139
+326	Thomas J. Kryzak	140
+327	Roy Geerts	141
+328	Cornelis Gijsbertus Van Ginkel	141
+329	Boen Ho O	141
+330	Marianne Frederika Reedijk	141
+331	Benno Middelhuis	141
+332	John LEAN	142
+333	Scott GRIFFIN	142
+334	Matthew TAYLOR	142
+335	Bernard F. Duesel, Jr.	143
+336	Michael J. Rutsch	143
+337	Craig Clerkin	143
+338	Carlton Dudding	144
+339	CARLTON DUDDING	145
+340	Carlton Dudding	146
+341	Carrie Pendleton	146
+342	Christine Dhersin	147
+343	Andrew Peter Musson	148
+344	Stephen A. Maher	149
+345	Kord J. Wissmann	149
+346	David Ritchie VAN VLIET	150
+347	Hector Alvarez-Vazquez	150
+348	Joseph Phillip Ehrhardt	151
+349	Miguel Gonzales	151
+350	Thomas J. Kryzak	152
+351	Steven Lee Burns	153
+352	Derek D. Ingram	153
+353	John D. Linnemann	153
+354	Stanley E. Deeke	153
+355	Jeffrey K. Tardrew	153
+356	William L. French, SR.	154
+357	Anton Bogdan Thel	154
+358	Todd McGee	155
+359	Mark Macdonell	155
+360	David Scott Kosch	155
+361	Marc-Antoine Pelletier	156
+362	Elbert Alden Hale	157
+363	James Paul Harshman	157
+364	Michael Lee Fraim	158
+365	Kashi Banerjee	159
+366	Charles D. Blumenschein	159
+367	John Charles Schrader	159
+368	G. Robert Whiteman	160
+369	Dennis Wambuguh	161
+370	Russell R. Chianelli	161
+371	William G. CONNER	162
+372	Mohammed A. AL-HAJRI	162
+373	Thomas E. SCHULTZ	162
+374	Michael HOWDESHELL	162
+375	Chad L. FELCH	162
+376	Matthew PATTERSON	162
+377	Samuel SHAFARIK	162
+378	Curt COOLEY	162
+379	Cecil A. Yandell	163
+380	Roger W. Carson	164
+381	Bruce W. Bremer	164
+382	William G. CONNER	165
+383	Osama I. Fageeha	165
+384	Thomas E. Schultz	165
+385	Chad Allen Randal	166
+386	William G. CONNER	167
+387	Thomas E. SCHULTZ	167
+388	Frederick Wilkins	168
+389	Evgeniya Freydina	168
+390	Aytac Sezgi	168
+391	Reshma Madhusudan	168
+392	Anil D. Jha	168
+393	Huagang Zhang	169
+394	Lijun Mao	169
+395	Paul Owen Kramer	169
+396	Caidian Luo	169
+397	Ryan Matthew Sullivan	169
+398	John Andrew Joecken	169
+399	Marko Suput	169
+400	Brent R. Constantz	170
+401	Andrew Youngs	170
+402	Terence C. Holland	170
+403	Maria de la Paz Elizalde Gonzalez	171
+404	Martin Marino Davila Jimenez	171
+405	Omar Ornelas Davila	171
+406	Stephen A. Maher	172
+407	Kord J. Wissmann	172
+408	Julian Parry	173
+409	Henry Justiniano	174
+410	David Ritchie Van Vliet	175
+411	Herbert Wallace Campbell	175
+412	Stephen Barrie Chambers	175
+413	Michael L. Strickland	176
+414	Zvi Elgat	177
+415	Alexander Levin	177
+416	Michael John Bowman	178
+417	Kashi Banerjee	179
+418	Charles D. Blumenschein	179
+419	John Charles Schrader	179
+420	Zhanfeng Cui	180
+421	Tony Walker	181
+422	Jayant M. Dholakia	182
+423	Josh Ince	183
+424	Paul Winsor	183
+425	Michael J. Behan	184
+426	Mark T. Ungar	184
+427	Geoffrey N. Ehrman	185
+428	Michael S. Coulton	185
+429	Nathan L. Randello	185
+430	Hugues De Feraudy	186
+431	Henri Seinera	186
+432	ALEXANDER EKSTER	187
+433	John Self	188
+434	Robert A. Olexy	188
+435	Steve Cochran	188
+436	William Downs	189
+437	Paul J. Williams	189
+438	Joachim Bottcher	190
+439	Haiko Pieplow	190
+440	Alfons-Eduard Krieger	190
+441	James P. Crocker	191
+442	Theodore W. Meyers	192
+443	Robert Whiteman	193
+444	Brent R. Constantz	194
+445	Andrew Youngs	194
+446	Ove Blomkvist	195
+447	Joachim Neubert	196
+448	Karl Ferdinand Staab	196
+449	John Leslie Burba	197
+450	Richard Donald Witham	197
+451	Edward Bayer McNew	197
+452	J. Clair Batty	198
+453	Craig E. Cox	198
+454	David A. Bell	198
+455	Jose Alberto Ochoa Disselkoen	199
+456	Janos Katay	200
+457	Duncan John Grierson	201
+458	Philip James Campion	201
+459	Denyse Claire DuBrucq	202
+460	Keith E. Forrester	203
+461	Giuseppe Natta	204
+462	Gianni Donati	204
+463	Rodney Rasmussen	205
+464	Paul C. Cox	205
+465	Eric E. Fitch	206
+466	David M. O'Keefe	206
+467	David C. Palmer	206
+468	Raymond J. ROUSSY	207
+469	James W. Laraway	208
+470	Richard E. Weber	208
+471	Donald J. Thomas	208
+472	Carl Moore	209
+473	Aaron Wesolowski	209
+474	Martin A. Ginsburg	210
+475	Philippe Sauvignet	211
+476	Claus Dahl	211
+477	Valey Ursel	211
+478	Celine Levecq	211
+479	Jean-Francois Beaudet	211
+480	Dominick O'Reilly	212
+481	Alexia Aubault	213
+482	Dominique Roddier	213
+483	Christian Cermelli	213
+484	Roger W. Carson	214
+485	Bruce W. Bremer	214
+486	Izhar Halahmi	215
+487	Oded Erez	215
+488	Adi Erez	215
+489	Odd Bernhard Torkildsen	216
+490	Frances Irene Parrott	217
+491	Greg B. Kent	218
+492	James M. Berry	219
+493	Steve Morris	219
+494	Edward L. McWilliams	220
+495	Soren Johannes Hojsgaard	221
+496	John Stark	222
+497	Venkataraman Jagannathan	223
+498	Ravi Chidambaran	223
+499	Manoj Sharma	223
+500	Philip Patrick Peter O'Brien	224
+501	Owen Thomas Leonard	224
+502	Michael Gosselin	225
+503	Eric E. Fitch	226
+504	David M. O'Keefe	226
+505	David C. Palmer	226
+506	Kuniomi Araki	227
+507	Carlo Canteri	228
+508	Mariapia Pastor, legal representative	228
+509	Kevin Mickelson	229
+510	Roger Engelsgaard	229
+511	Allen B. Wright	230
+512	Klaus S. Lackner	230
+513	Burton Wright	230
+514	Matt Wallen	230
+515	Ursula Ginster	230
+516	Eddy J. Peters	230
+517	Tommy Stern	231
+518	Todd McGee	231
+519	Roger W. Carson	232
+520	Bruce W. Bremer	232
+521	Robert A. Elefritz, JR.	233
+522	James Holland Scott, III	233
+523	David Usher	234
+524	Frederick Wilkins	235
+525	Evgeniya Freydina	235
+526	Aytac Sezgi	235
+527	Reshma Madhusudan	235
+528	Anil D. Jha	235
+529	Michael Allen Wilkman	236
+530	Keith R. Minnich	237
+531	Mark C. Nicholson	237
+532	RamKumar Karlapudi	237
+533	Richard M. Schoen	237
+534	Marina B. Jensen	238
+535	Janos Stadler	239
+536	Peter Szabo	239
+537	Ferenc Puskas	239
+538	Jim Ballew	240
+539	William Anderson	240
+540	Jong Soo Cho	240
+541	Mark Yeager	240
+542	Lee Daniel Starnes	240
+543	Jay L. McGrew	241
+544	Keith E. Forrester	242
+545	John E. Irvine	243
+546	Steven E. Hargrave	243
+547	Frederick Wilkins	244
+548	Evgeniya Freydina	244
+549	Aytac Sezgi	244
+550	Reshma Madhusudan	244
+551	Anil D. Jha	244
+552	Rodrigo Andres Geraldo SEURA	245
+553	James W. Laraway	246
+554	Richard E. Weber	246
+555	Donald J. Thomas	246
+556	Gerd Peter Waschke	247
+557	Janos KATAY	248
+558	Geoffrey N. Ehrman	249
+559	Michael S. Coulton	249
+560	Nathan L. Randello	249
+561	Theodore W. Meyers	250
+562	Thomas J. Kryzak	251
+563	Roger W. Carson	252
+564	Bruce W. Bremer	252
+565	Detlev K. Johnson	253
+566	Mark Y. Kigel	254
+567	Oleksandr O. Kovalenko	254
+568	Leonard B. Goldman	254
+569	James W. Laraway	255
+570	Richard E. Weber	255
+571	Donald J. Thomas	255
+572	Roger W. Carson	256
+573	Bruce W. Bremer	256
+574	Jonathan M. Dietz	257
+575	Achim Kopmeier	258
+576	Thomas J. Kryzak	259
+577	Kevin Mickelson	260
+578	Roger Engelsgaard	260
+579	Samantha Champ	261
+580	Mariola Wanior	261
+581	Andreas Reifschneider	261
+582	Kevin Mickelson	262
+583	Roger Engelsgaard	262
+584	Donald A. Luke	263
+585	Vaughn V. Astley	263
+586	Hassan Hans Badreddine	264
+587	Edward J. Jordan	265
+588	Wenjun Liu	265
+589	John P. Osegovic	266
+590	Michael D. Max	266
+591	Roger W. Carson	267
+592	Bruce W. Bremer	267
+593	Roger J. Owley	268
+594	Kashi Banerjee	269
+595	Charles D. Blumenschein	269
+596	John Charles Schrader	269
+597	Jost-Ulrich Kugler	270
+598	Peter Belouschek	270
+599	Katja Kugler	270
+600	Gabriel Popa	271
+601	Jean Suidureau	271
+602	Petra Johannsen	271
+603	Georg Reinhold	271
+604	Karl Duncan BISHOP	272
+605	Michael A. BILODEAU	272
+606	Susan G. MACKAY	272
+607	Douglas M. RUTHVEN	272
+608	Carl C. Nesbitt	273
+609	Xiaowei Sun	273
+610	Gerardo F. Maga	274
+611	Frederick E. Goetz	274
+612	William Frederick Dew	275
+613	William Frederick Dew	276
+614	William Frederick Dew	277
+615	G. Robert Whiteman	278
+616	Emmanuel Hengl	279
+617	Patrick Hengl	279
+618	Joseph A. Magner	280
+619	Richard V. York	280
+620	Carlo Canteri	281
+621	Mariapia Pastor	281
+622	John M. Bird	282
+623	George W. Putman	282
+624	Randy Howard Adams	283
+625	Cecil A. Yandell	284
+626	Donald M. D. Gray (Gabb)	285
+627	Paul J. Suto	285
+628	Bernard. F. Duesel	286
+629	Michael J. Rutsch	286
+630	Aicardo Roa-Espinosa	287
+631	Michael Dennis Krysiak	287
+632	Thomas Alan Benjamin	288
+633	Craig Jay Jones	288
+634	Luther Alba Brice	288
+635	Alexander G. Fassbender	289
+636	Daniel Goldmann	290
+637	Bram den Dunnen	290
+638	Michael Knust	290
+639	Kenneth F. Ede	291
+640	Kerry C. Thorson	291
+641	GREG B. KENT	292
+642	Roger W. Carson	293
+643	Bruce W. Bremer	293
+644	DAVID USHER	294
+645	Scott Blair Godlien	295
+646	Keith R. Minnich	296
+647	Mark C. Nicholson	296
+648	RamKumar Karlapudi	296
+649	Richard M. Schoen	296
+650	Jason Demers A.	297
+651	Scott Leonard A.	297
+652	Kingston Owens	297
+653	David TAYLOR B.	298
+654	Stephen TOPAZ R.	298
+655	Keith R. Minnich	299
+656	Ramkumar Karlupudi	299
+657	Richard M. Schoen	299
+658	Byung J. Kim	300
+659	Seok-Young Oh	300
+660	Pei C. Chiu	300
+661	Daniel K. Cha	300
+662	Uwe Rother	301
+663	Frank Wiemeyer	301
+664	Eberhard Kopp	301
+665	Christoph Gundlach	301
+666	KEVIN SLOUGH	302
+667	TROY LUPUL	302
+668	Brian Elson	303
+669	Brian Large C.	303
+670	Peter Norman	303
+671	Richard Hoover L.	303
+672	Yasuhiro Tada	304
+673	Shingo Taniguchi	304
+674	Masayuki Hino	304
+675	Takeo Takahashi	304
+676	Kenichi Suzuki	304
+677	Toshiya Mizuno	304
+678	Christopher W. Powanda	305
+679	Yoshiaki Fukuda	306
+680	Hirofumi Shiochi	306
+681	Motomasa Okubo	306
+682	Fumiyuki Yahagi	306
+683	Toshihiko Mita	306
+684	Kazuo Ishihara	306
+685	Andrew Gordon W.	307
+686	Alexander G. Fassbender	308
+687	Robert Elefritz A.   JR.	309
+688	James Scott Holland   III	309
+689	Donald M.D. Gray (Gabb)	310
+690	Paul J. Suto	310
+691	Bengt Goran Eriksson	311
+692	Stephen Ross Orpin	311
+693	Timothy Kevin Graham	311
+694	Jian-Rung Cheng	312
+695	Tong-Fu Hsiao	312
+696	David Van Vliet Ritchie	313
+697	Herbert Campbell Wallace	313
+698	Stephen Chambers Barrie	313
+699	John J. Lewnard	314
+700	David Moore J.	315
+701	William Betts C.	315
+702	GEORGE J. CYMERMAN	316
+703	JESSICA VANDENBERGHE	316
+704	Peter J. Ianniello	317
+705	Aigen Zhao	317
+706	Gary L. Shaffer	317
+707	Hugues De Feraudy	318
+708	Henri Seinera	318
+709	Wing Young Yip	319
+710	Jurgen Schenk	320
+711	Frank Manfred Franz Mueller	321
+712	Rocky R. White	322
+713	Lawrence J. Bradford	322
+714	Douglas Kelley G.	323
+715	Richard Handley A.	323
+716	Steve Benesi C.	324
+717	Patrick Costalloe J.	324
+718	Terry Maier L.	325
+719	Michael Wagner P.	326
+720	Sanjay Bellara	327
+721	Randy Adams Howard	328
+722	Thomas Kryzak J.	329
+723	Kuniomi Araki	330
+724	Keith Edward Forrester	331
+725	John Poppe R.	332
+726	Keith Edward Forrester	333
+727	Brian Rogers	334
+728	Andrea Alba	334
+729	Shrinivas Peri	334
+730	Shannon Stocks	334
+731	Lingo Chang	334
+732	David E. Brune	335
+733	John A. Collier	335
+734	Thomas E. Schwedler	335
+735	A. G. Eversole	335
+736	Steven Lumbert	336
+737	Thomas J. Casper	337
+738	Mark A. Schoenenberger	337
+739	Brad D. Laubenstein	337
+740	James A. Reilly	337
+741	Joseph G. Krall	337
+742	Thomas Alan Benjamin	338
+743	Craig Jay Jones	338
+744	Luther Alba Brice	338
+745	Steven L. Cort	339
+746	Wayne H. Dickinson	340
+747	Kevin Mickelson	341
+748	Roger Engelsgaard	341
+749	Raymond Guyomarc'h	342
+750	Hassan Badreddine Hans	343
+751	Lysane Bolduc	344
+752	Regis Renaud P.	345
+753	Edward Jordan J.	346
+754	Wenjun Liu	346
+755	Masanori Adachi	347
+756	Tatsuo Shimomura	347
+757	David L. Polston	348
+758	Gary Hater R.	349
+759	Roger Green B.	349
+760	Jeffrey Harris M.	349
+761	Phillip Smith A.	349
+762	Greg Enterline A.	349
+763	Michael Thomas	349
+764	Kevin Mieczkowski	349
+765	John Barbush A.	349
+766	Guy Chartier Norman	350
+767	Joachim Steinbeck	351
+768	James Howard R.	352
+769	Rainer Bunge	353
+770	Michael Bowman John	354
+771	Werner Heidel	355
+772	Jinliang Ding	356
+773	Graham John Gibson Juby	357
+774	Thomas Benjamin Alan	358
+775	Craig Jones Jay	358
+776	Luther Brice Alba	358
+777	Andrew Martin John	359
+778	Sunggyu Lee	360
+779	Asdrubal Garcia-Ortiz	360
+780	John Wootton	360
+781	Craig Brase S.	361
+782	Dirk Bodegom Albertus	362
+783	Robertus Cornelis Rullens Jacobus Maria	362
+784	Arie Nooy Van Der Kolff Hessel	362
+785	Alan Hassett F.	363
+786	Jerry Leone	364
+787	Larry Shilling	364
+788	Keith Forrester Edward	365
+789	Dave Van Vliet	366
+790	Herbert Wallace Campbell	366
+791	Stephen Barrie Chambers	366
+792	Zhi Min LIAO	367
+793	Jing Kui GUO	367
+794	Yu He HUANG	367
+795	Jing ZOU	367
+796	Zhi Qiang CHEN	367
+797	Rui Zhi DAI	367
+798	Wen Yan SHI	367
+799	Jian Zhong XIONG	367
+800	Hai Ying JI	367
+801	Curt A. Christeson	368
+802	William C. Batten	369
+803	Bruce Kyles	369
+804	Charles Kemp	369
+805	Vincent Ciccone Pe Dee J.	370
+806	William Kirksey Pe E.	370
+807	Wing YOUNG Yip	371
+808	Steven Trout M.	372
+809	James McMahon P.	373
+810	James Berry M.	374
+811	Steve Morris	374
+812	Roy Ames Victor	375
+813	Matthew Etherington John	375
+814	Nicholas Czeperko Michael	375
+815	Ian Ugarte Joseph	375
+816	Torfinn Johnsen	376
+817	Scott Dunn	377
+818	Jiang Ji	378
+819	John Stark	379
+820	Keith Forrester Edward	380
+821	Keith Forrester Edward	381
+822	Ho Nam Chang	382
+823	Do-Yun Kim	382
+824	Moon-II Kim	382
+825	Chul-Hee Ryu	382
+826	Woo-Gi Lee	382
+827	Hans Tanghe	383
+828	Michael Olson A.	384
+829	Glenn Helm	385
+830	Roger Carson W.	386
+831	Bruce Bremer W.	386
+832	Michael Mastracci L.	386
+833	Kent Maggard E.	386
+834	Jinliang Ding	387
+835	Robert J. Kelly	388
+836	Thomas Benjamin Alan	389
+837	Craig Jones Jay	389
+838	Luther Brice Alba	389
+839	Werner Heidel	390
+840	Luciano Salda	391
+841	Keith Forrester Edward	392
+842	Roy Ames Victor	393
+843	Matthew Etherington John	393
+844	Nicholas Czeperko Michael	393
+845	Ian Ugarte Joseph	393
+846	Curt Christeson A.	394
+847	Shunta Shiraishi	395
+848	Charles E. Tharp	396
+849	Randall C. Chann	396
+850	Yoshiaki Fukuda	397
+851	Hirofumi Shiochi	397
+852	Motomasa Okubo	397
+853	Fumiyuki Yahagi	397
+854	Toshihiko Mita	397
+855	Kazuo Ishihara	397
+856	Michael Marcellus Thomas	398
+857	Steven Lumbert	399
+858	Claus Hoffjann	400
+859	Hans-Juergen Heinrich	400
+860	Theodore Meyers W.	401
+861	William Warren	402
+862	Gordon Lewis	402
+863	Robert Rizzari	402
+864	Paul John Hart	403
+865	Rebecca K. Snyder	403
+866	Pavel Koren	404
+867	Igal Raz	404
+868	Robert Asimov	404
+869	Rami Noach	404
+870	Irena Trounkovsky	404
+871	Mao-Hsiao Chen	405
+872	Jyh-Yeong Hwang	406
+873	David Ruttley J.	407
+874	Gerardo Maga F.	408
+875	Frederick Goetz E.	408
+876	Ajit Chowdhury K.	409
+877	Jeff Macri C.	409
+878	Kevin Baker L.	409
+879	Gregory Graf J.	409
+880	Graham Juby John Gibson	410
+881	Keith Forrester Edward	411
+882	William Warren	412
+883	Gordon Lewis	412
+884	Robert Rizzari	412
+885	Jonathan Dietz M.	413
+886	Keith Forrester E.	414
+887	Rocky White R.	415
+888	Lawrence Bradford J.	415
+889	Kenneth S. Price	416
+890	Joe Kurek	416
+891	Kurt Whitfield	416
+892	Herbert I. Wissel	416
+893	Daniel Cha K.	417
+894	Seok-Young Oh	417
+895	Pei Chiu C.	417
+896	Byung Kim J.	417
+897	John Peters    JR.	418
+898	John Markee	418
+899	Daryl Meyer G.	419
+900	Steven Cort L.	420
+901	Rodney Tyler W.	421
+902	Keith Forrester Edward	422
+903	Mohan Singh Saran	423
+904	George Walter Luxbacher	423
+905	Bryan Flynn Nicholas	424
+906	Shamsedeau Rostami	424
+907	Claude DeGarie J.	425
+908	Sylvain Dufresne-Nappert	425
+909	Douglas MacKrell A.	426
+910	Paul Hutlet A.N.	426
+911	Keith Forrester Edward	427
+912	Glenn Helm	428
+913	Keith Forrester Edward	429
+914	Keith Forrester Edward	430
+915	Terry Goolsby L.	431
+916	Melissa Hayes	431
+917	Marina Jensen B	432
+918	Shunta Shiraishi	433
+919	E. Jowett Craig	434
+920	Kang Chin Lin	435
+921	Roger Carson W	436
+922	Bruce Bremer W.	436
+923	Peter Ianniello J.	437
+924	Aigen Zhao	437
+925	Gary Shaffer L.	437
+926	Roger Carson W.	438
+927	Bruce Bremer W.	438
+928	David Moore J.	439
+929	William Betts C.	439
+930	Mohammad Abu-Orf	440
+931	Banu Ormeci	440
+932	Patrick F. Dunne	441
+933	David Brune E.	442
+934	John Collier A.	442
+935	Thomas Schwedler E.	442
+936	A. Eversole G.	442
+937	Juergen Heuser	443
+938	Werner Verhoeven	443
+939	Domien Sluyts	443
+940	Dov Steinberg	444
+941	Fernando deTorres A.	445
+942	Mark Zappi E.	446
+943	William French Todd	446
+944	Rafael Hernandez	446
+945	Stephen Dufreche Thomas	446
+946	Darrell Sparks L.   JR.	446
+947	Gary Ganzi	447
+948	Anil Jha D.	447
+949	Frederick Wilkins	447
+950	Evgeniya Freydina	447
+951	Aytac Sezgi	447
+952	Reshma Madhusudan	447
+953	Roger Carson W.	448
+954	Bruce Bremer W.	448
+955	Frederick Wilkins	449
+956	Evgeniya Freydina	449
+957	Aytac Sezgi	449
+958	Reshma Madhusudan	449
+959	Anil Jha D.	449
+960	Curtis Kirker	450
+961	Berkeley Fuller F.	450
+962	Jan D. Graves	451
+963	Tadeush Krushnevych	452
+964	Olexander Piatnychko	452
+965	Jon Fabri O.	453
+966	Jason Holt	453
+967	Wayne Dickinson H.	454
+968	Peter Markusch H.	455
+969	Ralf Guether	455
+970	Thomas Sekelik L.	455
+971	Shih-Chieh Chen	456
+972	Chi-Yi Liou	456
+973	Teng-Yu Chen	456
+974	Keith Forrester Edward	457
+975	Robert Howard	458
+976	John Meyers lll J.	459
+977	John Swartz H.	459
+978	Nathaniel Kurczewski G.	459
+979	Matthew Kurczewski J.	459
+980	Suha Rawhani	460
+981	Jacobus Viljoen Johannes	460
+982	William C. Batten	461
+983	Bruce Kyles	461
+984	Charles Kemp	461
+985	Gabriel Plante	462
+986	Soichiro Yamamoto	463
+987	Edwin Rice E.	464
+988	Charles Franklin H.	464
+989	Mark Butler Henry	465
+990	Kang Lin Chin	466
+991	Roger Carson W.	467
+992	Bruce Bremer W.	467
+993	Imre Mecs	468
+994	Miklos Kalman	468
+995	Miklos Hlatki	468
+996	Sandor Puskas	468
+997	Janos Balazs	468
+998	Gyula Lengyel	468
+999	Zsolt Virag	468
+1000	Gyula Kovacs	468
+1001	Ferenc Horvath	468
+1002	Imre Samu	468
+1003	Kazuo Okutsu	469
+1004	Hisashi Takamura	469
+1005	Koji Hane	469
+1006	Nobuyuki Matsui	469
+1007	Yasuyuki Hayakawa	469
+1008	Mitsuaki Furuichi	469
+1009	Regis Phillip Renaud	470
+1010	Daniel  Goldmann	471
+1011	Bram den  Dunnen	471
+1012	Michael  Knust	471
+1013	Mohan Singh Saran	472
+1014	George Walter Luxbacher	472
+1015	Roger W Carson	473
+1016	Bruce W Bremer	473
+1017	Charles E. Tharp	474
+1018	Randall C. Chann	474
+1019	Lawrence  Conaway	475
+1020	Michael R. Keller	475
+1021	Roger K. Noble	475
+1022	Joe W. Lacey	476
+1023	Peter J. Ianniello	477
+1024	Jerome Fife Jay	478
+1025	Daniel Wickham Edmund	478
+1026	Vladimir Shreider Anatol	479
+1027	Natalia Shreider	479
+1028	Kurt Ingerle	480
+1029	Charles C. Kemper	481
+1030	Jan  Allen	481
+1031	Tom  Kraemer	481
+1032	Adam Krylowicz	482
+1033	Kazimierz Chrzanowski	482
+1034	Janusz Usidus	482
+1035	Richard Grimes T.	483
+1036	David Polston L.	484
+1037	Robert Colin Pugh	485
+1038	Colin John Francis Philip Jones	485
+1039	Paul A. Kittle	486
+1040	Richard Donald Witham	487
+1041	Edward Bayer McNew	487
+1042	John Leslie Burba III	487
+1043	Hung Van Nguyen	488
+1044	Donald Bruce Bursill	488
+1045	James Young Morran	488
+1046	Mary  Drikas	488
+1047	Veronica Laurel Pearce	488
+1048	Jan D. Graves	489
+1049	Paul John Hart	490
+1050	Rebecca K. Snyder	490
+1051	Bernard  Greenberg	491
+1052	Lawrence  Conaway	492
+1053	Michael R. Keller	492
+1054	Roger K. Noble	492
+1055	Thomas J. Casper	493
+1056	Mark A. Schoenenberger	493
+1057	Brad D. Laubenstein	493
+1058	James A. Reilly	493
+1059	Joseph G. Krall	493
+1060	Ajit K. Chowdhury	494
+1061	Alexander  Manu	495
+1062	James  Barthel	496
+1063	Mark A. Peters	496
+1064	Gerald J. Grott	497
+1065	Joseph  Leon	498
+1066	Kang Chin Lin	499
+1067	Burkhard  Schmeling	500
+1068	Robert  Federighi	501
+1069	James  Johnson	501
+1070	Jason A. Demers	502
+1071	Scott A. Leonard	502
+1072	Kingston  Owens	502
+1073	Dave  Van Vliet	503
+1074	Herbert Wallace Campbell	503
+1075	Stephen Barrie Chambers	503
+1076	Paul Etienne	504
+1077	Pierre Buffiere	504
+1078	E. Craig Jowett	505
+1079	Earl Roger Singleton	506
+1080	William  Warren	507
+1081	Gordon  Lewis	507
+1082	Robert  Rizzari	507
+1083	Riccardo  Cattaneo-Vietti	508
+1084	Giorgio  Bavestrello	508
+1085	Umberto  Benatti	508
+1086	Carlo  Cerrano	508
+1087	Marco  Giovine	508
+1088	Keith E. Forrester	509
+1089	Zoltan  Egeresi	510
+1090	W. B. McNeill	511
+1091	Garry Kevin Callinan	512
+1092	Peter Chapman	512
+1093	Charles E. Tharp	513
+1094	Randall C. Chann	513
+1095	John W. Baumgartner	514
+1096	Mark K. Kubesh	514
+1097	Pierre  Jeanvoine	515
+1098	Michael  Airheart	516
+1099	Scott Lee Wellington	517
+1100	John Michael Karanikas	517
+1101	Kevin Albert Maher	517
+1102	Meliha Deniz Sumnu-Dindoruk	517
+1103	Harold J. Vinegar	517
+1104	Claus  Hoffjann	518
+1105	Hans-Juergen  Heinrich	518
+1106	Gordon L. Richard	519
+1107	Robert John Walker	520
+1108	Harold J. Vinegar	521
+1109	Ronald Marshall Bass	521
+1110	Joseph G. Harrington	522
+1111	Martin T. Sherman	523
+1112	Keith Edward Forrester	524
+1113	Wen Chao Shen	525
+1114	John G. Petersen	526
+1115	William C. Holmes	526
+1116	Mohammad  Abu-Orf	527
+1117	Banu  Ormeci	527
+1118	Pen-Hsien  Chi	528
+1119	Zhi-Jian  Chen	528
+1120	Wen-Ching  Chen	528
+1121	Rung-Yaw  Chen	528
+1122	Chie Chien Tseng	528
+1123	Jonathan M. Dietz	529
+1124	Padraig  McAlister	530
+1125	Peter J. Ianniello	531
+1126	Jack Herron	532
+1127	Robert Salter	532
+1128	Craig C. Andrews	533
+1129	Oliver J. Murphy	533
+1130	Ernest E. Carter JR.	534
+1131	Scott Lee Wellington	535
+1132	Eric Pierre de Rouffignac	535
+1133	Harold J. Vinegar	535
+1134	Robert D. Chisholm	536
+1135	Debrah A. Beck	536
+1136	John B. Steward	536
+1137	Jordan M. Johnston	536
+1138	Baosheng  Lee	536
+1139	John Michael Karanikas	537
+1140	Ilya Emil Berchenko	537
+1141	Eric Pierre de Rouffignac	537
+1142	Jean-Charles  Ginestra	537
+1143	Kirk Samuel Hansen	537
+1144	Lanny Gene Schoeling	537
+1145	Gordon Thomas Shahin JR.	537
+1146	Meliha Deniz Sumnu-Dindoruk	537
+1147	Harold J. Vinegar	537
+1148	Juan Carlos Josse	538
+1149	John William Sutherlin	538
+1150	Harold J. Vinegar	539
+1151	Eric Pierre de Rouffignac	539
+1152	Kevin Albert Maher	539
+1153	Lanny Gene Schoeling	539
+1154	Scott Lee Wellington	539
+1155	Scott Lee Wellington	540
+1156	Ajay Madhav Madgavkar	540
+1157	Robert Charles Ryan	540
+1158	Harold J. Vinegar	541
+1159	Eric Pierre de Rouffignac	541
+1160	John Michael Karanikas	541
+1161	Scott Lee Wellington	541
+1162	Harold J. Vinegar	542
+1163	Eric Pierre de Rouffignac	542
+1164	Ajay Madhav Madgavkar	542
+1165	Kevin Albert Maher	542
+1166	Billy John McKinzie, II	542
+1167	Bruce Donald Palfreyman	542
+1168	Robert Charles Ryan	542
+1169	George Leo Stegemeier	542
+1170	John Michael Ward	542
+1171	Scott Lee Wellington	542
+1172	Kenneth  Haggerty	543
+1173	Pierce L. Chandler JR.	544
+1174	Harold J. Vinegar	545
+1175	Dannie Antoine Aymond JR.	545
+1176	Kevin Albert Maher	545
+1177	Billy J. McKinzie, II	545
+1178	Bruce Donald Palfreyman	545
+1179	George Leo Stegemeier	545
+1180	John Michael Ward	545
+1181	Ronnie Wade Watkins	545
+1182	Scott Lee Wellington	545
+1183	G. Robert Whiteman	546
+1184	Peter  Veenstra	547
+1185	Eric Pierreus de Rouffignac	547
+1186	John Michael Karanikas	547
+1187	Harold J. Vinegar	547
+1188	Scott Lee Wellington	547
+1189	Kenneth S. Price	548
+1190	Joe  Kurek	548
+1191	Kurt  Whitfield	548
+1192	Herbert I. Wissel	548
+1193	Tamiyuki  Eguchi	549
+1194	Shiro  Tanso	549
+1195	Naoki  Murakami	549
+1196	Nobuo  Hayashi	549
+1197	Seiji  Okuda	549
+1198	Robert D. Chisholm	550
+1199	Debrah A. Beck	550
+1200	John B. Steward	550
+1201	Jordan M. Johnston	550
+1202	Baosheng Lee	550
+1203	Harold J. Vinegar	551
+1204	Christopher Kelvin Harris	551
+1205	Robin Adrianus Hartmann	551
+1206	Christopher Arnold Pratt	551
+1207	Gordon Bruce Lepper	551
+1208	Randolph Rogers Wagner	551
+1209	Daniel K. Cha	552
+1210	Pei C. Chiu	552
+1211	Seok-Young  Oh	552
+1212	Byung Joon Kim	552
+1213	Byung J. Kim	553
+1214	Neal R. Adrian	553
+1215	Clint M. Arnett	553
+1216	Kurt  Ingerle	554
+1217	Garry Kevin Callinan	555
+1218	Peter  Chapman	555
+1219	Chung-Yi  Liaw	556
+1220	Theodore W. Meyers	557
+1221	Brian  Kenet	558
+1222	Pedro Joaquin Sanchez Belmar	558
+1223	William F. Heins	559
+1224	Kuniaki  Terato	560
+1225	Edwin E. Rice	561
+1226	Charles H. Franklin	561
+1227	Juergen  Ahnsorge	562
+1228	Ivan  Ban	562
+1229	Heinz-Helmer  Rasche	562
+1230	Boris Ozyboyd	563
+1231	Saburo  Matsui	564
+1232	Shinobu  Kobayashi	564
+1233	Sadakatsu  Kimura	564
+1234	Joe O. Trahan	565
+1235	Bang Mo Kim	566
+1236	Stephen Lan-Sun Hung	566
+1237	Joseph James Salvo	566
+1238	Gary Lane Poole	567
+1239	Ruggero Maria Santilli	568
+1240	Derek P. Williams	569
+1241	Christopher S. Williams	569
+1242	Allan E. Hokanson	569
+1243	Christine  Brauer	570
+1244	Fernando A. deTorres	571
+1245	Regis Phillip Renaud	572
+1246	Garry Kevin Callinan	573
+1247	Peter Chapman	573
+1248	William J. Gannon	574
+1249	John  Muir	574
+1250	Glen T. Van Lier	574
+1251	Robert C. Moore	575
+1252	Vadake R. Srinivasan	576
+1253	John J. Sansalone	576
+1254	Roger W. Carson	577
+1255	Bruce W. Bremer	577
+1256	Viktor Ivanovich Petrik	578
+1257	Michael David Hedenland	579
+1258	Lloyd Duane Hedenland SR.	579
+1259	Mark D. Hedenland	579
+1260	Larry P. Sower	580
+1261	Yoshiaki  Fukuda	581
+1262	Hirofumi  Shiochi	581
+1263	Motomasa  Okubo	581
+1264	Fumiyuki  Yahagi	581
+1265	Toshihiko  Mita	581
+1266	Kazuo  Ishihara	581
+1267	Jan D. Graves	582
+1268	Kenneth J. Boutte	583
+1269	Ban D. Green	583
+1270	Masuzo  Murakami	584
+1271	Tetsuo  Murakami	584
+1272	John W. Baumgartner	585
+1273	Mark K. Kubesh	585
+1274	Robert D. Chisholm	586
+1275	Debrah A. Beck	586
+1276	John B. Steward	586
+1277	Jordan M. Johnston	586
+1278	Baosheng  Lee	586
+1279	Richard T. Grimes	587
+1280	Echezuria; Heriberto	588
+1281	Vasquez; Pedro	588
+1282	De Aguiar; Jose	588
+1283	Urich; Juan F.	588
+1284	Han Jong Chen	589
+1285	Wei Fu Chen	589
+1286	Carol M. Jantzen	590
+1287	John B. Pickett	590
+1288	Connie A. Cicero-Herman	590
+1289	James C. Marra	590
+1290	Laszlo  Marton	591
+1291	Mihaly  Czako	591
+1292	David A. Hazlebeck	592
+1293	David C. Pollock	593
+1294	Renaud; Regis Phillip	594
+1295	Jan D. Graves	595
+1296	Jan D. Graves	596
+1297	Robert L. Irvine	597
+1298	Michael David Max	598
+1299	Hideo  Sekino	599
+1300	Satoshi  Inoue	599
+1301	Yuichiro  Yamazaki	599
+1302	Masashi  Ohbuchi	599
+1303	June  Toda	599
+1304	Shu  Susami	599
+1305	Yoshie  Yamanishi	599
+1306	Eric B. Tiemeyer	600
+1307	Jan D. Graves	601
+1308	Jan D. Graves	602
+1309	Kazuyuki  Yamasaki	603
+1310	Kazumi  Chujo	603
+1311	Seiji  Okamoto	603
+1312	Yukihiro  Tao	603
+1313	Warren Howard Chesner	604
+1314	James  Melrose	604
+1315	Tetsuya  Matsui	605
+1316	Kiyomi  Funabashi	605
+1317	Yoshiaki  Ichikawa	605
+1318	Takako  Oono	605
+1319	Akira  Sekine	605
+1320	Warren Howard Chesner	606
+1321	James  Melrose	606
+1322	Laura Jane Bailey	607
+1323	John Timothy Bailey	607
+1324	Gerald J. Grott	608
+1325	Craig C. Andrews	609
+1326	Oliver J. Murphy	609
+1327	Graves; Jan D.	610
+1328	Al-Samadi; Riad A.	611
+1329	Larry P. Sower	612
+1330	Donald; Hubbard H.	613
+1331	Johnson; George E.	613
+1332	Jerome Jay Fife	614
+1333	Daniel Edmund Wickham	614
+1334	Terry A. Berger	615
+1335	Kimber D. Fogelman	615
+1336	L. Thompson Staats	615
+1337	Mark  Nickerson	615
+1338	Paul  Bente	615
+1339	Abdul-Rahman Abdul-Kader M. Faqih	616
+1340	Ajit K. Chowdhury	617
+1341	Lutz  Bilke	618
+1342	Cho; Jae-hyun	619
+1343	Kim; Yong-hwan	619
+1344	Lee; Yong-woo	619
+1345	Lee; Won-kwon	619
+1346	Abdul-Rahman Abdul Faqih	620
+1347	Kevin P. O'Leary	621
+1348	Thomas H. Probst	621
+1349	Jenchie  Wang	621
+1350	David A. Wilson	621
+1351	Henry J. Probst	621
+1352	John Michael Sullivan	622
+1353	Gregg Anthony Crocco	622
+1354	Rappas; Alkis S.	623
+1355	John G. Petersen	624
+1356	William C. Holmes	624
+1357	Glen D. Lindbo	625
+1358	Akihiko  Hongyo	626
+1359	Masaki  Naito	626
+1360	Kazuhiro  Inoue	626
+1361	Hall; John L.	627
+1362	Randall Jeff Kozak	628
+1363	Clint R. Elston	629
+1364	Ernest E. Carter JR.	630
+1365	Takaya  Sato	631
+1366	Tsutomu  Uehara	631
+1367	Hiroshi  Yoshida	631
+1368	Mitsugu  Kotani	631
+1369	Lawrence M. Conaway	632
+1370	Roger  Noble	632
+1371	Michael  Keller	632
+1372	David  Caffey	632
+1373	Skermer; Nigel A.	633
+1374	Dormer; John L.	633
+1375	ANDREW ROBERT WINSTON  GOUGH	634
+1376	MARK KENNETH  LANGFORD	634
+1377	PAUL FREDERICK  TURNER	634
+1378	Tobey, Jr.; James Francis	635
+1379	Stapleton, Jr.; Raymond D.	635
+1380	James R. Gray	636
+1381	Donald R. Rousseau	636
+1382	Lloyd E. Weaver	636
+1383	J. Kenneth Wittle	637
+1384	Richard A. Hamilton	637
+1385	Charles S. Titus	637
+1386	JEFFREY H.  BURBANK	638
+1387	C. DAVID  FINCH	638
+1388	JAMES M.  BRUGGER	638
+1389	Jun  Yamamoto	639
+1390	Akira  Osawa	639
+1391	Kunimasa  Muroi	639
+1392	Yoichi  Nagasaki	639
+1393	Carol M. Jantzen	640
+1394	John B. Pickett	640
+1395	Connie A. Cicero-Herman	640
+1396	James C. Marra	640
+1397	Lindbo; Glen D.	641
+1398	Studer; Ritchie G.	642
+1399	Eighmy; T. Taylor	643
+1400	McElvaney; James D.	644
+1401	Castaldi; Frank J.	645
+1402	Behrens; Gregory P.	645
+1403	Hargrove, Jr.; Oliver W.	645
+1404	Rose; Peter Dale	646
+1405	Hart; Oliver O'Connor	646
+1406	Schmit; Frank L.	647
+1407	Ewing; Lloyd	647
+1408	Redmon; David T.	647
+1409	Rose; Peter Dale	648
+1410	Hart; Oliver O'Connor	648
+1411	Park; Jong-bok	649
+1412	Jung; Keum-hee	649
+1413	Sohn; Jeong-hee	649
+1414	Oyzboyd; Boris	650
+1415	Takano; Hiroshi	651
+1416	Yonekawa; Tetsushi	651
+1417	Coombs; Harvey W.	652
+1418	Pearson; Ron D.	652
+1419	Hopper; Mark A.	653
+1420	Graves; Jan D.	654
+1421	Grott; Gerald J.	655
+1422	Melegari; Cesare	656
+1423	Bailey; Elena	657
+1424	Spears; James R.	658
+1425	Schmit; Frank L.	659
+1426	Redmon; David T.	659
+1427	Ewing; Lloyd	659
+1428	Cardarelli; Nathan F.	660
+1429	JAE HYUN  LIM	661
+1430	YiuTak  Leung	662
+1431	Hans P.  Hopper	663
+1432	Michael F.  Vieira	664
+1433	Brett  Moreau	664
+1434	Mark A.  Brodeur	664
+1435	Bob  Myatt	664
+1436	Edward R.  Fyfe	665
+1437	Josep Ramon Medina  Folgado	666
+1438	Maria Esther Gomez  Martin	666
+1439	Scott D.  Aston	667
+1440	Michael G.  Carfagno	667
+1441	Philip A.  Creamer	667
+1442	Peter Miles  Roberts	668
+1443	Edward R.  Fyfe	669
+1444	Richard L.  Ramirez	670
+1445	Mark A.  Bergeron	670
+1446	Johannes Wilhelmus Jacobus Mikx	671
+1447	ATAUL HAQ	672
+1448	Nicolas Freitag	673
+1449	Jean-Claude Morizot	673
+1450	Scott D. Aston	674
+1451	Michael G. Carfagno	674
+1452	Philip A. Creamer	674
+1453	Steven M. Akkala	675
+1454	Buddy Harry BUSSEY, III	676
+1455	Harry Bussey, JR.	676
+1456	Craig B. Stolarczyk	677
+1457	Robert M. Loomis	677
+1458	Paul D. Rogers	677
+1459	Omar Tiba	677
+1460	William E. Stimel	678
+1461	Bruno S. Boursier	679
+1462	Jack D. Fudge	679
+1463	Buddy Harry Bussey, III	680
+1464	Harry Bussey, Jr.	680
+1465	Edward John Cavenagh	681
+1466	Gregg Martin	681
+1467	Selamawit Tedesse Desta	681
+1468	Cameron Phillip Lewis	682
+1469	Michael Duggan Drieu	683
+1470	Patrick Michael Cargol, JR.	683
+1471	Jonathan Eryl Rogers	683
+1472	Pierre Albert Beynet	683
+1473	Stanley Silva	683
+1474	Kenneth Douglas Hill	684
+1475	Dilip K. Chatterjee	685
+1476	Shanghua Wu	685
+1477	Yuming Xie	685
+1478	Christopher E. Coker	685
+1479	Robert D. Skala	685
+1480	Kevin S. Vrondran	686
+1481	David E. Fuller	686
+1482	Jeremy I. Johnson	686
+1483	Markus Hartung	687
+1484	Christof Kruse	687
+1485	Alain DESMEULES	688
+1486	Galen R. Clark, II	689
+1487	Michael Todd Martin	689
+1488	Gary L. Siems	689
+1489	John E. IRVINE	690
+1490	Steven E. HARGRAVE	690
+1491	Cameron Phillip Lewis	691
+1492	Louis A. Waters, Jr.	692
+1493	Alfonso Lopez	693
+1494	Peter Miles Roberts	694
+1495	Norman L. Olson	695
+1496	Wesley R. Johnson	695
+1497	Richard H. Langford, II	695
+1498	YiuTak Leung	696
+1499	Ralph E. Showman	697
+1500	Sean B. Harmon	697
+1501	Ralph E. Showman	698
+1502	Sean B. Harmon	698
+1503	Ralph E. Showman	699
+1504	Sean B. Harmon	699
+1505	John H. McGinn	700
+1506	Vincent P. Morris	700
+1507	Matthew D. Campbell	701
+1508	Steven G. Hall	701
+1509	Robert L. Beine	701
+1510	Norman L. Olson	702
+1511	Wesley R. Johnson	702
+1512	Richard H. Langford, II	702
+1513	Dominique Roddier	703
+1514	Christian Cermelli	703
+1515	Etienne MENARD	704
+1516	John C. Stankus	705
+1517	John G. Oldsen	705
+1518	Xiaoting Li	705
+1519	John Feyrer	705
+1520	Dakota Faulkner	705
+1521	Arthur J. Craven	705
+1522	Demrey G. Brandon	705
+1523	Michael E. Daily	706
+1524	Lee M. Veldboom	707
+1525	Kevin S. Vrondran	707
+1526	Jeremy I. Johnson	707
+1527	Steven George Smith	708
+1528	Troy Achterkirch	708
+1529	Steven John Thorkelson	708
+1530	Jon Michael LaRue	709
+1531	Craig Edward Cappel	709
+1532	Frank Andrew Petlak	709
+1533	Marshall Van Domelen	709
+1534	Boris Feldman	710
+1535	Alexander Feldman	710
+1536	Michael Feldman	710
+1537	Albert E. Aaron	711
+1538	C. Thomas McCreedy	712
+1539	Dennis Daugherty	712
+1540	Timothy Krause	713
+1541	Michael H. Johnson	713
+1542	Richard Ferencz	713
+1543	Ananda H. Kumar	714
+1544	Dien Nguyen	714
+1545	Martin Janousek	714
+1546	Tad Armstrong	714
+1547	Harry Bussey, JR.	715
+1548	Buddy Harry Bussey, III	715
+1549	Kevin S. Vrondran	716
+1550	David E. Fuller	716
+1551	Jeremy I. Johnson	716
+1552	David W. Jacob	717
+1553	Christopher S. Hersey	717
+1554	Casey T. Kenniston	717
+1555	Michael P. Stone	717
+1556	Timothy Krause	718
+1557	Michael H. Johnson	718
+1558	Richard Ferencz	718
+1559	Tricia Hill	719
+1560	Yanqiu Zhang	719
+1561	David W. Gentry	720
+1562	George A. Holmes	721
+1563	Tadeusz Rybka	721
+1564	Carl-Hugo M. Mellander	722
+1565	John Richard Logan	723
+1566	Thomas J. Baker	723
+1567	John E. Irvine	724
+1568	Steven E. Hargrave	724
+1569	Louis A. Waters, JR.	725
+1570	John H. McGinn	726
+1571	Vincent P. Morris	726
+1572	David Goshert	727
+1573	Greg Sabourin	728
+1574	David Stadler	729
+1575	Eun Chyun Kyung	730
+1576	Josep Ramon Medina Folgado	731
+1577	Maria Esther Gomez Martin	731
+1578	Peter W. Gavin	732
+1579	Richard C. Moore	733
+1580	Steven M. Akkala	734
+1581	Ameet Kulkarni	735
+1582	Jay Gunnarson	736
+1583	Xu Gang (Wilf) Zhao	737
+1584	Gang Qiu	737
+1585	Xinghai Li	737
+1586	Yinxia (Michael) Yang	737
+1587	Lee Veldboom M.	738
+1588	Kevin Vrondran S.	738
+1589	Jeremy Johnson I.	738
+1590	C. Thomas McCreedy	739
+1591	Dennis Daugherty	739
+1592	Lou Watkins	740
+1593	Bruce M. Harper	741
+1594	Christopher H. Bajorek	741
+1595	Francesco Sposito	742
+1596	David Stadler	743
+1597	David A. Bradley	744
+1598	Yuan-Ping R. Ting	745
+1599	Jerome L. Buchanan	745
+1600	Edward R. Fyfe	746
+1601	Robert Joness Fyfe	746
+1602	Peter Mansfield W.	747
+1603	Alfonso Lopez	748
+1604	Yun Ding	749
+1605	William Soester Lawrence	749
+1606	Lloyd E. Jacobs	750
+1607	David E. Turriff	750
+1608	John F. Schabron	750
+1609	Susan S. Sorini-Wong	750
+1610	Thomas M. Christy	750
+1611	Robin M. Converse	751
+1612	Young-Chan Park	751
+1613	Changshi Mao	752
+1614	Robin Converse M.	752
+1615	Rainer Pechtold	753
+1616	Ingo Hermann	753
+1617	Markus Lindner	753
+1618	Lloyd E. Jacobs	754
+1619	David E. Turriff	754
+1620	John F. Schabron	754
+1621	Susan S. Sorini-Wong	754
+1622	Thomas M. Christy	754
+1623	Kenneth L. Suazo	755
+1624	Kenneth L. Suazo	756
+1625	Isaac Suazo	756
+1626	Dawn S. Harder	756
+1627	Juan Griego	756
+1628	Julian Suazo	756
+1629	Rens Hansort	757
+1630	Werner Heierli	758
+1631	Robin Converse M.	759
+1632	Young-Chan Park	759
+1633	Michael Schoemann P.	760
+1634	Glenn Cowelchuk A.	760
+1635	John Youngs D.	760
+1636	Randy Reed S.	760
+1637	John E. Irvine	761
+1638	Kenneth L. Suazo	762
+1639	Isaac Suazo	762
+1640	Annabelle Suazo	762
+1641	Dawn Suazo Daugherty	762
+1642	Juan Griego	762
+1643	Julian Suazo	762
+1644	John E. Irvine	763
+1645	John Irvine E.	764
+1646	Glenn Cowelchuk A.	765
+1647	Randy Reed S.	765
+1648	Kenneth Shaner W.	765
+1649	Robert Trauger J.	766
+1650	James Olsta T.	766
+1651	Charles Hornaday J.	766
+1652	Jerald Darlington W.   JR.	766
+1653	Tah Shan Lin	767
+1654	Jan Manda M.	768
+1655	Sean Weir	768
+1656	Pierre Pinet Jean	768
+1657	Kenneth Suazo L.	769
+1658	Isaac Suazo	769
+1659	Dawn Harder S.	769
+1660	Juan Griego	769
+1661	Julian Suazo	769
+1662	Lloyd Jacobs E.	770
+1663	David Turriff E.	770
+1664	John Schabron F.	770
+1665	Susan Sorini-Wong S.	770
+1666	Thomas Christy M.	770
+1667	Thomas West George	771
+1668	Qing Liu	771
+1669	Peter Materna A.	771
+1670	Alfred Litwak Anthony	771
+1671	Christopher Gaylo M.	771
+1672	Roy Stoecker R.	772
+1673	Leland Hairr M.	772
+1674	John Irvine E.	773
+1675	David  Thomason	774
+1676	Mary Williams Goodson	774
+1677	Christian Carl Sundberg	774
+1678	Michael Louis Doleac	774
+1679	Sidney E. Veazey	775
+1680	Kenneth L. Suazo	776
+1681	J. Dean Latvaitis	777
+1682	Raymond  Miller	777
+1683	Steven A. Czekaj	777
+1684	Patrick W. Holmes	777
+1685	Carl T. Detiveaux	778
+1686	J. Eric Spangler	779
+1687	Kumar Gopalan Jayanath	779
+1688	Bob  Abbott	779
+1689	James A. Blazek	779
+1690	Alexander I. Wallstein	780
+1691	Raymond  Brandon	780
+1692	Roland  Walker	780
+1693	Steven  Brady	780
+1694	Harry B. Lancelot, III	781
+1695	Thomas E. Lannom	781
+1696	Sidney E. Francies, III	781
+1697	Kenneth L. Suazo	782
+1698	Isaac  Suazo	782
+1699	Annabelle  Suazo	782
+1700	Dawn Suazo  Daugherty	782
+1701	Juan  Griego	782
+1702	Julian  Suazo	782
+1703	Zhenxin  Chen	783
+1704	Ze  Chen	783
+1705	Kenneth L. Suazo	784
+1706	Isaac Suazo	784
+1707	Jon E. Khachaturian	785
+1708	Werner  Heierli	786
+1709	Lloyd E. Jacobs	787
+1710	David E. Turriff	787
+1711	John F. Schabron	787
+1712	Susan S. Sorini-Wong	787
+1713	Thomas M. Christy	787
+1714	Jon E. Khachaturian	788
+1715	Kenneth L. Suazo	789
+1716	Isaac Suazo	789
+1717	Annabelle Suazo	789
+1718	Dawn Suazo Daugherty	789
+1719	Juan Griego	789
+1720	Julian Suazo	789
+1721	Robert A. Robinson	790
+1722	Mahesh  Kotnis	791
+1723	Elizabeth Louise Otloski	791
+1724	Paul Terrence Wombwell	791
+1725	William Walter Charles Badcock	791
+1726	Richard Martin Broad	791
+1727	Sidney E. Veazey	792
+1728	Raymond R. Price	793
+1729	Orbin F. Sumrall	794
+1730	Henry K. Obermeyer	795
+1731	Robert D. Eckman	795
+1732	T. W. Mo	795
+1733	Donald A. Starke	796
+1734	John A. Striednig	796
+1735	Keith R. Bartlett	796
+1736	Robert F. Jenkins	796
+1737	Thomas N. Carr	797
+1738	Cheng-Yo Chen	797
+1739	Robin M. Converse	797
+1740	Robert M. Harrell	797
+1741	Daniel M. Houser	797
+1742	Charles F. Kasischke	797
+1743	Gautam K. Chaudhury	797
+1744	Sidney E. Veazey	798
+1745	Rafael Torres Samper	799
+1746	Carlos Fermin Menendez  Diaz	799
+1747	Thomas N. Carr	800
+1748	Cheng-Yo  Chen	800
+1749	Robin M. Converse	800
+1750	Robert M. Harrell	800
+1751	Daniel M. Houser	800
+1752	Charles F. Kasischke	800
+1753	Gautam K. Chaudhury	800
+1754	Veazey; Sidney E.	801
+1755	Robert A. Robinson	802
+1756	Wayne; Mark	803
+1757	J. Eric Spangler	804
+1758	Kumar Gopalan Jayanath	804
+1759	Bob  Abbott	804
+1760	James A. Blazek	804
+1761	Khachaturian; Jon	805
+1762	Joe  Gaidjiergis	806
+1763	Lloyd  Fladgard	806
+1764	Scott  Fladgard	806
+1765	Sidney E. Veazey	807
+1766	Harry B. Lancelot III	808
+1767	Thomas E. Lannom	808
+1768	Sidney E. Francies III	808
+1769	Melin; Sigurd	809
+1770	Gentry; David W.	810
+1771	Won-Hoi  Yang	811
+1772	Won-Hoi  Yang	812
+1773	Kocaman; Alp A.	813
+1774	Orbin F. Sumrall	814
+1775	Wondel G. Creager	814
+1776	Adler; Richard S	815
+1777	Evans; David A.	815
+1778	Abrahamsen; Tore	815
+1779	Ensign; Ferrel	815
+1780	Hayward; George	815
+1781	Nelson; George	815
+1782	McFadden; Joseph P.	815
+1783	Serge Jacques Fayeulle	816
+1784	Robert Allen Alt	816
+1785	Hilmar  Janusson	817
+1786	Freygarour  Thorsteinsson	817
+1787	Sigurour A. Asgeirsson	817
+1788	Palmi  Einarsson	817
+1789	Clark; Keith R.	818
+1790	JAE HYUN  LIM	819
+1791	Josep Ramon Medina  Folgado	820
+1792	Maria Esther Gomez  Martin	820
+1793	Johannes Wilhelmus Jacobus Mikx	821
+1794	ATAUL HAQ	822
+1795	Cameron Phillip Lewis	823
+1796	Michael Duggan Drieu	824
+1797	Patrick Michael Cargol, JR.	824
+1798	Jonathan Eryl Rogers	824
+1799	Pierre Albert Beynet	824
+1800	Stanley Silva	824
+1801	Gunther Clauss	825
+1802	Florian Sprenger	825
+1803	John E. IRVINE	826
+1804	Steven E. HARGRAVE	826
+1805	Cameron Phillip Lewis	827
+1806	Alfonso Lopez	828
+1807	Matthew D. Campbell	829
+1808	Steven G. Hall	829
+1809	Robert L. Beine	829
+1810	Dominique Roddier	830
+1811	Christian Cermelli	830
+1812	Boris Feldman	831
+1813	Alexander Feldman	831
+1814	Michael Feldman	831
+1815	Albert E. Aaron	832
+1816	Jae Myung Han	833
+1817	Tricia Hill	834
+1818	Yanqiu Zhang	834
+1819	David W. Gentry	835
+1820	Roger Hartenburg	836
+1821	Berthold Lahl	836
+1822	Lothar Kromer	836
+1823	Ronald de Strulle	837
+1824	John E. Irvine	838
+1825	Steven E. Hargrave	838
+1826	Jon Khachaturian	839
+1827	Ronald de Strulle	840
+1828	Josep Ramon Medina Folgado	841
+1829	Maria Esther Gomez Martin	841
+1830	John C. BAYER	842
+1831	Thomas C. Gandolfo	842
+1832	Jae Myung Han	843
+1833	Lou Watkins	844
+1834	Francesco Sposito	845
+1835	Edward R. Fyfe	846
+1836	Robert Joness Fyfe	846
+1837	Jon Khachaturian	847
+1838	Alfonso Lopez	848
+1839	Yun Ding	849
+1840	William Soester Lawrence	849
+1841	Robin M. Converse	850
+1842	Young-Chan Park	850
+1843	Changshi Mao	851
+1844	Robin Converse M.	851
+1845	Matthew D. Campbell	852
+1846	Robert L. Beine	852
+1847	Steven G. Hall	852
+1848	Robin Converse M.	853
+1849	Young-Chan Park	853
+1850	John E. Irvine	854
+1851	John E. Irvine	855
+1852	John Irvine E.	856
+1853	Robert Magee Shivers, III	857
+1854	Michael Christopher Tucker	857
+1855	David Clark Schuman	857
+1856	Zhenxin Chen	858
+1857	Ze Chen	858
+1858	Roy Stoecker R.	859
+1859	Leland Hairr M.	859
+1860	John Irvine E.	860
+1861	Rafael Torres Samper	861
+1862	Carlos Fermin Menendez Diaz	861
+1863	Mark Foster	862
+1864	J. Eric Spangler	863
+1865	Kumar Gopalan Jayanath	863
+1866	Bob  Abbott	863
+1867	James A. Blazek	863
+1868	Kenpachi Hoashi	864
+1869	Zhenxin  Chen	865
+1870	Ze  Chen	865
+1871	Jon E. Khachaturian	866
+1872	Jon E. Khachaturian	867
+1873	Sidney E. Veazey	868
+1874	Henry K. Obermeyer	869
+1875	Robert D. Eckman	869
+1876	T. W. Mo	869
+1877	Won-Hoi Yang	870
+1878	Thomas N. Carr	871
+1879	Cheng-Yo Chen	871
+1880	Robin M. Converse	871
+1881	Robert M. Harrell	871
+1882	Daniel M. Houser	871
+1883	Charles F. Kasischke	871
+1884	Gautam K. Chaudhury	871
+1885	Sidney E. Veazey	872
+1886	Rafael Torres Samper	873
+1887	Carlos Fermin Menendez  Diaz	873
+1888	Vladimir Sandzhievich Boldurev	874
+1889	Thomas N. Carr	875
+1890	Cheng-Yo  Chen	875
+1891	Robin M. Converse	875
+1892	Robert M. Harrell	875
+1893	Daniel M. Houser	875
+1894	Charles F. Kasischke	875
+1895	Gautam K. Chaudhury	875
+1896	Veazey; Sidney E.	876
+1897	Wayne; Mark	877
+1898	J. Eric Spangler	878
+1899	Kumar Gopalan Jayanath	878
+1900	Bob  Abbott	878
+1901	James A. Blazek	878
+1902	Khachaturian; Jon	879
+1903	Joe  Gaidjiergis	880
+1904	Lloyd  Fladgard	880
+1905	Scott  Fladgard	880
+1906	Sidney E. Veazey	881
+1907	Gentry; David W.	882
+1908	Won-Hoi  Yang	883
+1909	Kocaman; Alp A.	884
+1910	Blair; Russell M.	885
+1911	Ziehl; C. Peter	885
+1912	Strange; Anthony E. J.	885
+1913	Maucieri; Michael F.	885
+1914	Labrador; Gaudencio A.	886
+1915	Donkersloot, Sr.; Arie	887
+1916	Hopper; Mark A.	888
+1917	Nolan; Don E.	889
+1918	Khachaturian; Jon E.	890
+1919	Irvine; John E.	891
+1920	Yeosock; John J.	891
+1921	Treu; Johannes Jacobus	892
+1922	Dove; Peter George Scott	892
+1923	Wilde; Gordon R.	892
+1924	Pramono; Wasi Tri	893
+1925	McCorquodale; John A.	893
+1926	Simmons; John	894
+1927	Moses; Charles J.	895
+1928	Pignata; Rich	896
+1929	White; Mark	896
+1930	Manschot; Dirk	897
+1931	Mommaas; Cornelis Johannes	897
+1932	Phillips; Darron J.	898
+1933	Eldridge; William J.	898
+1934	Spalding; Larry V.	898
+1935	Phillips; Darron J.	899
+1936	Eldridge; William J.	899
+1937	Spalding; Larry V.	899
+1938	Arlt, III; Edward J.	900
+1939	Goldman; Jerome L.	901
+1940	Melby; Jeffrey A.	902
+1941	Turk; George F.	902
+1942	Turk; George F.	903
+1943	Melby; Jeffrey A.	903
+1944	Glass; James O.	904
+1945	Glass; Sam M.	904
+1946	Melby; Jeffrey A.	905
+1947	Turk; George F.	905
+1948	Minakami; Hiroyuki	906
+1949	Minakami; Motoyuki	906
+1950	Crawford; David W.	907
+1951	Arlt; Edward J.	908
+1952	Moses; Charles J.	908
+1953	Giannesini; Jean-Francois	909
+1954	Reuhl; Gerald G.	910
+1955	Atkinson; Francis S.	911
+1956	McDougal; William G.	911
+1957	Lavery; Terrence J.	912
+1958	Suhayda; Joseph	913
+1959	Atkinson; Francis S.	914
+1960	McDougal; William G.	914
+1961	Jensen; John S.	915
+1962	Arlt; Edward J.	916
+1963	Klenert; Oskar H.	917
+1964	Hooper; Jefferson E.	918
+1965	Irvine; John E.	918
+1966	Verble; Patrick R.	919
+1967	Kramer; James H.	920
+1968	McCreary; Donald R.	921
+1969	Crawford; David W.	922
+1970	Atkinson; Francis S.	923
+1971	McDougal; William G.	923
+1972	Reid; Leslie C.	924
+1973	Levy; Jacques S.	925
+1974	Brandon; John W.	926
+1975	Kovar; Larry R.	926
+1976	Richter; Karl E.	927
+1977	Sample; Jay W.	928
+1978	Cole; Richard W.	929
+1979	Marsh; Richard L.	929
+1980	Tassone; Joseph V.	929
+1981	Knox; L. Carter	930
+1982	Moore; Clayton A.	930
+1983	Navratil; Martin	931
+1984	Mitchell; Mark S.	931
+1985	Sovak; Mojmir	931
+1986	Tubbs, Jr.; Arthur E.	932
+1987	Brisco; David P.	933
+1988	Saffrhan; Ray W.	934
+1989	Bianchi; Giuseppe	935
+1990	Mussinelli; Gian L.	935
+1991	Bazzoni; Bruno	935
+1992	Berger; Lawrence E.	936
+1993	Waters; Charles M.	937
+1994	Berger; Lawrence E.	938
+1995	Karaus; Edward	939
+1996	Spicer; Earl E.	940
+1997	Nickles, Jr.; Robert B.	941
+1998	Crinnion; Edward V.	942
+1999	Crinnion; James S.	942
+2000	Wetmore; Sherman B.	943
+2001	Van Bruwaene; Albert	944
+2002	Neyrinck; Luc	944
+2003	Maertens; Luc	944
+2004	Verner; Bo	944
+2005	Fors; Staffan	944
+2006	Vignon; Jean F. B. J.	945
+2007	Tabouy; Christian	945
+2008	Knox; Lloyd C.	946
+2009	Moore; Clayton A.	946
+2010	Freeman; Tommie A.	947
+2011	Wetmore; Sherman B.	948
+2012	Weir; Frederick E.	949
+2013	Francis, Jr.; Alex W.	950
+2014	Reynolds; Graeme E.	951
+2015	Wetmore; Sherman B.	952
+2016	Person; Abraham	953
+2017	Wetmore; Sherman B.	953
+2018	McNary; James F.	953
+2019	McNary; James F.	954
+2020	Person; Abraham	955
+2021	Wetmore; Sherman B.	955
+2022	McNary; James F.	955
+2023	Person; Abraham	956
+2024	Salo; Eric A.	957
+2025	Anders; Edward O.	958
+2026	Landers; Don B.	959
+2027	Brock; Robert K.	959
+2028	Fair; Samuel S.	960
+2029	Sameshima; Shigeru	961
+2030	Colbert; Ervin A.	962
+2031	Mann; Richard J.	962
+2032	Phillips; Robert W.	962
+2033	Files; James Harold	963
+2034	Chelminski; Stephen V.	964
+2035	Ronald  Cook	965
+2036	David  TURNER	966
+2037	Francois  MICHEL	966
+2038	Mikael  LAMBERTON	966
+2039	Sebastien  PALLY	966
+2040	James E.  Clark	967
+2041	Boris  Feldman	968
+2042	Michael  Feldman	968
+2043	Ira  Leifer	969
+2044	David M.  LaCroix	970
+2045	Robert A.  MacDonald	970
+2046	Mark  Reynolds	971
+2047	Thomas S.  Burton	971
+2048	Corey R.  Milne	971
+2049	Steven R.  Day	971
+2050	Guotian  Liu	972
+2051	Mingquan  Zhang	972
+2052	Ming'en  Hu	972
+2053	Ya Ching  Tung	973
+2054	Kwo Yuan  Shi	973
+2055	Francisco  Medran-Lopez	974
+2056	Randy E.  Carter	975
+2057	Edward A.  Kidston	975
+2058	Karim  Rashid	975
+2059	Brian D.  Schumacher	975
+2060	Richard  Smiedt	975
+2061	Ching-Pang  Lee	976
+2062	Hsin-Pang  Wang	976
+2063	Ram Kumar  Upadhyay	976
+2064	Paul Richard  Myers	976
+2065	Marc Thomas  Edgar	976
+2066	Thomas Donald  Martyn	976
+2067	Eric Alan  Estill	976
+2068	Gary J.  Mason	977
+2069	Ernest E. Carter, JR.	978
+2070	Beidou Xi	979
+2071	Lieyu Zhang	979
+2072	Jixi Gao	979
+2073	Jinbiao Wang	979
+2074	Xunfeng Xia	979
+2075	Qigong Xu	979
+2076	Jerry M. Edmondson	980
+2077	Gary HAMATA	981
+2078	Charles FORCIER	981
+2079	Larry MCGREGOR	981
+2080	Richard L. Miller	982
+2081	Stephen L. Miller	982
+2082	Brice C. Raynor	983
+2083	Heung Sik Yu	984
+2084	Seong Kyun Jin	984
+2085	James L. Lawrence	985
+2086	Roger W. Carson	986
+2087	Bruce W. Bremer	986
+2088	Michael L. Mastracci	986
+2089	Kent E. Maggard	986
+2090	ABDULREIDHA A. ALSAFFAR	987
+2091	ABDULREIDHA A. ALSAFFAR	988
+2092	Frode Losnedal	989
+2093	Robert Farestveit	989
+2094	Per Albriktsen	989
+2095	Ove Tobias Gudmestad	989
+2096	Geir Morten Skeie	989
+2097	Robert Doyle	990
+2098	DEBASISH MUKHOPADHYAY	991
+2099	Dale A. Conway	992
+2100	Thomas J. Kryzak	993
+2101	Yves Durkheim	994
+2102	Thomas T.K. Zung	995
+2103	William W. Carson	996
+2104	Charles Dale	996
+2105	William D. McClain	996
+2106	Robert J. Ritz	996
+2107	Charles Swenson	996
+2108	David Aughton	997
+2109	Simon James Calvert	998
+2110	Jose Cherem Haber	999
+2111	Yun Deng	1000
+2112	Lianxiang Du	1000
+2113	Michael Duggan Drieu	1001
+2114	Patrick Michael Cargol, JR.	1001
+2115	Jonathan Eryl Rogers	1001
+2116	Pierre Albert Beynet	1001
+2117	Stanley Silva	1001
+2118	Glen Paul Cork	1002
+2119	Michael D. Borgman	1002
+2120	Darin C. Wiley	1002
+2121	Richard Jacobs	1002
+2122	Josef Merai	1003
+2123	Carl W. PODELLA	1004
+2124	John W. BALDRIDGE	1004
+2125	Michael G. GOLDFELD	1004
+2126	Mark Reynolds	1005
+2127	Thomas S. Burton	1005
+2128	Corey R. Milne	1005
+2129	Steven R. Day	1005
+2130	Yuichiro Hirata	1006
+2131	Seigo Murakami	1006
+2132	Katsuya Nozaki	1006
+2133	Michael K. Conwell	1007
+2134	Bhuvaragasamy G. Ravi	1008
+2135	Parthasarathy S. Raghavan	1008
+2136	Chandra P. Khattak	1008
+2137	Carl Chartier	1008
+2138	Dave Lackey	1008
+2139	Dean C. Skelton	1008
+2140	Lee A. Smith	1009
+2141	Paul Joseph Hubbell, JR.	1010
+2142	John J. Breedlove	1011
+2143	Michael John Breedlove	1011
+2144	Scott Wolinsky	1012
+2145	Scott Wolinsky	1013
+2146	Michael T. D. Miller	1014
+2147	Dorin Boldor	1014
+2148	Jeffrey D. Ortego	1014
+2149	Scott Wolinsky	1015
+2150	Timothy Christian Crouse	1016
+2151	Guy Adelle Pinson	1017
+2152	Barbara Pinson	1017
+2153	Arden L. Brey	1018
+2154	Timothy Christian Crouse	1019
+2155	Timothy Christian Crouse	1020
+2156	Brunelle Paul Sabourin	1021
+2157	David John SCHAUS	1022
+2158	Ya Ching TUNG	1023
+2159	Kwo Yuan Shi	1023
+2160	William James Castle	1024
+2161	David M. Jones	1025
+2162	Wilson Harvie	1025
+2163	Kevin King	1025
+2164	Brett Albert Johns	1025
+2165	Michael K. Conwell	1026
+2166	Paul Joseph Hubbell, JR.	1027
+2167	Peter H. Emmons	1028
+2168	Brent D. Anderson	1028
+2169	David Mark Lowe	1029
+2170	Richard D. Eldredge	1029
+2171	James L. Lawrence	1030
+2172	Lester Ray Wisegerber	1031
+2173	Elmo S. Peddy	1031
+2174	Michael Oranski	1032
+2175	Avner Sadot	1032
+2176	Israel Heifetz	1032
+2177	Yoav Dracher	1032
+2178	YiuTak Leung	1033
+2179	Bert ZAUDERER	1034
+2180	John H. McGinn	1035
+2181	Vincent P. Morris	1035
+2182	Satoshi Yamaguchi	1036
+2183	Kazuaki Iwamura	1036
+2184	Tsutomu Ikeda	1036
+2185	Amil Fornatora	1037
+2186	Philip Coppola	1037
+2187	Timothy Christian Crouse	1038
+2188	Michel Baylot	1039
+2189	Jean-Paul Denise	1039
+2190	Thomas Marty	1039
+2191	Luciano Morini	1040
+2192	Jovanka Pizzo	1040
+2193	David M. Jones	1041
+2194	Wilson Harvie	1041
+2195	Kevin King	1041
+2196	Brett Albert Johns	1041
+2197	Martin P. Wanielista	1042
+2198	Ni-Bin Chang	1042
+2199	Brice C. Raynor	1043
+2200	Yun Deng	1044
+2201	Lianxiang Du	1044
+2202	Michel Baylot	1045
+2203	Marc Bonnissel	1045
+2204	Xavier Rocher	1045
+2205	David M. Jones	1046
+2206	Wilson Harvie	1046
+2207	Kevin King	1046
+2208	Brett Albert Johns	1046
+2209	Michel Baylot	1047
+2210	Marc Bonnissel	1047
+2211	Xavier Rocher	1047
+2212	Richard L. Miller	1048
+2213	Stephen L. Miller	1048
+2214	David M. LaCroix	1049
+2215	Robert A. MacDonald	1049
+2216	Michael L. Strickland	1050
+2217	Marc D. Andelman	1051
+2218	Gregory S. Walker	1051
+2219	Feng Xing	1052
+2220	Zhuo Ni	1052
+2221	Wayne Poerio	1053
+2222	Malcolm Dubois	1053
+2223	Chen-Yuan Dung	1054
+2224	Werner L. SCHLECHT	1055
+2225	David T. Roman	1055
+2226	Tony Richard Hutchings	1056
+2227	Franciscus Antonius Anna Maria de Leij	1056
+2228	Jeremy Richard Wingate	1056
+2229	Dennis G. Kelley	1057
+2230	Barry L. Gregerson	1058
+2231	James E. Spitzer	1058
+2232	Gregory B. Burkhardt	1059
+2233	JON A. SCHMIDGALL	1060
+2234	DAVID E. STOLLER	1060
+2235	Mark J. Jurich	1061
+2236	Rickey G. Swartz	1061
+2237	Jon R. Reed	1061
+2238	Eric C. Freeman	1061
+2239	Wolfgang Ott	1061
+2240	Paul H. Appelblom	1061
+2241	Paul A. Jurich	1061
+2242	Michael Oranski	1062
+2243	Avner Sadot	1062
+2244	Israel Heifetz	1062
+2245	Yoav Dracher	1062
+2246	Henry DiGregorio	1063
+2247	John Higson	1063
+2248	Jeffery White	1063
+2249	Michiharu Hasegawa	1064
+2250	Noriyuki Miyazaki	1064
+2251	Masafumi Nakamura	1064
+2252	Naoji Yamamoto	1064
+2253	Kazuo Ueda	1064
+2254	Denyse Claire DuBrucq	1065
+2255	David Aughton	1066
+2256	Boris Feldman	1067
+2257	Alexander Feldman	1067
+2258	Michael Feldman	1067
+2259	C. Thomas McCreedy	1068
+2260	Dennis Daugherty	1068
+2261	William Tod Ross	1069
+2262	Jeffery Max Buxman	1069
+2263	Ben Wade Oakes Dickinson, III	1070
+2264	Robert Wayne Dickinson	1070
+2265	Oliver Douglas Ousterhout	1070
+2266	Lawrence Joseph Musetti	1070
+2267	Porter James Underwood	1070
+2268	Ali Daneshy	1070
+2269	Michael P. Appleby	1071
+2270	Iain Fraser	1071
+2271	James E. Atkinson	1071
+2272	Alan J. Sweeney	1072
+2273	Tsen Meng TANG	1073
+2274	Hsing Loong Tan	1073
+2275	Danmei Wang	1073
+2276	Willem Luloff Rautenbach	1074
+2277	Sarel Johannes Rautenbach	1074
+2278	Martin P. Wanielista	1075
+2279	Ni-Bin Chang	1075
+2280	Darryl Scott Burkett	1076
+2281	David Aughton	1077
+2282	Tsen Meng Tang	1078
+2283	Hsing Loong Tan	1078
+2284	Danmei Wang	1078
+2285	Michael Oranski	1079
+2286	Avner Sadot	1079
+2287	Israel Heifetz	1079
+2288	Yoav Dracher	1079
+2289	Michael K. Conwell	1080
+2290	Richard Treve Mildren	1081
+2291	Neville Ernest Lange	1081
+2292	William James Castle	1082
+2293	David M. Jones	1083
+2294	Wilson Harvie	1083
+2295	Kevin King	1083
+2296	Brett Albert Johns	1083
+2297	Tung-Chuan WU	1084
+2298	Jen-Hui Tsai	1084
+2299	Ta-Hsin Chou	1084
+2300	Richard C. Roos	1085
+2301	Richard A. Hansen	1085
+2302	John Murphy	1086
+2303	Joseph Poplar	1086
+2304	Ronald de Strulle	1087
+2305	Peter A. Burke	1088
+2306	Karl F. Ludwig	1088
+2307	Jude A. Kral	1088
+2308	Francis J. Zelina	1088
+2309	Henry K. Obermeyer	1089
+2310	Robert D. Eckman	1089
+2311	Taewon Mo	1089
+2312	Rodrigo Andres Geraldo SEURA	1090
+2313	Luca Panzeri	1091
+2314	Lorenzo Costa	1091
+2315	Tony Tadin	1092
+2316	John H. McGinn	1093
+2317	Vincent P. Morris	1093
+2318	Ronald Bruce Long	1094
+2319	Yuichiro Hirata	1095
+2320	Seigo Murakami	1095
+2321	Katsuya Nozaki	1095
+2322	Jeff L. Higgins	1096
+2323	S. Kumar	1097
+2324	Zamir Tribelsky	1098
+2325	Joseph Rabani	1098
+2326	Mordechai Navon	1098
+2327	Gil Cohen	1098
+2328	Terry L. Grover	1099
+2329	Charles A. Vidich	1099
+2330	James J. Hennessey	1099
+2331	John C. Freitas	1099
+2332	M. Douglas Mueller	1099
+2333	Michael Thomas Titmus	1100
+2334	Glen Paul Cork	1101
+2335	Michael D. Borgman	1101
+2336	Darin C. Wiley	1101
+2337	Richard Jacobs	1101
+2338	John Moore	1102
+2339	Ronald Scott Bonds	1103
+2340	Scott Jessick	1104
+2341	Ray Koberstine	1104
+2342	Allen Worst	1104
+2343	Christopher Ralph Cantolino	1105
+2344	Henry K. Obermeyer	1106
+2345	Arun K. Sharma	1107
+2346	Theodore Sideropoulos	1107
+2347	Berne K. Stober	1107
+2348	Brian D. Albert	1107
+2349	Alvin U. Chen	1107
+2350	Vikram Singh	1107
+2351	Michael Oranski	1108
+2352	Avner Sadot	1108
+2353	Israel Heifetz	1108
+2354	Yoav Dracher	1108
+2355	Simon James CALVERT	1109
+2356	E. H. Kelle Zeiher	1110
+2357	Amit Gupta	1110
+2358	Peter Anthony LACZA	1111
+2359	Ching-Pang Lee	1112
+2360	Hsin-Pang Wang	1112
+2361	Ram Kumar Upadhyay	1112
+2362	Paul Richard Myers	1112
+2363	Marc Thomas Edgar	1112
+2364	Thomas Donald Martyn	1112
+2365	Eric Alan Estill	1112
+2366	Tetsuo Takayanagi	1113
+2367	Edward W. Van Romer	1114
+2368	John P. Cleary	1115
+2369	Tsen Meng Tang	1116
+2370	Hsing Loong Tan	1116
+2371	Danmei Wang	1116
+2372	Jacques Gerard	1117
+2373	David Adam E.	1117
+2374	Frank Cichocki R.	1117
+2375	Michael Jander E.	1117
+2376	Paul Krumlauf R.	1117
+2377	Giovanni Montagna	1117
+2378	Donald Sage B.   JR.	1117
+2379	Glen S. Axelrod	1118
+2380	Antoni Bellussi Paolo	1119
+2381	Tom Swartz	1120
+2382	C. Thomas McCreedy	1121
+2383	Dennis Daugherty	1121
+2384	Christopher Anthony Budd	1122
+2385	Cliff Purnell	1123
+2386	Ludwig Schmidmaier	1124
+2387	Wolfgang Harttig	1124
+2388	Edward R. Fyfe	1125
+2389	Robert Joness Fyfe	1125
+2390	Chuan Gao	1126
+2391	Melvin Yamamoto	1126
+2392	Ernest Kim Leonardich	1127
+2393	Norman P. Gruczelak	1127
+2394	Rodney Tyler W.	1128
+2395	Satoshi Yamaguchi	1129
+2396	Kazuaki Iwamura	1129
+2397	Tsutomu Ikeda	1129
+2398	Rae Son Sung	1130
+2399	Thomas R. Beidle	1131
+2400	Glen AXELROD S.	1132
+2401	Mark Jurich J.	1133
+2402	Rickey Swartz G.	1133
+2403	Jon Reed R.	1133
+2404	Eric Freeman C.	1133
+2405	Wolfgang Ott	1133
+2406	Paul Appelblom H.	1133
+2407	Paul Jurich A.	1133
+2408	Dong-Won Lee	1134
+2409	Lawrence Janesky M.	1135
+2410	Hiroyuki Kida	1136
+2411	Yukio Zenitani	1136
+2412	Ian Procter	1137
+2413	Sabine Azouani Isabelle	1137
+2414	Rolf Haubrichs	1137
+2415	Rodney W. Tyler	1138
+2416	Tetsuo TAKAYANAGI	1139
+2417	Michel Baylot	1140
+2418	Edward Jordan John	1141
+2419	Robert Elefritz	1141
+2420	Zuei-Ling Lin	1142
+2421	James Urban	1143
+2422	Albert Key L.	1143
+2423	Charles Ray Julian	1143
+2424	Charles Ray Graham	1143
+2425	Michael James	1143
+2426	Leo Yodock J.   JR.	1144
+2427	Leo Yodock J.   III	1144
+2428	Guy Yodock C.	1144
+2429	Albert Key L.	1145
+2430	James Urban	1145
+2431	Charles Ray Julian	1145
+2432	Charles Ray Graham	1145
+2433	Michael James	1145
+2434	Christopher M. Runestad	1146
+2435	Peter Burke A.	1147
+2436	Karl Ludwig F.	1147
+2437	Jude Kral A.	1147
+2438	Francis Zelina J.	1147
+2439	Luca Toncelli	1148
+2440	Peter A. Burke	1149
+2441	Karl F. Ludwig	1149
+2442	Jude A. Kral	1149
+2443	Francis J. Zelina	1149
+2444	Helge Brauer	1150
+2445	Walter Ehrenberger	1150
+2446	Helmuth Ender	1150
+2447	Joachim Noack	1150
+2448	Alfred Cunningham B.	1151
+2449	Lee Spangler H.	1151
+2450	Robin Gerlach	1151
+2451	Adrienne Phillips J.	1151
+2452	Robert M. Porter	1152
+2453	Anatoli V. Ledenev	1152
+2454	Gennady G. Gurov	1152
+2455	Brian Iske	1153
+2456	James R. Keene	1154
+2457	Michael L. Jackson	1154
+2458	John Richardson G.	1155
+2459	Reva Nickelson A.	1155
+2460	Paul Sloan A.	1155
+2461	Kevin Kostelnik M.	1155
+2462	James Urban	1156
+2463	Albert L. Key	1156
+2464	Charles Julian Ray	1156
+2465	Charles Graham Ray	1156
+2466	Michael James	1156
+2467	John Cleary P.	1157
+2468	Roger Carson W.	1158
+2469	Bruce Bremer W.	1158
+2470	Michael Mastracci L.	1158
+2471	Kent Maggard E.	1158
+2472	Peter Sanguinetti S.	1159
+2473	Henry Obermeyer K.	1160
+2474	Peter S. Sanguinetti	1161
+2475	Chak Chang Man Thomas	1162
+2476	Iain Muir	1163
+2477	Fiona Elizabeth Barrett	1163
+2478	Kenneth Herzog H.	1164
+2479	John Meyers J.   III	1165
+2480	John Swartz H.	1165
+2481	Nathaniel Kurczewski G.	1165
+2482	Matthew Kurczewski J.	1165
+2483	Jeung Lee Su	1166
+2484	William Carson W	1167
+2485	Charles Dale	1167
+2486	William McClain D	1167
+2487	Robert Ritz	1167
+2488	Charles Swenson	1167
+2489	Jeff Higgins L.	1168
+2490	Robert S. Banks	1169
+2491	Michael Oranski	1170
+2492	Avner Sadot	1170
+2493	Israel Heifetz	1170
+2494	Yoav Dracher	1170
+2495	Jeung Su Lee	1171
+2496	Robert M. Porter	1172
+2497	Gennady G. Gurov	1172
+2498	Anatoli V. Ledenev	1172
+2499	Richard Mildren Treve	1173
+2500	Neville Lange Ernest	1173
+2501	Luca Toncelli	1174
+2502	Iain Muir	1175
+2503	Fiona Barrett Elizabeth	1175
+2504	Sung-Teh Kim	1176
+2505	Masahiro Taoka	1176
+2506	Chieko Yamamoto	1176
+2507	Kunihiko Yamanaka	1176
+2508	Katunori Masaoka	1176
+2509	Daniel Warren	1177
+2510	Joseph Tripodi	1178
+2511	Carl R. Nicolia	1178
+2512	Douglas R. Wroblewski	1178
+2513	Robert J. Burnham	1178
+2514	Stanley Peters R.	1179
+2515	Donald Summers O.	1179
+2516	Fabio Pancaldi	1180
+2517	Vanni Gallocchio	1180
+2518	Peter Sanguinetti S.	1181
+2519	James Urban	1182
+2520	Albert Key L.	1182
+2521	Charles Ray Julian	1182
+2522	Charles Ray Graham	1182
+2523	Michael James	1182
+2524	Ronald Long Bruce	1183
+2525	Peter S. Sanguinetti	1184
+2526	Tony Tadin	1185
+2527	Dusan Ciuha	1186
+2528	Marc Andelman D.	1187
+2529	Gregory Walker S.	1187
+2530	Daniel Warren	1188
+2531	James C. Keck	1189
+2532	Arnold Leiboff R.	1190
+2533	Douglas Thai	1191
+2534	John Meyers lll J.	1192
+2535	John Swartz H.	1192
+2536	Nathaniel Kurczewski G.	1192
+2537	Matthew Kurczewski J.	1192
+2538	Antal Suto Z.	1193
+2539	John Campau A.	1193
+2540	John Campau Daniel	1193
+2541	Donald Reuschel L.	1193
+2542	Robert MacDonald A.	1193
+2543	Robert Porter M.	1194
+2544	Gennady Gurov G.	1194
+2545	Anatoli Ledenev V.	1194
+2546	Peter Burke A.	1195
+2547	Karl Ludwig F.	1195
+2548	Jude Kral A.	1195
+2549	Francis Zelina J.	1195
+2550	Imre Mecs	1196
+2551	Miklos Kalman	1196
+2552	Miklos Hlatki	1196
+2553	Sandor Puskas	1196
+2554	Janos Balazs	1196
+2555	Gyula Lengyel	1196
+2556	Zsolt Virag	1196
+2557	Gyula Kovacs	1196
+2558	Ferenc Horvath	1196
+2559	Imre Samu	1196
+2560	E. H. Kelle Zeiher	1197
+2561	Bosco P. Ho	1197
+2562	John E. Hoots	1197
+2563	Raymond W. Zhang	1198
+2564	Denise D. Craig	1198
+2565	Barry L. Gregerson	1199
+2566	James E. Spitzer	1199
+2567	Buddy Don Gray	1200
+2568	John G. Richardson	1201
+2569	Reva A. Nickelson	1201
+2570	Paul A. Sloan	1201
+2571	Kevin M. Kostelnik	1201
+2572	Carl R. Nicolia	1202
+2573	Joseph  Tripodi	1202
+2574	Douglas R. Wroblewski	1202
+2575	Robert J. Burnham	1202
+2576	Robert M. Porter	1203
+2577	Gennady G. Gurov	1203
+2578	Anatoli V. Ledenev	1203
+2579	Marc Andelman D.	1204
+2580	Gregory Walker S.	1204
+2581	Albert Wokas L.	1205
+2582	Richard A. Gibbs	1206
+2583	Eric  Bornstein	1207
+2584	Troy  Simmons	1208
+2585	Bruce E. Lennick	1208
+2586	Kunio  Miyazaki	1209
+2587	Barry  Johnston	1210
+2588	E. H. Kelle Zeiher	1211
+2589	Bosco P. Ho	1211
+2590	John E. Hoots	1211
+2591	Robert Porter M.	1212
+2592	Gennady Gurov G.	1212
+2593	Anatoli Ledenev V.	1212
+2594	Klaus  Roehm	1213
+2595	Marc D. Andelman	1214
+2596	Gregory S. Walker	1214
+2597	Sang Tae Park	1215
+2598	Sang-Ho  Ahn	1215
+2599	Baik-Soon  Cho	1215
+2600	Helge  Brauer	1216
+2601	Walter  Ehrenberger	1216
+2602	Helmuth  Ender	1216
+2603	Joachim  Noack	1216
+2604	Mark J. Jurich	1217
+2605	Rickey G. Swartz	1217
+2606	Jon R. Reed	1217
+2607	Eric C. Freeman	1217
+2608	Wolfgang  Ott	1217
+2609	Paul H. Appelblom	1217
+2610	Paul A. Jurich	1217
+2611	James C. Keck	1218
+2612	Sidney E. Veazey	1219
+2613	Antal Z. Suto	1220
+2614	John A. Campau	1220
+2615	John Daniel Campau	1220
+2616	Donald L. Reuschel	1220
+2617	Robert A. MacDonald	1220
+2618	Ernest E. Carter JR.	1221
+2619	Gerald M. Clement	1222
+2620	Pierce L. Chandler JR.	1223
+2621	Raymond R. Price	1224
+2622	Zamir  Tribelsky	1225
+2623	Michael  Ende	1225
+2624	Leo J. Yodock JR.	1226
+2625	Leo J. Yodock III	1226
+2626	Guy C. Yodock	1226
+2627	James E. Wood JR.	1227
+2628	John E. Sepich	1227
+2629	Alberto Scuero	1228
+2630	Abdul-Rahman Abdul-Kader M. Faqih	1229
+2631	Alan  Cisar	1230
+2632	Adrian  Denvir	1230
+2633	Dalibor  Hodko	1230
+2634	Kyle  Uselton	1230
+2635	Amanda  Campbell	1230
+2636	Gerald  Tanny	1231
+2637	Peter  Hulley	1231
+2638	Michael Anthony Thomson	1231
+2639	Henry K. Obermeyer	1232
+2640	Robert D. Eckman	1232
+2641	T. W. Mo	1232
+2642	John M. Nestler	1233
+2643	Richard Andrew Goodwin	1233
+2644	Ajit Haridas	1234
+2645	Raphael Heifetz	1235
+2646	Robert M. Porter	1236
+2647	Gennady G. Gurov	1236
+2648	Anatoli V. Ledenev	1236
+2649	Bruce J. French	1237
+2650	James M. Brugger	1238
+2651	Jeffrey H. Burbank	1238
+2652	Dennis M. Treu	1238
+2653	Sidney E. Veazey	1239
+2654	Paul  Sincock	1240
+2655	Andrew Elmhirst Potts	1240
+2656	Robert  Beckius	1241
+2657	Michael R. Powell	1241
+2658	Seung-Ho  Hong	1241
+2659	Charles J. Call	1241
+2660	Ezra  Merrill	1241
+2661	Ajit  Haridas	1242
+2662	Robert S. Banks	1243
+2663	William J. Gannon	1244
+2664	John  Muir	1244
+2665	Glen T. Van Lier	1244
+2666	Rodney W. Tyler	1245
+2667	James M. Brugger	1246
+2668	Jeffrey H. Burbank	1246
+2669	Dennis M. Treu	1246
+2670	Robert M. Porter	1247
+2671	Gennady G. Gurov	1247
+2672	Anatoli V. Ledenev	1247
+2673	James M. Brugger	1248
+2674	Jeffrey H. Burbank	1248
+2675	Dennis M. Treu	1248
+2676	Pamela R. Moore	1249
+2677	Warren Howard Chesner	1250
+2678	James  Melrose	1250
+2679	Duncan  Johnstone	1251
+2680	Veazey; Sidney E.	1252
+2681	John Sydney Cottier	1253
+2682	Greg  Brunton	1253
+2683	Robert  Lyons	1253
+2684	Peter H. Markusch	1254
+2685	Ralf  Guether	1254
+2686	Marc D. Andelman	1255
+2687	Gregory S. Walker	1255
+2688	Lewis D. Rubin JR.	1256
+2689	Randall D. Haggett	1257
+2690	Kenneth J. KarisAllen	1257
+2691	Guerorgui A. Hranov	1257
+2692	Russell Robert Michel JR.	1258
+2693	Jack  Brass	1259
+2694	Jeffrey W. Socket	1259
+2695	Jeffrey H. Burbank	1260
+2696	James M. Brugger	1260
+2697	Dennis M. Treu	1260
+2698	C. David Finch JR.	1260
+2699	Barry N. Fulkerson	1260
+2700	Steven A. White	1260
+2701	Porter; Robert M.	1261
+2702	Gurov; Gennady G.	1261
+2703	Ledenev; Anatoli V.	1261
+2704	Clapp; Daniel C.	1262
+2705	DEBASISH  MUKHOPADHYAY	1263
+2706	Isao  Yukimoto	1264
+2707	Kiyonori  Hasegawa	1264
+2708	Sidney E. Veazey	1265
+2709	Bleth; Joel J.	1266
+2710	Strickland; Edward T.	1266
+2711	Walter; Doug	1266
+2712	Jeffrey H. Burbank	1267
+2713	James M. Brugger	1267
+2714	Dennis M. Treu	1267
+2715	Robert  Charbonneau	1268
+2716	Terry A. Berger	1269
+2717	Kimber D. Fogelman	1269
+2718	L. Thompson Staats	1269
+2719	Mark  Nickerson	1269
+2720	Paul  Bente	1269
+2721	Donald C. Crescenzi	1270
+2722	James J. Burns	1270
+2723	Daniel J. Swistak	1270
+2724	Robert M. Porter	1271
+2725	Gennady G. Gurov	1271
+2726	Anatoli V. Ledenev	1271
+2727	Pamela R. Moore	1272
+2728	Haney; James Allan	1273
+2729	Bruce J.  French	1274
+2730	Jae Seong Rhee	1275
+2731	Min Woo Jung	1275
+2732	Jae Seong Rhee	1276
+2733	Min Woo Jung	1276
+2734	Abdul-Rahman Abdul-Kader M. Faqih	1277
+2735	Ernest E. Carter JR.	1278
+2736	J. Kenneth Wittle	1279
+2737	Richard A. Hamilton	1279
+2738	Charles S. Titus	1279
+2739	Jeffrey H. Burbank	1280
+2740	Charles D. Finch JR.	1280
+2741	James M. Brugger	1280
+2742	Crowley; Sean T.	1281
+2743	Cheney; Gerald L.	1281
+2744	Razu; David S.	1281
+2745	Porter; Robert M.	1282
+2746	Gurov; Gennady G.	1282
+2747	Ledenev; Anatoli V.	1282
+2748	Smith; Lee A.	1283
+2749	Richard P. Carnahan	1284
+2750	Troy W. Kight	1284
+2751	Garrett  Johnson	1284
+2752	Kogure; Naochika	1285
+2753	Kitahama; Takashi	1285
+2754	Nanama; Kiyotaka	1285
+2755	Gokuraku; Hiroyuki	1285
+2756	Samsonov; Nikolai Mikhailovich	1286
+2757	Bobe; Leonid Sergeevich	1286
+2758	Rifert; Vladimir Gustavovich	1286
+2759	Barabash; Petr Alexeevich	1286
+2760	Komolov; Vladimir Viktorovich	1286
+2761	Margulis; Vadim Iliich	1286
+2762	Novikov; Vladimir Mikhailovich	1286
+2763	Pinsky; Boris Yakovlevich	1286
+2764	Protasov; Nikolai Nikolaevich	1286
+2765	Rakov; Valentin Vasilievich	1286
+2766	Farafonov; Nikolai Sergeevich	1286
+2767	Crowley; Dennis E.	1287
+2768	Ritton; Jason	1287
+2769	Scuero; Alberto M.	1288
+2770	Rajewski; Robert Karl	1289
+2771	Gilad  Golub	1290
+2772	Julio  Subovich	1290
+2773	Franciscus, Antonius, Anna, Maria  De Leij	1291
+2774	James  Stratford	1291
+2775	Helen  Sneath	1291
+2776	Tony  Hutchings	1291
+2777	Marcus G.  Theodore	1292
+2778	John R.  Herron	1293
+2779	Upen J.  Bharwada	1293
+2780	Isaac V.  Farr	1293
+2781	Bernard F.  Duesel	1294
+2782	Michael J.  Rutsch	1294
+2783	Jiro  Tonegawa	1295
+2784	David C. Rennard	1296
+2785	Justin D. Pace	1296
+2786	Thomas R. Palmer	1296
+2787	Thomas Van Nooten	1297
+2788	Thomas Van Nooten	1298
+2789	Richard W. Fahs, II	1299
+2790	Matthew D. W. Fahs	1299
+2791	Roger W. Carson	1300
+2792	Bruce W. Bremer	1300
+2793	Michael L. Mastracci	1300
+2794	Kent E. Maggard	1300
+2795	Patrick D. Wade	1301
+2796	Stefan Stamoulis	1302
+2797	Aaron D. Wilson	1303
+2798	Frederick F. Stewart	1303
+2799	Mark L. Stone	1303
+2800	Bernard F. Duesel, Jr.	1304
+2801	Michael J. Rutsch	1304
+2802	Nazli Yesiller	1305
+2803	James Lewis Hanson	1305
+2804	Richard W. Fahs, II	1306
+2805	Matthew D.W. Fahs	1306
+2806	James Penner	1307
+2807	Marcus G. Theodore	1308
+2808	Richard W. Fahs, II	1309
+2809	Matthew D. W. Fahs	1309
+2810	Colin Gavin Edward Webb	1310
+2811	Daekyoo Hwang	1311
+2812	Philip D. Leveson	1312
+2813	John P. Gaus	1312
+2814	Wayne W. Simmons	1313
+2815	Robert Dwayne Litt	1313
+2816	Anna Lee Tonkovich	1313
+2817	Laura J. Silva	1313
+2818	Daniel Francis Ryan	1313
+2819	Bruce Stangeland	1313
+2820	John Brophy	1313
+2821	Jeffrey S. McDaniel	1313
+2822	Zhiping Kuang	1314
+2823	Bin Lu	1314
+2824	Wei Xiong	1314
+2825	Guy Adelle Pinson	1315
+2826	Barbara Pinson	1315
+2827	Stephen C. Kurtzman	1316
+2828	Richard Lee Aho	1317
+2829	Yuri KOLODNY	1318
+2830	Grant Lloyd Lacey	1319
+2831	Marcus G. Theodore	1320
+2832	Justin Cannock	1321
+2833	Richard W. Fahs, II	1322
+2834	Matthew D.W. Fahs	1322
+2835	Stefan STAMOULIS	1323
+2836	Jiro TONEGAWA	1324
+2837	Bert ZAUDERER	1325
+2838	Terry Gong	1326
+2839	John Harmon	1326
+2840	Marcus G. Theodore	1326
+2841	Marcus G. Theodore	1327
+2842	Bernard F. Duesel, Jr.	1328
+2843	Michael J. Rutsch	1328
+2844	Craig Clerkin	1328
+2845	Bernard F. Duesel, JR.	1329
+2846	Michael J. Rutsch	1329
+2847	Craig Clerkin	1329
+2848	Dennis G. GRUBB	1330
+2849	Mahmoud Wazne	1330
+2850	Stefan Stamoulis	1331
+2851	Ayala Barak	1332
+2852	Huansheng Zhong	1333
+2853	Lei Li	1333
+2854	Jiacong Wu	1333
+2855	Xuewei Wu	1333
+2856	Zhimin Sun	1333
+2857	Haiying Yang	1333
+2858	Brian J. Cantwell	1334
+2859	Craig S. Criddle	1334
+2860	Kevin Lohner	1334
+2861	Yaniv D. Scherson	1334
+2862	George F. Wells	1334
+2863	Bernard H. Johnson, IV	1334
+2864	Koshlan Mayer-Blackwell	1334
+2865	Xing Xie	1334
+2866	Hung-Suck Park	1335
+2867	Jung-Hoon Kim	1335
+2868	Jae-Won Lee	1335
+2869	Won-Sik Lee	1335
+2870	Yong-Seok Park	1335
+2871	Stefan Stamoulis	1336
+2872	Terry Gong	1337
+2873	John Harmon	1337
+2874	Marcus G. Theodore	1337
+2875	Hiroyasu Nagase	1338
+2876	Kazuhisa Miyamoto	1338
+2877	Kazumasa Hirata	1338
+2878	Hiroshi Saito	1338
+2879	Emmett M. Walker	1339
+2880	Tony Richard Hutchings	1340
+2881	Franciscus Antonius Anna Maria de Leij	1340
+2882	Jeremy Richard Wingate	1340
+2883	Ronald D. Barbaro	1341
+2884	Ronald E. McIlwain	1341
+2885	David Muyan	1341
+2886	Edward A. Weinberg	1341
+2887	Refael Aharon	1342
+2888	Israel Biran	1342
+2889	Ronny Banker	1342
+2890	Denyse Claire DuBrucq	1343
+2891	Boris Mikhail Khudenko	1344
+2892	Xu Fei Wu	1345
+2893	Reinhold Klipper	1346
+2894	Michael Schelhaas	1346
+2895	Stefan Neumann	1346
+2896	Jens Stoll	1346
+2897	Shinichi Nakamura	1347
+2898	Kunihiko Fukuzuka	1347
+2899	Brett RENAUD	1348
+2900	Scott Renaud	1348
+2901	Frances Irene Parrott	1349
+2902	Martin P. Wanielista	1350
+2903	Ni-Bin Chang	1350
+2904	Ammarin Makkeasorn	1350
+2905	Grant Lloyd Lacey	1351
+2906	John Stark	1352
+2907	Angus Peter Robson	1353
+2908	Samuel Martin	1354
+2909	Adriana Gonzalez Ospina	1354
+2910	Jesus CACHO	1355
+2911	Olivier CAUDART	1355
+2912	Thomas LAGIER	1355
+2913	Pascal PESLERBE	1355
+2914	Vassilia VIGNERON	1355
+2915	Giuseppina CEREA	1356
+2916	Wayne W. Simmons	1357
+2917	Robert Dwayne Litt	1357
+2918	Anna Lee Tonkovich	1357
+2919	Laura J. Silva	1357
+2920	Daniel Francis Ryan	1357
+2921	Bruce Stangeland	1357
+2922	John Brophy	1357
+2923	Jeffrey S. McDaniel	1357
+2924	Michael Caldwell	1358
+2925	Rodrigo Andres Geraldo SEURA	1359
+2926	Milind V. Khire	1360
+2927	Robert Maurice Charles Patterson	1361
+2928	Lee L. Shafer	1362
+2929	John W. James	1362
+2930	Richard D. Rath	1362
+2931	Jesse Eubank	1362
+2932	Zhi Min Liao	1363
+2933	Jing Kui Guo	1363
+2934	Yu He Huang	1363
+2935	Jing Zou	1363
+2936	Zhi Qiang Chen	1363
+2937	Rui Zhi Dai	1363
+2938	Wen Yan Shi	1363
+2939	Jian Zhong Xiong	1363
+2940	Hai Ying Ji	1363
+2941	Qingmei LI	1364
+2942	Dale M. Timmons	1365
+2943	Samantha Champ	1366
+2944	Mariola Wanior	1366
+2945	Andreas Reifschneider	1366
+2946	Russell A. Firestone	1367
+2947	James R. Harkess	1367
+2948	William S. Langhorne	1367
+2949	Nord S. Sorensen	1367
+2950	Marcus G. Theodore	1368
+2951	Jost-Ulrich Kugler	1369
+2952	Peter Belouschek	1369
+2953	Katja Kugler	1369
+2954	Gabriel Popa	1370
+2955	Jean Suidureau	1370
+2956	Petra Johannsen	1370
+2957	Georg Reinhold	1370
+2958	Reinhold Klipper	1371
+2959	Michael Schelhaas	1371
+2960	Stefan Neumann	1371
+2961	Jens Stoll	1371
+2962	Volker A. Hausin	1372
+2963	Eddie L. Cheatham	1372
+2964	David A. Wilson	1372
+2965	Marcus G. Theodore	1373
+2966	Samuel Martin	1374
+2967	Adriana Gonzalez Ospina	1374
+2968	Joe P. McCarty	1375
+2969	Daniel M. St. Louis	1375
+2970	Michael Caldwell	1376
+2971	Kevin McPhillips	1377
+2972	Bernard. F. Duesel	1378
+2973	Michael J. Rutsch	1378
+2974	Thomas Alan Benjamin	1379
+2975	Craig Jay Jones	1379
+2976	Luther Alba Brice	1379
+2977	Xu Fei WU	1380
+2978	Andrew Eric Day	1381
+2979	Milind V. Khire	1382
+2980	James D. Mavis	1383
+2981	John Charles Matthews	1384
+2982	John Charles Matthews	1385
+2983	Ronald Wilen	1386
+2984	Kenneth R. Cioletti	1386
+2985	Matthew Cioletti	1386
+2986	Zhimin LIAO	1387
+2987	Rong LI	1387
+2988	Jijun WU	1387
+2989	Jingkui GUO	1387
+2990	Mao YANG	1387
+2991	Yuhe HUANG	1387
+2992	Aiguo WAN	1387
+2993	Lee L. Shafer	1388
+2994	John W. James	1388
+2995	Richard D. Rath	1388
+2996	Jesse Eubank	1388
+2997	Ulrich Reimann-Philipp	1389
+2998	Cesar Ladron de Guevara	1390
+2999	Luther Freeman	1390
+3000	Thomas Alan Benjamin	1391
+3001	Craig Jay Jones	1391
+3002	Luther Alba Brice	1391
+3003	Albert Allen Klyne	1392
+3004	Jason Duhe	1393
+3005	James Gharst	1393
+3006	Kelvin Simon	1393
+3007	Stella Simon	1393
+3008	Paul Delahoussaye	1393
+3009	Regis Renaud P.	1394
+3010	Ian Procter	1395
+3011	Sabine Azouani Isabelle	1395
+3012	Rolf Haubrichs	1395
+3013	Peter Riley	1396
+3014	Alexander Ivanovich Shulgin	1397
+3015	Anton Alexandrovich Shulgin	1397
+3016	Don Churchill Augenstein	1398
+3017	John Rudiger Benemann	1398
+3018	Ramin Yazdani	1398
+3019	Thomas Benjamin Alan	1399
+3020	Craig Jones Jay	1399
+3021	Luther Brice Alba	1399
+3022	Gabriel POPA	1400
+3023	Jean SUIDUREAU	1400
+3024	Petra JOHANSSEN	1400
+3025	Georg REINHOLD	1400
+3026	Joseph Wilson H.	1401
+3027	Gordon Kaye I.	1401
+3028	Robert Hahn L.	1401
+3029	Peter Weber B.	1401
+3030	Kevin Morris A.	1401
+3031	Hannu Suominen L.	1402
+3032	Norio Nagao	1403
+3033	Tatsushi Matsuyama	1403
+3034	Tatsuki Toda	1403
+3035	Zhi Min LIAO	1404
+3036	Jing Kui GUO	1404
+3037	Yu He HUANG	1404
+3038	Jing ZOU	1404
+3039	Zhi Qiang CHEN	1404
+3040	Rui Zhi DAI	1404
+3041	Wen Yan SHI	1404
+3042	Jian Zhong XIONG	1404
+3043	Hai Ying JI	1404
+3044	Yoshiaki Yokoyama	1405
+3045	Tooru Kodama	1405
+3046	Yasuo Mishima	1405
+3047	Katuo Takamiya	1405
+3048	Curt A. Christeson	1406
+3049	David Owen Malcolm	1407
+3050	Joseph Wilson H.	1408
+3051	Gordon Kaye I.	1408
+3052	Robert Hahn L.	1408
+3053	Peter Weber B.	1408
+3054	Kevin Morris A.	1408
+3055	John Stark	1409
+3056	Gordon Kaye I.	1410
+3057	Peter Weber B.	1410
+3058	Kevin Morris A.	1410
+3059	Joseph Wilson H.	1410
+3060	Robert Hahn L.	1410
+3061	Albert Klyne Allen	1411
+3062	Ayala Barak	1412
+3063	Roger Carson W.	1413
+3064	Bruce Bremer W.	1413
+3065	Michael Mastracci L.	1413
+3066	Kent Maggard E.	1413
+3067	Roman Bilak	1414
+3068	Thomas Benjamin Alan	1415
+3069	Craig Jones Jay	1415
+3070	Luther Brice Alba	1415
+3071	Jason Duhe	1416
+3072	James Gharst	1416
+3073	Kelvin Simon	1416
+3074	Stella Simon	1416
+3075	Paul Delahoussaye	1416
+3076	Randal Myers B.	1417
+3077	Curt Christeson A.	1418
+3078	Lawrence Conaway M.	1419
+3079	Michael Keller Ray	1419
+3080	Roger Noble Ken	1419
+3081	David Caffey	1419
+3082	Peter Rosen L.	1420
+3083	Robert Hodges D.	1420
+3084	Armen Abazajian N.	1421
+3085	Alexander Shulgin Ivanovich	1422
+3086	Anton Shulgin Alexandrovich	1422
+3087	Marcus Theodore G.	1423
+3088	Don Augenstein Churchill	1424
+3089	John Benemann Rudiger	1424
+3090	Ramin Yazdani	1424
+3091	Milind V. Khire	1425
+3092	Kenneth S. Price	1426
+3093	Joe Kurek	1426
+3094	Kurt Whitfield	1426
+3095	Herbert I. Wissel	1426
+3096	Jung Kim Yong	1427
+3097	Peter Ianniello J.	1428
+3098	Mark Topp	1428
+3099	Tracy Johnson R.	1428
+3100	Roy E. McAlister	1429
+3101	Boris Khudenko Mikhailovich	1430
+3102	Sung-Teh Kim	1431
+3103	Masahiro Taoka	1431
+3104	Chieko Yamamoto	1431
+3105	Kunihiko Yamanaka	1431
+3106	Katunori Masaoka	1431
+3107	Mohan Singh Saran	1432
+3108	George Walter Luxbacher	1432
+3109	Ray Coffey Stratton   JR.	1433
+3110	Russell Firestone A.   III	1434
+3111	James Harkess R.	1434
+3112	William Langhorne S.	1434
+3113	Nord Sorensen	1434
+3114	Dennis Kunerth C.	1435
+3115	John Svoboda M.	1435
+3116	James Johnson T.	1435
+3117	Keith Forrester Edward	1436
+3118	Keith Forrester Edward	1437
+3119	Geom Lee Yong	1438
+3120	Young Cho Lae	1438
+3121	Chang Yang Ryung	1438
+3122	Dong Lee Hoon	1438
+3123	Young Won Mi	1438
+3124	Young Lee Joon	1438
+3125	Yeon Park Jae	1438
+3126	Peter Ianniello J.	1439
+3127	Aigen Zhao	1439
+3128	Gary Shaffer L.	1439
+3129	Charles Dale A.	1440
+3130	Wolfgang Podszun	1441
+3131	Andreas Schlegel	1441
+3132	Reinhold Klipper	1441
+3133	Rudiger Seidel	1441
+3134	Udo Herrmann	1441
+3135	Richard Takeuchi T.	1442
+3136	Robert Nakamura M.	1442
+3137	Robert Merton Satchwell	1443
+3138	Roderick Michael Facey	1443
+3139	Imre Mecs	1444
+3140	Miklos Kalman	1444
+3141	Miklos Hlatki	1444
+3142	Sandor Puskas	1444
+3143	Janos Balazs	1444
+3144	Gyula Lengyel	1444
+3145	Zsolt Virag	1444
+3146	Gyula Kovacs	1444
+3147	Ferenc Horvath	1444
+3148	Imre Samu	1444
+3149	Andrew Wells Phelps	1445
+3150	Jeffrey Allen Sturgill	1445
+3151	Joseph Thomas Swartzbaugh	1445
+3152	Peter  Thomas	1446
+3153	Mohan Singh Saran	1447
+3154	George Walter Luxbacher	1447
+3155	Lawrence  Conaway	1448
+3156	Michael R. Keller	1448
+3157	Roger K. Noble	1448
+3158	Peter Riley	1449
+3159	Chen-Yu Yen	1450
+3160	Jurgen Kanitz	1451
+3161	Jurgen Forsting	1451
+3162	Jim  Moutray	1452
+3163	Paul Joe  Solar	1452
+3164	Paul A. Kittle	1453
+3165	Shawn R. Taylor	1454
+3166	Gintautas Antanas Kamaitis	1454
+3167	Hans-Jorg  Bonath	1455
+3168	Georg  Bombeck	1455
+3169	Lawrence  Conaway	1456
+3170	Michael R. Keller	1456
+3171	Roger K. Noble	1456
+3172	Dan L. Wensel	1457
+3173	Kenji  Suzuki	1458
+3174	Kisaku  Tomaru	1458
+3175	Dave  Van Vliet	1459
+3176	Herbert Wallace Campbell	1459
+3177	Stephen Barrie Chambers	1459
+3178	Joseph H. Wilson	1460
+3179	Gordon I. Kaye	1460
+3180	Robert L. Hahn	1460
+3181	Peter B. Weber	1460
+3182	Kevin A. Morris	1460
+3183	Clifford J. Arnett	1461
+3184	Joseph B. Farrell	1461
+3185	Daniel T. Hull III	1461
+3186	Steven J. Krugel	1461
+3187	Perry L. Schafer	1461
+3188	Billy G. Turner	1461
+3189	Warren R. Uhte	1461
+3190	John L. Willis	1461
+3191	Robert Merton Satchwell	1462
+3192	Roderick Michael Facey	1462
+3193	Peter L. Rosen	1463
+3194	Robert D. Hodges	1463
+3195	Peter L. Rosen	1464
+3196	Robert D. Hodges	1464
+3197	Alan Brian Cash	1465
+3198	Blaine F. Severin	1466
+3199	Felix Anthony Perriello	1467
+3200	Peter J. Ianniello	1468
+3201	Mark  Topp	1468
+3202	Tracy R. Johnson	1468
+3203	Peter J. Ianniello	1469
+3204	Mark  Topp	1469
+3205	Tracy R. Johnson	1469
+3206	Kenneth S. Price	1470
+3207	Joe  Kurek	1470
+3208	Kurt  Whitfield	1470
+3209	Herbert I. Wissel	1470
+3210	Andrew Wells Phelps	1471
+3211	Jeffrey Allen Sturgill	1471
+3212	Joseph Thomas Swartzbaugh	1471
+3213	Peter L. Rosen	1472
+3214	Robert  Hodges	1472
+3215	Gordon  Layton	1473
+3216	Dale  Courtney	1473
+3217	Matthew C. Smith	1473
+3218	William H. Johnson	1473
+3219	Scott D. Wallace	1474
+3220	Shinichi  Nakamura	1475
+3221	Kunihiko  Fukuzuka	1475
+3222	Jung Yong Kim	1476
+3223	Chen-Yu  Yen	1477
+3224	Roy E. McAlister	1478
+3225	Peter J. Ianniello	1479
+3226	Mark  Topp	1479
+3227	Tracy R. Johnson	1479
+3228	Michael P. McGinness	1480
+3229	Joseph H. Wilson	1481
+3230	Gordon I. Kaye	1481
+3231	Robert L. Hahn	1481
+3232	Peter B. Weber	1481
+3233	Kevin A. Morris	1481
+3234	Billy J. Hatcher	1482
+3235	Young Sik Kim	1483
+3236	Han Yong Jeon	1483
+3237	Gursel G. Yilmaz	1484
+3238	Owen P. Ward	1485
+3239	Henry  Burd	1485
+3240	Jerry M. Brown	1486
+3241	Layton; Gordon	1487
+3242	Courtney; Dale	1487
+3243	Smith; Matthew C.	1487
+3244	Johnson; William H.	1487
+3245	Robert W. Bartlett	1488
+3246	Warren Howard Chesner	1489
+3247	James  Melrose	1489
+3248	Warren Howard Chesner	1490
+3249	James  Melrose	1490
+3250	Richard G. Sheets	1491
+3251	Shi; Caijun	1492
+3252	Peter  Riley	1493
+3253	Al-Samadi; Riad A.	1494
+3254	Chang; Larry	1495
+3255	Steven  Catanla	1496
+3256	Neil  Mansuy	1496
+3257	Lena Q. Ma	1497
+3258	Ken M. Komar	1497
+3259	Elizabeth D. Kennelley	1497
+3260	Amer; Sultan I.	1498
+3261	Scott D. Wallace	1499
+3262	Jae Seong Rhee	1500
+3263	Min Woo Jung	1500
+3264	Ryan D. McMurtrey	1501
+3265	Daniel M. Ginosar	1501
+3266	Kenneth S. Moor	1501
+3267	G. Michael Shook	1501
+3268	Donna L. Barker	1501
+3269	Tommy G. Taylor	1502
+3270	Lawrence M. Conaway	1503
+3271	Roger  Noble	1503
+3272	Michael  Keller	1503
+3273	David  Caffey	1503
+3274	Lawrence M. Conaway	1504
+3275	Sultan I. Amer	1505
+3276	Robin  Millard	1506
+3277	Frederick H. Kurtz	1506
+3278	Eighmy; T. Taylor	1507
+3279	Ronald L. Brookshire	1508
+3280	Donald  Brookshire	1508
+3281	Travis  Brookshire	1508
+3282	Seyed Mohammed Reza Kalantar-Nejad	1508
+3283	James Joseph Beach	1508
+3284	Lahoda; Edward J.	1509
+3285	Ha; Khoa T.	1509
+3286	Conca; James L.	1510
+3287	Wright; Judith	1510
+3288	Lorraine; Segala	1511
+3289	Long; David	1511
+3290	Coombs; Harvey W.	1512
+3291	Pearson; Ron D.	1512
+3292	Bailey; Elena	1513
+3293	Fred  Giovannitti	1514
+3294	Ashley  Day	1514
+3295	Kal K.  Lambert	1515
+3296	Boris  Feldman	1516
+3297	Michael  Feldman	1516
+3298	Kei-Chien  Yu	1517
+3299	Dana R.  Allen	1518
+3300	Ross O.  Youngs	1519
+3301	James R.  Cook	1519
+3302	Shanon I.  Rogers	1519
+3303	Kal Karel  Lambert	1520
+3304	Jerry M. Edmondson	1521
+3305	Stephan Vincent Kroecker	1522
+3306	Aidong Li	1523
+3307	Hongyan Ding	1523
+3308	Xuanxu Huang	1523
+3309	Norma A. Alcantar	1524
+3310	Dawn I. Fox	1524
+3311	Sylvia Thomas	1524
+3312	Fred Giovannitti	1525
+3313	Ashley Day	1525
+3314	Derek Andrew Lowe	1526
+3315	Peter R. O'Regan	1527
+3316	Ali Amer Almohsen	1527
+3317	Takaki Yukimoto	1528
+3318	Yasuhiro Kaneko	1528
+3319	Seishi Tokunaga	1528
+3320	Hirokazu Nishimura	1528
+3321	Tatsuru Tabohashi	1528
+3322	Masaki Kobayashi	1528
+3323	Kazuhiro sato	1528
+3324	Chizuru Tara	1528
+3325	Randall M. Golden	1529
+3326	Horace Hartwell Golden	1529
+3327	Diana Gail Golden	1529
+3328	Murray Mack Golden	1529
+3329	Kimberly Dawn Golden	1529
+3330	Amber Mae Golden-Sawyer	1529
+3331	William Teppig, JR.	1530
+3332	James Whang	1530
+3333	Luis Rafael TORRES	1531
+3334	John Eirik Paulsen	1532
+3335	Atle Mundheim Ylikangas	1533
+3336	Sky Bleu Martin	1534
+3337	Sky Bleu Martin	1535
+3338	Kei-Chien Yu	1536
+3339	Kal K Lambert	1537
+3340	Ronald de Strulle	1538
+3341	Mohammad Rassa	1539
+3342	Firouz Bidabad	1539
+3343	Samuel Douglas Borries	1540
+3344	Svein Ellingsrud	1541
+3345	Audun Sodal	1541
+3346	Hans Rechsteiner	1541
+3347	Harald Justnes	1541
+3348	Kare Ingvar Johansen	1541
+3349	Ashley Day	1542
+3350	Fred Giovannitti	1542
+3351	James M. Cobb	1543
+3352	Jiro TONEGAWA	1544
+3353	James Edward Delves	1545
+3354	David John Parkinson	1545
+3355	Timothy Christian Crouse	1546
+3356	Sky Bleu Martin	1547
+3357	Ronald de Strulle	1548
+3358	Matthew D. Campbell	1549
+3359	Steven G. Hall	1549
+3360	Robert L. Beine	1549
+3361	Odd Bernhard Torkildsen	1550
+3362	Anthony LaCivita	1551
+3363	Michel Baylot	1552
+3364	Marc Bonnissel	1552
+3365	Xavier Rocher	1552
+3366	Pierre Carabin	1553
+3367	Michel G. Drouet	1553
+3368	Ronald De Strulle	1554
+3369	Ronald Molz	1555
+3370	James Frank Leach	1555
+3371	Christopher Wasserman	1555
+3372	Anthony B. Brennan	1556
+3373	Christopher James Long	1556
+3374	Joseph W. Bagan	1556
+3375	James Frederick Schumacher	1556
+3376	Mark M. Spiecker	1556
+3377	James Clifford LEWIS	1557
+3378	Gregory B. Burkhardt	1558
+3379	Jose Alberto Ochoa Disselkoen	1559
+3380	Paul Arthur Clukies	1560
+3381	James M. Cobb	1561
+3382	Ali G. Kadaster	1562
+3383	Keith K. Millheim	1562
+3384	Simon Myungkil Kim	1563
+3385	Alexia Aubault	1564
+3386	Dominique Roddier	1564
+3387	Christian Cermelli	1564
+3388	Odd Bernhard Torkildsen	1565
+3389	Ronald de Strulle	1566
+3390	Ronald de Strulle	1567
+3391	Ronald de Strulle	1568
+3392	Thomas A. Ward	1569
+3393	Kai Stuart Martin	1569
+3394	Mark C. Lathem	1570
+3395	Ronald de Strulle	1571
+3396	Stephen Groves	1572
+3397	David Price	1572
+3398	Gavin Sneddon	1572
+3399	Stewart Hardison	1573
+3400	Keiichiro Oishi	1574
+3401	Ronald de Strulle	1575
+3402	Ronald de Strulle	1576
+3403	Ronald de Strulle	1577
+3404	Ronald de Strulle	1578
+3405	Ronald de Strulle	1579
+3406	Ronald de Strulle	1580
+3407	Michael Joseph Morrison	1581
+3408	Axel Guenther Andre	1581
+3409	John E. Irvine	1582
+3410	Steven E. Hargrave	1582
+3411	Tomas Crespo, SR.	1583
+3412	Flavio Nogueira Pinheiro de Andrade	1584
+3413	Bruce A. Angel	1585
+3414	Glenn Lyle Spain	1585
+3415	Kurt Bergstrom	1585
+3416	Scott Wildermuth	1585
+3417	Leon Edward Campbell	1586
+3418	RONALD DE STRULLE	1587
+3419	Ronald de Strulle	1588
+3420	Ronald De Strulle	1589
+3421	Ronald De Strulle	1590
+3422	Ronald de Strulle	1591
+3423	Ronald de Strulle	1592
+3424	Ronald De Strulle	1593
+3425	Ronald de Strulle	1594
+3426	Svein Ellingsrud	1595
+3427	Audun Sodal	1595
+3428	Hans Rechsteiner	1595
+3429	Harald Justnes	1595
+3430	Kare Ingvar Johansen	1595
+3431	Simon Myungkil Kim	1596
+3432	Gunnar Baerheim	1597
+3433	Stein Foss	1597
+3434	Kjell Varenhed	1597
+3435	Aage Bjorn Andersen	1597
+3436	Clifford H. Ray	1598
+3437	Glenn D. Fisseler	1598
+3438	James N. Thompson	1598
+3439	Hal B. Haygood	1598
+3440	Richard A. Altman	1599
+3441	Michael D. Brown	1599
+3442	Peter W. Nimmo	1599
+3443	John C. BAYER	1600
+3444	Thomas C. Gandolfo	1600
+3445	Klaus Dieter Sakrowski	1601
+3446	Paul Arthur Clukies	1602
+3447	Jae Myung Han	1603
+3448	Virendra J. Mehta	1604
+3449	Francesco Sposito	1605
+3450	Kenneth Merle Weldon	1606
+3451	Rae Son Sung	1607
+3452	Bjarne Olsen	1608
+3453	Petter Grinde	1608
+3454	Tron Dahl	1608
+3455	Ola Often	1608
+3456	Michel Baylot	1609
+3457	Victor Corpus Navarro	1610
+3458	Victor Corpus	1611
+3459	Ronald Terrel L.	1612
+3460	Karl Yost	1612
+3461	Gale Schwiesow	1612
+3462	Andrew W. Gordon	1613
+3463	Charles R. Cushing	1613
+3464	Torfinn Johnsen	1614
+3465	Jae-Wook Park	1615
+3466	Arun Wagh	1616
+3467	Martin Maloney D.	1616
+3468	Anthony F. Frantz	1617
+3469	James Delves Edward	1618
+3470	David Parkinson John	1618
+3471	Ali Kadaster G.	1619
+3472	Keith Millheim K.	1619
+3473	Alexander Pivovarov	1620
+3474	Thierry Thomazeau	1621
+3475	David McConchie	1622
+3476	Malcolm Clark William	1622
+3477	Fiona Gaye Davies-McConchie	1622
+3478	Thomas Ryffel Hans	1622
+3479	Noam Zeichner	1623
+3480	Omri Ben-Eliahu	1623
+3481	Kuen Choi Ho	1624
+3482	Paul Clukies Arthur	1625
+3483	Kimberly Michelle Sutter	1626
+3484	Joseph Mayers	1627
+3485	Theodore Skrypek G.	1628
+3486	Daniel Buonagurio P.	1628
+3487	Rodrigo Ferreira Carvalho	1629
+3488	Kimberly Sutter Michelle	1630
+3489	Keith Forrester Edward	1631
+3490	Andrew Gordon W.	1632
+3491	Charles Cushing R.	1632
+3492	Richard Walker C.	1633
+3493	Masaaki Oya	1634
+3494	Naoya Nakamura	1634
+3495	Makoto Tsuboi	1634
+3496	Alexander Pivovarov	1635
+3497	Thomas Lang G.	1636
+3498	James Lang T.	1636
+3499	Paul Brunning J	1637
+3500	David McKay G.F.	1637
+3501	Frederick Growcock	1638
+3502	G. Curtis Wray	1638
+3503	John Candler	1638
+3504	Stephen Rabke	1638
+3505	Sonya Ross	1638
+3506	Jonathan Getliff	1638
+3507	Greg McEwan	1638
+3508	Enrique Kilayko L.	1639
+3509	Liam Ryan A.	1639
+3510	Christian Rode Stig	1640
+3511	Erich Kumpf	1641
+3512	Alexander Pivovarov R.	1642
+3513	Mindong  Bai	1643
+3514	Xiyao  Bai	1643
+3515	Xiaojian  Zhou	1643
+3516	Zhitao  Zhang	1643
+3517	Mindi  Bai	1643
+3518	Bo  Yang	1643
+3519	Chengwu  Yi	1643
+3520	Peter  Thomas	1644
+3521	Anthony F. Frantz	1645
+3522	Paul  Clukies	1646
+3523	Karl L. Aschenbach	1647
+3524	Brian Snowdon	1648
+3525	Garry Kevin Callinan	1649
+3526	Peter Chapman	1649
+3527	Kolodny  Yuri	1650
+3528	Kreisel  Itay	1650
+3529	Toru Hasegawa	1651
+3530	Yusuke Funayose	1651
+3531	Tomohiko Yashiro	1651
+3532	Peter W. Smith	1652
+3533	Gregory James Carter	1653
+3534	Masaaki  Oya	1654
+3535	Naoya  Nakamura	1654
+3536	Makoto  Tsuboi	1654
+3537	Gerard Lynch	1655
+3538	James A. Manthei	1656
+3539	Garry Kevin Callinan	1657
+3540	Peter  Chapman	1657
+3541	Christopher Louis Beato	1658
+3542	Joop Roodenburg	1658
+3543	Wei-Guo  Wu	1659
+3544	Thomas E. Mallouk	1660
+3545	Bettina  Schrick	1660
+3546	Jennifer L. Blough	1660
+3547	Garry Kevin Callinan	1661
+3548	Peter Chapman	1661
+3549	Toru  Hasegawa	1662
+3550	Yusuke  Funayose	1662
+3551	Tomohiko  Yashiro	1662
+3552	Chandralatha  Raghukimar	1663
+3553	M.S.  Shailaja	1663
+3554	Shilpa  Kamat	1663
+3555	Christopher Louis Beato	1664
+3556	Joop  Roodenburg	1664
+3557	Russell Robert Michel JR.	1665
+3558	Gerard  Lynch	1666
+3559	Chandralata  Raghukumar	1667
+3560	Trevor M. D'Souza	1667
+3561	R. Greg Thorn	1667
+3562	C. A. Reddy	1667
+3563	Warren Howard Chesner	1668
+3564	James  Melrose	1668
+3565	Warren Howard Chesner	1669
+3566	James  Melrose	1669
+3567	Bo-Young  Lee	1670
+3568	Hudson; Jeffrey T.	1671
+3569	Ohrdorf; Neil	1671
+3570	Gentry; David W.	1672
+3571	Kimo Kalani Zaiger	1673
+3572	Warren Howard Chesner	1674
+3573	James  Melrose	1674
+3574	Myng-Sup  Rhee	1675
+3575	Eighmy; T. Taylor	1676
+3576	Babin; Hugh D.	1677
+3577	Domangue; Albert J.	1677
+3578	Achord; Cecil L.	1678
+3579	Irvine; John E.	1679
+3580	Yeosock; John J.	1679
+3581	Levine; Robert A.	1680
+3582	Gilad  Golub	1681
+3583	Julio  Subovich	1681
+3584	Franciscus, Antonius, Anna, Maria  De Leij	1682
+3585	James  Stratford	1682
+3586	Helen  Sneath	1682
+3587	Tony  Hutchings	1682
+3588	Marcus G.  Theodore	1683
+3589	John R.  Herron	1684
+3590	Upen J.  Bharwada	1684
+3591	Isaac V.  Farr	1684
+3592	Bernard F.  Duesel	1685
+3593	Michael J.  Rutsch	1685
+3594	Jiro  Tonegawa	1686
+3595	David C. Rennard	1687
+3596	Justin D. Pace	1687
+3597	Thomas R. Palmer	1687
+3598	Thomas Van Nooten	1688
+3599	Thomas Van Nooten	1689
+3600	Richard W. Fahs, II	1690
+3601	Matthew D. W. Fahs	1690
+3602	Roger W. Carson	1691
+3603	Bruce W. Bremer	1691
+3604	Michael L. Mastracci	1691
+3605	Kent E. Maggard	1691
+3606	Patrick D. Wade	1692
+3607	Stefan Stamoulis	1693
+3608	Aaron D. Wilson	1694
+3609	Frederick F. Stewart	1694
+3610	Mark L. Stone	1694
+3611	Bernard F. Duesel, Jr.	1695
+3612	Michael J. Rutsch	1695
+3613	Nazli Yesiller	1696
+3614	James Lewis Hanson	1696
+3615	Richard W. Fahs, II	1697
+3616	Matthew D.W. Fahs	1697
+3617	James Penner	1698
+3618	Marcus G. Theodore	1699
+3619	Richard W. Fahs, II	1700
+3620	Matthew D. W. Fahs	1700
+3621	Colin Gavin Edward Webb	1701
+3622	Daekyoo Hwang	1702
+3623	Philip D. Leveson	1703
+3624	John P. Gaus	1703
+3625	Wayne W. Simmons	1704
+3626	Robert Dwayne Litt	1704
+3627	Anna Lee Tonkovich	1704
+3628	Laura J. Silva	1704
+3629	Daniel Francis Ryan	1704
+3630	Bruce Stangeland	1704
+3631	John Brophy	1704
+3632	Jeffrey S. McDaniel	1704
+3633	Zhiping Kuang	1705
+3634	Bin Lu	1705
+3635	Wei Xiong	1705
+3636	Guy Adelle Pinson	1706
+3637	Barbara Pinson	1706
+3638	Stephen C. Kurtzman	1707
+3639	Richard Lee Aho	1708
+3640	Yuri KOLODNY	1709
+3641	Grant Lloyd Lacey	1710
+3642	Marcus G. Theodore	1711
+3643	Justin Cannock	1712
+3644	Richard W. Fahs, II	1713
+3645	Matthew D.W. Fahs	1713
+3646	Stefan STAMOULIS	1714
+3647	Jiro TONEGAWA	1715
+3648	Bert ZAUDERER	1716
+3649	Terry Gong	1717
+3650	John Harmon	1717
+3651	Marcus G. Theodore	1717
+3652	Marcus G. Theodore	1718
+3653	Bernard F. Duesel, Jr.	1719
+3654	Michael J. Rutsch	1719
+3655	Craig Clerkin	1719
+3656	Bernard F. Duesel, JR.	1720
+3657	Michael J. Rutsch	1720
+3658	Craig Clerkin	1720
+3659	Dennis G. GRUBB	1721
+3660	Mahmoud Wazne	1721
+3661	Stefan Stamoulis	1722
+3662	Ayala Barak	1723
+3663	Huansheng Zhong	1724
+3664	Lei Li	1724
+3665	Jiacong Wu	1724
+3666	Xuewei Wu	1724
+3667	Zhimin Sun	1724
+3668	Haiying Yang	1724
+3669	Brian J. Cantwell	1725
+3670	Craig S. Criddle	1725
+3671	Kevin Lohner	1725
+3672	Yaniv D. Scherson	1725
+3673	George F. Wells	1725
+3674	Bernard H. Johnson, IV	1725
+3675	Koshlan Mayer-Blackwell	1725
+3676	Xing Xie	1725
+3677	Hung-Suck Park	1726
+3678	Jung-Hoon Kim	1726
+3679	Jae-Won Lee	1726
+3680	Won-Sik Lee	1726
+3681	Yong-Seok Park	1726
+3682	Stefan Stamoulis	1727
+3683	Terry Gong	1728
+3684	John Harmon	1728
+3685	Marcus G. Theodore	1728
+3686	Hiroyasu Nagase	1729
+3687	Kazuhisa Miyamoto	1729
+3688	Kazumasa Hirata	1729
+3689	Hiroshi Saito	1729
+3690	Emmett M. Walker	1730
+3691	Tony Richard Hutchings	1731
+3692	Franciscus Antonius Anna Maria de Leij	1731
+3693	Jeremy Richard Wingate	1731
+3694	Ronald D. Barbaro	1732
+3695	Ronald E. McIlwain	1732
+3696	David Muyan	1732
+3697	Edward A. Weinberg	1732
+3698	Refael Aharon	1733
+3699	Israel Biran	1733
+3700	Ronny Banker	1733
+3701	Denyse Claire DuBrucq	1734
+3702	Boris Mikhail Khudenko	1735
+3703	Xu Fei Wu	1736
+3704	Reinhold Klipper	1737
+3705	Michael Schelhaas	1737
+3706	Stefan Neumann	1737
+3707	Jens Stoll	1737
+3708	Shinichi Nakamura	1738
+3709	Kunihiko Fukuzuka	1738
+3710	Brett RENAUD	1739
+3711	Scott Renaud	1739
+3712	Frances Irene Parrott	1740
+3713	Martin P. Wanielista	1741
+3714	Ni-Bin Chang	1741
+3715	Ammarin Makkeasorn	1741
+3716	Grant Lloyd Lacey	1742
+3717	John Stark	1743
+3718	Angus Peter Robson	1744
+3719	Samuel Martin	1745
+3720	Adriana Gonzalez Ospina	1745
+3721	Jesus CACHO	1746
+3722	Olivier CAUDART	1746
+3723	Thomas LAGIER	1746
+3724	Pascal PESLERBE	1746
+3725	Vassilia VIGNERON	1746
+3726	Giuseppina CEREA	1747
+3727	Wayne W. Simmons	1748
+3728	Robert Dwayne Litt	1748
+3729	Anna Lee Tonkovich	1748
+3730	Laura J. Silva	1748
+3731	Daniel Francis Ryan	1748
+3732	Bruce Stangeland	1748
+3733	John Brophy	1748
+3734	Jeffrey S. McDaniel	1748
+3735	Michael Caldwell	1749
+3736	Rodrigo Andres Geraldo SEURA	1750
+3737	Milind V. Khire	1751
+3738	Robert Maurice Charles Patterson	1752
+3739	Lee L. Shafer	1753
+3740	John W. James	1753
+3741	Richard D. Rath	1753
+3742	Jesse Eubank	1753
+3743	Zhi Min Liao	1754
+3744	Jing Kui Guo	1754
+3745	Yu He Huang	1754
+3746	Jing Zou	1754
+3747	Zhi Qiang Chen	1754
+3748	Rui Zhi Dai	1754
+3749	Wen Yan Shi	1754
+3750	Jian Zhong Xiong	1754
+3751	Hai Ying Ji	1754
+3752	Qingmei LI	1755
+3753	Dale M. Timmons	1756
+3754	Samantha Champ	1757
+3755	Mariola Wanior	1757
+3756	Andreas Reifschneider	1757
+3757	Russell A. Firestone	1758
+3758	James R. Harkess	1758
+3759	William S. Langhorne	1758
+3760	Nord S. Sorensen	1758
+3761	Marcus G. Theodore	1759
+3762	Jost-Ulrich Kugler	1760
+3763	Peter Belouschek	1760
+3764	Katja Kugler	1760
+3765	Gabriel Popa	1761
+3766	Jean Suidureau	1761
+3767	Petra Johannsen	1761
+3768	Georg Reinhold	1761
+3769	Reinhold Klipper	1762
+3770	Michael Schelhaas	1762
+3771	Stefan Neumann	1762
+3772	Jens Stoll	1762
+3773	Volker A. Hausin	1763
+3774	Eddie L. Cheatham	1763
+3775	David A. Wilson	1763
+3776	Marcus G. Theodore	1764
+3777	Samuel Martin	1765
+3778	Adriana Gonzalez Ospina	1765
+3779	Joe P. McCarty	1766
+3780	Daniel M. St. Louis	1766
+3781	Michael Caldwell	1767
+3782	Kevin McPhillips	1768
+3783	Bernard. F. Duesel	1769
+3784	Michael J. Rutsch	1769
+3785	Thomas Alan Benjamin	1770
+3786	Craig Jay Jones	1770
+3787	Luther Alba Brice	1770
+3788	Xu Fei WU	1771
+3789	Andrew Eric Day	1772
+3790	Milind V. Khire	1773
+3791	James D. Mavis	1774
+3792	John Charles Matthews	1775
+3793	John Charles Matthews	1776
+3794	Ronald Wilen	1777
+3795	Kenneth R. Cioletti	1777
+3796	Matthew Cioletti	1777
+3797	Zhimin LIAO	1778
+3798	Rong LI	1778
+3799	Jijun WU	1778
+3800	Jingkui GUO	1778
+3801	Mao YANG	1778
+3802	Yuhe HUANG	1778
+3803	Aiguo WAN	1778
+3804	Lee L. Shafer	1779
+3805	John W. James	1779
+3806	Richard D. Rath	1779
+3807	Jesse Eubank	1779
+3808	Ulrich Reimann-Philipp	1780
+3809	Cesar Ladron de Guevara	1781
+3810	Luther Freeman	1781
+3811	Thomas Alan Benjamin	1782
+3812	Craig Jay Jones	1782
+3813	Luther Alba Brice	1782
+3814	Albert Allen Klyne	1783
+3815	Jason Duhe	1784
+3816	James Gharst	1784
+3817	Kelvin Simon	1784
+3818	Stella Simon	1784
+3819	Paul Delahoussaye	1784
+3820	Regis Renaud P.	1785
+3821	Ian Procter	1786
+3822	Sabine Azouani Isabelle	1786
+3823	Rolf Haubrichs	1786
+3824	Peter Riley	1787
+3825	Alexander Ivanovich Shulgin	1788
+3826	Anton Alexandrovich Shulgin	1788
+3827	Don Churchill Augenstein	1789
+3828	John Rudiger Benemann	1789
+3829	Ramin Yazdani	1789
+3830	Thomas Benjamin Alan	1790
+3831	Craig Jones Jay	1790
+3832	Luther Brice Alba	1790
+3833	Gabriel POPA	1791
+3834	Jean SUIDUREAU	1791
+3835	Petra JOHANSSEN	1791
+3836	Georg REINHOLD	1791
+3837	Joseph Wilson H.	1792
+3838	Gordon Kaye I.	1792
+3839	Robert Hahn L.	1792
+3840	Peter Weber B.	1792
+3841	Kevin Morris A.	1792
+3842	Hannu Suominen L.	1793
+3843	Norio Nagao	1794
+3844	Tatsushi Matsuyama	1794
+3845	Tatsuki Toda	1794
+3846	Zhi Min LIAO	1795
+3847	Jing Kui GUO	1795
+3848	Yu He HUANG	1795
+3849	Jing ZOU	1795
+3850	Zhi Qiang CHEN	1795
+3851	Rui Zhi DAI	1795
+3852	Wen Yan SHI	1795
+3853	Jian Zhong XIONG	1795
+3854	Hai Ying JI	1795
+3855	Yoshiaki Yokoyama	1796
+3856	Tooru Kodama	1796
+3857	Yasuo Mishima	1796
+3858	Katuo Takamiya	1796
+3859	Curt A. Christeson	1797
+3860	David Owen Malcolm	1798
+3861	Joseph Wilson H.	1799
+3862	Gordon Kaye I.	1799
+3863	Robert Hahn L.	1799
+3864	Peter Weber B.	1799
+3865	Kevin Morris A.	1799
+3866	John Stark	1800
+3867	Gordon Kaye I.	1801
+3868	Peter Weber B.	1801
+3869	Kevin Morris A.	1801
+3870	Joseph Wilson H.	1801
+3871	Robert Hahn L.	1801
+3872	Albert Klyne Allen	1802
+3873	Ayala Barak	1803
+3874	Roger Carson W.	1804
+3875	Bruce Bremer W.	1804
+3876	Michael Mastracci L.	1804
+3877	Kent Maggard E.	1804
+3878	Roman Bilak	1805
+3879	Thomas Benjamin Alan	1806
+3880	Craig Jones Jay	1806
+3881	Luther Brice Alba	1806
+3882	Jason Duhe	1807
+3883	James Gharst	1807
+3884	Kelvin Simon	1807
+3885	Stella Simon	1807
+3886	Paul Delahoussaye	1807
+3887	Randal Myers B.	1808
+3888	Curt Christeson A.	1809
+3889	Lawrence Conaway M.	1810
+3890	Michael Keller Ray	1810
+3891	Roger Noble Ken	1810
+3892	David Caffey	1810
+3893	Peter Rosen L.	1811
+3894	Robert Hodges D.	1811
+3895	Armen Abazajian N.	1812
+3896	Alexander Shulgin Ivanovich	1813
+3897	Anton Shulgin Alexandrovich	1813
+3898	Marcus Theodore G.	1814
+3899	Don Augenstein Churchill	1815
+3900	John Benemann Rudiger	1815
+3901	Ramin Yazdani	1815
+3902	Milind V. Khire	1816
+3903	Kenneth S. Price	1817
+3904	Joe Kurek	1817
+3905	Kurt Whitfield	1817
+3906	Herbert I. Wissel	1817
+3907	Jung Kim Yong	1818
+3908	Peter Ianniello J.	1819
+3909	Mark Topp	1819
+3910	Tracy Johnson R.	1819
+3911	Roy E. McAlister	1820
+3912	Boris Khudenko Mikhailovich	1821
+3913	Sung-Teh Kim	1822
+3914	Masahiro Taoka	1822
+3915	Chieko Yamamoto	1822
+3916	Kunihiko Yamanaka	1822
+3917	Katunori Masaoka	1822
+3918	Mohan Singh Saran	1823
+3919	George Walter Luxbacher	1823
+3920	Ray Coffey Stratton   JR.	1824
+3921	Russell Firestone A.   III	1825
+3922	James Harkess R.	1825
+3923	William Langhorne S.	1825
+3924	Nord Sorensen	1825
+3925	Dennis Kunerth C.	1826
+3926	John Svoboda M.	1826
+3927	James Johnson T.	1826
+3928	Keith Forrester Edward	1827
+3929	Keith Forrester Edward	1828
+3930	Geom Lee Yong	1829
+3931	Young Cho Lae	1829
+3932	Chang Yang Ryung	1829
+3933	Dong Lee Hoon	1829
+3934	Young Won Mi	1829
+3935	Young Lee Joon	1829
+3936	Yeon Park Jae	1829
+3937	Peter Ianniello J.	1830
+3938	Aigen Zhao	1830
+3939	Gary Shaffer L.	1830
+3940	Charles Dale A.	1831
+3941	Wolfgang Podszun	1832
+3942	Andreas Schlegel	1832
+3943	Reinhold Klipper	1832
+3944	Rudiger Seidel	1832
+3945	Udo Herrmann	1832
+3946	Richard Takeuchi T.	1833
+3947	Robert Nakamura M.	1833
+3948	Robert Merton Satchwell	1834
+3949	Roderick Michael Facey	1834
+3950	Imre Mecs	1835
+3951	Miklos Kalman	1835
+3952	Miklos Hlatki	1835
+3953	Sandor Puskas	1835
+3954	Janos Balazs	1835
+3955	Gyula Lengyel	1835
+3956	Zsolt Virag	1835
+3957	Gyula Kovacs	1835
+3958	Ferenc Horvath	1835
+3959	Imre Samu	1835
+3960	Andrew Wells Phelps	1836
+3961	Jeffrey Allen Sturgill	1836
+3962	Joseph Thomas Swartzbaugh	1836
+3963	Peter  Thomas	1837
+3964	Mohan Singh Saran	1838
+3965	George Walter Luxbacher	1838
+3966	Lawrence  Conaway	1839
+3967	Michael R. Keller	1839
+3968	Roger K. Noble	1839
+3969	Peter Riley	1840
+3970	Chen-Yu Yen	1841
+3971	Jurgen Kanitz	1842
+3972	Jurgen Forsting	1842
+3973	Jim  Moutray	1843
+3974	Paul Joe  Solar	1843
+3975	Paul A. Kittle	1844
+3976	Shawn R. Taylor	1845
+3977	Gintautas Antanas Kamaitis	1845
+3978	Hans-Jorg  Bonath	1846
+3979	Georg  Bombeck	1846
+3980	Lawrence  Conaway	1847
+3981	Michael R. Keller	1847
+3982	Roger K. Noble	1847
+3983	Dan L. Wensel	1848
+3984	Kenji  Suzuki	1849
+3985	Kisaku  Tomaru	1849
+3986	Dave  Van Vliet	1850
+3987	Herbert Wallace Campbell	1850
+3988	Stephen Barrie Chambers	1850
+3989	Joseph H. Wilson	1851
+3990	Gordon I. Kaye	1851
+3991	Robert L. Hahn	1851
+3992	Peter B. Weber	1851
+3993	Kevin A. Morris	1851
+3994	Clifford J. Arnett	1852
+3995	Joseph B. Farrell	1852
+3996	Daniel T. Hull III	1852
+3997	Steven J. Krugel	1852
+3998	Perry L. Schafer	1852
+3999	Billy G. Turner	1852
+4000	Warren R. Uhte	1852
+4001	John L. Willis	1852
+4002	Robert Merton Satchwell	1853
+4003	Roderick Michael Facey	1853
+4004	Peter L. Rosen	1854
+4005	Robert D. Hodges	1854
+4006	Peter L. Rosen	1855
+4007	Robert D. Hodges	1855
+4008	Alan Brian Cash	1856
+4009	Blaine F. Severin	1857
+4010	Felix Anthony Perriello	1858
+4011	Peter J. Ianniello	1859
+4012	Mark  Topp	1859
+4013	Tracy R. Johnson	1859
+4014	Peter J. Ianniello	1860
+4015	Mark  Topp	1860
+4016	Tracy R. Johnson	1860
+4017	Kenneth S. Price	1861
+4018	Joe  Kurek	1861
+4019	Kurt  Whitfield	1861
+4020	Herbert I. Wissel	1861
+4021	Andrew Wells Phelps	1862
+4022	Jeffrey Allen Sturgill	1862
+4023	Joseph Thomas Swartzbaugh	1862
+4024	Peter L. Rosen	1863
+4025	Robert  Hodges	1863
+4026	Gordon  Layton	1864
+4027	Dale  Courtney	1864
+4028	Matthew C. Smith	1864
+4029	William H. Johnson	1864
+4030	Scott D. Wallace	1865
+4031	Shinichi  Nakamura	1866
+4032	Kunihiko  Fukuzuka	1866
+4033	Jung Yong Kim	1867
+4034	Chen-Yu  Yen	1868
+4035	Roy E. McAlister	1869
+4036	Peter J. Ianniello	1870
+4037	Mark  Topp	1870
+4038	Tracy R. Johnson	1870
+4039	Michael P. McGinness	1871
+4040	Joseph H. Wilson	1872
+4041	Gordon I. Kaye	1872
+4042	Robert L. Hahn	1872
+4043	Peter B. Weber	1872
+4044	Kevin A. Morris	1872
+4045	Billy J. Hatcher	1873
+4046	Young Sik Kim	1874
+4047	Han Yong Jeon	1874
+4048	Gursel G. Yilmaz	1875
+4049	Owen P. Ward	1876
+4050	Henry  Burd	1876
+4051	Jerry M. Brown	1877
+4052	Layton; Gordon	1878
+4053	Courtney; Dale	1878
+4054	Smith; Matthew C.	1878
+4055	Johnson; William H.	1878
+4056	Robert W. Bartlett	1879
+4057	Warren Howard Chesner	1880
+4058	James  Melrose	1880
+4059	Warren Howard Chesner	1881
+4060	James  Melrose	1881
+4061	Richard G. Sheets	1882
+4062	Shi; Caijun	1883
+4063	Peter  Riley	1884
+4064	Al-Samadi; Riad A.	1885
+4065	Chang; Larry	1886
+4066	Steven  Catanla	1887
+4067	Neil  Mansuy	1887
+4068	Lena Q. Ma	1888
+4069	Ken M. Komar	1888
+4070	Elizabeth D. Kennelley	1888
+4071	Amer; Sultan I.	1889
+4072	Scott D. Wallace	1890
+4073	Jae Seong Rhee	1891
+4074	Min Woo Jung	1891
+4075	Ryan D. McMurtrey	1892
+4076	Daniel M. Ginosar	1892
+4077	Kenneth S. Moor	1892
+4078	G. Michael Shook	1892
+4079	Donna L. Barker	1892
+4080	Tommy G. Taylor	1893
+4081	Lawrence M. Conaway	1894
+4082	Roger  Noble	1894
+4083	Michael  Keller	1894
+4084	David  Caffey	1894
+4085	Lawrence M. Conaway	1895
+4086	Sultan I. Amer	1896
+4087	Robin  Millard	1897
+4088	Frederick H. Kurtz	1897
+4089	Eighmy; T. Taylor	1898
+4090	Ronald L. Brookshire	1899
+4091	Donald  Brookshire	1899
+4092	Travis  Brookshire	1899
+4093	Seyed Mohammed Reza Kalantar-Nejad	1899
+4094	James Joseph Beach	1899
+4095	Lahoda; Edward J.	1900
+4096	Ha; Khoa T.	1900
+4097	Conca; James L.	1901
+4098	Wright; Judith	1901
+4099	Lorraine; Segala	1902
+4100	Long; David	1902
+4101	Coombs; Harvey W.	1903
+4102	Pearson; Ron D.	1903
+4103	Bailey; Elena	1904

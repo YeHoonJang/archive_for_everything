@@ -1,0 +1,4105 @@
+	patent_id	inventor
+0	0	Hubert E.  Sales
+1	0	Peter  Asplund
+2	1	ROBERT HARVEY  MOFFETT
+3	1	SIGRIDUR SOLEY  KRIST JANSDOTTIR
+4	2	Paul  Garcia
+5	2	Bruce S.  Beattie
+6	2	Ben  Harris
+7	2	Doug  Kimzey
+8	2	Robert C.  Parrott
+9	2	James  Micak
+10	3	Gilad  Golub
+11	3	Julio  Subovich
+12	4	Philippe  Sauvignet
+13	4	Claus  Dahl
+14	4	Valey  Ursel
+15	4	Celine  Levecq
+16	4	Jean-Francois  Beaudet
+17	5	Brian E.  Butters
+18	5	Anthony L.  Powell
+19	5	John D.  Pearce
+20	6	Bruce  Henniges
+21	6	Douglas L.  Tyler
+22	6	James G.  Walen
+23	6	Chunwu  Wu
+24	7	Henry G  Justiniano
+25	8	Yoshihiko  Masuda
+26	8	Masazumi  Sasabe
+27	8	Seiji  Kato
+28	8	Atsushi  Tachibana
+29	8	Kenji  Kadonaga
+30	8	Shigeru  Oka
+31	9	Tobias  Wittmann
+32	10	David A.  Potts
+33	11	David A.  Potts
+34	12	Mark D.  Owen
+35	12	Tom  McNeil
+36	12	Francois  Vlach
+37	13	Joseph Phillip  Ehrhardt
+38	13	Miguel  Gonzales
+39	14	Joon Ha  Kim
+40	14	Sarper  Sarp
+41	14	Ji Jung  Lee
+42	15	Jason Craig  Snydmiller
+43	15	Stuart Allan  Snydmiller
+44	16	William G.  Conner
+45	16	Mohammed A.  Al-Hajri
+46	16	Thomas E.  Schultz
+47	16	Michael  Howdeshell
+48	16	Chad L.  Felch
+49	16	Matthew  Patterson
+50	16	Samuel  Shafarik
+51	16	Curt  Cooley
+52	17	Peter G.  Stroot
+53	18	Jimmie A.  Keeton
+54	19	Coyte R  Jones
+55	19	Robert C  Jones
+56	20	William G.  CONNER
+57	20	Osama I.  FAGEEHA
+58	20	Thomas E.  SCHULTZ
+59	21	Edmundo  Ganter Parga
+60	22	Oded  Erez
+61	22	Adi  Erez
+62	22	Izhar  Halahmi
+63	23	Oded  Erez
+64	23	Adi  Erez
+65	23	Izhar  Halahmi
+66	24	Coyte R.  Jones
+67	24	Robert C.  Jones
+68	25	Charles Doyle  Fleishman
+69	26	Edwin T.  Sortwell
+70	27	Tim  Heffernan
+71	27	Bruce  REA
+72	28	Huagang  Zhang
+73	28	Lijun  Mao
+74	28	Paul Owen  Kramer
+75	28	Caidian  Luo
+76	28	Ryan Matthew  Sullivan
+77	28	John Andrew  Joecken
+78	28	Marko  Suput
+79	29	David C. Rennard
+80	29	Justin D. Pace
+81	29	Thomas R. Palmer
+82	30	Frank R. FITCH
+83	30	Naresh J. Suchak
+84	31	Donald E. Henley
+85	32	Kaj Jansson
+86	32	Iiris Joensuu
+87	32	Marjatta Piironen
+88	32	Jukka-Pekka Sirvio
+89	32	Tapio Yrjanainen
+90	33	Fernando Fischmann T.
+91	34	David S. Soane
+92	34	Nathan Ashcraft
+93	34	Phyo Kyaw
+94	35	CARLTON DUDDING
+95	36	James T. Mullowney
+96	36	Theresa L. O'Keefe
+97	37	John Lean
+98	37	Scott Griffin
+99	37	Matthew Taylor
+100	38	David R. Van Vliet
+101	38	Herbert Wallace Campbell
+102	38	Stephen Barrie Chambers
+103	38	Hector Alvarez-Vazquez
+104	39	Donald M. D. Gray
+105	39	Yuyun Shang
+106	40	Carlton Dudding
+107	41	Richard Helferich
+108	41	Ramachandra R. Revur
+109	41	Suvankar Sengupta
+110	41	J. Richard Schorr
+111	42	Roger W. Carson
+112	42	Bruce W. Bremer
+113	42	Michael L. Mastracci
+114	42	Kent E. Maggard
+115	43	Steven Zimmerman
+116	43	Van T. Walworth
+117	43	Scott Drummond
+118	44	Robert P. Carnahan
+119	44	Christopher C. Tubbs
+120	44	Nidal Samad
+121	45	Paul Stocks
+122	45	Ian John Flanagan
+123	45	Gregor Brodt
+124	45	Stephen Adkins
+125	46	Eli Gruber
+126	46	Miguel Ribeiro
+127	47	BADER SHAFAQA AL-ANZI
+128	48	BADER SHAFAQA AL-ANZI
+129	49	Bernard F. Duesel, Jr.
+130	49	Michael J. Rutsch
+131	50	Corwyn Oldfield
+132	51	Riad A. Al-Samadi
+133	52	Carlton Dudding
+134	53	Dong Chen
+135	54	ALBERT N. HEICHBERGER
+136	55	HSIN-YING LIU
+137	55	MICHAEL WAYNE FALK, JR.
+138	56	Mark A. Williams
+139	56	Alan R. Williams
+140	57	Nazli Yesiller
+141	57	James Lewis Hanson
+142	58	Stephen A. Maher
+143	58	Kord J. Wissmann
+144	59	Gholemhossein (Shahrad) KARIMI
+145	59	Darren MacDonald
+146	60	Marcus Hoefken
+147	61	Kurt Ingerle
+148	62	Kaigen Zhou
+149	63	Michael W. Slutz
+150	64	Stephen A. Maher
+151	64	Kord J. Wissmann
+152	65	Peter G. Stroot
+153	66	James Weifu Lee
+154	67	Soren Johannes Hojsgaard
+155	68	Tom Kraemer
+156	68	Charles Kemper
+157	68	Jan Allen
+158	69	Joseph Atzmon
+159	70	William G. Conner
+160	70	Mohammed A. Al-Hajri
+161	70	Thomas E. Schultz
+162	70	Michael Howdeshell
+163	70	Chad L. Felch
+164	70	Matthew Patterson
+165	70	Samuel Shafarik
+166	70	Curt Cooley
+167	71	Roger Allen Nolte
+168	72	Robert L. McGinnis
+169	72	Joseph Edward Zuback
+170	73	James Joseph Manno, JR.
+171	73	Jacqueline Lilja Manno
+172	74	Jason A. Demers
+173	74	Scott A. Leonard
+174	74	Kingston Owens
+175	75	Kenneth J. Kistner
+176	75	Carolyn R. Kistner
+177	76	Huansheng Zhong
+178	76	Xuewei Wu
+179	76	Jiacong Wu
+180	76	Zhimin Sun
+181	76	Haiying Yang
+182	77	Joshua Curlett
+183	77	Samuel Curlett
+184	77	Jesse Curlett
+185	77	Harry Curlett
+186	78	Hongqiang Ren
+187	78	Yunjun Yang
+188	78	Lili Ding
+189	78	Xiaolei Shi
+190	79	Theodore Taylor Sand
+191	80	Carlton Dudding
+192	81	Mindy S. Panunzio
+193	82	Prakash N. Govindan
+194	82	Karan H. Mistry
+195	82	John H. Lienhard
+196	82	Syed M. Zubair
+197	83	Zicheng WU
+198	84	Karthikeyan Sathrugnan
+199	84	Lew Andrew Reyes
+200	85	Rahul Shankar BHADURI
+201	85	Alexander E. KUPERMAN
+202	86	Peter L. Fraenkel
+203	86	Richard Montague
+204	87	Charles F. Julian
+205	87	Mark A. Williams
+206	87	Alan R. Williams
+207	88	Kraig Johnson
+208	88	Lawrence D. Reaveley
+209	88	Fred Jaeger
+210	88	Hua Xu
+211	88	Robert Okey
+212	89	Michio NISHI
+213	89	Takehiro TANAKA
+214	89	Shizuo TAIRA
+215	90	David Stanley Lawry
+216	91	Daniel P. Bjorklund
+217	91	David Kersey
+218	91	Gregory J. Mandigo
+219	91	Chandrakant Tiwari
+220	92	Roger L. Simpson
+221	92	K. Todd Lowe
+222	92	Quinn Q. Tian
+223	93	Siqing Xia
+224	93	Zhiqiang Zhang
+225	94	David A. Potts
+226	95	Mark Y. Kigel
+227	95	Oleksandr O. Kovalenko
+228	95	Leonard B. Goldman
+229	95	John F. Shultis
+230	96	Pierre Dumons
+231	97	Gang YUAN
+232	98	Hendrikus Johannes VAN DER MEIJDEN
+233	99	Josef Merai
+234	100	William G. Conner
+235	100	Mohammed A. Al-Hajri
+236	100	Thomas E. Schultz
+237	100	Michael Howdeshell
+238	100	Chad L. Felch
+239	100	Matthew Patterson
+240	100	Samuel Shafarik
+241	100	Curt Cooley
+242	101	Fernando Benjamin Fischmann T.
+243	102	Thomas A. Davis
+244	102	Malynda A. Cappelle
+245	103	Keith R. Minnich
+246	103	David E. Gamache
+247	103	John Kus
+248	104	Dennis Frank Hussey
+249	104	David Bradbury
+250	104	George Richard Elder
+251	104	Lisa Maxine Edwards
+252	105	Kashi Banerjee
+253	105	Charles D. Blumenschein
+254	105	John Charles Schrader
+255	106	Richard B. Peterson
+256	106	Robbie Ingram-Goble
+257	106	Kevin J. Harada
+258	107	Gregory D. Graves
+259	108	Matthew David STEWART
+260	108	Brian Edward Connelly
+261	108	Daniel Charles Habicht
+262	109	Daekyoo Hwang
+263	110	George W. Smith
+264	110	Wenjun Liu
+265	110	Michael L. Doyle
+266	110	Colin M. McKean
+267	111	Sean G. Callan
+268	111	Juan I. Baez
+269	112	Sean G. Callan
+270	112	Juan I. Baez
+271	113	Frederick C. Wilkins
+272	113	Evgeniya Freydina
+273	113	Aytac Sezgi
+274	113	Reshma Madhusudan
+275	113	Anil Jha
+276	114	Ivano Aglietto
+277	115	Jonathan E. Martin
+278	115	Joel W. Quinn
+279	115	Shanon Rogers
+280	116	Karl Duncan Bishop
+281	116	Michael A. Bilodeau
+282	116	Susan G. Mackay
+283	116	Douglas M. Ruthven
+284	117	Gerd Peter Waschke
+285	118	WILLIAM GREEN
+286	119	Detlev K. Johnson
+287	120	LARRY SAIK
+288	121	Stephen C. Kurtzman
+289	122	James W. Patten
+290	123	Patrick Descamps
+291	123	Claude Prevot
+292	123	Andre Haubry
+293	124	Fernando Alberto Grazziotin
+294	125	John P. Osegovic
+295	125	Michael D. Max
+296	125	Shelli R. Tatro
+297	126	Tianxi ZHANG
+298	126	Richard CROWELL
+299	127	Peter J. Ianniello
+300	127	Giovanni Capra
+301	128	Hongqiang Ren
+302	128	Yunjun Yang
+303	128	Lili Ding
+304	128	Xiaolei Shi
+305	129	Gina Young Becker
+306	129	Sigifredo Castro Diaz
+307	129	Michael Hanson
+308	129	Kylo Martin Heller
+309	129	Dean Thompson
+310	130	Brent R. Constantz
+311	130	Andrew Youngs
+312	130	Terence C. Holland
+313	131	David Michael Jones
+314	131	Tommy Spikes
+315	131	Chris Timpson
+316	132	Raymond J. Roussy
+317	133	Dale Marshall
+318	134	William L. French, SR.
+319	135	Achim Kopmeier
+320	136	Ning Chong
+321	136	Lan Wong
+322	137	Ning CHONG
+323	137	Lan WONG
+324	138	James Tafoya
+325	139	Bert ZAUDERER
+326	140	Thomas J. Kryzak
+327	141	Roy Geerts
+328	141	Cornelis Gijsbertus Van Ginkel
+329	141	Boen Ho O
+330	141	Marianne Frederika Reedijk
+331	141	Benno Middelhuis
+332	142	John LEAN
+333	142	Scott GRIFFIN
+334	142	Matthew TAYLOR
+335	143	Bernard F. Duesel, Jr.
+336	143	Michael J. Rutsch
+337	143	Craig Clerkin
+338	144	Carlton Dudding
+339	145	CARLTON DUDDING
+340	146	Carlton Dudding
+341	146	Carrie Pendleton
+342	147	Christine Dhersin
+343	148	Andrew Peter Musson
+344	149	Stephen A. Maher
+345	149	Kord J. Wissmann
+346	150	David Ritchie VAN VLIET
+347	150	Hector Alvarez-Vazquez
+348	151	Joseph Phillip Ehrhardt
+349	151	Miguel Gonzales
+350	152	Thomas J. Kryzak
+351	153	Steven Lee Burns
+352	153	Derek D. Ingram
+353	153	John D. Linnemann
+354	153	Stanley E. Deeke
+355	153	Jeffrey K. Tardrew
+356	154	William L. French, SR.
+357	154	Anton Bogdan Thel
+358	155	Todd McGee
+359	155	Mark Macdonell
+360	155	David Scott Kosch
+361	156	Marc-Antoine Pelletier
+362	157	Elbert Alden Hale
+363	157	James Paul Harshman
+364	158	Michael Lee Fraim
+365	159	Kashi Banerjee
+366	159	Charles D. Blumenschein
+367	159	John Charles Schrader
+368	160	G. Robert Whiteman
+369	161	Dennis Wambuguh
+370	161	Russell R. Chianelli
+371	162	William G. CONNER
+372	162	Mohammed A. AL-HAJRI
+373	162	Thomas E. SCHULTZ
+374	162	Michael HOWDESHELL
+375	162	Chad L. FELCH
+376	162	Matthew PATTERSON
+377	162	Samuel SHAFARIK
+378	162	Curt COOLEY
+379	163	Cecil A. Yandell
+380	164	Roger W. Carson
+381	164	Bruce W. Bremer
+382	165	William G. CONNER
+383	165	Osama I. Fageeha
+384	165	Thomas E. Schultz
+385	166	Chad Allen Randal
+386	167	William G. CONNER
+387	167	Thomas E. SCHULTZ
+388	168	Frederick Wilkins
+389	168	Evgeniya Freydina
+390	168	Aytac Sezgi
+391	168	Reshma Madhusudan
+392	168	Anil D. Jha
+393	169	Huagang Zhang
+394	169	Lijun Mao
+395	169	Paul Owen Kramer
+396	169	Caidian Luo
+397	169	Ryan Matthew Sullivan
+398	169	John Andrew Joecken
+399	169	Marko Suput
+400	170	Brent R. Constantz
+401	170	Andrew Youngs
+402	170	Terence C. Holland
+403	171	Maria de la Paz Elizalde Gonzalez
+404	171	Martin Marino Davila Jimenez
+405	171	Omar Ornelas Davila
+406	172	Stephen A. Maher
+407	172	Kord J. Wissmann
+408	173	Julian Parry
+409	174	Henry Justiniano
+410	175	David Ritchie Van Vliet
+411	175	Herbert Wallace Campbell
+412	175	Stephen Barrie Chambers
+413	176	Michael L. Strickland
+414	177	Zvi Elgat
+415	177	Alexander Levin
+416	178	Michael John Bowman
+417	179	Kashi Banerjee
+418	179	Charles D. Blumenschein
+419	179	John Charles Schrader
+420	180	Zhanfeng Cui
+421	181	Tony Walker
+422	182	Jayant M. Dholakia
+423	183	Josh Ince
+424	183	Paul Winsor
+425	184	Michael J. Behan
+426	184	Mark T. Ungar
+427	185	Geoffrey N. Ehrman
+428	185	Michael S. Coulton
+429	185	Nathan L. Randello
+430	186	Hugues De Feraudy
+431	186	Henri Seinera
+432	187	ALEXANDER EKSTER
+433	188	John Self
+434	188	Robert A. Olexy
+435	188	Steve Cochran
+436	189	William Downs
+437	189	Paul J. Williams
+438	190	Joachim Bottcher
+439	190	Haiko Pieplow
+440	190	Alfons-Eduard Krieger
+441	191	James P. Crocker
+442	192	Theodore W. Meyers
+443	193	Robert Whiteman
+444	194	Brent R. Constantz
+445	194	Andrew Youngs
+446	195	Ove Blomkvist
+447	196	Joachim Neubert
+448	196	Karl Ferdinand Staab
+449	197	John Leslie Burba
+450	197	Richard Donald Witham
+451	197	Edward Bayer McNew
+452	198	J. Clair Batty
+453	198	Craig E. Cox
+454	198	David A. Bell
+455	199	Jose Alberto Ochoa Disselkoen
+456	200	Janos Katay
+457	201	Duncan John Grierson
+458	201	Philip James Campion
+459	202	Denyse Claire DuBrucq
+460	203	Keith E. Forrester
+461	204	Giuseppe Natta
+462	204	Gianni Donati
+463	205	Rodney Rasmussen
+464	205	Paul C. Cox
+465	206	Eric E. Fitch
+466	206	David M. O'Keefe
+467	206	David C. Palmer
+468	207	Raymond J. ROUSSY
+469	208	James W. Laraway
+470	208	Richard E. Weber
+471	208	Donald J. Thomas
+472	209	Carl Moore
+473	209	Aaron Wesolowski
+474	210	Martin A. Ginsburg
+475	211	Philippe Sauvignet
+476	211	Claus Dahl
+477	211	Valey Ursel
+478	211	Celine Levecq
+479	211	Jean-Francois Beaudet
+480	212	Dominick O'Reilly
+481	213	Alexia Aubault
+482	213	Dominique Roddier
+483	213	Christian Cermelli
+484	214	Roger W. Carson
+485	214	Bruce W. Bremer
+486	215	Izhar Halahmi
+487	215	Oded Erez
+488	215	Adi Erez
+489	216	Odd Bernhard Torkildsen
+490	217	Frances Irene Parrott
+491	218	Greg B. Kent
+492	219	James M. Berry
+493	219	Steve Morris
+494	220	Edward L. McWilliams
+495	221	Soren Johannes Hojsgaard
+496	222	John Stark
+497	223	Venkataraman Jagannathan
+498	223	Ravi Chidambaran
+499	223	Manoj Sharma
+500	224	Philip Patrick Peter O'Brien
+501	224	Owen Thomas Leonard
+502	225	Michael Gosselin
+503	226	Eric E. Fitch
+504	226	David M. O'Keefe
+505	226	David C. Palmer
+506	227	Kuniomi Araki
+507	228	Carlo Canteri
+508	228	Mariapia Pastor, legal representative
+509	229	Kevin Mickelson
+510	229	Roger Engelsgaard
+511	230	Allen B. Wright
+512	230	Klaus S. Lackner
+513	230	Burton Wright
+514	230	Matt Wallen
+515	230	Ursula Ginster
+516	230	Eddy J. Peters
+517	231	Tommy Stern
+518	231	Todd McGee
+519	232	Roger W. Carson
+520	232	Bruce W. Bremer
+521	233	Robert A. Elefritz, JR.
+522	233	James Holland Scott, III
+523	234	David Usher
+524	235	Frederick Wilkins
+525	235	Evgeniya Freydina
+526	235	Aytac Sezgi
+527	235	Reshma Madhusudan
+528	235	Anil D. Jha
+529	236	Michael Allen Wilkman
+530	237	Keith R. Minnich
+531	237	Mark C. Nicholson
+532	237	RamKumar Karlapudi
+533	237	Richard M. Schoen
+534	238	Marina B. Jensen
+535	239	Janos Stadler
+536	239	Peter Szabo
+537	239	Ferenc Puskas
+538	240	Jim Ballew
+539	240	William Anderson
+540	240	Jong Soo Cho
+541	240	Mark Yeager
+542	240	Lee Daniel Starnes
+543	241	Jay L. McGrew
+544	242	Keith E. Forrester
+545	243	John E. Irvine
+546	243	Steven E. Hargrave
+547	244	Frederick Wilkins
+548	244	Evgeniya Freydina
+549	244	Aytac Sezgi
+550	244	Reshma Madhusudan
+551	244	Anil D. Jha
+552	245	Rodrigo Andres Geraldo SEURA
+553	246	James W. Laraway
+554	246	Richard E. Weber
+555	246	Donald J. Thomas
+556	247	Gerd Peter Waschke
+557	248	Janos KATAY
+558	249	Geoffrey N. Ehrman
+559	249	Michael S. Coulton
+560	249	Nathan L. Randello
+561	250	Theodore W. Meyers
+562	251	Thomas J. Kryzak
+563	252	Roger W. Carson
+564	252	Bruce W. Bremer
+565	253	Detlev K. Johnson
+566	254	Mark Y. Kigel
+567	254	Oleksandr O. Kovalenko
+568	254	Leonard B. Goldman
+569	255	James W. Laraway
+570	255	Richard E. Weber
+571	255	Donald J. Thomas
+572	256	Roger W. Carson
+573	256	Bruce W. Bremer
+574	257	Jonathan M. Dietz
+575	258	Achim Kopmeier
+576	259	Thomas J. Kryzak
+577	260	Kevin Mickelson
+578	260	Roger Engelsgaard
+579	261	Samantha Champ
+580	261	Mariola Wanior
+581	261	Andreas Reifschneider
+582	262	Kevin Mickelson
+583	262	Roger Engelsgaard
+584	263	Donald A. Luke
+585	263	Vaughn V. Astley
+586	264	Hassan Hans Badreddine
+587	265	Edward J. Jordan
+588	265	Wenjun Liu
+589	266	John P. Osegovic
+590	266	Michael D. Max
+591	267	Roger W. Carson
+592	267	Bruce W. Bremer
+593	268	Roger J. Owley
+594	269	Kashi Banerjee
+595	269	Charles D. Blumenschein
+596	269	John Charles Schrader
+597	270	Jost-Ulrich Kugler
+598	270	Peter Belouschek
+599	270	Katja Kugler
+600	271	Gabriel Popa
+601	271	Jean Suidureau
+602	271	Petra Johannsen
+603	271	Georg Reinhold
+604	272	Karl Duncan BISHOP
+605	272	Michael A. BILODEAU
+606	272	Susan G. MACKAY
+607	272	Douglas M. RUTHVEN
+608	273	Carl C. Nesbitt
+609	273	Xiaowei Sun
+610	274	Gerardo F. Maga
+611	274	Frederick E. Goetz
+612	275	William Frederick Dew
+613	276	William Frederick Dew
+614	277	William Frederick Dew
+615	278	G. Robert Whiteman
+616	279	Emmanuel Hengl
+617	279	Patrick Hengl
+618	280	Joseph A. Magner
+619	280	Richard V. York
+620	281	Carlo Canteri
+621	281	Mariapia Pastor
+622	282	John M. Bird
+623	282	George W. Putman
+624	283	Randy Howard Adams
+625	284	Cecil A. Yandell
+626	285	Donald M. D. Gray (Gabb)
+627	285	Paul J. Suto
+628	286	Bernard. F. Duesel
+629	286	Michael J. Rutsch
+630	287	Aicardo Roa-Espinosa
+631	287	Michael Dennis Krysiak
+632	288	Thomas Alan Benjamin
+633	288	Craig Jay Jones
+634	288	Luther Alba Brice
+635	289	Alexander G. Fassbender
+636	290	Daniel Goldmann
+637	290	Bram den Dunnen
+638	290	Michael Knust
+639	291	Kenneth F. Ede
+640	291	Kerry C. Thorson
+641	292	GREG B. KENT
+642	293	Roger W. Carson
+643	293	Bruce W. Bremer
+644	294	DAVID USHER
+645	295	Scott Blair Godlien
+646	296	Keith R. Minnich
+647	296	Mark C. Nicholson
+648	296	RamKumar Karlapudi
+649	296	Richard M. Schoen
+650	297	Jason Demers A.
+651	297	Scott Leonard A.
+652	297	Kingston Owens
+653	298	David TAYLOR B.
+654	298	Stephen TOPAZ R.
+655	299	Keith R. Minnich
+656	299	Ramkumar Karlupudi
+657	299	Richard M. Schoen
+658	300	Byung J. Kim
+659	300	Seok-Young Oh
+660	300	Pei C. Chiu
+661	300	Daniel K. Cha
+662	301	Uwe Rother
+663	301	Frank Wiemeyer
+664	301	Eberhard Kopp
+665	301	Christoph Gundlach
+666	302	KEVIN SLOUGH
+667	302	TROY LUPUL
+668	303	Brian Elson
+669	303	Brian Large C.
+670	303	Peter Norman
+671	303	Richard Hoover L.
+672	304	Yasuhiro Tada
+673	304	Shingo Taniguchi
+674	304	Masayuki Hino
+675	304	Takeo Takahashi
+676	304	Kenichi Suzuki
+677	304	Toshiya Mizuno
+678	305	Christopher W. Powanda
+679	306	Yoshiaki Fukuda
+680	306	Hirofumi Shiochi
+681	306	Motomasa Okubo
+682	306	Fumiyuki Yahagi
+683	306	Toshihiko Mita
+684	306	Kazuo Ishihara
+685	307	Andrew Gordon W.
+686	308	Alexander G. Fassbender
+687	309	Robert Elefritz A.   JR.
+688	309	James Scott Holland   III
+689	310	Donald M.D. Gray (Gabb)
+690	310	Paul J. Suto
+691	311	Bengt Goran Eriksson
+692	311	Stephen Ross Orpin
+693	311	Timothy Kevin Graham
+694	312	Jian-Rung Cheng
+695	312	Tong-Fu Hsiao
+696	313	David Van Vliet Ritchie
+697	313	Herbert Campbell Wallace
+698	313	Stephen Chambers Barrie
+699	314	John J. Lewnard
+700	315	David Moore J.
+701	315	William Betts C.
+702	316	GEORGE J. CYMERMAN
+703	316	JESSICA VANDENBERGHE
+704	317	Peter J. Ianniello
+705	317	Aigen Zhao
+706	317	Gary L. Shaffer
+707	318	Hugues De Feraudy
+708	318	Henri Seinera
+709	319	Wing Young Yip
+710	320	Jurgen Schenk
+711	321	Frank Manfred Franz Mueller
+712	322	Rocky R. White
+713	322	Lawrence J. Bradford
+714	323	Douglas Kelley G.
+715	323	Richard Handley A.
+716	324	Steve Benesi C.
+717	324	Patrick Costalloe J.
+718	325	Terry Maier L.
+719	326	Michael Wagner P.
+720	327	Sanjay Bellara
+721	328	Randy Adams Howard
+722	329	Thomas Kryzak J.
+723	330	Kuniomi Araki
+724	331	Keith Edward Forrester
+725	332	John Poppe R.
+726	333	Keith Edward Forrester
+727	334	Brian Rogers
+728	334	Andrea Alba
+729	334	Shrinivas Peri
+730	334	Shannon Stocks
+731	334	Lingo Chang
+732	335	David E. Brune
+733	335	John A. Collier
+734	335	Thomas E. Schwedler
+735	335	A. G. Eversole
+736	336	Steven Lumbert
+737	337	Thomas J. Casper
+738	337	Mark A. Schoenenberger
+739	337	Brad D. Laubenstein
+740	337	James A. Reilly
+741	337	Joseph G. Krall
+742	338	Thomas Alan Benjamin
+743	338	Craig Jay Jones
+744	338	Luther Alba Brice
+745	339	Steven L. Cort
+746	340	Wayne H. Dickinson
+747	341	Kevin Mickelson
+748	341	Roger Engelsgaard
+749	342	Raymond Guyomarc'h
+750	343	Hassan Badreddine Hans
+751	344	Lysane Bolduc
+752	345	Regis Renaud P.
+753	346	Edward Jordan J.
+754	346	Wenjun Liu
+755	347	Masanori Adachi
+756	347	Tatsuo Shimomura
+757	348	David L. Polston
+758	349	Gary Hater R.
+759	349	Roger Green B.
+760	349	Jeffrey Harris M.
+761	349	Phillip Smith A.
+762	349	Greg Enterline A.
+763	349	Michael Thomas
+764	349	Kevin Mieczkowski
+765	349	John Barbush A.
+766	350	Guy Chartier Norman
+767	351	Joachim Steinbeck
+768	352	James Howard R.
+769	353	Rainer Bunge
+770	354	Michael Bowman John
+771	355	Werner Heidel
+772	356	Jinliang Ding
+773	357	Graham John Gibson Juby
+774	358	Thomas Benjamin Alan
+775	358	Craig Jones Jay
+776	358	Luther Brice Alba
+777	359	Andrew Martin John
+778	360	Sunggyu Lee
+779	360	Asdrubal Garcia-Ortiz
+780	360	John Wootton
+781	361	Craig Brase S.
+782	362	Dirk Bodegom Albertus
+783	362	Robertus Cornelis Rullens Jacobus Maria
+784	362	Arie Nooy Van Der Kolff Hessel
+785	363	Alan Hassett F.
+786	364	Jerry Leone
+787	364	Larry Shilling
+788	365	Keith Forrester Edward
+789	366	Dave Van Vliet
+790	366	Herbert Wallace Campbell
+791	366	Stephen Barrie Chambers
+792	367	Zhi Min LIAO
+793	367	Jing Kui GUO
+794	367	Yu He HUANG
+795	367	Jing ZOU
+796	367	Zhi Qiang CHEN
+797	367	Rui Zhi DAI
+798	367	Wen Yan SHI
+799	367	Jian Zhong XIONG
+800	367	Hai Ying JI
+801	368	Curt A. Christeson
+802	369	William C. Batten
+803	369	Bruce Kyles
+804	369	Charles Kemp
+805	370	Vincent Ciccone Pe Dee J.
+806	370	William Kirksey Pe E.
+807	371	Wing YOUNG Yip
+808	372	Steven Trout M.
+809	373	James McMahon P.
+810	374	James Berry M.
+811	374	Steve Morris
+812	375	Roy Ames Victor
+813	375	Matthew Etherington John
+814	375	Nicholas Czeperko Michael
+815	375	Ian Ugarte Joseph
+816	376	Torfinn Johnsen
+817	377	Scott Dunn
+818	378	Jiang Ji
+819	379	John Stark
+820	380	Keith Forrester Edward
+821	381	Keith Forrester Edward
+822	382	Ho Nam Chang
+823	382	Do-Yun Kim
+824	382	Moon-II Kim
+825	382	Chul-Hee Ryu
+826	382	Woo-Gi Lee
+827	383	Hans Tanghe
+828	384	Michael Olson A.
+829	385	Glenn Helm
+830	386	Roger Carson W.
+831	386	Bruce Bremer W.
+832	386	Michael Mastracci L.
+833	386	Kent Maggard E.
+834	387	Jinliang Ding
+835	388	Robert J. Kelly
+836	389	Thomas Benjamin Alan
+837	389	Craig Jones Jay
+838	389	Luther Brice Alba
+839	390	Werner Heidel
+840	391	Luciano Salda
+841	392	Keith Forrester Edward
+842	393	Roy Ames Victor
+843	393	Matthew Etherington John
+844	393	Nicholas Czeperko Michael
+845	393	Ian Ugarte Joseph
+846	394	Curt Christeson A.
+847	395	Shunta Shiraishi
+848	396	Charles E. Tharp
+849	396	Randall C. Chann
+850	397	Yoshiaki Fukuda
+851	397	Hirofumi Shiochi
+852	397	Motomasa Okubo
+853	397	Fumiyuki Yahagi
+854	397	Toshihiko Mita
+855	397	Kazuo Ishihara
+856	398	Michael Marcellus Thomas
+857	399	Steven Lumbert
+858	400	Claus Hoffjann
+859	400	Hans-Juergen Heinrich
+860	401	Theodore Meyers W.
+861	402	William Warren
+862	402	Gordon Lewis
+863	402	Robert Rizzari
+864	403	Paul John Hart
+865	403	Rebecca K. Snyder
+866	404	Pavel Koren
+867	404	Igal Raz
+868	404	Robert Asimov
+869	404	Rami Noach
+870	404	Irena Trounkovsky
+871	405	Mao-Hsiao Chen
+872	406	Jyh-Yeong Hwang
+873	407	David Ruttley J.
+874	408	Gerardo Maga F.
+875	408	Frederick Goetz E.
+876	409	Ajit Chowdhury K.
+877	409	Jeff Macri C.
+878	409	Kevin Baker L.
+879	409	Gregory Graf J.
+880	410	Graham Juby John Gibson
+881	411	Keith Forrester Edward
+882	412	William Warren
+883	412	Gordon Lewis
+884	412	Robert Rizzari
+885	413	Jonathan Dietz M.
+886	414	Keith Forrester E.
+887	415	Rocky White R.
+888	415	Lawrence Bradford J.
+889	416	Kenneth S. Price
+890	416	Joe Kurek
+891	416	Kurt Whitfield
+892	416	Herbert I. Wissel
+893	417	Daniel Cha K.
+894	417	Seok-Young Oh
+895	417	Pei Chiu C.
+896	417	Byung Kim J.
+897	418	John Peters    JR.
+898	418	John Markee
+899	419	Daryl Meyer G.
+900	420	Steven Cort L.
+901	421	Rodney Tyler W.
+902	422	Keith Forrester Edward
+903	423	Mohan Singh Saran
+904	423	George Walter Luxbacher
+905	424	Bryan Flynn Nicholas
+906	424	Shamsedeau Rostami
+907	425	Claude DeGarie J.
+908	425	Sylvain Dufresne-Nappert
+909	426	Douglas MacKrell A.
+910	426	Paul Hutlet A.N.
+911	427	Keith Forrester Edward
+912	428	Glenn Helm
+913	429	Keith Forrester Edward
+914	430	Keith Forrester Edward
+915	431	Terry Goolsby L.
+916	431	Melissa Hayes
+917	432	Marina Jensen B
+918	433	Shunta Shiraishi
+919	434	E. Jowett Craig
+920	435	Kang Chin Lin
+921	436	Roger Carson W
+922	436	Bruce Bremer W.
+923	437	Peter Ianniello J.
+924	437	Aigen Zhao
+925	437	Gary Shaffer L.
+926	438	Roger Carson W.
+927	438	Bruce Bremer W.
+928	439	David Moore J.
+929	439	William Betts C.
+930	440	Mohammad Abu-Orf
+931	440	Banu Ormeci
+932	441	Patrick F. Dunne
+933	442	David Brune E.
+934	442	John Collier A.
+935	442	Thomas Schwedler E.
+936	442	A. Eversole G.
+937	443	Juergen Heuser
+938	443	Werner Verhoeven
+939	443	Domien Sluyts
+940	444	Dov Steinberg
+941	445	Fernando deTorres A.
+942	446	Mark Zappi E.
+943	446	William French Todd
+944	446	Rafael Hernandez
+945	446	Stephen Dufreche Thomas
+946	446	Darrell Sparks L.   JR.
+947	447	Gary Ganzi
+948	447	Anil Jha D.
+949	447	Frederick Wilkins
+950	447	Evgeniya Freydina
+951	447	Aytac Sezgi
+952	447	Reshma Madhusudan
+953	448	Roger Carson W.
+954	448	Bruce Bremer W.
+955	449	Frederick Wilkins
+956	449	Evgeniya Freydina
+957	449	Aytac Sezgi
+958	449	Reshma Madhusudan
+959	449	Anil Jha D.
+960	450	Curtis Kirker
+961	450	Berkeley Fuller F.
+962	451	Jan D. Graves
+963	452	Tadeush Krushnevych
+964	452	Olexander Piatnychko
+965	453	Jon Fabri O.
+966	453	Jason Holt
+967	454	Wayne Dickinson H.
+968	455	Peter Markusch H.
+969	455	Ralf Guether
+970	455	Thomas Sekelik L.
+971	456	Shih-Chieh Chen
+972	456	Chi-Yi Liou
+973	456	Teng-Yu Chen
+974	457	Keith Forrester Edward
+975	458	Robert Howard
+976	459	John Meyers lll J.
+977	459	John Swartz H.
+978	459	Nathaniel Kurczewski G.
+979	459	Matthew Kurczewski J.
+980	460	Suha Rawhani
+981	460	Jacobus Viljoen Johannes
+982	461	William C. Batten
+983	461	Bruce Kyles
+984	461	Charles Kemp
+985	462	Gabriel Plante
+986	463	Soichiro Yamamoto
+987	464	Edwin Rice E.
+988	464	Charles Franklin H.
+989	465	Mark Butler Henry
+990	466	Kang Lin Chin
+991	467	Roger Carson W.
+992	467	Bruce Bremer W.
+993	468	Imre Mecs
+994	468	Miklos Kalman
+995	468	Miklos Hlatki
+996	468	Sandor Puskas
+997	468	Janos Balazs
+998	468	Gyula Lengyel
+999	468	Zsolt Virag
+1000	468	Gyula Kovacs
+1001	468	Ferenc Horvath
+1002	468	Imre Samu
+1003	469	Kazuo Okutsu
+1004	469	Hisashi Takamura
+1005	469	Koji Hane
+1006	469	Nobuyuki Matsui
+1007	469	Yasuyuki Hayakawa
+1008	469	Mitsuaki Furuichi
+1009	470	Regis Phillip Renaud
+1010	471	Daniel  Goldmann
+1011	471	Bram den  Dunnen
+1012	471	Michael  Knust
+1013	472	Mohan Singh Saran
+1014	472	George Walter Luxbacher
+1015	473	Roger W Carson
+1016	473	Bruce W Bremer
+1017	474	Charles E. Tharp
+1018	474	Randall C. Chann
+1019	475	Lawrence  Conaway
+1020	475	Michael R. Keller
+1021	475	Roger K. Noble
+1022	476	Joe W. Lacey
+1023	477	Peter J. Ianniello
+1024	478	Jerome Fife Jay
+1025	478	Daniel Wickham Edmund
+1026	479	Vladimir Shreider Anatol
+1027	479	Natalia Shreider
+1028	480	Kurt Ingerle
+1029	481	Charles C. Kemper
+1030	481	Jan  Allen
+1031	481	Tom  Kraemer
+1032	482	Adam Krylowicz
+1033	482	Kazimierz Chrzanowski
+1034	482	Janusz Usidus
+1035	483	Richard Grimes T.
+1036	484	David Polston L.
+1037	485	Robert Colin Pugh
+1038	485	Colin John Francis Philip Jones
+1039	486	Paul A. Kittle
+1040	487	Richard Donald Witham
+1041	487	Edward Bayer McNew
+1042	487	John Leslie Burba III
+1043	488	Hung Van Nguyen
+1044	488	Donald Bruce Bursill
+1045	488	James Young Morran
+1046	488	Mary  Drikas
+1047	488	Veronica Laurel Pearce
+1048	489	Jan D. Graves
+1049	490	Paul John Hart
+1050	490	Rebecca K. Snyder
+1051	491	Bernard  Greenberg
+1052	492	Lawrence  Conaway
+1053	492	Michael R. Keller
+1054	492	Roger K. Noble
+1055	493	Thomas J. Casper
+1056	493	Mark A. Schoenenberger
+1057	493	Brad D. Laubenstein
+1058	493	James A. Reilly
+1059	493	Joseph G. Krall
+1060	494	Ajit K. Chowdhury
+1061	495	Alexander  Manu
+1062	496	James  Barthel
+1063	496	Mark A. Peters
+1064	497	Gerald J. Grott
+1065	498	Joseph  Leon
+1066	499	Kang Chin Lin
+1067	500	Burkhard  Schmeling
+1068	501	Robert  Federighi
+1069	501	James  Johnson
+1070	502	Jason A. Demers
+1071	502	Scott A. Leonard
+1072	502	Kingston  Owens
+1073	503	Dave  Van Vliet
+1074	503	Herbert Wallace Campbell
+1075	503	Stephen Barrie Chambers
+1076	504	Paul Etienne
+1077	504	Pierre Buffiere
+1078	505	E. Craig Jowett
+1079	506	Earl Roger Singleton
+1080	507	William  Warren
+1081	507	Gordon  Lewis
+1082	507	Robert  Rizzari
+1083	508	Riccardo  Cattaneo-Vietti
+1084	508	Giorgio  Bavestrello
+1085	508	Umberto  Benatti
+1086	508	Carlo  Cerrano
+1087	508	Marco  Giovine
+1088	509	Keith E. Forrester
+1089	510	Zoltan  Egeresi
+1090	511	W. B. McNeill
+1091	512	Garry Kevin Callinan
+1092	512	Peter Chapman
+1093	513	Charles E. Tharp
+1094	513	Randall C. Chann
+1095	514	John W. Baumgartner
+1096	514	Mark K. Kubesh
+1097	515	Pierre  Jeanvoine
+1098	516	Michael  Airheart
+1099	517	Scott Lee Wellington
+1100	517	John Michael Karanikas
+1101	517	Kevin Albert Maher
+1102	517	Meliha Deniz Sumnu-Dindoruk
+1103	517	Harold J. Vinegar
+1104	518	Claus  Hoffjann
+1105	518	Hans-Juergen  Heinrich
+1106	519	Gordon L. Richard
+1107	520	Robert John Walker
+1108	521	Harold J. Vinegar
+1109	521	Ronald Marshall Bass
+1110	522	Joseph G. Harrington
+1111	523	Martin T. Sherman
+1112	524	Keith Edward Forrester
+1113	525	Wen Chao Shen
+1114	526	John G. Petersen
+1115	526	William C. Holmes
+1116	527	Mohammad  Abu-Orf
+1117	527	Banu  Ormeci
+1118	528	Pen-Hsien  Chi
+1119	528	Zhi-Jian  Chen
+1120	528	Wen-Ching  Chen
+1121	528	Rung-Yaw  Chen
+1122	528	Chie Chien Tseng
+1123	529	Jonathan M. Dietz
+1124	530	Padraig  McAlister
+1125	531	Peter J. Ianniello
+1126	532	Jack Herron
+1127	532	Robert Salter
+1128	533	Craig C. Andrews
+1129	533	Oliver J. Murphy
+1130	534	Ernest E. Carter JR.
+1131	535	Scott Lee Wellington
+1132	535	Eric Pierre de Rouffignac
+1133	535	Harold J. Vinegar
+1134	536	Robert D. Chisholm
+1135	536	Debrah A. Beck
+1136	536	John B. Steward
+1137	536	Jordan M. Johnston
+1138	536	Baosheng  Lee
+1139	537	John Michael Karanikas
+1140	537	Ilya Emil Berchenko
+1141	537	Eric Pierre de Rouffignac
+1142	537	Jean-Charles  Ginestra
+1143	537	Kirk Samuel Hansen
+1144	537	Lanny Gene Schoeling
+1145	537	Gordon Thomas Shahin JR.
+1146	537	Meliha Deniz Sumnu-Dindoruk
+1147	537	Harold J. Vinegar
+1148	538	Juan Carlos Josse
+1149	538	John William Sutherlin
+1150	539	Harold J. Vinegar
+1151	539	Eric Pierre de Rouffignac
+1152	539	Kevin Albert Maher
+1153	539	Lanny Gene Schoeling
+1154	539	Scott Lee Wellington
+1155	540	Scott Lee Wellington
+1156	540	Ajay Madhav Madgavkar
+1157	540	Robert Charles Ryan
+1158	541	Harold J. Vinegar
+1159	541	Eric Pierre de Rouffignac
+1160	541	John Michael Karanikas
+1161	541	Scott Lee Wellington
+1162	542	Harold J. Vinegar
+1163	542	Eric Pierre de Rouffignac
+1164	542	Ajay Madhav Madgavkar
+1165	542	Kevin Albert Maher
+1166	542	Billy John McKinzie, II
+1167	542	Bruce Donald Palfreyman
+1168	542	Robert Charles Ryan
+1169	542	George Leo Stegemeier
+1170	542	John Michael Ward
+1171	542	Scott Lee Wellington
+1172	543	Kenneth  Haggerty
+1173	544	Pierce L. Chandler JR.
+1174	545	Harold J. Vinegar
+1175	545	Dannie Antoine Aymond JR.
+1176	545	Kevin Albert Maher
+1177	545	Billy J. McKinzie, II
+1178	545	Bruce Donald Palfreyman
+1179	545	George Leo Stegemeier
+1180	545	John Michael Ward
+1181	545	Ronnie Wade Watkins
+1182	545	Scott Lee Wellington
+1183	546	G. Robert Whiteman
+1184	547	Peter  Veenstra
+1185	547	Eric Pierreus de Rouffignac
+1186	547	John Michael Karanikas
+1187	547	Harold J. Vinegar
+1188	547	Scott Lee Wellington
+1189	548	Kenneth S. Price
+1190	548	Joe  Kurek
+1191	548	Kurt  Whitfield
+1192	548	Herbert I. Wissel
+1193	549	Tamiyuki  Eguchi
+1194	549	Shiro  Tanso
+1195	549	Naoki  Murakami
+1196	549	Nobuo  Hayashi
+1197	549	Seiji  Okuda
+1198	550	Robert D. Chisholm
+1199	550	Debrah A. Beck
+1200	550	John B. Steward
+1201	550	Jordan M. Johnston
+1202	550	Baosheng Lee
+1203	551	Harold J. Vinegar
+1204	551	Christopher Kelvin Harris
+1205	551	Robin Adrianus Hartmann
+1206	551	Christopher Arnold Pratt
+1207	551	Gordon Bruce Lepper
+1208	551	Randolph Rogers Wagner
+1209	552	Daniel K. Cha
+1210	552	Pei C. Chiu
+1211	552	Seok-Young  Oh
+1212	552	Byung Joon Kim
+1213	553	Byung J. Kim
+1214	553	Neal R. Adrian
+1215	553	Clint M. Arnett
+1216	554	Kurt  Ingerle
+1217	555	Garry Kevin Callinan
+1218	555	Peter  Chapman
+1219	556	Chung-Yi  Liaw
+1220	557	Theodore W. Meyers
+1221	558	Brian  Kenet
+1222	558	Pedro Joaquin Sanchez Belmar
+1223	559	William F. Heins
+1224	560	Kuniaki  Terato
+1225	561	Edwin E. Rice
+1226	561	Charles H. Franklin
+1227	562	Juergen  Ahnsorge
+1228	562	Ivan  Ban
+1229	562	Heinz-Helmer  Rasche
+1230	563	Boris Ozyboyd
+1231	564	Saburo  Matsui
+1232	564	Shinobu  Kobayashi
+1233	564	Sadakatsu  Kimura
+1234	565	Joe O. Trahan
+1235	566	Bang Mo Kim
+1236	566	Stephen Lan-Sun Hung
+1237	566	Joseph James Salvo
+1238	567	Gary Lane Poole
+1239	568	Ruggero Maria Santilli
+1240	569	Derek P. Williams
+1241	569	Christopher S. Williams
+1242	569	Allan E. Hokanson
+1243	570	Christine  Brauer
+1244	571	Fernando A. deTorres
+1245	572	Regis Phillip Renaud
+1246	573	Garry Kevin Callinan
+1247	573	Peter Chapman
+1248	574	William J. Gannon
+1249	574	John  Muir
+1250	574	Glen T. Van Lier
+1251	575	Robert C. Moore
+1252	576	Vadake R. Srinivasan
+1253	576	John J. Sansalone
+1254	577	Roger W. Carson
+1255	577	Bruce W. Bremer
+1256	578	Viktor Ivanovich Petrik
+1257	579	Michael David Hedenland
+1258	579	Lloyd Duane Hedenland SR.
+1259	579	Mark D. Hedenland
+1260	580	Larry P. Sower
+1261	581	Yoshiaki  Fukuda
+1262	581	Hirofumi  Shiochi
+1263	581	Motomasa  Okubo
+1264	581	Fumiyuki  Yahagi
+1265	581	Toshihiko  Mita
+1266	581	Kazuo  Ishihara
+1267	582	Jan D. Graves
+1268	583	Kenneth J. Boutte
+1269	583	Ban D. Green
+1270	584	Masuzo  Murakami
+1271	584	Tetsuo  Murakami
+1272	585	John W. Baumgartner
+1273	585	Mark K. Kubesh
+1274	586	Robert D. Chisholm
+1275	586	Debrah A. Beck
+1276	586	John B. Steward
+1277	586	Jordan M. Johnston
+1278	586	Baosheng  Lee
+1279	587	Richard T. Grimes
+1280	588	Echezuria; Heriberto
+1281	588	Vasquez; Pedro
+1282	588	De Aguiar; Jose
+1283	588	Urich; Juan F.
+1284	589	Han Jong Chen
+1285	589	Wei Fu Chen
+1286	590	Carol M. Jantzen
+1287	590	John B. Pickett
+1288	590	Connie A. Cicero-Herman
+1289	590	James C. Marra
+1290	591	Laszlo  Marton
+1291	591	Mihaly  Czako
+1292	592	David A. Hazlebeck
+1293	593	David C. Pollock
+1294	594	Renaud; Regis Phillip
+1295	595	Jan D. Graves
+1296	596	Jan D. Graves
+1297	597	Robert L. Irvine
+1298	598	Michael David Max
+1299	599	Hideo  Sekino
+1300	599	Satoshi  Inoue
+1301	599	Yuichiro  Yamazaki
+1302	599	Masashi  Ohbuchi
+1303	599	June  Toda
+1304	599	Shu  Susami
+1305	599	Yoshie  Yamanishi
+1306	600	Eric B. Tiemeyer
+1307	601	Jan D. Graves
+1308	602	Jan D. Graves
+1309	603	Kazuyuki  Yamasaki
+1310	603	Kazumi  Chujo
+1311	603	Seiji  Okamoto
+1312	603	Yukihiro  Tao
+1313	604	Warren Howard Chesner
+1314	604	James  Melrose
+1315	605	Tetsuya  Matsui
+1316	605	Kiyomi  Funabashi
+1317	605	Yoshiaki  Ichikawa
+1318	605	Takako  Oono
+1319	605	Akira  Sekine
+1320	606	Warren Howard Chesner
+1321	606	James  Melrose
+1322	607	Laura Jane Bailey
+1323	607	John Timothy Bailey
+1324	608	Gerald J. Grott
+1325	609	Craig C. Andrews
+1326	609	Oliver J. Murphy
+1327	610	Graves; Jan D.
+1328	611	Al-Samadi; Riad A.
+1329	612	Larry P. Sower
+1330	613	Donald; Hubbard H.
+1331	613	Johnson; George E.
+1332	614	Jerome Jay Fife
+1333	614	Daniel Edmund Wickham
+1334	615	Terry A. Berger
+1335	615	Kimber D. Fogelman
+1336	615	L. Thompson Staats
+1337	615	Mark  Nickerson
+1338	615	Paul  Bente
+1339	616	Abdul-Rahman Abdul-Kader M. Faqih
+1340	617	Ajit K. Chowdhury
+1341	618	Lutz  Bilke
+1342	619	Cho; Jae-hyun
+1343	619	Kim; Yong-hwan
+1344	619	Lee; Yong-woo
+1345	619	Lee; Won-kwon
+1346	620	Abdul-Rahman Abdul Faqih
+1347	621	Kevin P. O'Leary
+1348	621	Thomas H. Probst
+1349	621	Jenchie  Wang
+1350	621	David A. Wilson
+1351	621	Henry J. Probst
+1352	622	John Michael Sullivan
+1353	622	Gregg Anthony Crocco
+1354	623	Rappas; Alkis S.
+1355	624	John G. Petersen
+1356	624	William C. Holmes
+1357	625	Glen D. Lindbo
+1358	626	Akihiko  Hongyo
+1359	626	Masaki  Naito
+1360	626	Kazuhiro  Inoue
+1361	627	Hall; John L.
+1362	628	Randall Jeff Kozak
+1363	629	Clint R. Elston
+1364	630	Ernest E. Carter JR.
+1365	631	Takaya  Sato
+1366	631	Tsutomu  Uehara
+1367	631	Hiroshi  Yoshida
+1368	631	Mitsugu  Kotani
+1369	632	Lawrence M. Conaway
+1370	632	Roger  Noble
+1371	632	Michael  Keller
+1372	632	David  Caffey
+1373	633	Skermer; Nigel A.
+1374	633	Dormer; John L.
+1375	634	ANDREW ROBERT WINSTON  GOUGH
+1376	634	MARK KENNETH  LANGFORD
+1377	634	PAUL FREDERICK  TURNER
+1378	635	Tobey, Jr.; James Francis
+1379	635	Stapleton, Jr.; Raymond D.
+1380	636	James R. Gray
+1381	636	Donald R. Rousseau
+1382	636	Lloyd E. Weaver
+1383	637	J. Kenneth Wittle
+1384	637	Richard A. Hamilton
+1385	637	Charles S. Titus
+1386	638	JEFFREY H.  BURBANK
+1387	638	C. DAVID  FINCH
+1388	638	JAMES M.  BRUGGER
+1389	639	Jun  Yamamoto
+1390	639	Akira  Osawa
+1391	639	Kunimasa  Muroi
+1392	639	Yoichi  Nagasaki
+1393	640	Carol M. Jantzen
+1394	640	John B. Pickett
+1395	640	Connie A. Cicero-Herman
+1396	640	James C. Marra
+1397	641	Lindbo; Glen D.
+1398	642	Studer; Ritchie G.
+1399	643	Eighmy; T. Taylor
+1400	644	McElvaney; James D.
+1401	645	Castaldi; Frank J.
+1402	645	Behrens; Gregory P.
+1403	645	Hargrove, Jr.; Oliver W.
+1404	646	Rose; Peter Dale
+1405	646	Hart; Oliver O'Connor
+1406	647	Schmit; Frank L.
+1407	647	Ewing; Lloyd
+1408	647	Redmon; David T.
+1409	648	Rose; Peter Dale
+1410	648	Hart; Oliver O'Connor
+1411	649	Park; Jong-bok
+1412	649	Jung; Keum-hee
+1413	649	Sohn; Jeong-hee
+1414	650	Oyzboyd; Boris
+1415	651	Takano; Hiroshi
+1416	651	Yonekawa; Tetsushi
+1417	652	Coombs; Harvey W.
+1418	652	Pearson; Ron D.
+1419	653	Hopper; Mark A.
+1420	654	Graves; Jan D.
+1421	655	Grott; Gerald J.
+1422	656	Melegari; Cesare
+1423	657	Bailey; Elena
+1424	658	Spears; James R.
+1425	659	Schmit; Frank L.
+1426	659	Redmon; David T.
+1427	659	Ewing; Lloyd
+1428	660	Cardarelli; Nathan F.
+1429	661	JAE HYUN  LIM
+1430	662	YiuTak  Leung
+1431	663	Hans P.  Hopper
+1432	664	Michael F.  Vieira
+1433	664	Brett  Moreau
+1434	664	Mark A.  Brodeur
+1435	664	Bob  Myatt
+1436	665	Edward R.  Fyfe
+1437	666	Josep Ramon Medina  Folgado
+1438	666	Maria Esther Gomez  Martin
+1439	667	Scott D.  Aston
+1440	667	Michael G.  Carfagno
+1441	667	Philip A.  Creamer
+1442	668	Peter Miles  Roberts
+1443	669	Edward R.  Fyfe
+1444	670	Richard L.  Ramirez
+1445	670	Mark A.  Bergeron
+1446	671	Johannes Wilhelmus Jacobus Mikx
+1447	672	ATAUL HAQ
+1448	673	Nicolas Freitag
+1449	673	Jean-Claude Morizot
+1450	674	Scott D. Aston
+1451	674	Michael G. Carfagno
+1452	674	Philip A. Creamer
+1453	675	Steven M. Akkala
+1454	676	Buddy Harry BUSSEY, III
+1455	676	Harry Bussey, JR.
+1456	677	Craig B. Stolarczyk
+1457	677	Robert M. Loomis
+1458	677	Paul D. Rogers
+1459	677	Omar Tiba
+1460	678	William E. Stimel
+1461	679	Bruno S. Boursier
+1462	679	Jack D. Fudge
+1463	680	Buddy Harry Bussey, III
+1464	680	Harry Bussey, Jr.
+1465	681	Edward John Cavenagh
+1466	681	Gregg Martin
+1467	681	Selamawit Tedesse Desta
+1468	682	Cameron Phillip Lewis
+1469	683	Michael Duggan Drieu
+1470	683	Patrick Michael Cargol, JR.
+1471	683	Jonathan Eryl Rogers
+1472	683	Pierre Albert Beynet
+1473	683	Stanley Silva
+1474	684	Kenneth Douglas Hill
+1475	685	Dilip K. Chatterjee
+1476	685	Shanghua Wu
+1477	685	Yuming Xie
+1478	685	Christopher E. Coker
+1479	685	Robert D. Skala
+1480	686	Kevin S. Vrondran
+1481	686	David E. Fuller
+1482	686	Jeremy I. Johnson
+1483	687	Markus Hartung
+1484	687	Christof Kruse
+1485	688	Alain DESMEULES
+1486	689	Galen R. Clark, II
+1487	689	Michael Todd Martin
+1488	689	Gary L. Siems
+1489	690	John E. IRVINE
+1490	690	Steven E. HARGRAVE
+1491	691	Cameron Phillip Lewis
+1492	692	Louis A. Waters, Jr.
+1493	693	Alfonso Lopez
+1494	694	Peter Miles Roberts
+1495	695	Norman L. Olson
+1496	695	Wesley R. Johnson
+1497	695	Richard H. Langford, II
+1498	696	YiuTak Leung
+1499	697	Ralph E. Showman
+1500	697	Sean B. Harmon
+1501	698	Ralph E. Showman
+1502	698	Sean B. Harmon
+1503	699	Ralph E. Showman
+1504	699	Sean B. Harmon
+1505	700	John H. McGinn
+1506	700	Vincent P. Morris
+1507	701	Matthew D. Campbell
+1508	701	Steven G. Hall
+1509	701	Robert L. Beine
+1510	702	Norman L. Olson
+1511	702	Wesley R. Johnson
+1512	702	Richard H. Langford, II
+1513	703	Dominique Roddier
+1514	703	Christian Cermelli
+1515	704	Etienne MENARD
+1516	705	John C. Stankus
+1517	705	John G. Oldsen
+1518	705	Xiaoting Li
+1519	705	John Feyrer
+1520	705	Dakota Faulkner
+1521	705	Arthur J. Craven
+1522	705	Demrey G. Brandon
+1523	706	Michael E. Daily
+1524	707	Lee M. Veldboom
+1525	707	Kevin S. Vrondran
+1526	707	Jeremy I. Johnson
+1527	708	Steven George Smith
+1528	708	Troy Achterkirch
+1529	708	Steven John Thorkelson
+1530	709	Jon Michael LaRue
+1531	709	Craig Edward Cappel
+1532	709	Frank Andrew Petlak
+1533	709	Marshall Van Domelen
+1534	710	Boris Feldman
+1535	710	Alexander Feldman
+1536	710	Michael Feldman
+1537	711	Albert E. Aaron
+1538	712	C. Thomas McCreedy
+1539	712	Dennis Daugherty
+1540	713	Timothy Krause
+1541	713	Michael H. Johnson
+1542	713	Richard Ferencz
+1543	714	Ananda H. Kumar
+1544	714	Dien Nguyen
+1545	714	Martin Janousek
+1546	714	Tad Armstrong
+1547	715	Harry Bussey, JR.
+1548	715	Buddy Harry Bussey, III
+1549	716	Kevin S. Vrondran
+1550	716	David E. Fuller
+1551	716	Jeremy I. Johnson
+1552	717	David W. Jacob
+1553	717	Christopher S. Hersey
+1554	717	Casey T. Kenniston
+1555	717	Michael P. Stone
+1556	718	Timothy Krause
+1557	718	Michael H. Johnson
+1558	718	Richard Ferencz
+1559	719	Tricia Hill
+1560	719	Yanqiu Zhang
+1561	720	David W. Gentry
+1562	721	George A. Holmes
+1563	721	Tadeusz Rybka
+1564	722	Carl-Hugo M. Mellander
+1565	723	John Richard Logan
+1566	723	Thomas J. Baker
+1567	724	John E. Irvine
+1568	724	Steven E. Hargrave
+1569	725	Louis A. Waters, JR.
+1570	726	John H. McGinn
+1571	726	Vincent P. Morris
+1572	727	David Goshert
+1573	728	Greg Sabourin
+1574	729	David Stadler
+1575	730	Eun Chyun Kyung
+1576	731	Josep Ramon Medina Folgado
+1577	731	Maria Esther Gomez Martin
+1578	732	Peter W. Gavin
+1579	733	Richard C. Moore
+1580	734	Steven M. Akkala
+1581	735	Ameet Kulkarni
+1582	736	Jay Gunnarson
+1583	737	Xu Gang (Wilf) Zhao
+1584	737	Gang Qiu
+1585	737	Xinghai Li
+1586	737	Yinxia (Michael) Yang
+1587	738	Lee Veldboom M.
+1588	738	Kevin Vrondran S.
+1589	738	Jeremy Johnson I.
+1590	739	C. Thomas McCreedy
+1591	739	Dennis Daugherty
+1592	740	Lou Watkins
+1593	741	Bruce M. Harper
+1594	741	Christopher H. Bajorek
+1595	742	Francesco Sposito
+1596	743	David Stadler
+1597	744	David A. Bradley
+1598	745	Yuan-Ping R. Ting
+1599	745	Jerome L. Buchanan
+1600	746	Edward R. Fyfe
+1601	746	Robert Joness Fyfe
+1602	747	Peter Mansfield W.
+1603	748	Alfonso Lopez
+1604	749	Yun Ding
+1605	749	William Soester Lawrence
+1606	750	Lloyd E. Jacobs
+1607	750	David E. Turriff
+1608	750	John F. Schabron
+1609	750	Susan S. Sorini-Wong
+1610	750	Thomas M. Christy
+1611	751	Robin M. Converse
+1612	751	Young-Chan Park
+1613	752	Changshi Mao
+1614	752	Robin Converse M.
+1615	753	Rainer Pechtold
+1616	753	Ingo Hermann
+1617	753	Markus Lindner
+1618	754	Lloyd E. Jacobs
+1619	754	David E. Turriff
+1620	754	John F. Schabron
+1621	754	Susan S. Sorini-Wong
+1622	754	Thomas M. Christy
+1623	755	Kenneth L. Suazo
+1624	756	Kenneth L. Suazo
+1625	756	Isaac Suazo
+1626	756	Dawn S. Harder
+1627	756	Juan Griego
+1628	756	Julian Suazo
+1629	757	Rens Hansort
+1630	758	Werner Heierli
+1631	759	Robin Converse M.
+1632	759	Young-Chan Park
+1633	760	Michael Schoemann P.
+1634	760	Glenn Cowelchuk A.
+1635	760	John Youngs D.
+1636	760	Randy Reed S.
+1637	761	John E. Irvine
+1638	762	Kenneth L. Suazo
+1639	762	Isaac Suazo
+1640	762	Annabelle Suazo
+1641	762	Dawn Suazo Daugherty
+1642	762	Juan Griego
+1643	762	Julian Suazo
+1644	763	John E. Irvine
+1645	764	John Irvine E.
+1646	765	Glenn Cowelchuk A.
+1647	765	Randy Reed S.
+1648	765	Kenneth Shaner W.
+1649	766	Robert Trauger J.
+1650	766	James Olsta T.
+1651	766	Charles Hornaday J.
+1652	766	Jerald Darlington W.   JR.
+1653	767	Tah Shan Lin
+1654	768	Jan Manda M.
+1655	768	Sean Weir
+1656	768	Pierre Pinet Jean
+1657	769	Kenneth Suazo L.
+1658	769	Isaac Suazo
+1659	769	Dawn Harder S.
+1660	769	Juan Griego
+1661	769	Julian Suazo
+1662	770	Lloyd Jacobs E.
+1663	770	David Turriff E.
+1664	770	John Schabron F.
+1665	770	Susan Sorini-Wong S.
+1666	770	Thomas Christy M.
+1667	771	Thomas West George
+1668	771	Qing Liu
+1669	771	Peter Materna A.
+1670	771	Alfred Litwak Anthony
+1671	771	Christopher Gaylo M.
+1672	772	Roy Stoecker R.
+1673	772	Leland Hairr M.
+1674	773	John Irvine E.
+1675	774	David  Thomason
+1676	774	Mary Williams Goodson
+1677	774	Christian Carl Sundberg
+1678	774	Michael Louis Doleac
+1679	775	Sidney E. Veazey
+1680	776	Kenneth L. Suazo
+1681	777	J. Dean Latvaitis
+1682	777	Raymond  Miller
+1683	777	Steven A. Czekaj
+1684	777	Patrick W. Holmes
+1685	778	Carl T. Detiveaux
+1686	779	J. Eric Spangler
+1687	779	Kumar Gopalan Jayanath
+1688	779	Bob  Abbott
+1689	779	James A. Blazek
+1690	780	Alexander I. Wallstein
+1691	780	Raymond  Brandon
+1692	780	Roland  Walker
+1693	780	Steven  Brady
+1694	781	Harry B. Lancelot, III
+1695	781	Thomas E. Lannom
+1696	781	Sidney E. Francies, III
+1697	782	Kenneth L. Suazo
+1698	782	Isaac  Suazo
+1699	782	Annabelle  Suazo
+1700	782	Dawn Suazo  Daugherty
+1701	782	Juan  Griego
+1702	782	Julian  Suazo
+1703	783	Zhenxin  Chen
+1704	783	Ze  Chen
+1705	784	Kenneth L. Suazo
+1706	784	Isaac Suazo
+1707	785	Jon E. Khachaturian
+1708	786	Werner  Heierli
+1709	787	Lloyd E. Jacobs
+1710	787	David E. Turriff
+1711	787	John F. Schabron
+1712	787	Susan S. Sorini-Wong
+1713	787	Thomas M. Christy
+1714	788	Jon E. Khachaturian
+1715	789	Kenneth L. Suazo
+1716	789	Isaac Suazo
+1717	789	Annabelle Suazo
+1718	789	Dawn Suazo Daugherty
+1719	789	Juan Griego
+1720	789	Julian Suazo
+1721	790	Robert A. Robinson
+1722	791	Mahesh  Kotnis
+1723	791	Elizabeth Louise Otloski
+1724	791	Paul Terrence Wombwell
+1725	791	William Walter Charles Badcock
+1726	791	Richard Martin Broad
+1727	792	Sidney E. Veazey
+1728	793	Raymond R. Price
+1729	794	Orbin F. Sumrall
+1730	795	Henry K. Obermeyer
+1731	795	Robert D. Eckman
+1732	795	T. W. Mo
+1733	796	Donald A. Starke
+1734	796	John A. Striednig
+1735	796	Keith R. Bartlett
+1736	796	Robert F. Jenkins
+1737	797	Thomas N. Carr
+1738	797	Cheng-Yo Chen
+1739	797	Robin M. Converse
+1740	797	Robert M. Harrell
+1741	797	Daniel M. Houser
+1742	797	Charles F. Kasischke
+1743	797	Gautam K. Chaudhury
+1744	798	Sidney E. Veazey
+1745	799	Rafael Torres Samper
+1746	799	Carlos Fermin Menendez  Diaz
+1747	800	Thomas N. Carr
+1748	800	Cheng-Yo  Chen
+1749	800	Robin M. Converse
+1750	800	Robert M. Harrell
+1751	800	Daniel M. Houser
+1752	800	Charles F. Kasischke
+1753	800	Gautam K. Chaudhury
+1754	801	Veazey; Sidney E.
+1755	802	Robert A. Robinson
+1756	803	Wayne; Mark
+1757	804	J. Eric Spangler
+1758	804	Kumar Gopalan Jayanath
+1759	804	Bob  Abbott
+1760	804	James A. Blazek
+1761	805	Khachaturian; Jon
+1762	806	Joe  Gaidjiergis
+1763	806	Lloyd  Fladgard
+1764	806	Scott  Fladgard
+1765	807	Sidney E. Veazey
+1766	808	Harry B. Lancelot III
+1767	808	Thomas E. Lannom
+1768	808	Sidney E. Francies III
+1769	809	Melin; Sigurd
+1770	810	Gentry; David W.
+1771	811	Won-Hoi  Yang
+1772	812	Won-Hoi  Yang
+1773	813	Kocaman; Alp A.
+1774	814	Orbin F. Sumrall
+1775	814	Wondel G. Creager
+1776	815	Adler; Richard S
+1777	815	Evans; David A.
+1778	815	Abrahamsen; Tore
+1779	815	Ensign; Ferrel
+1780	815	Hayward; George
+1781	815	Nelson; George
+1782	815	McFadden; Joseph P.
+1783	816	Serge Jacques Fayeulle
+1784	816	Robert Allen Alt
+1785	817	Hilmar  Janusson
+1786	817	Freygarour  Thorsteinsson
+1787	817	Sigurour A. Asgeirsson
+1788	817	Palmi  Einarsson
+1789	818	Clark; Keith R.
+1790	819	JAE HYUN  LIM
+1791	820	Josep Ramon Medina  Folgado
+1792	820	Maria Esther Gomez  Martin
+1793	821	Johannes Wilhelmus Jacobus Mikx
+1794	822	ATAUL HAQ
+1795	823	Cameron Phillip Lewis
+1796	824	Michael Duggan Drieu
+1797	824	Patrick Michael Cargol, JR.
+1798	824	Jonathan Eryl Rogers
+1799	824	Pierre Albert Beynet
+1800	824	Stanley Silva
+1801	825	Gunther Clauss
+1802	825	Florian Sprenger
+1803	826	John E. IRVINE
+1804	826	Steven E. HARGRAVE
+1805	827	Cameron Phillip Lewis
+1806	828	Alfonso Lopez
+1807	829	Matthew D. Campbell
+1808	829	Steven G. Hall
+1809	829	Robert L. Beine
+1810	830	Dominique Roddier
+1811	830	Christian Cermelli
+1812	831	Boris Feldman
+1813	831	Alexander Feldman
+1814	831	Michael Feldman
+1815	832	Albert E. Aaron
+1816	833	Jae Myung Han
+1817	834	Tricia Hill
+1818	834	Yanqiu Zhang
+1819	835	David W. Gentry
+1820	836	Roger Hartenburg
+1821	836	Berthold Lahl
+1822	836	Lothar Kromer
+1823	837	Ronald de Strulle
+1824	838	John E. Irvine
+1825	838	Steven E. Hargrave
+1826	839	Jon Khachaturian
+1827	840	Ronald de Strulle
+1828	841	Josep Ramon Medina Folgado
+1829	841	Maria Esther Gomez Martin
+1830	842	John C. BAYER
+1831	842	Thomas C. Gandolfo
+1832	843	Jae Myung Han
+1833	844	Lou Watkins
+1834	845	Francesco Sposito
+1835	846	Edward R. Fyfe
+1836	846	Robert Joness Fyfe
+1837	847	Jon Khachaturian
+1838	848	Alfonso Lopez
+1839	849	Yun Ding
+1840	849	William Soester Lawrence
+1841	850	Robin M. Converse
+1842	850	Young-Chan Park
+1843	851	Changshi Mao
+1844	851	Robin Converse M.
+1845	852	Matthew D. Campbell
+1846	852	Robert L. Beine
+1847	852	Steven G. Hall
+1848	853	Robin Converse M.
+1849	853	Young-Chan Park
+1850	854	John E. Irvine
+1851	855	John E. Irvine
+1852	856	John Irvine E.
+1853	857	Robert Magee Shivers, III
+1854	857	Michael Christopher Tucker
+1855	857	David Clark Schuman
+1856	858	Zhenxin Chen
+1857	858	Ze Chen
+1858	859	Roy Stoecker R.
+1859	859	Leland Hairr M.
+1860	860	John Irvine E.
+1861	861	Rafael Torres Samper
+1862	861	Carlos Fermin Menendez Diaz
+1863	862	Mark Foster
+1864	863	J. Eric Spangler
+1865	863	Kumar Gopalan Jayanath
+1866	863	Bob  Abbott
+1867	863	James A. Blazek
+1868	864	Kenpachi Hoashi
+1869	865	Zhenxin  Chen
+1870	865	Ze  Chen
+1871	866	Jon E. Khachaturian
+1872	867	Jon E. Khachaturian
+1873	868	Sidney E. Veazey
+1874	869	Henry K. Obermeyer
+1875	869	Robert D. Eckman
+1876	869	T. W. Mo
+1877	870	Won-Hoi Yang
+1878	871	Thomas N. Carr
+1879	871	Cheng-Yo Chen
+1880	871	Robin M. Converse
+1881	871	Robert M. Harrell
+1882	871	Daniel M. Houser
+1883	871	Charles F. Kasischke
+1884	871	Gautam K. Chaudhury
+1885	872	Sidney E. Veazey
+1886	873	Rafael Torres Samper
+1887	873	Carlos Fermin Menendez  Diaz
+1888	874	Vladimir Sandzhievich Boldurev
+1889	875	Thomas N. Carr
+1890	875	Cheng-Yo  Chen
+1891	875	Robin M. Converse
+1892	875	Robert M. Harrell
+1893	875	Daniel M. Houser
+1894	875	Charles F. Kasischke
+1895	875	Gautam K. Chaudhury
+1896	876	Veazey; Sidney E.
+1897	877	Wayne; Mark
+1898	878	J. Eric Spangler
+1899	878	Kumar Gopalan Jayanath
+1900	878	Bob  Abbott
+1901	878	James A. Blazek
+1902	879	Khachaturian; Jon
+1903	880	Joe  Gaidjiergis
+1904	880	Lloyd  Fladgard
+1905	880	Scott  Fladgard
+1906	881	Sidney E. Veazey
+1907	882	Gentry; David W.
+1908	883	Won-Hoi  Yang
+1909	884	Kocaman; Alp A.
+1910	885	Blair; Russell M.
+1911	885	Ziehl; C. Peter
+1912	885	Strange; Anthony E. J.
+1913	885	Maucieri; Michael F.
+1914	886	Labrador; Gaudencio A.
+1915	887	Donkersloot, Sr.; Arie
+1916	888	Hopper; Mark A.
+1917	889	Nolan; Don E.
+1918	890	Khachaturian; Jon E.
+1919	891	Irvine; John E.
+1920	891	Yeosock; John J.
+1921	892	Treu; Johannes Jacobus
+1922	892	Dove; Peter George Scott
+1923	892	Wilde; Gordon R.
+1924	893	Pramono; Wasi Tri
+1925	893	McCorquodale; John A.
+1926	894	Simmons; John
+1927	895	Moses; Charles J.
+1928	896	Pignata; Rich
+1929	896	White; Mark
+1930	897	Manschot; Dirk
+1931	897	Mommaas; Cornelis Johannes
+1932	898	Phillips; Darron J.
+1933	898	Eldridge; William J.
+1934	898	Spalding; Larry V.
+1935	899	Phillips; Darron J.
+1936	899	Eldridge; William J.
+1937	899	Spalding; Larry V.
+1938	900	Arlt, III; Edward J.
+1939	901	Goldman; Jerome L.
+1940	902	Melby; Jeffrey A.
+1941	902	Turk; George F.
+1942	903	Turk; George F.
+1943	903	Melby; Jeffrey A.
+1944	904	Glass; James O.
+1945	904	Glass; Sam M.
+1946	905	Melby; Jeffrey A.
+1947	905	Turk; George F.
+1948	906	Minakami; Hiroyuki
+1949	906	Minakami; Motoyuki
+1950	907	Crawford; David W.
+1951	908	Arlt; Edward J.
+1952	908	Moses; Charles J.
+1953	909	Giannesini; Jean-Francois
+1954	910	Reuhl; Gerald G.
+1955	911	Atkinson; Francis S.
+1956	911	McDougal; William G.
+1957	912	Lavery; Terrence J.
+1958	913	Suhayda; Joseph
+1959	914	Atkinson; Francis S.
+1960	914	McDougal; William G.
+1961	915	Jensen; John S.
+1962	916	Arlt; Edward J.
+1963	917	Klenert; Oskar H.
+1964	918	Hooper; Jefferson E.
+1965	918	Irvine; John E.
+1966	919	Verble; Patrick R.
+1967	920	Kramer; James H.
+1968	921	McCreary; Donald R.
+1969	922	Crawford; David W.
+1970	923	Atkinson; Francis S.
+1971	923	McDougal; William G.
+1972	924	Reid; Leslie C.
+1973	925	Levy; Jacques S.
+1974	926	Brandon; John W.
+1975	926	Kovar; Larry R.
+1976	927	Richter; Karl E.
+1977	928	Sample; Jay W.
+1978	929	Cole; Richard W.
+1979	929	Marsh; Richard L.
+1980	929	Tassone; Joseph V.
+1981	930	Knox; L. Carter
+1982	930	Moore; Clayton A.
+1983	931	Navratil; Martin
+1984	931	Mitchell; Mark S.
+1985	931	Sovak; Mojmir
+1986	932	Tubbs, Jr.; Arthur E.
+1987	933	Brisco; David P.
+1988	934	Saffrhan; Ray W.
+1989	935	Bianchi; Giuseppe
+1990	935	Mussinelli; Gian L.
+1991	935	Bazzoni; Bruno
+1992	936	Berger; Lawrence E.
+1993	937	Waters; Charles M.
+1994	938	Berger; Lawrence E.
+1995	939	Karaus; Edward
+1996	940	Spicer; Earl E.
+1997	941	Nickles, Jr.; Robert B.
+1998	942	Crinnion; Edward V.
+1999	942	Crinnion; James S.
+2000	943	Wetmore; Sherman B.
+2001	944	Van Bruwaene; Albert
+2002	944	Neyrinck; Luc
+2003	944	Maertens; Luc
+2004	944	Verner; Bo
+2005	944	Fors; Staffan
+2006	945	Vignon; Jean F. B. J.
+2007	945	Tabouy; Christian
+2008	946	Knox; Lloyd C.
+2009	946	Moore; Clayton A.
+2010	947	Freeman; Tommie A.
+2011	948	Wetmore; Sherman B.
+2012	949	Weir; Frederick E.
+2013	950	Francis, Jr.; Alex W.
+2014	951	Reynolds; Graeme E.
+2015	952	Wetmore; Sherman B.
+2016	953	Person; Abraham
+2017	953	Wetmore; Sherman B.
+2018	953	McNary; James F.
+2019	954	McNary; James F.
+2020	955	Person; Abraham
+2021	955	Wetmore; Sherman B.
+2022	955	McNary; James F.
+2023	956	Person; Abraham
+2024	957	Salo; Eric A.
+2025	958	Anders; Edward O.
+2026	959	Landers; Don B.
+2027	959	Brock; Robert K.
+2028	960	Fair; Samuel S.
+2029	961	Sameshima; Shigeru
+2030	962	Colbert; Ervin A.
+2031	962	Mann; Richard J.
+2032	962	Phillips; Robert W.
+2033	963	Files; James Harold
+2034	964	Chelminski; Stephen V.
+2035	965	Ronald  Cook
+2036	966	David  TURNER
+2037	966	Francois  MICHEL
+2038	966	Mikael  LAMBERTON
+2039	966	Sebastien  PALLY
+2040	967	James E.  Clark
+2041	968	Boris  Feldman
+2042	968	Michael  Feldman
+2043	969	Ira  Leifer
+2044	970	David M.  LaCroix
+2045	970	Robert A.  MacDonald
+2046	971	Mark  Reynolds
+2047	971	Thomas S.  Burton
+2048	971	Corey R.  Milne
+2049	971	Steven R.  Day
+2050	972	Guotian  Liu
+2051	972	Mingquan  Zhang
+2052	972	Ming'en  Hu
+2053	973	Ya Ching  Tung
+2054	973	Kwo Yuan  Shi
+2055	974	Francisco  Medran-Lopez
+2056	975	Randy E.  Carter
+2057	975	Edward A.  Kidston
+2058	975	Karim  Rashid
+2059	975	Brian D.  Schumacher
+2060	975	Richard  Smiedt
+2061	976	Ching-Pang  Lee
+2062	976	Hsin-Pang  Wang
+2063	976	Ram Kumar  Upadhyay
+2064	976	Paul Richard  Myers
+2065	976	Marc Thomas  Edgar
+2066	976	Thomas Donald  Martyn
+2067	976	Eric Alan  Estill
+2068	977	Gary J.  Mason
+2069	978	Ernest E. Carter, JR.
+2070	979	Beidou Xi
+2071	979	Lieyu Zhang
+2072	979	Jixi Gao
+2073	979	Jinbiao Wang
+2074	979	Xunfeng Xia
+2075	979	Qigong Xu
+2076	980	Jerry M. Edmondson
+2077	981	Gary HAMATA
+2078	981	Charles FORCIER
+2079	981	Larry MCGREGOR
+2080	982	Richard L. Miller
+2081	982	Stephen L. Miller
+2082	983	Brice C. Raynor
+2083	984	Heung Sik Yu
+2084	984	Seong Kyun Jin
+2085	985	James L. Lawrence
+2086	986	Roger W. Carson
+2087	986	Bruce W. Bremer
+2088	986	Michael L. Mastracci
+2089	986	Kent E. Maggard
+2090	987	ABDULREIDHA A. ALSAFFAR
+2091	988	ABDULREIDHA A. ALSAFFAR
+2092	989	Frode Losnedal
+2093	989	Robert Farestveit
+2094	989	Per Albriktsen
+2095	989	Ove Tobias Gudmestad
+2096	989	Geir Morten Skeie
+2097	990	Robert Doyle
+2098	991	DEBASISH MUKHOPADHYAY
+2099	992	Dale A. Conway
+2100	993	Thomas J. Kryzak
+2101	994	Yves Durkheim
+2102	995	Thomas T.K. Zung
+2103	996	William W. Carson
+2104	996	Charles Dale
+2105	996	William D. McClain
+2106	996	Robert J. Ritz
+2107	996	Charles Swenson
+2108	997	David Aughton
+2109	998	Simon James Calvert
+2110	999	Jose Cherem Haber
+2111	1000	Yun Deng
+2112	1000	Lianxiang Du
+2113	1001	Michael Duggan Drieu
+2114	1001	Patrick Michael Cargol, JR.
+2115	1001	Jonathan Eryl Rogers
+2116	1001	Pierre Albert Beynet
+2117	1001	Stanley Silva
+2118	1002	Glen Paul Cork
+2119	1002	Michael D. Borgman
+2120	1002	Darin C. Wiley
+2121	1002	Richard Jacobs
+2122	1003	Josef Merai
+2123	1004	Carl W. PODELLA
+2124	1004	John W. BALDRIDGE
+2125	1004	Michael G. GOLDFELD
+2126	1005	Mark Reynolds
+2127	1005	Thomas S. Burton
+2128	1005	Corey R. Milne
+2129	1005	Steven R. Day
+2130	1006	Yuichiro Hirata
+2131	1006	Seigo Murakami
+2132	1006	Katsuya Nozaki
+2133	1007	Michael K. Conwell
+2134	1008	Bhuvaragasamy G. Ravi
+2135	1008	Parthasarathy S. Raghavan
+2136	1008	Chandra P. Khattak
+2137	1008	Carl Chartier
+2138	1008	Dave Lackey
+2139	1008	Dean C. Skelton
+2140	1009	Lee A. Smith
+2141	1010	Paul Joseph Hubbell, JR.
+2142	1011	John J. Breedlove
+2143	1011	Michael John Breedlove
+2144	1012	Scott Wolinsky
+2145	1013	Scott Wolinsky
+2146	1014	Michael T. D. Miller
+2147	1014	Dorin Boldor
+2148	1014	Jeffrey D. Ortego
+2149	1015	Scott Wolinsky
+2150	1016	Timothy Christian Crouse
+2151	1017	Guy Adelle Pinson
+2152	1017	Barbara Pinson
+2153	1018	Arden L. Brey
+2154	1019	Timothy Christian Crouse
+2155	1020	Timothy Christian Crouse
+2156	1021	Brunelle Paul Sabourin
+2157	1022	David John SCHAUS
+2158	1023	Ya Ching TUNG
+2159	1023	Kwo Yuan Shi
+2160	1024	William James Castle
+2161	1025	David M. Jones
+2162	1025	Wilson Harvie
+2163	1025	Kevin King
+2164	1025	Brett Albert Johns
+2165	1026	Michael K. Conwell
+2166	1027	Paul Joseph Hubbell, JR.
+2167	1028	Peter H. Emmons
+2168	1028	Brent D. Anderson
+2169	1029	David Mark Lowe
+2170	1029	Richard D. Eldredge
+2171	1030	James L. Lawrence
+2172	1031	Lester Ray Wisegerber
+2173	1031	Elmo S. Peddy
+2174	1032	Michael Oranski
+2175	1032	Avner Sadot
+2176	1032	Israel Heifetz
+2177	1032	Yoav Dracher
+2178	1033	YiuTak Leung
+2179	1034	Bert ZAUDERER
+2180	1035	John H. McGinn
+2181	1035	Vincent P. Morris
+2182	1036	Satoshi Yamaguchi
+2183	1036	Kazuaki Iwamura
+2184	1036	Tsutomu Ikeda
+2185	1037	Amil Fornatora
+2186	1037	Philip Coppola
+2187	1038	Timothy Christian Crouse
+2188	1039	Michel Baylot
+2189	1039	Jean-Paul Denise
+2190	1039	Thomas Marty
+2191	1040	Luciano Morini
+2192	1040	Jovanka Pizzo
+2193	1041	David M. Jones
+2194	1041	Wilson Harvie
+2195	1041	Kevin King
+2196	1041	Brett Albert Johns
+2197	1042	Martin P. Wanielista
+2198	1042	Ni-Bin Chang
+2199	1043	Brice C. Raynor
+2200	1044	Yun Deng
+2201	1044	Lianxiang Du
+2202	1045	Michel Baylot
+2203	1045	Marc Bonnissel
+2204	1045	Xavier Rocher
+2205	1046	David M. Jones
+2206	1046	Wilson Harvie
+2207	1046	Kevin King
+2208	1046	Brett Albert Johns
+2209	1047	Michel Baylot
+2210	1047	Marc Bonnissel
+2211	1047	Xavier Rocher
+2212	1048	Richard L. Miller
+2213	1048	Stephen L. Miller
+2214	1049	David M. LaCroix
+2215	1049	Robert A. MacDonald
+2216	1050	Michael L. Strickland
+2217	1051	Marc D. Andelman
+2218	1051	Gregory S. Walker
+2219	1052	Feng Xing
+2220	1052	Zhuo Ni
+2221	1053	Wayne Poerio
+2222	1053	Malcolm Dubois
+2223	1054	Chen-Yuan Dung
+2224	1055	Werner L. SCHLECHT
+2225	1055	David T. Roman
+2226	1056	Tony Richard Hutchings
+2227	1056	Franciscus Antonius Anna Maria de Leij
+2228	1056	Jeremy Richard Wingate
+2229	1057	Dennis G. Kelley
+2230	1058	Barry L. Gregerson
+2231	1058	James E. Spitzer
+2232	1059	Gregory B. Burkhardt
+2233	1060	JON A. SCHMIDGALL
+2234	1060	DAVID E. STOLLER
+2235	1061	Mark J. Jurich
+2236	1061	Rickey G. Swartz
+2237	1061	Jon R. Reed
+2238	1061	Eric C. Freeman
+2239	1061	Wolfgang Ott
+2240	1061	Paul H. Appelblom
+2241	1061	Paul A. Jurich
+2242	1062	Michael Oranski
+2243	1062	Avner Sadot
+2244	1062	Israel Heifetz
+2245	1062	Yoav Dracher
+2246	1063	Henry DiGregorio
+2247	1063	John Higson
+2248	1063	Jeffery White
+2249	1064	Michiharu Hasegawa
+2250	1064	Noriyuki Miyazaki
+2251	1064	Masafumi Nakamura
+2252	1064	Naoji Yamamoto
+2253	1064	Kazuo Ueda
+2254	1065	Denyse Claire DuBrucq
+2255	1066	David Aughton
+2256	1067	Boris Feldman
+2257	1067	Alexander Feldman
+2258	1067	Michael Feldman
+2259	1068	C. Thomas McCreedy
+2260	1068	Dennis Daugherty
+2261	1069	William Tod Ross
+2262	1069	Jeffery Max Buxman
+2263	1070	Ben Wade Oakes Dickinson, III
+2264	1070	Robert Wayne Dickinson
+2265	1070	Oliver Douglas Ousterhout
+2266	1070	Lawrence Joseph Musetti
+2267	1070	Porter James Underwood
+2268	1070	Ali Daneshy
+2269	1071	Michael P. Appleby
+2270	1071	Iain Fraser
+2271	1071	James E. Atkinson
+2272	1072	Alan J. Sweeney
+2273	1073	Tsen Meng TANG
+2274	1073	Hsing Loong Tan
+2275	1073	Danmei Wang
+2276	1074	Willem Luloff Rautenbach
+2277	1074	Sarel Johannes Rautenbach
+2278	1075	Martin P. Wanielista
+2279	1075	Ni-Bin Chang
+2280	1076	Darryl Scott Burkett
+2281	1077	David Aughton
+2282	1078	Tsen Meng Tang
+2283	1078	Hsing Loong Tan
+2284	1078	Danmei Wang
+2285	1079	Michael Oranski
+2286	1079	Avner Sadot
+2287	1079	Israel Heifetz
+2288	1079	Yoav Dracher
+2289	1080	Michael K. Conwell
+2290	1081	Richard Treve Mildren
+2291	1081	Neville Ernest Lange
+2292	1082	William James Castle
+2293	1083	David M. Jones
+2294	1083	Wilson Harvie
+2295	1083	Kevin King
+2296	1083	Brett Albert Johns
+2297	1084	Tung-Chuan WU
+2298	1084	Jen-Hui Tsai
+2299	1084	Ta-Hsin Chou
+2300	1085	Richard C. Roos
+2301	1085	Richard A. Hansen
+2302	1086	John Murphy
+2303	1086	Joseph Poplar
+2304	1087	Ronald de Strulle
+2305	1088	Peter A. Burke
+2306	1088	Karl F. Ludwig
+2307	1088	Jude A. Kral
+2308	1088	Francis J. Zelina
+2309	1089	Henry K. Obermeyer
+2310	1089	Robert D. Eckman
+2311	1089	Taewon Mo
+2312	1090	Rodrigo Andres Geraldo SEURA
+2313	1091	Luca Panzeri
+2314	1091	Lorenzo Costa
+2315	1092	Tony Tadin
+2316	1093	John H. McGinn
+2317	1093	Vincent P. Morris
+2318	1094	Ronald Bruce Long
+2319	1095	Yuichiro Hirata
+2320	1095	Seigo Murakami
+2321	1095	Katsuya Nozaki
+2322	1096	Jeff L. Higgins
+2323	1097	S. Kumar
+2324	1098	Zamir Tribelsky
+2325	1098	Joseph Rabani
+2326	1098	Mordechai Navon
+2327	1098	Gil Cohen
+2328	1099	Terry L. Grover
+2329	1099	Charles A. Vidich
+2330	1099	James J. Hennessey
+2331	1099	John C. Freitas
+2332	1099	M. Douglas Mueller
+2333	1100	Michael Thomas Titmus
+2334	1101	Glen Paul Cork
+2335	1101	Michael D. Borgman
+2336	1101	Darin C. Wiley
+2337	1101	Richard Jacobs
+2338	1102	John Moore
+2339	1103	Ronald Scott Bonds
+2340	1104	Scott Jessick
+2341	1104	Ray Koberstine
+2342	1104	Allen Worst
+2343	1105	Christopher Ralph Cantolino
+2344	1106	Henry K. Obermeyer
+2345	1107	Arun K. Sharma
+2346	1107	Theodore Sideropoulos
+2347	1107	Berne K. Stober
+2348	1107	Brian D. Albert
+2349	1107	Alvin U. Chen
+2350	1107	Vikram Singh
+2351	1108	Michael Oranski
+2352	1108	Avner Sadot
+2353	1108	Israel Heifetz
+2354	1108	Yoav Dracher
+2355	1109	Simon James CALVERT
+2356	1110	E. H. Kelle Zeiher
+2357	1110	Amit Gupta
+2358	1111	Peter Anthony LACZA
+2359	1112	Ching-Pang Lee
+2360	1112	Hsin-Pang Wang
+2361	1112	Ram Kumar Upadhyay
+2362	1112	Paul Richard Myers
+2363	1112	Marc Thomas Edgar
+2364	1112	Thomas Donald Martyn
+2365	1112	Eric Alan Estill
+2366	1113	Tetsuo Takayanagi
+2367	1114	Edward W. Van Romer
+2368	1115	John P. Cleary
+2369	1116	Tsen Meng Tang
+2370	1116	Hsing Loong Tan
+2371	1116	Danmei Wang
+2372	1117	Jacques Gerard
+2373	1117	David Adam E.
+2374	1117	Frank Cichocki R.
+2375	1117	Michael Jander E.
+2376	1117	Paul Krumlauf R.
+2377	1117	Giovanni Montagna
+2378	1117	Donald Sage B.   JR.
+2379	1118	Glen S. Axelrod
+2380	1119	Antoni Bellussi Paolo
+2381	1120	Tom Swartz
+2382	1121	C. Thomas McCreedy
+2383	1121	Dennis Daugherty
+2384	1122	Christopher Anthony Budd
+2385	1123	Cliff Purnell
+2386	1124	Ludwig Schmidmaier
+2387	1124	Wolfgang Harttig
+2388	1125	Edward R. Fyfe
+2389	1125	Robert Joness Fyfe
+2390	1126	Chuan Gao
+2391	1126	Melvin Yamamoto
+2392	1127	Ernest Kim Leonardich
+2393	1127	Norman P. Gruczelak
+2394	1128	Rodney Tyler W.
+2395	1129	Satoshi Yamaguchi
+2396	1129	Kazuaki Iwamura
+2397	1129	Tsutomu Ikeda
+2398	1130	Rae Son Sung
+2399	1131	Thomas R. Beidle
+2400	1132	Glen AXELROD S.
+2401	1133	Mark Jurich J.
+2402	1133	Rickey Swartz G.
+2403	1133	Jon Reed R.
+2404	1133	Eric Freeman C.
+2405	1133	Wolfgang Ott
+2406	1133	Paul Appelblom H.
+2407	1133	Paul Jurich A.
+2408	1134	Dong-Won Lee
+2409	1135	Lawrence Janesky M.
+2410	1136	Hiroyuki Kida
+2411	1136	Yukio Zenitani
+2412	1137	Ian Procter
+2413	1137	Sabine Azouani Isabelle
+2414	1137	Rolf Haubrichs
+2415	1138	Rodney W. Tyler
+2416	1139	Tetsuo TAKAYANAGI
+2417	1140	Michel Baylot
+2418	1141	Edward Jordan John
+2419	1141	Robert Elefritz
+2420	1142	Zuei-Ling Lin
+2421	1143	James Urban
+2422	1143	Albert Key L.
+2423	1143	Charles Ray Julian
+2424	1143	Charles Ray Graham
+2425	1143	Michael James
+2426	1144	Leo Yodock J.   JR.
+2427	1144	Leo Yodock J.   III
+2428	1144	Guy Yodock C.
+2429	1145	Albert Key L.
+2430	1145	James Urban
+2431	1145	Charles Ray Julian
+2432	1145	Charles Ray Graham
+2433	1145	Michael James
+2434	1146	Christopher M. Runestad
+2435	1147	Peter Burke A.
+2436	1147	Karl Ludwig F.
+2437	1147	Jude Kral A.
+2438	1147	Francis Zelina J.
+2439	1148	Luca Toncelli
+2440	1149	Peter A. Burke
+2441	1149	Karl F. Ludwig
+2442	1149	Jude A. Kral
+2443	1149	Francis J. Zelina
+2444	1150	Helge Brauer
+2445	1150	Walter Ehrenberger
+2446	1150	Helmuth Ender
+2447	1150	Joachim Noack
+2448	1151	Alfred Cunningham B.
+2449	1151	Lee Spangler H.
+2450	1151	Robin Gerlach
+2451	1151	Adrienne Phillips J.
+2452	1152	Robert M. Porter
+2453	1152	Anatoli V. Ledenev
+2454	1152	Gennady G. Gurov
+2455	1153	Brian Iske
+2456	1154	James R. Keene
+2457	1154	Michael L. Jackson
+2458	1155	John Richardson G.
+2459	1155	Reva Nickelson A.
+2460	1155	Paul Sloan A.
+2461	1155	Kevin Kostelnik M.
+2462	1156	James Urban
+2463	1156	Albert L. Key
+2464	1156	Charles Julian Ray
+2465	1156	Charles Graham Ray
+2466	1156	Michael James
+2467	1157	John Cleary P.
+2468	1158	Roger Carson W.
+2469	1158	Bruce Bremer W.
+2470	1158	Michael Mastracci L.
+2471	1158	Kent Maggard E.
+2472	1159	Peter Sanguinetti S.
+2473	1160	Henry Obermeyer K.
+2474	1161	Peter S. Sanguinetti
+2475	1162	Chak Chang Man Thomas
+2476	1163	Iain Muir
+2477	1163	Fiona Elizabeth Barrett
+2478	1164	Kenneth Herzog H.
+2479	1165	John Meyers J.   III
+2480	1165	John Swartz H.
+2481	1165	Nathaniel Kurczewski G.
+2482	1165	Matthew Kurczewski J.
+2483	1166	Jeung Lee Su
+2484	1167	William Carson W
+2485	1167	Charles Dale
+2486	1167	William McClain D
+2487	1167	Robert Ritz
+2488	1167	Charles Swenson
+2489	1168	Jeff Higgins L.
+2490	1169	Robert S. Banks
+2491	1170	Michael Oranski
+2492	1170	Avner Sadot
+2493	1170	Israel Heifetz
+2494	1170	Yoav Dracher
+2495	1171	Jeung Su Lee
+2496	1172	Robert M. Porter
+2497	1172	Gennady G. Gurov
+2498	1172	Anatoli V. Ledenev
+2499	1173	Richard Mildren Treve
+2500	1173	Neville Lange Ernest
+2501	1174	Luca Toncelli
+2502	1175	Iain Muir
+2503	1175	Fiona Barrett Elizabeth
+2504	1176	Sung-Teh Kim
+2505	1176	Masahiro Taoka
+2506	1176	Chieko Yamamoto
+2507	1176	Kunihiko Yamanaka
+2508	1176	Katunori Masaoka
+2509	1177	Daniel Warren
+2510	1178	Joseph Tripodi
+2511	1178	Carl R. Nicolia
+2512	1178	Douglas R. Wroblewski
+2513	1178	Robert J. Burnham
+2514	1179	Stanley Peters R.
+2515	1179	Donald Summers O.
+2516	1180	Fabio Pancaldi
+2517	1180	Vanni Gallocchio
+2518	1181	Peter Sanguinetti S.
+2519	1182	James Urban
+2520	1182	Albert Key L.
+2521	1182	Charles Ray Julian
+2522	1182	Charles Ray Graham
+2523	1182	Michael James
+2524	1183	Ronald Long Bruce
+2525	1184	Peter S. Sanguinetti
+2526	1185	Tony Tadin
+2527	1186	Dusan Ciuha
+2528	1187	Marc Andelman D.
+2529	1187	Gregory Walker S.
+2530	1188	Daniel Warren
+2531	1189	James C. Keck
+2532	1190	Arnold Leiboff R.
+2533	1191	Douglas Thai
+2534	1192	John Meyers lll J.
+2535	1192	John Swartz H.
+2536	1192	Nathaniel Kurczewski G.
+2537	1192	Matthew Kurczewski J.
+2538	1193	Antal Suto Z.
+2539	1193	John Campau A.
+2540	1193	John Campau Daniel
+2541	1193	Donald Reuschel L.
+2542	1193	Robert MacDonald A.
+2543	1194	Robert Porter M.
+2544	1194	Gennady Gurov G.
+2545	1194	Anatoli Ledenev V.
+2546	1195	Peter Burke A.
+2547	1195	Karl Ludwig F.
+2548	1195	Jude Kral A.
+2549	1195	Francis Zelina J.
+2550	1196	Imre Mecs
+2551	1196	Miklos Kalman
+2552	1196	Miklos Hlatki
+2553	1196	Sandor Puskas
+2554	1196	Janos Balazs
+2555	1196	Gyula Lengyel
+2556	1196	Zsolt Virag
+2557	1196	Gyula Kovacs
+2558	1196	Ferenc Horvath
+2559	1196	Imre Samu
+2560	1197	E. H. Kelle Zeiher
+2561	1197	Bosco P. Ho
+2562	1197	John E. Hoots
+2563	1198	Raymond W. Zhang
+2564	1198	Denise D. Craig
+2565	1199	Barry L. Gregerson
+2566	1199	James E. Spitzer
+2567	1200	Buddy Don Gray
+2568	1201	John G. Richardson
+2569	1201	Reva A. Nickelson
+2570	1201	Paul A. Sloan
+2571	1201	Kevin M. Kostelnik
+2572	1202	Carl R. Nicolia
+2573	1202	Joseph  Tripodi
+2574	1202	Douglas R. Wroblewski
+2575	1202	Robert J. Burnham
+2576	1203	Robert M. Porter
+2577	1203	Gennady G. Gurov
+2578	1203	Anatoli V. Ledenev
+2579	1204	Marc Andelman D.
+2580	1204	Gregory Walker S.
+2581	1205	Albert Wokas L.
+2582	1206	Richard A. Gibbs
+2583	1207	Eric  Bornstein
+2584	1208	Troy  Simmons
+2585	1208	Bruce E. Lennick
+2586	1209	Kunio  Miyazaki
+2587	1210	Barry  Johnston
+2588	1211	E. H. Kelle Zeiher
+2589	1211	Bosco P. Ho
+2590	1211	John E. Hoots
+2591	1212	Robert Porter M.
+2592	1212	Gennady Gurov G.
+2593	1212	Anatoli Ledenev V.
+2594	1213	Klaus  Roehm
+2595	1214	Marc D. Andelman
+2596	1214	Gregory S. Walker
+2597	1215	Sang Tae Park
+2598	1215	Sang-Ho  Ahn
+2599	1215	Baik-Soon  Cho
+2600	1216	Helge  Brauer
+2601	1216	Walter  Ehrenberger
+2602	1216	Helmuth  Ender
+2603	1216	Joachim  Noack
+2604	1217	Mark J. Jurich
+2605	1217	Rickey G. Swartz
+2606	1217	Jon R. Reed
+2607	1217	Eric C. Freeman
+2608	1217	Wolfgang  Ott
+2609	1217	Paul H. Appelblom
+2610	1217	Paul A. Jurich
+2611	1218	James C. Keck
+2612	1219	Sidney E. Veazey
+2613	1220	Antal Z. Suto
+2614	1220	John A. Campau
+2615	1220	John Daniel Campau
+2616	1220	Donald L. Reuschel
+2617	1220	Robert A. MacDonald
+2618	1221	Ernest E. Carter JR.
+2619	1222	Gerald M. Clement
+2620	1223	Pierce L. Chandler JR.
+2621	1224	Raymond R. Price
+2622	1225	Zamir  Tribelsky
+2623	1225	Michael  Ende
+2624	1226	Leo J. Yodock JR.
+2625	1226	Leo J. Yodock III
+2626	1226	Guy C. Yodock
+2627	1227	James E. Wood JR.
+2628	1227	John E. Sepich
+2629	1228	Alberto Scuero
+2630	1229	Abdul-Rahman Abdul-Kader M. Faqih
+2631	1230	Alan  Cisar
+2632	1230	Adrian  Denvir
+2633	1230	Dalibor  Hodko
+2634	1230	Kyle  Uselton
+2635	1230	Amanda  Campbell
+2636	1231	Gerald  Tanny
+2637	1231	Peter  Hulley
+2638	1231	Michael Anthony Thomson
+2639	1232	Henry K. Obermeyer
+2640	1232	Robert D. Eckman
+2641	1232	T. W. Mo
+2642	1233	John M. Nestler
+2643	1233	Richard Andrew Goodwin
+2644	1234	Ajit Haridas
+2645	1235	Raphael Heifetz
+2646	1236	Robert M. Porter
+2647	1236	Gennady G. Gurov
+2648	1236	Anatoli V. Ledenev
+2649	1237	Bruce J. French
+2650	1238	James M. Brugger
+2651	1238	Jeffrey H. Burbank
+2652	1238	Dennis M. Treu
+2653	1239	Sidney E. Veazey
+2654	1240	Paul  Sincock
+2655	1240	Andrew Elmhirst Potts
+2656	1241	Robert  Beckius
+2657	1241	Michael R. Powell
+2658	1241	Seung-Ho  Hong
+2659	1241	Charles J. Call
+2660	1241	Ezra  Merrill
+2661	1242	Ajit  Haridas
+2662	1243	Robert S. Banks
+2663	1244	William J. Gannon
+2664	1244	John  Muir
+2665	1244	Glen T. Van Lier
+2666	1245	Rodney W. Tyler
+2667	1246	James M. Brugger
+2668	1246	Jeffrey H. Burbank
+2669	1246	Dennis M. Treu
+2670	1247	Robert M. Porter
+2671	1247	Gennady G. Gurov
+2672	1247	Anatoli V. Ledenev
+2673	1248	James M. Brugger
+2674	1248	Jeffrey H. Burbank
+2675	1248	Dennis M. Treu
+2676	1249	Pamela R. Moore
+2677	1250	Warren Howard Chesner
+2678	1250	James  Melrose
+2679	1251	Duncan  Johnstone
+2680	1252	Veazey; Sidney E.
+2681	1253	John Sydney Cottier
+2682	1253	Greg  Brunton
+2683	1253	Robert  Lyons
+2684	1254	Peter H. Markusch
+2685	1254	Ralf  Guether
+2686	1255	Marc D. Andelman
+2687	1255	Gregory S. Walker
+2688	1256	Lewis D. Rubin JR.
+2689	1257	Randall D. Haggett
+2690	1257	Kenneth J. KarisAllen
+2691	1257	Guerorgui A. Hranov
+2692	1258	Russell Robert Michel JR.
+2693	1259	Jack  Brass
+2694	1259	Jeffrey W. Socket
+2695	1260	Jeffrey H. Burbank
+2696	1260	James M. Brugger
+2697	1260	Dennis M. Treu
+2698	1260	C. David Finch JR.
+2699	1260	Barry N. Fulkerson
+2700	1260	Steven A. White
+2701	1261	Porter; Robert M.
+2702	1261	Gurov; Gennady G.
+2703	1261	Ledenev; Anatoli V.
+2704	1262	Clapp; Daniel C.
+2705	1263	DEBASISH  MUKHOPADHYAY
+2706	1264	Isao  Yukimoto
+2707	1264	Kiyonori  Hasegawa
+2708	1265	Sidney E. Veazey
+2709	1266	Bleth; Joel J.
+2710	1266	Strickland; Edward T.
+2711	1266	Walter; Doug
+2712	1267	Jeffrey H. Burbank
+2713	1267	James M. Brugger
+2714	1267	Dennis M. Treu
+2715	1268	Robert  Charbonneau
+2716	1269	Terry A. Berger
+2717	1269	Kimber D. Fogelman
+2718	1269	L. Thompson Staats
+2719	1269	Mark  Nickerson
+2720	1269	Paul  Bente
+2721	1270	Donald C. Crescenzi
+2722	1270	James J. Burns
+2723	1270	Daniel J. Swistak
+2724	1271	Robert M. Porter
+2725	1271	Gennady G. Gurov
+2726	1271	Anatoli V. Ledenev
+2727	1272	Pamela R. Moore
+2728	1273	Haney; James Allan
+2729	1274	Bruce J.  French
+2730	1275	Jae Seong Rhee
+2731	1275	Min Woo Jung
+2732	1276	Jae Seong Rhee
+2733	1276	Min Woo Jung
+2734	1277	Abdul-Rahman Abdul-Kader M. Faqih
+2735	1278	Ernest E. Carter JR.
+2736	1279	J. Kenneth Wittle
+2737	1279	Richard A. Hamilton
+2738	1279	Charles S. Titus
+2739	1280	Jeffrey H. Burbank
+2740	1280	Charles D. Finch JR.
+2741	1280	James M. Brugger
+2742	1281	Crowley; Sean T.
+2743	1281	Cheney; Gerald L.
+2744	1281	Razu; David S.
+2745	1282	Porter; Robert M.
+2746	1282	Gurov; Gennady G.
+2747	1282	Ledenev; Anatoli V.
+2748	1283	Smith; Lee A.
+2749	1284	Richard P. Carnahan
+2750	1284	Troy W. Kight
+2751	1284	Garrett  Johnson
+2752	1285	Kogure; Naochika
+2753	1285	Kitahama; Takashi
+2754	1285	Nanama; Kiyotaka
+2755	1285	Gokuraku; Hiroyuki
+2756	1286	Samsonov; Nikolai Mikhailovich
+2757	1286	Bobe; Leonid Sergeevich
+2758	1286	Rifert; Vladimir Gustavovich
+2759	1286	Barabash; Petr Alexeevich
+2760	1286	Komolov; Vladimir Viktorovich
+2761	1286	Margulis; Vadim Iliich
+2762	1286	Novikov; Vladimir Mikhailovich
+2763	1286	Pinsky; Boris Yakovlevich
+2764	1286	Protasov; Nikolai Nikolaevich
+2765	1286	Rakov; Valentin Vasilievich
+2766	1286	Farafonov; Nikolai Sergeevich
+2767	1287	Crowley; Dennis E.
+2768	1287	Ritton; Jason
+2769	1288	Scuero; Alberto M.
+2770	1289	Rajewski; Robert Karl
+2771	1290	Gilad  Golub
+2772	1290	Julio  Subovich
+2773	1291	Franciscus, Antonius, Anna, Maria  De Leij
+2774	1291	James  Stratford
+2775	1291	Helen  Sneath
+2776	1291	Tony  Hutchings
+2777	1292	Marcus G.  Theodore
+2778	1293	John R.  Herron
+2779	1293	Upen J.  Bharwada
+2780	1293	Isaac V.  Farr
+2781	1294	Bernard F.  Duesel
+2782	1294	Michael J.  Rutsch
+2783	1295	Jiro  Tonegawa
+2784	1296	David C. Rennard
+2785	1296	Justin D. Pace
+2786	1296	Thomas R. Palmer
+2787	1297	Thomas Van Nooten
+2788	1298	Thomas Van Nooten
+2789	1299	Richard W. Fahs, II
+2790	1299	Matthew D. W. Fahs
+2791	1300	Roger W. Carson
+2792	1300	Bruce W. Bremer
+2793	1300	Michael L. Mastracci
+2794	1300	Kent E. Maggard
+2795	1301	Patrick D. Wade
+2796	1302	Stefan Stamoulis
+2797	1303	Aaron D. Wilson
+2798	1303	Frederick F. Stewart
+2799	1303	Mark L. Stone
+2800	1304	Bernard F. Duesel, Jr.
+2801	1304	Michael J. Rutsch
+2802	1305	Nazli Yesiller
+2803	1305	James Lewis Hanson
+2804	1306	Richard W. Fahs, II
+2805	1306	Matthew D.W. Fahs
+2806	1307	James Penner
+2807	1308	Marcus G. Theodore
+2808	1309	Richard W. Fahs, II
+2809	1309	Matthew D. W. Fahs
+2810	1310	Colin Gavin Edward Webb
+2811	1311	Daekyoo Hwang
+2812	1312	Philip D. Leveson
+2813	1312	John P. Gaus
+2814	1313	Wayne W. Simmons
+2815	1313	Robert Dwayne Litt
+2816	1313	Anna Lee Tonkovich
+2817	1313	Laura J. Silva
+2818	1313	Daniel Francis Ryan
+2819	1313	Bruce Stangeland
+2820	1313	John Brophy
+2821	1313	Jeffrey S. McDaniel
+2822	1314	Zhiping Kuang
+2823	1314	Bin Lu
+2824	1314	Wei Xiong
+2825	1315	Guy Adelle Pinson
+2826	1315	Barbara Pinson
+2827	1316	Stephen C. Kurtzman
+2828	1317	Richard Lee Aho
+2829	1318	Yuri KOLODNY
+2830	1319	Grant Lloyd Lacey
+2831	1320	Marcus G. Theodore
+2832	1321	Justin Cannock
+2833	1322	Richard W. Fahs, II
+2834	1322	Matthew D.W. Fahs
+2835	1323	Stefan STAMOULIS
+2836	1324	Jiro TONEGAWA
+2837	1325	Bert ZAUDERER
+2838	1326	Terry Gong
+2839	1326	John Harmon
+2840	1326	Marcus G. Theodore
+2841	1327	Marcus G. Theodore
+2842	1328	Bernard F. Duesel, Jr.
+2843	1328	Michael J. Rutsch
+2844	1328	Craig Clerkin
+2845	1329	Bernard F. Duesel, JR.
+2846	1329	Michael J. Rutsch
+2847	1329	Craig Clerkin
+2848	1330	Dennis G. GRUBB
+2849	1330	Mahmoud Wazne
+2850	1331	Stefan Stamoulis
+2851	1332	Ayala Barak
+2852	1333	Huansheng Zhong
+2853	1333	Lei Li
+2854	1333	Jiacong Wu
+2855	1333	Xuewei Wu
+2856	1333	Zhimin Sun
+2857	1333	Haiying Yang
+2858	1334	Brian J. Cantwell
+2859	1334	Craig S. Criddle
+2860	1334	Kevin Lohner
+2861	1334	Yaniv D. Scherson
+2862	1334	George F. Wells
+2863	1334	Bernard H. Johnson, IV
+2864	1334	Koshlan Mayer-Blackwell
+2865	1334	Xing Xie
+2866	1335	Hung-Suck Park
+2867	1335	Jung-Hoon Kim
+2868	1335	Jae-Won Lee
+2869	1335	Won-Sik Lee
+2870	1335	Yong-Seok Park
+2871	1336	Stefan Stamoulis
+2872	1337	Terry Gong
+2873	1337	John Harmon
+2874	1337	Marcus G. Theodore
+2875	1338	Hiroyasu Nagase
+2876	1338	Kazuhisa Miyamoto
+2877	1338	Kazumasa Hirata
+2878	1338	Hiroshi Saito
+2879	1339	Emmett M. Walker
+2880	1340	Tony Richard Hutchings
+2881	1340	Franciscus Antonius Anna Maria de Leij
+2882	1340	Jeremy Richard Wingate
+2883	1341	Ronald D. Barbaro
+2884	1341	Ronald E. McIlwain
+2885	1341	David Muyan
+2886	1341	Edward A. Weinberg
+2887	1342	Refael Aharon
+2888	1342	Israel Biran
+2889	1342	Ronny Banker
+2890	1343	Denyse Claire DuBrucq
+2891	1344	Boris Mikhail Khudenko
+2892	1345	Xu Fei Wu
+2893	1346	Reinhold Klipper
+2894	1346	Michael Schelhaas
+2895	1346	Stefan Neumann
+2896	1346	Jens Stoll
+2897	1347	Shinichi Nakamura
+2898	1347	Kunihiko Fukuzuka
+2899	1348	Brett RENAUD
+2900	1348	Scott Renaud
+2901	1349	Frances Irene Parrott
+2902	1350	Martin P. Wanielista
+2903	1350	Ni-Bin Chang
+2904	1350	Ammarin Makkeasorn
+2905	1351	Grant Lloyd Lacey
+2906	1352	John Stark
+2907	1353	Angus Peter Robson
+2908	1354	Samuel Martin
+2909	1354	Adriana Gonzalez Ospina
+2910	1355	Jesus CACHO
+2911	1355	Olivier CAUDART
+2912	1355	Thomas LAGIER
+2913	1355	Pascal PESLERBE
+2914	1355	Vassilia VIGNERON
+2915	1356	Giuseppina CEREA
+2916	1357	Wayne W. Simmons
+2917	1357	Robert Dwayne Litt
+2918	1357	Anna Lee Tonkovich
+2919	1357	Laura J. Silva
+2920	1357	Daniel Francis Ryan
+2921	1357	Bruce Stangeland
+2922	1357	John Brophy
+2923	1357	Jeffrey S. McDaniel
+2924	1358	Michael Caldwell
+2925	1359	Rodrigo Andres Geraldo SEURA
+2926	1360	Milind V. Khire
+2927	1361	Robert Maurice Charles Patterson
+2928	1362	Lee L. Shafer
+2929	1362	John W. James
+2930	1362	Richard D. Rath
+2931	1362	Jesse Eubank
+2932	1363	Zhi Min Liao
+2933	1363	Jing Kui Guo
+2934	1363	Yu He Huang
+2935	1363	Jing Zou
+2936	1363	Zhi Qiang Chen
+2937	1363	Rui Zhi Dai
+2938	1363	Wen Yan Shi
+2939	1363	Jian Zhong Xiong
+2940	1363	Hai Ying Ji
+2941	1364	Qingmei LI
+2942	1365	Dale M. Timmons
+2943	1366	Samantha Champ
+2944	1366	Mariola Wanior
+2945	1366	Andreas Reifschneider
+2946	1367	Russell A. Firestone
+2947	1367	James R. Harkess
+2948	1367	William S. Langhorne
+2949	1367	Nord S. Sorensen
+2950	1368	Marcus G. Theodore
+2951	1369	Jost-Ulrich Kugler
+2952	1369	Peter Belouschek
+2953	1369	Katja Kugler
+2954	1370	Gabriel Popa
+2955	1370	Jean Suidureau
+2956	1370	Petra Johannsen
+2957	1370	Georg Reinhold
+2958	1371	Reinhold Klipper
+2959	1371	Michael Schelhaas
+2960	1371	Stefan Neumann
+2961	1371	Jens Stoll
+2962	1372	Volker A. Hausin
+2963	1372	Eddie L. Cheatham
+2964	1372	David A. Wilson
+2965	1373	Marcus G. Theodore
+2966	1374	Samuel Martin
+2967	1374	Adriana Gonzalez Ospina
+2968	1375	Joe P. McCarty
+2969	1375	Daniel M. St. Louis
+2970	1376	Michael Caldwell
+2971	1377	Kevin McPhillips
+2972	1378	Bernard. F. Duesel
+2973	1378	Michael J. Rutsch
+2974	1379	Thomas Alan Benjamin
+2975	1379	Craig Jay Jones
+2976	1379	Luther Alba Brice
+2977	1380	Xu Fei WU
+2978	1381	Andrew Eric Day
+2979	1382	Milind V. Khire
+2980	1383	James D. Mavis
+2981	1384	John Charles Matthews
+2982	1385	John Charles Matthews
+2983	1386	Ronald Wilen
+2984	1386	Kenneth R. Cioletti
+2985	1386	Matthew Cioletti
+2986	1387	Zhimin LIAO
+2987	1387	Rong LI
+2988	1387	Jijun WU
+2989	1387	Jingkui GUO
+2990	1387	Mao YANG
+2991	1387	Yuhe HUANG
+2992	1387	Aiguo WAN
+2993	1388	Lee L. Shafer
+2994	1388	John W. James
+2995	1388	Richard D. Rath
+2996	1388	Jesse Eubank
+2997	1389	Ulrich Reimann-Philipp
+2998	1390	Cesar Ladron de Guevara
+2999	1390	Luther Freeman
+3000	1391	Thomas Alan Benjamin
+3001	1391	Craig Jay Jones
+3002	1391	Luther Alba Brice
+3003	1392	Albert Allen Klyne
+3004	1393	Jason Duhe
+3005	1393	James Gharst
+3006	1393	Kelvin Simon
+3007	1393	Stella Simon
+3008	1393	Paul Delahoussaye
+3009	1394	Regis Renaud P.
+3010	1395	Ian Procter
+3011	1395	Sabine Azouani Isabelle
+3012	1395	Rolf Haubrichs
+3013	1396	Peter Riley
+3014	1397	Alexander Ivanovich Shulgin
+3015	1397	Anton Alexandrovich Shulgin
+3016	1398	Don Churchill Augenstein
+3017	1398	John Rudiger Benemann
+3018	1398	Ramin Yazdani
+3019	1399	Thomas Benjamin Alan
+3020	1399	Craig Jones Jay
+3021	1399	Luther Brice Alba
+3022	1400	Gabriel POPA
+3023	1400	Jean SUIDUREAU
+3024	1400	Petra JOHANSSEN
+3025	1400	Georg REINHOLD
+3026	1401	Joseph Wilson H.
+3027	1401	Gordon Kaye I.
+3028	1401	Robert Hahn L.
+3029	1401	Peter Weber B.
+3030	1401	Kevin Morris A.
+3031	1402	Hannu Suominen L.
+3032	1403	Norio Nagao
+3033	1403	Tatsushi Matsuyama
+3034	1403	Tatsuki Toda
+3035	1404	Zhi Min LIAO
+3036	1404	Jing Kui GUO
+3037	1404	Yu He HUANG
+3038	1404	Jing ZOU
+3039	1404	Zhi Qiang CHEN
+3040	1404	Rui Zhi DAI
+3041	1404	Wen Yan SHI
+3042	1404	Jian Zhong XIONG
+3043	1404	Hai Ying JI
+3044	1405	Yoshiaki Yokoyama
+3045	1405	Tooru Kodama
+3046	1405	Yasuo Mishima
+3047	1405	Katuo Takamiya
+3048	1406	Curt A. Christeson
+3049	1407	David Owen Malcolm
+3050	1408	Joseph Wilson H.
+3051	1408	Gordon Kaye I.
+3052	1408	Robert Hahn L.
+3053	1408	Peter Weber B.
+3054	1408	Kevin Morris A.
+3055	1409	John Stark
+3056	1410	Gordon Kaye I.
+3057	1410	Peter Weber B.
+3058	1410	Kevin Morris A.
+3059	1410	Joseph Wilson H.
+3060	1410	Robert Hahn L.
+3061	1411	Albert Klyne Allen
+3062	1412	Ayala Barak
+3063	1413	Roger Carson W.
+3064	1413	Bruce Bremer W.
+3065	1413	Michael Mastracci L.
+3066	1413	Kent Maggard E.
+3067	1414	Roman Bilak
+3068	1415	Thomas Benjamin Alan
+3069	1415	Craig Jones Jay
+3070	1415	Luther Brice Alba
+3071	1416	Jason Duhe
+3072	1416	James Gharst
+3073	1416	Kelvin Simon
+3074	1416	Stella Simon
+3075	1416	Paul Delahoussaye
+3076	1417	Randal Myers B.
+3077	1418	Curt Christeson A.
+3078	1419	Lawrence Conaway M.
+3079	1419	Michael Keller Ray
+3080	1419	Roger Noble Ken
+3081	1419	David Caffey
+3082	1420	Peter Rosen L.
+3083	1420	Robert Hodges D.
+3084	1421	Armen Abazajian N.
+3085	1422	Alexander Shulgin Ivanovich
+3086	1422	Anton Shulgin Alexandrovich
+3087	1423	Marcus Theodore G.
+3088	1424	Don Augenstein Churchill
+3089	1424	John Benemann Rudiger
+3090	1424	Ramin Yazdani
+3091	1425	Milind V. Khire
+3092	1426	Kenneth S. Price
+3093	1426	Joe Kurek
+3094	1426	Kurt Whitfield
+3095	1426	Herbert I. Wissel
+3096	1427	Jung Kim Yong
+3097	1428	Peter Ianniello J.
+3098	1428	Mark Topp
+3099	1428	Tracy Johnson R.
+3100	1429	Roy E. McAlister
+3101	1430	Boris Khudenko Mikhailovich
+3102	1431	Sung-Teh Kim
+3103	1431	Masahiro Taoka
+3104	1431	Chieko Yamamoto
+3105	1431	Kunihiko Yamanaka
+3106	1431	Katunori Masaoka
+3107	1432	Mohan Singh Saran
+3108	1432	George Walter Luxbacher
+3109	1433	Ray Coffey Stratton   JR.
+3110	1434	Russell Firestone A.   III
+3111	1434	James Harkess R.
+3112	1434	William Langhorne S.
+3113	1434	Nord Sorensen
+3114	1435	Dennis Kunerth C.
+3115	1435	John Svoboda M.
+3116	1435	James Johnson T.
+3117	1436	Keith Forrester Edward
+3118	1437	Keith Forrester Edward
+3119	1438	Geom Lee Yong
+3120	1438	Young Cho Lae
+3121	1438	Chang Yang Ryung
+3122	1438	Dong Lee Hoon
+3123	1438	Young Won Mi
+3124	1438	Young Lee Joon
+3125	1438	Yeon Park Jae
+3126	1439	Peter Ianniello J.
+3127	1439	Aigen Zhao
+3128	1439	Gary Shaffer L.
+3129	1440	Charles Dale A.
+3130	1441	Wolfgang Podszun
+3131	1441	Andreas Schlegel
+3132	1441	Reinhold Klipper
+3133	1441	Rudiger Seidel
+3134	1441	Udo Herrmann
+3135	1442	Richard Takeuchi T.
+3136	1442	Robert Nakamura M.
+3137	1443	Robert Merton Satchwell
+3138	1443	Roderick Michael Facey
+3139	1444	Imre Mecs
+3140	1444	Miklos Kalman
+3141	1444	Miklos Hlatki
+3142	1444	Sandor Puskas
+3143	1444	Janos Balazs
+3144	1444	Gyula Lengyel
+3145	1444	Zsolt Virag
+3146	1444	Gyula Kovacs
+3147	1444	Ferenc Horvath
+3148	1444	Imre Samu
+3149	1445	Andrew Wells Phelps
+3150	1445	Jeffrey Allen Sturgill
+3151	1445	Joseph Thomas Swartzbaugh
+3152	1446	Peter  Thomas
+3153	1447	Mohan Singh Saran
+3154	1447	George Walter Luxbacher
+3155	1448	Lawrence  Conaway
+3156	1448	Michael R. Keller
+3157	1448	Roger K. Noble
+3158	1449	Peter Riley
+3159	1450	Chen-Yu Yen
+3160	1451	Jurgen Kanitz
+3161	1451	Jurgen Forsting
+3162	1452	Jim  Moutray
+3163	1452	Paul Joe  Solar
+3164	1453	Paul A. Kittle
+3165	1454	Shawn R. Taylor
+3166	1454	Gintautas Antanas Kamaitis
+3167	1455	Hans-Jorg  Bonath
+3168	1455	Georg  Bombeck
+3169	1456	Lawrence  Conaway
+3170	1456	Michael R. Keller
+3171	1456	Roger K. Noble
+3172	1457	Dan L. Wensel
+3173	1458	Kenji  Suzuki
+3174	1458	Kisaku  Tomaru
+3175	1459	Dave  Van Vliet
+3176	1459	Herbert Wallace Campbell
+3177	1459	Stephen Barrie Chambers
+3178	1460	Joseph H. Wilson
+3179	1460	Gordon I. Kaye
+3180	1460	Robert L. Hahn
+3181	1460	Peter B. Weber
+3182	1460	Kevin A. Morris
+3183	1461	Clifford J. Arnett
+3184	1461	Joseph B. Farrell
+3185	1461	Daniel T. Hull III
+3186	1461	Steven J. Krugel
+3187	1461	Perry L. Schafer
+3188	1461	Billy G. Turner
+3189	1461	Warren R. Uhte
+3190	1461	John L. Willis
+3191	1462	Robert Merton Satchwell
+3192	1462	Roderick Michael Facey
+3193	1463	Peter L. Rosen
+3194	1463	Robert D. Hodges
+3195	1464	Peter L. Rosen
+3196	1464	Robert D. Hodges
+3197	1465	Alan Brian Cash
+3198	1466	Blaine F. Severin
+3199	1467	Felix Anthony Perriello
+3200	1468	Peter J. Ianniello
+3201	1468	Mark  Topp
+3202	1468	Tracy R. Johnson
+3203	1469	Peter J. Ianniello
+3204	1469	Mark  Topp
+3205	1469	Tracy R. Johnson
+3206	1470	Kenneth S. Price
+3207	1470	Joe  Kurek
+3208	1470	Kurt  Whitfield
+3209	1470	Herbert I. Wissel
+3210	1471	Andrew Wells Phelps
+3211	1471	Jeffrey Allen Sturgill
+3212	1471	Joseph Thomas Swartzbaugh
+3213	1472	Peter L. Rosen
+3214	1472	Robert  Hodges
+3215	1473	Gordon  Layton
+3216	1473	Dale  Courtney
+3217	1473	Matthew C. Smith
+3218	1473	William H. Johnson
+3219	1474	Scott D. Wallace
+3220	1475	Shinichi  Nakamura
+3221	1475	Kunihiko  Fukuzuka
+3222	1476	Jung Yong Kim
+3223	1477	Chen-Yu  Yen
+3224	1478	Roy E. McAlister
+3225	1479	Peter J. Ianniello
+3226	1479	Mark  Topp
+3227	1479	Tracy R. Johnson
+3228	1480	Michael P. McGinness
+3229	1481	Joseph H. Wilson
+3230	1481	Gordon I. Kaye
+3231	1481	Robert L. Hahn
+3232	1481	Peter B. Weber
+3233	1481	Kevin A. Morris
+3234	1482	Billy J. Hatcher
+3235	1483	Young Sik Kim
+3236	1483	Han Yong Jeon
+3237	1484	Gursel G. Yilmaz
+3238	1485	Owen P. Ward
+3239	1485	Henry  Burd
+3240	1486	Jerry M. Brown
+3241	1487	Layton; Gordon
+3242	1487	Courtney; Dale
+3243	1487	Smith; Matthew C.
+3244	1487	Johnson; William H.
+3245	1488	Robert W. Bartlett
+3246	1489	Warren Howard Chesner
+3247	1489	James  Melrose
+3248	1490	Warren Howard Chesner
+3249	1490	James  Melrose
+3250	1491	Richard G. Sheets
+3251	1492	Shi; Caijun
+3252	1493	Peter  Riley
+3253	1494	Al-Samadi; Riad A.
+3254	1495	Chang; Larry
+3255	1496	Steven  Catanla
+3256	1496	Neil  Mansuy
+3257	1497	Lena Q. Ma
+3258	1497	Ken M. Komar
+3259	1497	Elizabeth D. Kennelley
+3260	1498	Amer; Sultan I.
+3261	1499	Scott D. Wallace
+3262	1500	Jae Seong Rhee
+3263	1500	Min Woo Jung
+3264	1501	Ryan D. McMurtrey
+3265	1501	Daniel M. Ginosar
+3266	1501	Kenneth S. Moor
+3267	1501	G. Michael Shook
+3268	1501	Donna L. Barker
+3269	1502	Tommy G. Taylor
+3270	1503	Lawrence M. Conaway
+3271	1503	Roger  Noble
+3272	1503	Michael  Keller
+3273	1503	David  Caffey
+3274	1504	Lawrence M. Conaway
+3275	1505	Sultan I. Amer
+3276	1506	Robin  Millard
+3277	1506	Frederick H. Kurtz
+3278	1507	Eighmy; T. Taylor
+3279	1508	Ronald L. Brookshire
+3280	1508	Donald  Brookshire
+3281	1508	Travis  Brookshire
+3282	1508	Seyed Mohammed Reza Kalantar-Nejad
+3283	1508	James Joseph Beach
+3284	1509	Lahoda; Edward J.
+3285	1509	Ha; Khoa T.
+3286	1510	Conca; James L.
+3287	1510	Wright; Judith
+3288	1511	Lorraine; Segala
+3289	1511	Long; David
+3290	1512	Coombs; Harvey W.
+3291	1512	Pearson; Ron D.
+3292	1513	Bailey; Elena
+3293	1514	Fred  Giovannitti
+3294	1514	Ashley  Day
+3295	1515	Kal K.  Lambert
+3296	1516	Boris  Feldman
+3297	1516	Michael  Feldman
+3298	1517	Kei-Chien  Yu
+3299	1518	Dana R.  Allen
+3300	1519	Ross O.  Youngs
+3301	1519	James R.  Cook
+3302	1519	Shanon I.  Rogers
+3303	1520	Kal Karel  Lambert
+3304	1521	Jerry M. Edmondson
+3305	1522	Stephan Vincent Kroecker
+3306	1523	Aidong Li
+3307	1523	Hongyan Ding
+3308	1523	Xuanxu Huang
+3309	1524	Norma A. Alcantar
+3310	1524	Dawn I. Fox
+3311	1524	Sylvia Thomas
+3312	1525	Fred Giovannitti
+3313	1525	Ashley Day
+3314	1526	Derek Andrew Lowe
+3315	1527	Peter R. O'Regan
+3316	1527	Ali Amer Almohsen
+3317	1528	Takaki Yukimoto
+3318	1528	Yasuhiro Kaneko
+3319	1528	Seishi Tokunaga
+3320	1528	Hirokazu Nishimura
+3321	1528	Tatsuru Tabohashi
+3322	1528	Masaki Kobayashi
+3323	1528	Kazuhiro sato
+3324	1528	Chizuru Tara
+3325	1529	Randall M. Golden
+3326	1529	Horace Hartwell Golden
+3327	1529	Diana Gail Golden
+3328	1529	Murray Mack Golden
+3329	1529	Kimberly Dawn Golden
+3330	1529	Amber Mae Golden-Sawyer
+3331	1530	William Teppig, JR.
+3332	1530	James Whang
+3333	1531	Luis Rafael TORRES
+3334	1532	John Eirik Paulsen
+3335	1533	Atle Mundheim Ylikangas
+3336	1534	Sky Bleu Martin
+3337	1535	Sky Bleu Martin
+3338	1536	Kei-Chien Yu
+3339	1537	Kal K Lambert
+3340	1538	Ronald de Strulle
+3341	1539	Mohammad Rassa
+3342	1539	Firouz Bidabad
+3343	1540	Samuel Douglas Borries
+3344	1541	Svein Ellingsrud
+3345	1541	Audun Sodal
+3346	1541	Hans Rechsteiner
+3347	1541	Harald Justnes
+3348	1541	Kare Ingvar Johansen
+3349	1542	Ashley Day
+3350	1542	Fred Giovannitti
+3351	1543	James M. Cobb
+3352	1544	Jiro TONEGAWA
+3353	1545	James Edward Delves
+3354	1545	David John Parkinson
+3355	1546	Timothy Christian Crouse
+3356	1547	Sky Bleu Martin
+3357	1548	Ronald de Strulle
+3358	1549	Matthew D. Campbell
+3359	1549	Steven G. Hall
+3360	1549	Robert L. Beine
+3361	1550	Odd Bernhard Torkildsen
+3362	1551	Anthony LaCivita
+3363	1552	Michel Baylot
+3364	1552	Marc Bonnissel
+3365	1552	Xavier Rocher
+3366	1553	Pierre Carabin
+3367	1553	Michel G. Drouet
+3368	1554	Ronald De Strulle
+3369	1555	Ronald Molz
+3370	1555	James Frank Leach
+3371	1555	Christopher Wasserman
+3372	1556	Anthony B. Brennan
+3373	1556	Christopher James Long
+3374	1556	Joseph W. Bagan
+3375	1556	James Frederick Schumacher
+3376	1556	Mark M. Spiecker
+3377	1557	James Clifford LEWIS
+3378	1558	Gregory B. Burkhardt
+3379	1559	Jose Alberto Ochoa Disselkoen
+3380	1560	Paul Arthur Clukies
+3381	1561	James M. Cobb
+3382	1562	Ali G. Kadaster
+3383	1562	Keith K. Millheim
+3384	1563	Simon Myungkil Kim
+3385	1564	Alexia Aubault
+3386	1564	Dominique Roddier
+3387	1564	Christian Cermelli
+3388	1565	Odd Bernhard Torkildsen
+3389	1566	Ronald de Strulle
+3390	1567	Ronald de Strulle
+3391	1568	Ronald de Strulle
+3392	1569	Thomas A. Ward
+3393	1569	Kai Stuart Martin
+3394	1570	Mark C. Lathem
+3395	1571	Ronald de Strulle
+3396	1572	Stephen Groves
+3397	1572	David Price
+3398	1572	Gavin Sneddon
+3399	1573	Stewart Hardison
+3400	1574	Keiichiro Oishi
+3401	1575	Ronald de Strulle
+3402	1576	Ronald de Strulle
+3403	1577	Ronald de Strulle
+3404	1578	Ronald de Strulle
+3405	1579	Ronald de Strulle
+3406	1580	Ronald de Strulle
+3407	1581	Michael Joseph Morrison
+3408	1581	Axel Guenther Andre
+3409	1582	John E. Irvine
+3410	1582	Steven E. Hargrave
+3411	1583	Tomas Crespo, SR.
+3412	1584	Flavio Nogueira Pinheiro de Andrade
+3413	1585	Bruce A. Angel
+3414	1585	Glenn Lyle Spain
+3415	1585	Kurt Bergstrom
+3416	1585	Scott Wildermuth
+3417	1586	Leon Edward Campbell
+3418	1587	RONALD DE STRULLE
+3419	1588	Ronald de Strulle
+3420	1589	Ronald De Strulle
+3421	1590	Ronald De Strulle
+3422	1591	Ronald de Strulle
+3423	1592	Ronald de Strulle
+3424	1593	Ronald De Strulle
+3425	1594	Ronald de Strulle
+3426	1595	Svein Ellingsrud
+3427	1595	Audun Sodal
+3428	1595	Hans Rechsteiner
+3429	1595	Harald Justnes
+3430	1595	Kare Ingvar Johansen
+3431	1596	Simon Myungkil Kim
+3432	1597	Gunnar Baerheim
+3433	1597	Stein Foss
+3434	1597	Kjell Varenhed
+3435	1597	Aage Bjorn Andersen
+3436	1598	Clifford H. Ray
+3437	1598	Glenn D. Fisseler
+3438	1598	James N. Thompson
+3439	1598	Hal B. Haygood
+3440	1599	Richard A. Altman
+3441	1599	Michael D. Brown
+3442	1599	Peter W. Nimmo
+3443	1600	John C. BAYER
+3444	1600	Thomas C. Gandolfo
+3445	1601	Klaus Dieter Sakrowski
+3446	1602	Paul Arthur Clukies
+3447	1603	Jae Myung Han
+3448	1604	Virendra J. Mehta
+3449	1605	Francesco Sposito
+3450	1606	Kenneth Merle Weldon
+3451	1607	Rae Son Sung
+3452	1608	Bjarne Olsen
+3453	1608	Petter Grinde
+3454	1608	Tron Dahl
+3455	1608	Ola Often
+3456	1609	Michel Baylot
+3457	1610	Victor Corpus Navarro
+3458	1611	Victor Corpus
+3459	1612	Ronald Terrel L.
+3460	1612	Karl Yost
+3461	1612	Gale Schwiesow
+3462	1613	Andrew W. Gordon
+3463	1613	Charles R. Cushing
+3464	1614	Torfinn Johnsen
+3465	1615	Jae-Wook Park
+3466	1616	Arun Wagh
+3467	1616	Martin Maloney D.
+3468	1617	Anthony F. Frantz
+3469	1618	James Delves Edward
+3470	1618	David Parkinson John
+3471	1619	Ali Kadaster G.
+3472	1619	Keith Millheim K.
+3473	1620	Alexander Pivovarov
+3474	1621	Thierry Thomazeau
+3475	1622	David McConchie
+3476	1622	Malcolm Clark William
+3477	1622	Fiona Gaye Davies-McConchie
+3478	1622	Thomas Ryffel Hans
+3479	1623	Noam Zeichner
+3480	1623	Omri Ben-Eliahu
+3481	1624	Kuen Choi Ho
+3482	1625	Paul Clukies Arthur
+3483	1626	Kimberly Michelle Sutter
+3484	1627	Joseph Mayers
+3485	1628	Theodore Skrypek G.
+3486	1628	Daniel Buonagurio P.
+3487	1629	Rodrigo Ferreira Carvalho
+3488	1630	Kimberly Sutter Michelle
+3489	1631	Keith Forrester Edward
+3490	1632	Andrew Gordon W.
+3491	1632	Charles Cushing R.
+3492	1633	Richard Walker C.
+3493	1634	Masaaki Oya
+3494	1634	Naoya Nakamura
+3495	1634	Makoto Tsuboi
+3496	1635	Alexander Pivovarov
+3497	1636	Thomas Lang G.
+3498	1636	James Lang T.
+3499	1637	Paul Brunning J
+3500	1637	David McKay G.F.
+3501	1638	Frederick Growcock
+3502	1638	G. Curtis Wray
+3503	1638	John Candler
+3504	1638	Stephen Rabke
+3505	1638	Sonya Ross
+3506	1638	Jonathan Getliff
+3507	1638	Greg McEwan
+3508	1639	Enrique Kilayko L.
+3509	1639	Liam Ryan A.
+3510	1640	Christian Rode Stig
+3511	1641	Erich Kumpf
+3512	1642	Alexander Pivovarov R.
+3513	1643	Mindong  Bai
+3514	1643	Xiyao  Bai
+3515	1643	Xiaojian  Zhou
+3516	1643	Zhitao  Zhang
+3517	1643	Mindi  Bai
+3518	1643	Bo  Yang
+3519	1643	Chengwu  Yi
+3520	1644	Peter  Thomas
+3521	1645	Anthony F. Frantz
+3522	1646	Paul  Clukies
+3523	1647	Karl L. Aschenbach
+3524	1648	Brian Snowdon
+3525	1649	Garry Kevin Callinan
+3526	1649	Peter Chapman
+3527	1650	Kolodny  Yuri
+3528	1650	Kreisel  Itay
+3529	1651	Toru Hasegawa
+3530	1651	Yusuke Funayose
+3531	1651	Tomohiko Yashiro
+3532	1652	Peter W. Smith
+3533	1653	Gregory James Carter
+3534	1654	Masaaki  Oya
+3535	1654	Naoya  Nakamura
+3536	1654	Makoto  Tsuboi
+3537	1655	Gerard Lynch
+3538	1656	James A. Manthei
+3539	1657	Garry Kevin Callinan
+3540	1657	Peter  Chapman
+3541	1658	Christopher Louis Beato
+3542	1658	Joop Roodenburg
+3543	1659	Wei-Guo  Wu
+3544	1660	Thomas E. Mallouk
+3545	1660	Bettina  Schrick
+3546	1660	Jennifer L. Blough
+3547	1661	Garry Kevin Callinan
+3548	1661	Peter Chapman
+3549	1662	Toru  Hasegawa
+3550	1662	Yusuke  Funayose
+3551	1662	Tomohiko  Yashiro
+3552	1663	Chandralatha  Raghukimar
+3553	1663	M.S.  Shailaja
+3554	1663	Shilpa  Kamat
+3555	1664	Christopher Louis Beato
+3556	1664	Joop  Roodenburg
+3557	1665	Russell Robert Michel JR.
+3558	1666	Gerard  Lynch
+3559	1667	Chandralata  Raghukumar
+3560	1667	Trevor M. D'Souza
+3561	1667	R. Greg Thorn
+3562	1667	C. A. Reddy
+3563	1668	Warren Howard Chesner
+3564	1668	James  Melrose
+3565	1669	Warren Howard Chesner
+3566	1669	James  Melrose
+3567	1670	Bo-Young  Lee
+3568	1671	Hudson; Jeffrey T.
+3569	1671	Ohrdorf; Neil
+3570	1672	Gentry; David W.
+3571	1673	Kimo Kalani Zaiger
+3572	1674	Warren Howard Chesner
+3573	1674	James  Melrose
+3574	1675	Myng-Sup  Rhee
+3575	1676	Eighmy; T. Taylor
+3576	1677	Babin; Hugh D.
+3577	1677	Domangue; Albert J.
+3578	1678	Achord; Cecil L.
+3579	1679	Irvine; John E.
+3580	1679	Yeosock; John J.
+3581	1680	Levine; Robert A.
+3582	1681	Gilad  Golub
+3583	1681	Julio  Subovich
+3584	1682	Franciscus, Antonius, Anna, Maria  De Leij
+3585	1682	James  Stratford
+3586	1682	Helen  Sneath
+3587	1682	Tony  Hutchings
+3588	1683	Marcus G.  Theodore
+3589	1684	John R.  Herron
+3590	1684	Upen J.  Bharwada
+3591	1684	Isaac V.  Farr
+3592	1685	Bernard F.  Duesel
+3593	1685	Michael J.  Rutsch
+3594	1686	Jiro  Tonegawa
+3595	1687	David C. Rennard
+3596	1687	Justin D. Pace
+3597	1687	Thomas R. Palmer
+3598	1688	Thomas Van Nooten
+3599	1689	Thomas Van Nooten
+3600	1690	Richard W. Fahs, II
+3601	1690	Matthew D. W. Fahs
+3602	1691	Roger W. Carson
+3603	1691	Bruce W. Bremer
+3604	1691	Michael L. Mastracci
+3605	1691	Kent E. Maggard
+3606	1692	Patrick D. Wade
+3607	1693	Stefan Stamoulis
+3608	1694	Aaron D. Wilson
+3609	1694	Frederick F. Stewart
+3610	1694	Mark L. Stone
+3611	1695	Bernard F. Duesel, Jr.
+3612	1695	Michael J. Rutsch
+3613	1696	Nazli Yesiller
+3614	1696	James Lewis Hanson
+3615	1697	Richard W. Fahs, II
+3616	1697	Matthew D.W. Fahs
+3617	1698	James Penner
+3618	1699	Marcus G. Theodore
+3619	1700	Richard W. Fahs, II
+3620	1700	Matthew D. W. Fahs
+3621	1701	Colin Gavin Edward Webb
+3622	1702	Daekyoo Hwang
+3623	1703	Philip D. Leveson
+3624	1703	John P. Gaus
+3625	1704	Wayne W. Simmons
+3626	1704	Robert Dwayne Litt
+3627	1704	Anna Lee Tonkovich
+3628	1704	Laura J. Silva
+3629	1704	Daniel Francis Ryan
+3630	1704	Bruce Stangeland
+3631	1704	John Brophy
+3632	1704	Jeffrey S. McDaniel
+3633	1705	Zhiping Kuang
+3634	1705	Bin Lu
+3635	1705	Wei Xiong
+3636	1706	Guy Adelle Pinson
+3637	1706	Barbara Pinson
+3638	1707	Stephen C. Kurtzman
+3639	1708	Richard Lee Aho
+3640	1709	Yuri KOLODNY
+3641	1710	Grant Lloyd Lacey
+3642	1711	Marcus G. Theodore
+3643	1712	Justin Cannock
+3644	1713	Richard W. Fahs, II
+3645	1713	Matthew D.W. Fahs
+3646	1714	Stefan STAMOULIS
+3647	1715	Jiro TONEGAWA
+3648	1716	Bert ZAUDERER
+3649	1717	Terry Gong
+3650	1717	John Harmon
+3651	1717	Marcus G. Theodore
+3652	1718	Marcus G. Theodore
+3653	1719	Bernard F. Duesel, Jr.
+3654	1719	Michael J. Rutsch
+3655	1719	Craig Clerkin
+3656	1720	Bernard F. Duesel, JR.
+3657	1720	Michael J. Rutsch
+3658	1720	Craig Clerkin
+3659	1721	Dennis G. GRUBB
+3660	1721	Mahmoud Wazne
+3661	1722	Stefan Stamoulis
+3662	1723	Ayala Barak
+3663	1724	Huansheng Zhong
+3664	1724	Lei Li
+3665	1724	Jiacong Wu
+3666	1724	Xuewei Wu
+3667	1724	Zhimin Sun
+3668	1724	Haiying Yang
+3669	1725	Brian J. Cantwell
+3670	1725	Craig S. Criddle
+3671	1725	Kevin Lohner
+3672	1725	Yaniv D. Scherson
+3673	1725	George F. Wells
+3674	1725	Bernard H. Johnson, IV
+3675	1725	Koshlan Mayer-Blackwell
+3676	1725	Xing Xie
+3677	1726	Hung-Suck Park
+3678	1726	Jung-Hoon Kim
+3679	1726	Jae-Won Lee
+3680	1726	Won-Sik Lee
+3681	1726	Yong-Seok Park
+3682	1727	Stefan Stamoulis
+3683	1728	Terry Gong
+3684	1728	John Harmon
+3685	1728	Marcus G. Theodore
+3686	1729	Hiroyasu Nagase
+3687	1729	Kazuhisa Miyamoto
+3688	1729	Kazumasa Hirata
+3689	1729	Hiroshi Saito
+3690	1730	Emmett M. Walker
+3691	1731	Tony Richard Hutchings
+3692	1731	Franciscus Antonius Anna Maria de Leij
+3693	1731	Jeremy Richard Wingate
+3694	1732	Ronald D. Barbaro
+3695	1732	Ronald E. McIlwain
+3696	1732	David Muyan
+3697	1732	Edward A. Weinberg
+3698	1733	Refael Aharon
+3699	1733	Israel Biran
+3700	1733	Ronny Banker
+3701	1734	Denyse Claire DuBrucq
+3702	1735	Boris Mikhail Khudenko
+3703	1736	Xu Fei Wu
+3704	1737	Reinhold Klipper
+3705	1737	Michael Schelhaas
+3706	1737	Stefan Neumann
+3707	1737	Jens Stoll
+3708	1738	Shinichi Nakamura
+3709	1738	Kunihiko Fukuzuka
+3710	1739	Brett RENAUD
+3711	1739	Scott Renaud
+3712	1740	Frances Irene Parrott
+3713	1741	Martin P. Wanielista
+3714	1741	Ni-Bin Chang
+3715	1741	Ammarin Makkeasorn
+3716	1742	Grant Lloyd Lacey
+3717	1743	John Stark
+3718	1744	Angus Peter Robson
+3719	1745	Samuel Martin
+3720	1745	Adriana Gonzalez Ospina
+3721	1746	Jesus CACHO
+3722	1746	Olivier CAUDART
+3723	1746	Thomas LAGIER
+3724	1746	Pascal PESLERBE
+3725	1746	Vassilia VIGNERON
+3726	1747	Giuseppina CEREA
+3727	1748	Wayne W. Simmons
+3728	1748	Robert Dwayne Litt
+3729	1748	Anna Lee Tonkovich
+3730	1748	Laura J. Silva
+3731	1748	Daniel Francis Ryan
+3732	1748	Bruce Stangeland
+3733	1748	John Brophy
+3734	1748	Jeffrey S. McDaniel
+3735	1749	Michael Caldwell
+3736	1750	Rodrigo Andres Geraldo SEURA
+3737	1751	Milind V. Khire
+3738	1752	Robert Maurice Charles Patterson
+3739	1753	Lee L. Shafer
+3740	1753	John W. James
+3741	1753	Richard D. Rath
+3742	1753	Jesse Eubank
+3743	1754	Zhi Min Liao
+3744	1754	Jing Kui Guo
+3745	1754	Yu He Huang
+3746	1754	Jing Zou
+3747	1754	Zhi Qiang Chen
+3748	1754	Rui Zhi Dai
+3749	1754	Wen Yan Shi
+3750	1754	Jian Zhong Xiong
+3751	1754	Hai Ying Ji
+3752	1755	Qingmei LI
+3753	1756	Dale M. Timmons
+3754	1757	Samantha Champ
+3755	1757	Mariola Wanior
+3756	1757	Andreas Reifschneider
+3757	1758	Russell A. Firestone
+3758	1758	James R. Harkess
+3759	1758	William S. Langhorne
+3760	1758	Nord S. Sorensen
+3761	1759	Marcus G. Theodore
+3762	1760	Jost-Ulrich Kugler
+3763	1760	Peter Belouschek
+3764	1760	Katja Kugler
+3765	1761	Gabriel Popa
+3766	1761	Jean Suidureau
+3767	1761	Petra Johannsen
+3768	1761	Georg Reinhold
+3769	1762	Reinhold Klipper
+3770	1762	Michael Schelhaas
+3771	1762	Stefan Neumann
+3772	1762	Jens Stoll
+3773	1763	Volker A. Hausin
+3774	1763	Eddie L. Cheatham
+3775	1763	David A. Wilson
+3776	1764	Marcus G. Theodore
+3777	1765	Samuel Martin
+3778	1765	Adriana Gonzalez Ospina
+3779	1766	Joe P. McCarty
+3780	1766	Daniel M. St. Louis
+3781	1767	Michael Caldwell
+3782	1768	Kevin McPhillips
+3783	1769	Bernard. F. Duesel
+3784	1769	Michael J. Rutsch
+3785	1770	Thomas Alan Benjamin
+3786	1770	Craig Jay Jones
+3787	1770	Luther Alba Brice
+3788	1771	Xu Fei WU
+3789	1772	Andrew Eric Day
+3790	1773	Milind V. Khire
+3791	1774	James D. Mavis
+3792	1775	John Charles Matthews
+3793	1776	John Charles Matthews
+3794	1777	Ronald Wilen
+3795	1777	Kenneth R. Cioletti
+3796	1777	Matthew Cioletti
+3797	1778	Zhimin LIAO
+3798	1778	Rong LI
+3799	1778	Jijun WU
+3800	1778	Jingkui GUO
+3801	1778	Mao YANG
+3802	1778	Yuhe HUANG
+3803	1778	Aiguo WAN
+3804	1779	Lee L. Shafer
+3805	1779	John W. James
+3806	1779	Richard D. Rath
+3807	1779	Jesse Eubank
+3808	1780	Ulrich Reimann-Philipp
+3809	1781	Cesar Ladron de Guevara
+3810	1781	Luther Freeman
+3811	1782	Thomas Alan Benjamin
+3812	1782	Craig Jay Jones
+3813	1782	Luther Alba Brice
+3814	1783	Albert Allen Klyne
+3815	1784	Jason Duhe
+3816	1784	James Gharst
+3817	1784	Kelvin Simon
+3818	1784	Stella Simon
+3819	1784	Paul Delahoussaye
+3820	1785	Regis Renaud P.
+3821	1786	Ian Procter
+3822	1786	Sabine Azouani Isabelle
+3823	1786	Rolf Haubrichs
+3824	1787	Peter Riley
+3825	1788	Alexander Ivanovich Shulgin
+3826	1788	Anton Alexandrovich Shulgin
+3827	1789	Don Churchill Augenstein
+3828	1789	John Rudiger Benemann
+3829	1789	Ramin Yazdani
+3830	1790	Thomas Benjamin Alan
+3831	1790	Craig Jones Jay
+3832	1790	Luther Brice Alba
+3833	1791	Gabriel POPA
+3834	1791	Jean SUIDUREAU
+3835	1791	Petra JOHANSSEN
+3836	1791	Georg REINHOLD
+3837	1792	Joseph Wilson H.
+3838	1792	Gordon Kaye I.
+3839	1792	Robert Hahn L.
+3840	1792	Peter Weber B.
+3841	1792	Kevin Morris A.
+3842	1793	Hannu Suominen L.
+3843	1794	Norio Nagao
+3844	1794	Tatsushi Matsuyama
+3845	1794	Tatsuki Toda
+3846	1795	Zhi Min LIAO
+3847	1795	Jing Kui GUO
+3848	1795	Yu He HUANG
+3849	1795	Jing ZOU
+3850	1795	Zhi Qiang CHEN
+3851	1795	Rui Zhi DAI
+3852	1795	Wen Yan SHI
+3853	1795	Jian Zhong XIONG
+3854	1795	Hai Ying JI
+3855	1796	Yoshiaki Yokoyama
+3856	1796	Tooru Kodama
+3857	1796	Yasuo Mishima
+3858	1796	Katuo Takamiya
+3859	1797	Curt A. Christeson
+3860	1798	David Owen Malcolm
+3861	1799	Joseph Wilson H.
+3862	1799	Gordon Kaye I.
+3863	1799	Robert Hahn L.
+3864	1799	Peter Weber B.
+3865	1799	Kevin Morris A.
+3866	1800	John Stark
+3867	1801	Gordon Kaye I.
+3868	1801	Peter Weber B.
+3869	1801	Kevin Morris A.
+3870	1801	Joseph Wilson H.
+3871	1801	Robert Hahn L.
+3872	1802	Albert Klyne Allen
+3873	1803	Ayala Barak
+3874	1804	Roger Carson W.
+3875	1804	Bruce Bremer W.
+3876	1804	Michael Mastracci L.
+3877	1804	Kent Maggard E.
+3878	1805	Roman Bilak
+3879	1806	Thomas Benjamin Alan
+3880	1806	Craig Jones Jay
+3881	1806	Luther Brice Alba
+3882	1807	Jason Duhe
+3883	1807	James Gharst
+3884	1807	Kelvin Simon
+3885	1807	Stella Simon
+3886	1807	Paul Delahoussaye
+3887	1808	Randal Myers B.
+3888	1809	Curt Christeson A.
+3889	1810	Lawrence Conaway M.
+3890	1810	Michael Keller Ray
+3891	1810	Roger Noble Ken
+3892	1810	David Caffey
+3893	1811	Peter Rosen L.
+3894	1811	Robert Hodges D.
+3895	1812	Armen Abazajian N.
+3896	1813	Alexander Shulgin Ivanovich
+3897	1813	Anton Shulgin Alexandrovich
+3898	1814	Marcus Theodore G.
+3899	1815	Don Augenstein Churchill
+3900	1815	John Benemann Rudiger
+3901	1815	Ramin Yazdani
+3902	1816	Milind V. Khire
+3903	1817	Kenneth S. Price
+3904	1817	Joe Kurek
+3905	1817	Kurt Whitfield
+3906	1817	Herbert I. Wissel
+3907	1818	Jung Kim Yong
+3908	1819	Peter Ianniello J.
+3909	1819	Mark Topp
+3910	1819	Tracy Johnson R.
+3911	1820	Roy E. McAlister
+3912	1821	Boris Khudenko Mikhailovich
+3913	1822	Sung-Teh Kim
+3914	1822	Masahiro Taoka
+3915	1822	Chieko Yamamoto
+3916	1822	Kunihiko Yamanaka
+3917	1822	Katunori Masaoka
+3918	1823	Mohan Singh Saran
+3919	1823	George Walter Luxbacher
+3920	1824	Ray Coffey Stratton   JR.
+3921	1825	Russell Firestone A.   III
+3922	1825	James Harkess R.
+3923	1825	William Langhorne S.
+3924	1825	Nord Sorensen
+3925	1826	Dennis Kunerth C.
+3926	1826	John Svoboda M.
+3927	1826	James Johnson T.
+3928	1827	Keith Forrester Edward
+3929	1828	Keith Forrester Edward
+3930	1829	Geom Lee Yong
+3931	1829	Young Cho Lae
+3932	1829	Chang Yang Ryung
+3933	1829	Dong Lee Hoon
+3934	1829	Young Won Mi
+3935	1829	Young Lee Joon
+3936	1829	Yeon Park Jae
+3937	1830	Peter Ianniello J.
+3938	1830	Aigen Zhao
+3939	1830	Gary Shaffer L.
+3940	1831	Charles Dale A.
+3941	1832	Wolfgang Podszun
+3942	1832	Andreas Schlegel
+3943	1832	Reinhold Klipper
+3944	1832	Rudiger Seidel
+3945	1832	Udo Herrmann
+3946	1833	Richard Takeuchi T.
+3947	1833	Robert Nakamura M.
+3948	1834	Robert Merton Satchwell
+3949	1834	Roderick Michael Facey
+3950	1835	Imre Mecs
+3951	1835	Miklos Kalman
+3952	1835	Miklos Hlatki
+3953	1835	Sandor Puskas
+3954	1835	Janos Balazs
+3955	1835	Gyula Lengyel
+3956	1835	Zsolt Virag
+3957	1835	Gyula Kovacs
+3958	1835	Ferenc Horvath
+3959	1835	Imre Samu
+3960	1836	Andrew Wells Phelps
+3961	1836	Jeffrey Allen Sturgill
+3962	1836	Joseph Thomas Swartzbaugh
+3963	1837	Peter  Thomas
+3964	1838	Mohan Singh Saran
+3965	1838	George Walter Luxbacher
+3966	1839	Lawrence  Conaway
+3967	1839	Michael R. Keller
+3968	1839	Roger K. Noble
+3969	1840	Peter Riley
+3970	1841	Chen-Yu Yen
+3971	1842	Jurgen Kanitz
+3972	1842	Jurgen Forsting
+3973	1843	Jim  Moutray
+3974	1843	Paul Joe  Solar
+3975	1844	Paul A. Kittle
+3976	1845	Shawn R. Taylor
+3977	1845	Gintautas Antanas Kamaitis
+3978	1846	Hans-Jorg  Bonath
+3979	1846	Georg  Bombeck
+3980	1847	Lawrence  Conaway
+3981	1847	Michael R. Keller
+3982	1847	Roger K. Noble
+3983	1848	Dan L. Wensel
+3984	1849	Kenji  Suzuki
+3985	1849	Kisaku  Tomaru
+3986	1850	Dave  Van Vliet
+3987	1850	Herbert Wallace Campbell
+3988	1850	Stephen Barrie Chambers
+3989	1851	Joseph H. Wilson
+3990	1851	Gordon I. Kaye
+3991	1851	Robert L. Hahn
+3992	1851	Peter B. Weber
+3993	1851	Kevin A. Morris
+3994	1852	Clifford J. Arnett
+3995	1852	Joseph B. Farrell
+3996	1852	Daniel T. Hull III
+3997	1852	Steven J. Krugel
+3998	1852	Perry L. Schafer
+3999	1852	Billy G. Turner
+4000	1852	Warren R. Uhte
+4001	1852	John L. Willis
+4002	1853	Robert Merton Satchwell
+4003	1853	Roderick Michael Facey
+4004	1854	Peter L. Rosen
+4005	1854	Robert D. Hodges
+4006	1855	Peter L. Rosen
+4007	1855	Robert D. Hodges
+4008	1856	Alan Brian Cash
+4009	1857	Blaine F. Severin
+4010	1858	Felix Anthony Perriello
+4011	1859	Peter J. Ianniello
+4012	1859	Mark  Topp
+4013	1859	Tracy R. Johnson
+4014	1860	Peter J. Ianniello
+4015	1860	Mark  Topp
+4016	1860	Tracy R. Johnson
+4017	1861	Kenneth S. Price
+4018	1861	Joe  Kurek
+4019	1861	Kurt  Whitfield
+4020	1861	Herbert I. Wissel
+4021	1862	Andrew Wells Phelps
+4022	1862	Jeffrey Allen Sturgill
+4023	1862	Joseph Thomas Swartzbaugh
+4024	1863	Peter L. Rosen
+4025	1863	Robert  Hodges
+4026	1864	Gordon  Layton
+4027	1864	Dale  Courtney
+4028	1864	Matthew C. Smith
+4029	1864	William H. Johnson
+4030	1865	Scott D. Wallace
+4031	1866	Shinichi  Nakamura
+4032	1866	Kunihiko  Fukuzuka
+4033	1867	Jung Yong Kim
+4034	1868	Chen-Yu  Yen
+4035	1869	Roy E. McAlister
+4036	1870	Peter J. Ianniello
+4037	1870	Mark  Topp
+4038	1870	Tracy R. Johnson
+4039	1871	Michael P. McGinness
+4040	1872	Joseph H. Wilson
+4041	1872	Gordon I. Kaye
+4042	1872	Robert L. Hahn
+4043	1872	Peter B. Weber
+4044	1872	Kevin A. Morris
+4045	1873	Billy J. Hatcher
+4046	1874	Young Sik Kim
+4047	1874	Han Yong Jeon
+4048	1875	Gursel G. Yilmaz
+4049	1876	Owen P. Ward
+4050	1876	Henry  Burd
+4051	1877	Jerry M. Brown
+4052	1878	Layton; Gordon
+4053	1878	Courtney; Dale
+4054	1878	Smith; Matthew C.
+4055	1878	Johnson; William H.
+4056	1879	Robert W. Bartlett
+4057	1880	Warren Howard Chesner
+4058	1880	James  Melrose
+4059	1881	Warren Howard Chesner
+4060	1881	James  Melrose
+4061	1882	Richard G. Sheets
+4062	1883	Shi; Caijun
+4063	1884	Peter  Riley
+4064	1885	Al-Samadi; Riad A.
+4065	1886	Chang; Larry
+4066	1887	Steven  Catanla
+4067	1887	Neil  Mansuy
+4068	1888	Lena Q. Ma
+4069	1888	Ken M. Komar
+4070	1888	Elizabeth D. Kennelley
+4071	1889	Amer; Sultan I.
+4072	1890	Scott D. Wallace
+4073	1891	Jae Seong Rhee
+4074	1891	Min Woo Jung
+4075	1892	Ryan D. McMurtrey
+4076	1892	Daniel M. Ginosar
+4077	1892	Kenneth S. Moor
+4078	1892	G. Michael Shook
+4079	1892	Donna L. Barker
+4080	1893	Tommy G. Taylor
+4081	1894	Lawrence M. Conaway
+4082	1894	Roger  Noble
+4083	1894	Michael  Keller
+4084	1894	David  Caffey
+4085	1895	Lawrence M. Conaway
+4086	1896	Sultan I. Amer
+4087	1897	Robin  Millard
+4088	1897	Frederick H. Kurtz
+4089	1898	Eighmy; T. Taylor
+4090	1899	Ronald L. Brookshire
+4091	1899	Donald  Brookshire
+4092	1899	Travis  Brookshire
+4093	1899	Seyed Mohammed Reza Kalantar-Nejad
+4094	1899	James Joseph Beach
+4095	1900	Lahoda; Edward J.
+4096	1900	Ha; Khoa T.
+4097	1901	Conca; James L.
+4098	1901	Wright; Judith
+4099	1902	Lorraine; Segala
+4100	1902	Long; David
+4101	1903	Coombs; Harvey W.
+4102	1903	Pearson; Ron D.
+4103	1904	Bailey; Elena

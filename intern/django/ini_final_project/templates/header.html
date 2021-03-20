@@ -1,0 +1,32 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'relocations/style.css' %}">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="{% url 'main' %}">Relocation</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" id="collapsibleNavbar">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'upload' %}">비디오 업로드</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'video_list' %}">비디오 목록</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'video_manage' %}">내 비디오 관리</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav navbar-right">
+    {% if user.is_active %}
+      <li class="nav-item"><a href="{%url 'login' %}" class="nav-link"> <span class="glyphicon glyphicon-heart"></span> {{user.username}}</a></li>
+      <li class="nav-item"><a href="{% url 'logout' %}" class="nav-link">로그아웃</a></li>
+    {% else %}
+      <li class="nav-item"><a href="{%url 'login' %}" class="nav-link"><span class="glyphicon glyphicon-user"></span>로그인</a></li>
+      <li class="nav-item"><a href="{%url 'join' %}" class="nav-link"><span class="glyphicon glyphicon-user"></span>회원가입</a></li>
+      <li class="nav-item"><a href="{% url 'admin:index' %}" class="nav-link">관리자</a></li>
+    {% endif %}
+    </ul>
+  </div>
+</nav>
